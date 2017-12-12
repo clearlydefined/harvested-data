@@ -1,0 +1,723 @@
+{
+  "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+  "scancode_version": "2.2.1.post59.970c46191",
+  "scancode_options": {
+    "--copyright": true,
+    "--license": true,
+    "--info": true,
+    "--license-score": 0,
+    "--strip-root": true,
+    "--format": "json-pp",
+    "--diag": true,
+    "--only-findings": true
+  },
+  "files_count": 16,
+  "files": [
+    {
+      "path": "epl-v10.html",
+      "type": "file",
+      "name": "epl-v10.html",
+      "base_name": "epl-v10",
+      "extension": ".html",
+      "date": "2017-11-27",
+      "size": 12637,
+      "sha1": "35666c54f2406125707e63edab12f2914d85ca76",
+      "md5": "d0fc088e4e5216422c217d39853d8601",
+      "files_count": null,
+      "mime_type": "application/xml",
+      "file_type": "XML document text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 30.0,
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 30,
+          "end_line": 30,
+          "matched_rule": {
+            "identifier": "epl-1.0_4.RULE",
+            "license_choice": false,
+            "licenses": [
+              "epl-1.0"
+            ],
+            "matcher": "2-aho",
+            "rule_length": 6,
+            "matched_length": 6,
+            "match_coverage": 100.0,
+            "rule_relevance": 30
+          }
+        },
+        {
+          "key": "epl-1.0",
+          "score": 95.4,
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 32,
+          "end_line": 257,
+          "matched_rule": {
+            "identifier": "epl-1.0.LICENSE",
+            "license_choice": false,
+            "licenses": [
+              "epl-1.0"
+            ],
+            "matcher": "3-seq",
+            "rule_length": 1718,
+            "matched_length": 1639,
+            "match_coverage": 95.4,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "copyrights": []
+    },
+    {
+      "path": "pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "date": "2017-11-27",
+      "size": 23678,
+      "sha1": "35fb238baee3f3af739074d723279ebea2028398",
+      "md5": "af7ca61fba26556cfe5b40cf15aadc14",
+      "files_count": null,
+      "mime_type": "application/xml",
+      "file_type": "XML document text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 25.0,
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 19,
+          "end_line": 19,
+          "matched_rule": {
+            "identifier": "epl-1.0_1.RULE",
+            "license_choice": false,
+            "licenses": [
+              "epl-1.0"
+            ],
+            "matcher": "2-aho",
+            "rule_length": 5,
+            "matched_length": 5,
+            "match_coverage": 100.0,
+            "rule_relevance": 25
+          }
+        },
+        {
+          "key": "epl-1.0",
+          "score": 40.0,
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 20,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "epl-1.0.RULE",
+            "license_choice": false,
+            "licenses": [
+              "epl-1.0"
+            ],
+            "matcher": "2-aho",
+            "rule_length": 8,
+            "matched_length": 8,
+            "match_coverage": 100.0,
+            "rule_relevance": 40
+          }
+        }
+      ],
+      "copyrights": []
+    },
+    {
+      "path": "LICENSE-junit.txt",
+      "type": "file",
+      "name": "LICENSE-junit.txt",
+      "base_name": "LICENSE-junit",
+      "extension": ".txt",
+      "date": "2017-11-27",
+      "size": 11376,
+      "sha1": "c5ad241dc5b44cae69e48c5253b7a3fede415ea1",
+      "md5": "ef49eda815edf1704227bbaf8f9767ad",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 3,
+          "end_line": 213,
+          "matched_rule": {
+            "identifier": "epl-1.0.LICENSE",
+            "license_choice": false,
+            "licenses": [
+              "epl-1.0"
+            ],
+            "matcher": "1-hash",
+            "rule_length": 1718,
+            "matched_length": 1718,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "copyrights": []
+    },
+    {
+      "path": "src/site/fml/faq.fml",
+      "type": "file",
+      "name": "faq.fml",
+      "base_name": "faq",
+      "extension": ".fml",
+      "date": "2017-11-27",
+      "size": 61788,
+      "sha1": "3d9f3832ec684696c5d52bd888e4c9f25ed1dfe6",
+      "md5": "4465cb3d9c314c87236dc165b8f2acc9",
+      "files_count": null,
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "Erich Gamma and Kent Beck."
+          ],
+          "start_line": 64,
+          "end_line": 67
+        }
+      ]
+    },
+    {
+      "path": "src/site/resources/css/hopscotch-0.1.2.min.css",
+      "type": "file",
+      "name": "hopscotch-0.1.2.min.css",
+      "base_name": "hopscotch-0.1.2.min",
+      "extension": ".css",
+      "date": "2017-11-27",
+      "size": 11389,
+      "sha1": "b6fd1640b3adda8fa3c5a0cf6d7e1fa5f05c79f8",
+      "md5": "99656acdc3dbeb1cfe2c4fbad130f61c",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "CSS",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_choice": false,
+            "licenses": [
+              "apache-2.0"
+            ],
+            "matcher": "2-aho",
+            "rule_length": 86,
+            "matched_length": 86,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "copyrights": [
+        {
+          "statements": [
+            "Copyright 2013 LinkedIn Corp."
+          ],
+          "holders": [
+            "LinkedIn Corp."
+          ],
+          "authors": [],
+          "start_line": 3,
+          "end_line": 3
+        }
+      ]
+    },
+    {
+      "path": "src/site/resources/scripts/hopscotch-0.1.2.min.js",
+      "type": "file",
+      "name": "hopscotch-0.1.2.min.js",
+      "base_name": "hopscotch-0.1.2.min",
+      "extension": ".js",
+      "date": "2017-11-27",
+      "size": 19665,
+      "sha1": "e07da02cfa9adf55d571a5a1514616c9b207e0c5",
+      "md5": "1df3c136bb0cb801b737633b6eeb9137",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_choice": false,
+            "licenses": [
+              "apache-2.0"
+            ],
+            "matcher": "2-aho",
+            "rule_length": 86,
+            "matched_length": 86,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "copyrights": [
+        {
+          "statements": [
+            "Copyright 2013 LinkedIn Corp."
+          ],
+          "holders": [
+            "LinkedIn Corp."
+          ],
+          "authors": [],
+          "start_line": 3,
+          "end_line": 3
+        }
+      ]
+    },
+    {
+      "path": "src/site/markdown/cookbook.md",
+      "type": "file",
+      "name": "cookbook.md",
+      "base_name": "cookbook",
+      "extension": ".md",
+      "date": "2017-11-27",
+      "size": 4777,
+      "sha1": "7fd299f93481178516d0b4843adc2abf551183b6",
+      "md5": "c35a59cde8a78c0a7e9bcbe9c9b11da7",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "Kent Beck, Erich Gamma"
+          ],
+          "start_line": 1,
+          "end_line": 2
+        }
+      ]
+    },
+    {
+      "path": "src/main/java/org/junit/internal/Throwables.java",
+      "type": "file",
+      "name": "Throwables.java",
+      "base_name": "Throwables",
+      "extension": ".java",
+      "date": "2017-11-27",
+      "size": 1170,
+      "sha1": "fba146943b93204a4a85e76fd73803e7420386d0",
+      "md5": "3c6eddda606c22e255a5d3b8ad51223d",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "kcooney@google.com"
+          ],
+          "start_line": 6,
+          "end_line": 7
+        }
+      ]
+    },
+    {
+      "path": "src/main/java/org/junit/internal/matchers/TypeSafeMatcher.java",
+      "type": "file",
+      "name": "TypeSafeMatcher.java",
+      "base_name": "TypeSafeMatcher",
+      "extension": ".java",
+      "date": "2017-11-27",
+      "size": 2034,
+      "sha1": "1b90d61e3185baab609e42d8e51f9c0bf58faf6e",
+      "md5": "47e31cafd12e3695d099b903fe80c117",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "Joe Walnes"
+          ],
+          "start_line": 12,
+          "end_line": 13
+        }
+      ]
+    },
+    {
+      "path": "src/main/java/org/junit/runner/notification/SynchronizedRunListener.java",
+      "type": "file",
+      "name": "SynchronizedRunListener.java",
+      "base_name": "SynchronizedRunListener",
+      "extension": ".java",
+      "date": "2017-11-27",
+      "size": 2869,
+      "sha1": "96c2cd65b146b48df9a0be4733bfbc29219921c7",
+      "md5": "1e525b826089b3b5f2cd1fdc90406476",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "Tibor Digana",
+            "Kevin Cooney"
+          ],
+          "start_line": 16,
+          "end_line": 18
+        }
+      ]
+    },
+    {
+      "path": "src/test/java/org/junit/tests/assertion/MultipleFailureExceptionTest.java",
+      "type": "file",
+      "name": "MultipleFailureExceptionTest.java",
+      "base_name": "MultipleFailureExceptionTest",
+      "extension": ".java",
+      "date": "2017-11-27",
+      "size": 2605,
+      "sha1": "b1371e7e2369bcc451586a96e29e57f9c5cd3a00",
+      "md5": "2a25dbdf0995b3edbc08d97a7101c1f3",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "kcooney@google.com"
+          ],
+          "start_line": 20,
+          "end_line": 20
+        }
+      ]
+    },
+    {
+      "path": "src/test/java/org/junit/tests/internal/runners/statements/FailOnTimeoutTest.java",
+      "type": "file",
+      "name": "FailOnTimeoutTest.java",
+      "base_name": "FailOnTimeoutTest",
+      "extension": ".java",
+      "date": "2017-11-27",
+      "size": 7033,
+      "sha1": "5d1fe70f4cf6aa58c7460b640ed4726d41170fbe",
+      "md5": "d64061c4599b7bb5d0633c6fc07104e3",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "Asaf Ary, Stefan Birkner"
+          ],
+          "start_line": 24,
+          "end_line": 24
+        }
+      ]
+    },
+    {
+      "path": "src/test/java/org/junit/tests/description/TestDescriptionMethodNameTest.java",
+      "type": "file",
+      "name": "TestDescriptionMethodNameTest.java",
+      "base_name": "TestDescriptionMethodNameTest",
+      "extension": ".java",
+      "date": "2017-11-27",
+      "size": 1498,
+      "sha1": "8d14f0aaa066de0c4f130b57f5d2c126c2433cb8",
+      "md5": "dc06f1e4359d21b559e4bb5edb577b4c",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "Dmitry Baev charlie@yandex-team.ru"
+          ],
+          "start_line": 15,
+          "end_line": 16
+        }
+      ]
+    },
+    {
+      "path": "src/test/java/org/junit/runners/parameterized/ParameterizedNamesTest.java",
+      "type": "file",
+      "name": "ParameterizedNamesTest.java",
+      "base_name": "ParameterizedNamesTest",
+      "extension": ".java",
+      "date": "2017-11-27",
+      "size": 1541,
+      "sha1": "406c72f5d584d9016b31e07ca508129b9fa12992",
+      "md5": "1e9d0c8dec55379b462a086943b0792a",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "Dmitry Baev charlie@yandex-team.ru"
+          ],
+          "start_line": 15,
+          "end_line": 16
+        }
+      ]
+    },
+    {
+      "path": "src/test/java/org/junit/runner/notification/ConcurrentRunNotifierTest.java",
+      "type": "file",
+      "name": "ConcurrentRunNotifierTest.java",
+      "base_name": "ConcurrentRunNotifierTest",
+      "extension": ".java",
+      "date": "2017-11-27",
+      "size": 6179,
+      "sha1": "4f1a62a4462d54832e1b03a99486681ce46562c3",
+      "md5": "5accb2d82f2a23e1451d2ddd660b4e0c",
+      "files_count": null,
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "Tibor Digana"
+          ],
+          "start_line": 23,
+          "end_line": 25
+        }
+      ]
+    },
+    {
+      "path": "doc/cookstour/cookstour.htm",
+      "type": "file",
+      "name": "cookstour.htm",
+      "base_name": "cookstour",
+      "extension": ".htm",
+      "date": "2017-11-27",
+      "size": 38255,
+      "sha1": "62889ac0bd53d4e692b9439b783e7783acd24994",
+      "md5": "f9b362a4a409852a559a827bffdb917c",
+      "files_count": null,
+      "mime_type": "text/html",
+      "file_type": "HTML document, Non-ISO extended-ASCII text, with LF, NEL line terminators",
+      "programming_language": "HTML",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "scan_errors": [],
+      "licenses": [],
+      "copyrights": [
+        {
+          "statements": [],
+          "holders": [],
+          "authors": [
+            "1998, Volume 3, Number"
+          ],
+          "start_line": 18,
+          "end_line": 21
+        }
+      ]
+    }
+  ]
+}
