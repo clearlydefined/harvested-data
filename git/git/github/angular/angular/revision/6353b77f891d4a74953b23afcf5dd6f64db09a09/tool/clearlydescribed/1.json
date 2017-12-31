@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "type": "git",
+    "url": "cd:/git/github/angular/angular/6353b77f891d4a74953b23afcf5dd6f64db09a09",
+    "fetchedAt": "2017-12-31T00:37:51.180Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:angular:angular:revision:6353b77f891d4a74953b23afcf5dd6f64db09a09:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:angular:angular:revision:6353b77f891d4a74953b23afcf5dd6f64db09a09",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:git:github:angular:angular:revision:6353b77f891d4a74953b23afcf5dd6f64db09a09:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-31T00:37:51.180Z"
+  }
+}

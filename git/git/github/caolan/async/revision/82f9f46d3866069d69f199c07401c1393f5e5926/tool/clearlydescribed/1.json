@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "type": "git",
+    "url": "cd:/git/github/caolan/async/82f9f46d3866069d69f199c07401c1393f5e5926",
+    "fetchedAt": "2017-12-31T00:53:53.370Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:caolan:async:revision:82f9f46d3866069d69f199c07401c1393f5e5926:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:caolan:async:revision:82f9f46d3866069d69f199c07401c1393f5e5926",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:git:github:caolan:async:revision:82f9f46d3866069d69f199c07401c1393f5e5926:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-31T00:53:53.370Z"
+  }
+}

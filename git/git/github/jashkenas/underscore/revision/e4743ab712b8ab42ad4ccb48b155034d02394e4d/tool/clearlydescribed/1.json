@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "type": "git",
+    "url": "cd:/git/github/jashkenas/underscore/e4743ab712b8ab42ad4ccb48b155034d02394e4d",
+    "fetchedAt": "2017-12-31T00:53:53.415Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:jashkenas:underscore:revision:e4743ab712b8ab42ad4ccb48b155034d02394e4d:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:jashkenas:underscore:revision:e4743ab712b8ab42ad4ccb48b155034d02394e4d",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:git:github:jashkenas:underscore:revision:e4743ab712b8ab42ad4ccb48b155034d02394e4d:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-31T00:53:53.415Z"
+  }
+}

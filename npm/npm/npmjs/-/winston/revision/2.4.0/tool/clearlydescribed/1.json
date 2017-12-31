@@ -1,0 +1,76 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/winston/2.4.0",
+    "fetchedAt": "2017-12-30T20:50:18.468Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:winston:revision:2.4.0:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:winston:revision:2.4.0",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:winstonjs:winston:revision:6d1f7a59c0df3de8178bfb049d364ea6ec4602ff",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-30T20:50:20.752Z"
+  },
+  "manifest": {
+    "name": "winston",
+    "description": "A multi-transport async logging library for Node.js",
+    "version": "2.4.0",
+    "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+    "maintainers": [
+      "Jarrett Cruger <jcrugzz@gmail.com>",
+      "Alberto Pose <albertopose@gmail.com>"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/winstonjs/winston.git"
+    },
+    "keywords": [
+      "winston",
+      "logging",
+      "sysadmin",
+      "tools"
+    ],
+    "dependencies": {
+      "async": "~1.0.0",
+      "colors": "1.0.x",
+      "cycle": "1.0.x",
+      "eyes": "0.1.x",
+      "isstream": "0.1.x",
+      "stack-trace": "0.0.x"
+    },
+    "devDependencies": {
+      "cross-spawn-async": "^2.0.0",
+      "hock": "1.x.x",
+      "std-mocks": "~1.0.0",
+      "vows": "0.7.x"
+    },
+    "main": "./lib/winston",
+    "scripts": {
+      "test": "vows --spec --isolate"
+    },
+    "engines": {
+      "node": ">= 0.10.0"
+    },
+    "license": "MIT"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/winstonjs/winston.git",
+    "revision": "6d1f7a59c0df3de8178bfb049d364ea6ec4602ff",
+    "path": null,
+    "github": {
+      "owner": "winstonjs",
+      "name": "winston"
+    }
+  }
+}

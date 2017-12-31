@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "type": "git",
+    "url": "cd:/git/github/facebook/react/f1691813e381cac7587c09aefbebd5fa5cfaa21b",
+    "fetchedAt": "2017-12-31T00:53:53.420Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:facebook:react:revision:f1691813e381cac7587c09aefbebd5fa5cfaa21b:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:facebook:react:revision:f1691813e381cac7587c09aefbebd5fa5cfaa21b",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:git:github:facebook:react:revision:f1691813e381cac7587c09aefbebd5fa5cfaa21b:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-31T00:53:53.420Z"
+  }
+}

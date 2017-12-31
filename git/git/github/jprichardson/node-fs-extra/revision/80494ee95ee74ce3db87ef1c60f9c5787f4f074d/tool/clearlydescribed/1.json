@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "type": "git",
+    "url": "cd:/git/github/jprichardson/node-fs-extra/80494ee95ee74ce3db87ef1c60f9c5787f4f074d",
+    "fetchedAt": "2017-12-31T00:53:53.430Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:jprichardson:node-fs-extra:revision:80494ee95ee74ce3db87ef1c60f9c5787f4f074d:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:jprichardson:node-fs-extra:revision:80494ee95ee74ce3db87ef1c60f9c5787f4f074d",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:git:github:jprichardson:node-fs-extra:revision:80494ee95ee74ce3db87ef1c60f9c5787f4f074d:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-31T00:53:53.431Z"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/ember-cli-babel/6.11.0",
+    "fetchedAt": "2017-12-30T20:51:39.529Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:ember-cli-babel:revision:6.11.0:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:ember-cli-babel:revision:6.11.0",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:babel:ember-cli-babel:revision:d877f3605a78a43dc2848cd5268a733e2fe2a0dc",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-30T20:51:40.153Z"
+  },
+  "manifest": {
+    "name": "ember-cli-babel",
+    "version": "6.11.0",
+    "description": "Ember CLI addon for Babel",
+    "keywords": [
+      "ember-addon",
+      "babel",
+      "ember",
+      "ember-cli",
+      "transpile",
+      "transpiler"
+    ],
+    "bugs": {
+      "url": "https://github.com/babel/ember-cli-babel/issues"
+    },
+    "license": "MIT",
+    "author": "Gordon Kristan",
+    "files": [
+      "index.js"
+    ],
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/babel/ember-cli-babel.git"
+    },
+    "scripts": {
+      "build": "ember build",
+      "changelog": "lerna-changelog",
+      "start": "ember server",
+      "test:node": "mocha node-tests",
+      "test:debug": "mocha debug node-tests",
+      "test": "mocha node-tests && ember test"
+    },
+    "dependencies": {
+      "amd-name-resolver": "0.0.7",
+      "babel-plugin-debug-macros": "^0.1.11",
+      "babel-plugin-ember-modules-api-polyfill": "^2.3.0",
+      "babel-plugin-transform-es2015-modules-amd": "^6.24.0",
+      "babel-polyfill": "^6.16.0",
+      "babel-preset-env": "^1.5.1",
+      "broccoli-babel-transpiler": "^6.1.2",
+      "broccoli-debug": "^0.6.2",
+      "broccoli-funnel": "^1.0.0",
+      "broccoli-source": "^1.1.0",
+      "clone": "^2.0.0",
+      "ember-cli-version-checker": "^2.1.0",
+      "semver": "^5.4.1"
+    },
+    "devDependencies": {
+      "broccoli-test-helper": "^1.1.0",
+      "chai": "^3.5.0",
+      "co": "^4.6.0",
+      "common-tags": "^1.4.0",
+      "console-ui": "^1.0.2",
+      "core-object": "^3.1.3",
+      "ember-cli": "~2.14.0",
+      "ember-cli-dependency-checker": "^2.0.0",
+      "ember-cli-eslint": "^3.0.0",
+      "ember-cli-htmlbars": "^2.0.1",
+      "ember-cli-htmlbars-inline-precompile": "^0.4.3",
+      "ember-cli-inject-live-reload": "^1.4.1",
+      "ember-cli-qunit": "^4.0.0",
+      "ember-cli-shims": "^1.1.0",
+      "ember-load-initializers": "^1.0.0",
+      "ember-resolver": "^4.0.0",
+      "ember-source": "~2.14.0",
+      "lerna-changelog": "^0.7.0",
+      "loader.js": "^4.4.0",
+      "mocha": "^3.4.1",
+      "resolve": "^1.3.3"
+    },
+    "engines": {
+      "node": "^4.5 || 6.* || >= 7.*"
+    },
+    "changelog": {
+      "repo": "babel/ember-cli-babel",
+      "labels": {
+        "breaking": ":boom: Breaking Change",
+        "enhancement": ":rocket: Enhancement",
+        "bug": ":bug: Bug Fix",
+        "documentation": ":memo: Documentation",
+        "internal": ":house: Internal"
+      }
+    },
+    "ember-addon": {
+      "configPath": "tests/dummy/config"
+    }
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "git://github.com/babel/ember-cli-babel.git",
+    "revision": "d877f3605a78a43dc2848cd5268a733e2fe2a0dc",
+    "path": null,
+    "github": {
+      "owner": "babel",
+      "name": "ember-cli-babel"
+    }
+  }
+}

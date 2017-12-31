@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "type": "git",
+    "url": "cd:/git/github/petkaantonov/bluebird/6c6cd0ca1b491a66debef956a1396f6e91659293",
+    "fetchedAt": "2017-12-31T00:53:53.392Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:petkaantonov:bluebird:revision:6c6cd0ca1b491a66debef956a1396f6e91659293:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:petkaantonov:bluebird:revision:6c6cd0ca1b491a66debef956a1396f6e91659293",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:git:github:petkaantonov:bluebird:revision:6c6cd0ca1b491a66debef956a1396f6e91659293:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-31T00:53:53.392Z"
+  }
+}

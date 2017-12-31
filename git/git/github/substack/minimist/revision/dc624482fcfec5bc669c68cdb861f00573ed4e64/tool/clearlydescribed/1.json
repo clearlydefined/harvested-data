@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "type": "git",
+    "url": "cd:/git/github/substack/minimist/dc624482fcfec5bc669c68cdb861f00573ed4e64",
+    "fetchedAt": "2017-12-31T00:53:53.457Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:substack:minimist:revision:dc624482fcfec5bc669c68cdb861f00573ed4e64:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:substack:minimist:revision:dc624482fcfec5bc669c68cdb861f00573ed4e64",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:git:github:substack:minimist:revision:dc624482fcfec5bc669c68cdb861f00573ed4e64:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-31T00:53:53.457Z"
+  }
+}

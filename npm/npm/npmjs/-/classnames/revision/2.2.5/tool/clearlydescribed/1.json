@@ -1,0 +1,64 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/classnames/2.2.5",
+    "fetchedAt": "2017-12-30T20:49:46.537Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:classnames:revision:2.2.5:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:classnames:revision:2.2.5",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:JedWatson:classnames:revision:ca2b848bc236e702b10cb63eef367a877eddb3b5",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-30T20:49:46.997Z"
+  },
+  "manifest": {
+    "name": "classnames",
+    "version": "2.2.5",
+    "description": "A simple utility for conditionally joining classNames together",
+    "main": "index.js",
+    "author": "Jed Watson",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JedWatson/classnames.git"
+    },
+    "scripts": {
+      "benchmarks": "node ./benchmarks/run",
+      "unit": "mocha tests/*.js",
+      "test": "npm run unit"
+    },
+    "keywords": [
+      "react",
+      "css",
+      "classes",
+      "classname",
+      "classnames",
+      "util",
+      "utility"
+    ],
+    "devDependencies": {
+      "benchmark": "^1.0.0",
+      "mocha": "^2.1.0"
+    }
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/JedWatson/classnames.git",
+    "revision": "ca2b848bc236e702b10cb63eef367a877eddb3b5",
+    "path": null,
+    "github": {
+      "owner": "JedWatson",
+      "name": "classnames"
+    }
+  }
+}

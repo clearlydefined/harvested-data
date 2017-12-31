@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "type": "git",
+    "url": "cd:/git/github/isaacs/node-glob/13c5affb45cda7b8565768549abca9110ae921a5",
+    "fetchedAt": "2017-12-31T00:53:53.444Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:isaacs:node-glob:revision:13c5affb45cda7b8565768549abca9110ae921a5:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:isaacs:node-glob:revision:13c5affb45cda7b8565768549abca9110ae921a5",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:git:github:isaacs:node-glob:revision:13c5affb45cda7b8565768549abca9110ae921a5:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2017-12-31T00:53:53.444Z"
+  }
+}
