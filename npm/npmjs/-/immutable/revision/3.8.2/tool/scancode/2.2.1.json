@@ -1,0 +1,682 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/immutable/3.8.2",
+    "fetchedAt": "2018-02-17T07:07:38.741Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:immutable:revision:3.8.2:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:immutable:revision:3.8.2",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-10-03T18:28:53.266Z",
+    "processedAt": "2018-02-17T07:07:54.108Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 10,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-10-03",
+        "size": 1080,
+        "sha1": "885285cb4b998cf6f6cbbe82b473686914f06439",
+        "md5": "57a79768a3b1e4d0f3a3787048a96356",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 21,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-10-03",
+        "size": 3048,
+        "sha1": "bc7ee820510d7a8bae2754af28e253e43ceb25b7",
+        "md5": "13b713dbafb8f23a3477fbf3a3fedc5c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/contrib/cursor/index.d.ts",
+        "type": "file",
+        "name": "index.d.ts",
+        "base_name": "index.d",
+        "extension": ".ts",
+        "date": "2017-10-03",
+        "size": 9264,
+        "sha1": "ab2d837a5ca2f718bee3c1c9b2eae7d3ed1a456e",
+        "md5": "029129571e7af8d2d1847980c89ab20b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/contrib/cursor/index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2017-10-03",
+        "size": 9106,
+        "sha1": "ca71c0c61e364322c64f69fd34e0fc088619cfde",
+        "md5": "0091263bafc5a232505fdf4a5f632ae6",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/contrib/cursor/__tests__/Cursor.ts.skip",
+        "type": "file",
+        "name": "Cursor.ts.skip",
+        "base_name": "Cursor.ts",
+        "extension": ".skip",
+        "date": "2017-10-03",
+        "size": 13743,
+        "sha1": "c35f20d6ee2f4461658a5159e9ca9337bb66d798",
+        "md5": "83d03d1ef1873d080ab778f42dd1f634",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "Python",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/dist/immutable-nonambient.d.ts",
+        "type": "file",
+        "name": "immutable-nonambient.d.ts",
+        "base_name": "immutable-nonambient.d",
+        "extension": ".ts",
+        "date": "2017-10-03",
+        "size": 81791,
+        "sha1": "caaf9f78c8ab765f3bd28cb20fd1bcaf2f8ca923",
+        "md5": "65ea875098045735f8a1e85908f53f84",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/dist/immutable.d.ts",
+        "type": "file",
+        "name": "immutable.d.ts",
+        "base_name": "immutable.d",
+        "extension": ".ts",
+        "date": "2017-10-03",
+        "size": 81871,
+        "sha1": "e078032c33bec5af2ed2b90d52bd2b08b863c4d6",
+        "md5": "8a311f6748da18ed398baa47604a8197",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/dist/immutable.js",
+        "type": "file",
+        "name": "immutable.js",
+        "base_name": "immutable",
+        "extension": ".js",
+        "date": "2017-10-03",
+        "size": 142351,
+        "sha1": "ce977e7ec693a6a36169c73ea1c199fc9e681f05",
+        "md5": "bfcf18c0554e5b5aac4d010774a84381",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/dist/immutable.js.flow",
+        "type": "file",
+        "name": "immutable.js.flow",
+        "base_name": "immutable.js",
+        "extension": ".flow",
+        "date": "2017-10-03",
+        "size": 19261,
+        "sha1": "c227d18bacb0854c608faccad32e0296b2f9a328",
+        "md5": "ed1e303dc92d85d09bb000b6c07af5ff",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "Python",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/dist/immutable.min.js",
+        "type": "file",
+        "name": "immutable.min.js",
+        "base_name": "immutable.min",
+        "extension": ".js",
+        "date": "2017-10-03",
+        "size": 56904,
+        "sha1": "7e21d495ff54f1c7ddcfde398d56759e942aef38",
+        "md5": "d985bc61d85c14460879b8e98e9c3075",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-present, Facebook, Inc."
+            ],
+            "holders": [
+              "Facebook, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      }
+    ]
+  }
+}

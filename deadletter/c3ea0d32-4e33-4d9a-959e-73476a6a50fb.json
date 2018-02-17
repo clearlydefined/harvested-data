@@ -1,0 +1,43 @@
+{
+  "type": "scancode",
+  "url": "cd:/npm/npmjs/-/dotenv/5.0.0",
+  "context": {
+    "history": [
+      "package@cd:/npm/npmjs/-/dotenv",
+      "npm@cd:/npm/npmjs/-/dotenv",
+      "scancode@cd:/npm/npmjs/-/dotenv/5.0.0"
+    ],
+    "qualifier": "urn:"
+  },
+  "policy": {
+    "fetch": "mutables",
+    "freshness": "match",
+    "map": {
+      "name": "package",
+      "path": "/npm/scancode"
+    }
+  },
+  "_metadata": {
+    "version": 1,
+    "meta": {
+      "loopName": "0",
+      "cid": "9h",
+      "root": "package@cd:/npm/npmjs/-/dotenv"
+    },
+    "type": "deadletter",
+    "url": "cd:/npm/npmjs/-/dotenv/5.0.0",
+    "processedAt": "2018-02-17T07:04:45.171Z",
+    "fetchedAt": "2018-02-17T07:04:45.171Z",
+    "links": {
+      "self": {
+        "href": "urn:deadletter:c3ea0d32-4e33-4d9a-959e-73476a6a50fb",
+        "type": "resource"
+      }
+    },
+    "extra": {
+      "type": "scancode",
+      "url": "cd:/npm/npmjs/-/dotenv/5.0.0",
+      "reason": "unexpected end of file"
+    }
+  }
+}

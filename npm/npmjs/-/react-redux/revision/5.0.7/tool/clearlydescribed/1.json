@@ -1,0 +1,533 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/react-redux/5.0.7",
+    "fetchedAt": "2018-02-17T19:33:48.306Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:react-redux:revision:5.0.7:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:react-redux:revision:5.0.7",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:-:react-redux:revision:5.0.7:tool:scancode",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:reactjs:react-redux:revision:78fb61e868f9003ceeee1c34db8cf81c69f7943e",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-17T19:33:48.602Z"
+  },
+  "package.json": {
+    "name": "react-redux",
+    "version": "5.0.7",
+    "description": "Official React bindings for Redux",
+    "main": "./lib/index.js",
+    "module": "es/index.js",
+    "scripts": {
+      "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+      "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
+      "build:umd": "cross-env BABEL_ENV=rollup NODE_ENV=development rollup -c -o dist/react-redux.js",
+      "build:umd:min": "cross-env BABEL_ENV=rollup NODE_ENV=production rollup -c -o dist/react-redux.min.js",
+      "build": "npm run build:commonjs && npm run build:es && npm run build:umd && npm run build:umd:min",
+      "clean": "rimraf lib dist es coverage",
+      "lint": "eslint src test",
+      "prepare": "npm run clean && npm run build",
+      "test": "cross-env BABEL_ENV=test NODE_ENV=test mocha --recursive --require babel-register --require ./test/setup.js",
+      "test:watch": "npm test -- --watch",
+      "test:cov": "cross-env NODE_ENV=test nyc npm test",
+      "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/reactjs/react-redux.git"
+    },
+    "files": [
+      "dist",
+      "lib",
+      "src",
+      "es"
+    ],
+    "keywords": [
+      "react",
+      "reactjs",
+      "hot",
+      "reload",
+      "hmr",
+      "live",
+      "edit",
+      "flux",
+      "redux"
+    ],
+    "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gaearon/react-redux/issues"
+    },
+    "homepage": "https://github.com/gaearon/react-redux",
+    "peerDependencies": {
+      "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
+      "redux": "^2.0.0 || ^3.0.0 || ^4.0.0-0"
+    },
+    "dependencies": {
+      "hoist-non-react-statics": "^2.5.0",
+      "invariant": "^2.0.0",
+      "lodash": "^4.17.5",
+      "lodash-es": "^4.17.5",
+      "loose-envify": "^1.1.0",
+      "prop-types": "^15.6.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.26.0",
+      "babel-eslint": "^8.2.1",
+      "babel-plugin-check-es2015-constants": "^6.3.13",
+      "babel-plugin-external-helpers": "^6.22.0",
+      "babel-plugin-istanbul": "^4.1.5",
+      "babel-plugin-syntax-jsx": "^6.3.13",
+      "babel-plugin-transform-decorators-legacy": "^1.2.0",
+      "babel-plugin-transform-es2015-arrow-functions": "^6.3.13",
+      "babel-plugin-transform-es2015-block-scoped-functions": "^6.3.13",
+      "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
+      "babel-plugin-transform-es2015-classes": "^6.3.13",
+      "babel-plugin-transform-es2015-computed-properties": "^6.3.13",
+      "babel-plugin-transform-es2015-destructuring": "^6.3.13",
+      "babel-plugin-transform-es2015-for-of": "^6.3.13",
+      "babel-plugin-transform-es2015-function-name": "^6.3.13",
+      "babel-plugin-transform-es2015-literals": "^6.3.13",
+      "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+      "babel-plugin-transform-es2015-object-super": "^6.3.13",
+      "babel-plugin-transform-es2015-parameters": "^6.3.13",
+      "babel-plugin-transform-es2015-shorthand-properties": "^6.3.13",
+      "babel-plugin-transform-es2015-spread": "^6.3.13",
+      "babel-plugin-transform-es2015-sticky-regex": "^6.3.13",
+      "babel-plugin-transform-es2015-template-literals": "^6.3.13",
+      "babel-plugin-transform-es2015-unicode-regex": "^6.3.13",
+      "babel-plugin-transform-object-rest-spread": "^6.26.0",
+      "babel-plugin-transform-react-display-name": "^6.4.0",
+      "babel-plugin-transform-react-jsx": "^6.4.0",
+      "babel-register": "^6.26.0",
+      "codecov": "^3.0.0",
+      "create-react-class": "^15.6.3",
+      "cross-env": "^5.1.3",
+      "es3ify": "^0.2.0",
+      "eslint": "^4.17.0",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-react": "^7.6.1",
+      "expect": "^1.20.2",
+      "glob": "^7.1.1",
+      "istanbul": "^0.4.4",
+      "jsdom": "^11.6.2",
+      "mocha": "^5.0.1",
+      "nyc": "^11.5.0",
+      "react": "^15.6.2",
+      "react-dom": "^15.6.2",
+      "redux": "^3.0.0",
+      "rimraf": "^2.6.2",
+      "rollup": "^0.56.1",
+      "rollup-plugin-babel": "^3.0.3",
+      "rollup-plugin-commonjs": "^8.3.0",
+      "rollup-plugin-node-resolve": "^3.0.3",
+      "rollup-plugin-replace": "^2.0.0",
+      "rollup-plugin-uglify": "^3.0.0"
+    },
+    "browserify": {
+      "transform": [
+        "loose-envify"
+      ]
+    },
+    "nyc": {
+      "require": [
+        "babel-register"
+      ],
+      "all": "true",
+      "sourceMap": false,
+      "instrument": false,
+      "include": [
+        "src/**/*.js"
+      ]
+    }
+  },
+  "registryData": {
+    "_id": "react-redux",
+    "_rev": "247-0165044dbd214fb4b04d63c4e392ad04",
+    "name": "react-redux",
+    "description": "Official React bindings for Redux",
+    "dist-tags": {
+      "latest": "5.0.7",
+      "next": "5.0.4",
+      "previous": "4.4.8"
+    },
+    "readme": "React Redux\n=========================\n\nOfficial React bindings for [Redux](https://github.com/reactjs/redux).  \nPerformant and flexible.\n\n[![build status](https://img.shields.io/travis/reactjs/react-redux/master.svg?style=flat-square)](https://travis-ci.org/reactjs/react-redux) [![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)\n[![npm downloads](https://img.shields.io/npm/dm/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)\n[![redux channel on slack](https://img.shields.io/badge/slack-redux@reactiflux-61DAFB.svg?style=flat-square)](http://www.reactiflux.com)\n\n\n## Installation\n\nReact Redux requires **React 0.14 or later.**\n\n```\nnpm install --save react-redux\n```\n\nThis assumes that you’re using [npm](http://npmjs.com/) package manager with a module bundler like [Webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/) to consume [CommonJS modules](http://webpack.github.io/docs/commonjs.html).\n\nIf you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactRedux` available as a global object, you can grab a pre-built version from [cdnjs](https://cdnjs.com/libraries/react-redux). We *don’t* recommend this approach for any serious application, as most of the libraries complementary to Redux are only available on [npm](http://npmjs.com/).\n\n## React Native\n\nAs of React Native 0.18, React Redux 5.x should work with React Native. If you have any issues with React Redux 5.x on React Native, run `npm ls react` and make sure you don’t have a duplicate React installation in your `node_modules`. We recommend that you use `npm@3.x` which is better at avoiding these kinds of issues.\n\nIf you are on an older version of React Native, you’ll need to keep using [React Redux 3.x branch and documentation](https://github.com/reactjs/react-redux/tree/v3.1.0) because of [this problem](https://github.com/facebook/react-native/issues/2985).\n\n## Documentation\n\n- [Redux: Usage with React](http://redux.js.org/docs/basics/UsageWithReact.html)\n- [API](docs/api.md#api)\n  - [`<Provider store>`](docs/api.md#provider-store)\n  - [`connect([mapStateToProps], [mapDispatchToProps], [mergeProps], [options])`](docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options)\n- [Troubleshooting](docs/troubleshooting.md#troubleshooting)\n\n## How Does It Work?\n\nWe do a deep dive on how React Redux works in [this readthesource episode](https://www.youtube.com/watch?v=VJ38wSFbM3A).  \nEnjoy!\n\n## License\n\nMIT\n",
+    "maintainers": [
+      {
+        "email": "dan.abramov@gmail.com",
+        "name": "gaearon"
+      },
+      {
+        "email": "timdorr@timdorr.com",
+        "name": "timdorr"
+      }
+    ],
+    "homepage": "https://github.com/gaearon/react-redux",
+    "keywords": [
+      "react",
+      "reactjs",
+      "hot",
+      "reload",
+      "hmr",
+      "live",
+      "edit",
+      "flux",
+      "redux"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/reactjs/react-redux.git"
+    },
+    "author": {
+      "name": "Dan Abramov",
+      "email": "dan.abramov@me.com",
+      "url": "http://github.com/gaearon"
+    },
+    "bugs": {
+      "url": "https://github.com/gaearon/react-redux/issues"
+    },
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "users": {
+      "danharper": true,
+      "timhemming": true,
+      "hartzis": true,
+      "corintho": true,
+      "barbarosh": true,
+      "karimdeif": true,
+      "kytart": true,
+      "nak2k": true,
+      "kratyk": true,
+      "joanmi": true,
+      "stefanof": true,
+      "markthethomas": true,
+      "qqcome110": true,
+      "nescalante": true,
+      "foto": true,
+      "hypersprite": true,
+      "princetoad": true,
+      "migaky": true,
+      "sandeepgy11": true,
+      "hanpanpan200": true,
+      "asm2hex": true,
+      "dskecse": true,
+      "alexjsdev": true,
+      "lk-hu": true,
+      "jasonwang1888": true,
+      "fabrianibrahim": true,
+      "bogdanvlviv": true,
+      "dongxu": true,
+      "fsgdez": true,
+      "scotchulous": true,
+      "backnight": true,
+      "razr9": true,
+      "john-goldsmith": true,
+      "akarem": true,
+      "brainpoint": true,
+      "eswat2": true,
+      "maninacan": true,
+      "abuelwafa": true,
+      "pris54": true,
+      "leonardorb": true,
+      "knoja4": true,
+      "xiaochao": true,
+      "muroc": true,
+      "rwaness": true,
+      "ferchoriverar": true,
+      "shakakira": true,
+      "wearevilla": true,
+      "holly": true,
+      "norlando": true,
+      "tiendq": true,
+      "asmattic": true,
+      "vmleon": true,
+      "atulmy": true,
+      "bapinney": true,
+      "a904616537": true,
+      "xaxim": true,
+      "mimshwright": true,
+      "karoliz09": true,
+      "filipdanic": true,
+      "eimaj": true,
+      "sgnh": true,
+      "suemcnab": true,
+      "jdhrnndz": true,
+      "mr-bat": true,
+      "shuoshubao": true,
+      "uncledick": true,
+      "ivan.marquez": true,
+      "escapeimagery": true,
+      "ktrysmt": true,
+      "chrisakakay": true,
+      "sutthirot": true,
+      "kaufmo": true,
+      "marcelohmdias": true,
+      "jal": true,
+      "josokinas": true,
+      "krugarmatt": true,
+      "speedazerty": true,
+      "nisimjoseph": true,
+      "ikhsaan": true,
+      "cl0udw4lk3r": true,
+      "canniee": true,
+      "orenschwartz": true,
+      "sibawite": true,
+      "chenchenalex": true,
+      "casoetan": true,
+      "agamlarage": true,
+      "borasta": true,
+      "anhhnt": true,
+      "naokie": true,
+      "pnhoang": true,
+      "kkho595": true,
+      "moxiong": true,
+      "phixed": true,
+      "phixid": true,
+      "stephensauceda": true,
+      "chinawolf_wyp": true,
+      "jnields": true,
+      "whathejoe": true,
+      "abhijitkalta": true,
+      "flubox": true,
+      "daniellink": true,
+      "nicolaslevy": true,
+      "paulkolesnyk": true,
+      "andrelamont": true,
+      "moontahoe": true,
+      "nauhil": true,
+      "npmmurali": true,
+      "tiggem1993": true,
+      "ni-p": true,
+      "ngai_chifai": true,
+      "kmathmann": true,
+      "maddas": true,
+      "ksugiura": true,
+      "yangzw": true,
+      "luffy84217": true,
+      "tztz": true,
+      "horrorandtropics": true,
+      "adamduehansen": true,
+      "fabioper": true,
+      "tomgao365": true,
+      "patrocc6": true,
+      "sternelee": true,
+      "alek-s": true,
+      "pwn": true,
+      "leor": true,
+      "sebastian-schmidt": true,
+      "ptitdam2001": true,
+      "tyxla": true,
+      "yong_a": true,
+      "jaredwilli": true,
+      "zoreslavgoral": true,
+      "pilusonoka": true,
+      "ezeikel": true,
+      "derrickbeining": true,
+      "vghhkjh": true,
+      "mcharper": true,
+      "kvangrae": true,
+      "nguyenvanhoang26041994": true,
+      "hridoyryan": true,
+      "cfleschhut": true,
+      "geofftech": true,
+      "severen": true,
+      "wangweianger": true,
+      "mdedirudianto": true,
+      "salvationz": true,
+      "zita": true,
+      "omkar.sheral.1989": true,
+      "mrhuangyuhui": true,
+      "vcordero07": true,
+      "ganeshkbhat": true,
+      "rajkumarit12": true,
+      "kvrao": true,
+      "jaspermeyer": true
+    },
+    "_attachments": {},
+    "manifest": {
+      "name": "react-redux",
+      "version": "5.0.7",
+      "description": "Official React bindings for Redux",
+      "main": "./lib/index.js",
+      "module": "es/index.js",
+      "scripts": {
+        "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+        "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
+        "build:umd": "cross-env BABEL_ENV=rollup NODE_ENV=development rollup -c -o dist/react-redux.js",
+        "build:umd:min": "cross-env BABEL_ENV=rollup NODE_ENV=production rollup -c -o dist/react-redux.min.js",
+        "build": "npm run build:commonjs && npm run build:es && npm run build:umd && npm run build:umd:min",
+        "clean": "rimraf lib dist es coverage",
+        "lint": "eslint src test",
+        "prepare": "npm run clean && npm run build",
+        "test": "cross-env BABEL_ENV=test NODE_ENV=test mocha --recursive --require babel-register --require ./test/setup.js",
+        "test:watch": "npm test -- --watch",
+        "test:cov": "cross-env NODE_ENV=test nyc npm test",
+        "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/reactjs/react-redux.git"
+      },
+      "files": [
+        "dist",
+        "lib",
+        "src",
+        "es"
+      ],
+      "keywords": [
+        "react",
+        "reactjs",
+        "hot",
+        "reload",
+        "hmr",
+        "live",
+        "edit",
+        "flux",
+        "redux"
+      ],
+      "author": {
+        "name": "Dan Abramov",
+        "email": "dan.abramov@me.com",
+        "url": "http://github.com/gaearon"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/gaearon/react-redux/issues"
+      },
+      "homepage": "https://github.com/gaearon/react-redux",
+      "peerDependencies": {
+        "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
+        "redux": "^2.0.0 || ^3.0.0 || ^4.0.0-0"
+      },
+      "dependencies": {
+        "hoist-non-react-statics": "^2.5.0",
+        "invariant": "^2.0.0",
+        "lodash": "^4.17.5",
+        "lodash-es": "^4.17.5",
+        "loose-envify": "^1.1.0",
+        "prop-types": "^15.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.2.1",
+        "babel-plugin-check-es2015-constants": "^6.3.13",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-plugin-istanbul": "^4.1.5",
+        "babel-plugin-syntax-jsx": "^6.3.13",
+        "babel-plugin-transform-decorators-legacy": "^1.2.0",
+        "babel-plugin-transform-es2015-arrow-functions": "^6.3.13",
+        "babel-plugin-transform-es2015-block-scoped-functions": "^6.3.13",
+        "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
+        "babel-plugin-transform-es2015-classes": "^6.3.13",
+        "babel-plugin-transform-es2015-computed-properties": "^6.3.13",
+        "babel-plugin-transform-es2015-destructuring": "^6.3.13",
+        "babel-plugin-transform-es2015-for-of": "^6.3.13",
+        "babel-plugin-transform-es2015-function-name": "^6.3.13",
+        "babel-plugin-transform-es2015-literals": "^6.3.13",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+        "babel-plugin-transform-es2015-object-super": "^6.3.13",
+        "babel-plugin-transform-es2015-parameters": "^6.3.13",
+        "babel-plugin-transform-es2015-shorthand-properties": "^6.3.13",
+        "babel-plugin-transform-es2015-spread": "^6.3.13",
+        "babel-plugin-transform-es2015-sticky-regex": "^6.3.13",
+        "babel-plugin-transform-es2015-template-literals": "^6.3.13",
+        "babel-plugin-transform-es2015-unicode-regex": "^6.3.13",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-display-name": "^6.4.0",
+        "babel-plugin-transform-react-jsx": "^6.4.0",
+        "babel-register": "^6.26.0",
+        "codecov": "^3.0.0",
+        "create-react-class": "^15.6.3",
+        "cross-env": "^5.1.3",
+        "es3ify": "^0.2.0",
+        "eslint": "^4.17.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-react": "^7.6.1",
+        "expect": "^1.20.2",
+        "glob": "^7.1.1",
+        "istanbul": "^0.4.4",
+        "jsdom": "^11.6.2",
+        "mocha": "^5.0.1",
+        "nyc": "^11.5.0",
+        "react": "^15.6.2",
+        "react-dom": "^15.6.2",
+        "redux": "^3.0.0",
+        "rimraf": "^2.6.2",
+        "rollup": "^0.56.1",
+        "rollup-plugin-babel": "^3.0.3",
+        "rollup-plugin-commonjs": "^8.3.0",
+        "rollup-plugin-node-resolve": "^3.0.3",
+        "rollup-plugin-replace": "^2.0.0",
+        "rollup-plugin-uglify": "^3.0.0"
+      },
+      "browserify": {
+        "transform": [
+          "loose-envify"
+        ]
+      },
+      "nyc": {
+        "require": [
+          "babel-register"
+        ],
+        "all": "true",
+        "sourceMap": false,
+        "instrument": false,
+        "include": [
+          "src/**/*.js"
+        ]
+      },
+      "gitHead": "c1b9d36e078836374fe833a6eb2a8f0de0ad1e30",
+      "_id": "react-redux@5.0.7",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.3.0",
+      "_npmUser": {
+        "name": "timdorr",
+        "email": "timdorr@timdorr.com"
+      },
+      "dist": {
+        "integrity": "sha512-5VI8EV5hdgNgyjfmWzBbdrqUkrVRKlyTKk1sGH3jzM2M2Mhj/seQgPXaz6gVAj2lz/nz688AdTqMO18Lr24Zhg==",
+        "shasum": "0dc1076d9afb4670f993ffaef44b8f8c1155a4c8",
+        "tarball": "https://registry.npmjs.org/react-redux/-/react-redux-5.0.7.tgz",
+        "fileCount": 54,
+        "unpackedSize": 207382
+      },
+      "maintainers": [
+        {
+          "email": "dan.abramov@gmail.com",
+          "name": "gaearon"
+        },
+        {
+          "email": "timdorr@timdorr.com",
+          "name": "timdorr"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/react-redux_5.0.7_1518817476932_0.2513270144763655"
+      }
+    },
+    "releaseDate": "2018-02-16T21:44:37.174Z"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/reactjs/react-redux",
+    "revision": "78fb61e868f9003ceeee1c34db8cf81c69f7943e",
+    "path": null
+  }
+}

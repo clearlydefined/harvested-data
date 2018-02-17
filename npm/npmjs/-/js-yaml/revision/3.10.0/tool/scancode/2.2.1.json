@@ -1,0 +1,189 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/js-yaml/3.10.0",
+    "fetchedAt": "2018-02-17T06:50:05.738Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:js-yaml:revision:3.10.0:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:js-yaml:revision:3.10.0",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-09-11T08:19:12.765Z",
+    "processedAt": "2018-02-17T06:50:20.240Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 2,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2015-02-19",
+        "size": 1084,
+        "sha1": "cf1619aed46c3c608c54e1e4bdec5e7e38e436a7",
+        "md5": "effd621a9bf5d72d6a7e6ef819bf3afb",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 21,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2011-2015 by Vitaly Puzrin"
+            ],
+            "holders": [
+              "Vitaly Puzrin"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-09-11",
+        "size": 1059,
+        "sha1": "124a3c547b0e41d3ecbc4d218c27b889b2b4de2e",
+        "md5": "4401a2a767bfbde7b9e8ca5f77b43902",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 18,
+            "end_line": 18,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Vladimir Zapparov <dervus.grim@gmail.com>",
+              "Aleksey V Zapparov <ixti@member.fsf.org>"
+            ],
+            "start_line": 11,
+            "end_line": 14
+          }
+        ]
+      }
+    ]
+  }
+}

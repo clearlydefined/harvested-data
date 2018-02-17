@@ -1,21 +1,22 @@
 {
   "_metadata": {
-    "type": "git",
-    "url": "cd:/git/github/substack/minimist/dc624482fcfec5bc669c68cdb861f00573ed4e64/tool/scancode",
-    "fetchedAt": "2017-12-31T01:12:36.912Z",
+    "type": "scancode",
+    "url": "cd:/git/github/substack/minimist/dc624482fcfec5bc669c68cdb861f00573ed4e64",
+    "fetchedAt": "2018-02-17T20:13:42.837Z",
     "links": {
       "self": {
         "href": "urn:git:github:substack:minimist:revision:dc624482fcfec5bc669c68cdb861f00573ed4e64:tool:scancode:2.2.1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:git:github:substack:minimist:revision:dc624482fcfec5bc669c68cdb861f00573ed4e64:tool:scancode",
+        "href": "urn:git:github:substack:minimist:revision:dc624482fcfec5bc669c68cdb861f00573ed4e64",
         "type": "collection"
       }
     },
-    "version": 1,
+    "version": "2.2.1",
     "contentType": "application/json",
-    "processedAt": "2017-12-31T01:12:45.442Z"
+    "releaseDate": "2015-08-24T08:56:42-05:00\n",
+    "processedAt": "2018-02-17T20:13:55.573Z"
   },
   "content": {
     "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
@@ -38,7 +39,7 @@
         "name": "LICENSE",
         "base_name": "LICENSE",
         "extension": "",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1091,
         "sha1": "b7d2d5450231d817d31b687103065ac090e955ab",
         "md5": "a6df4eaa6c6a1471228755d06f2494cf",
@@ -115,7 +116,7 @@
         "name": "package.json",
         "base_name": "package",
         "extension": ".json",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 928,
         "sha1": "a6f83f7d02817a10ca4508e482e819f6f5c6af76",
         "md5": "b53f7f49b24c1a37db0b6c3e7e7bb7e5",
@@ -166,10 +167,10 @@
         "name": "readme.markdown",
         "base_name": "readme",
         "extension": ".markdown",
-        "date": "2017-12-31",
-        "size": 2570,
-        "sha1": "6f5c332f771cba1ea6b7590dc8e7a4747d2a9de1",
-        "md5": "ec6139e366382b77bd4ca98dc5892450",
+        "date": "2018-02-17",
+        "size": 2554,
+        "sha1": "211f70c36d7190c53427992abdc047a7bc2b646a",
+        "md5": "a0d5558804d63be26cfd70ed85beb8c9",
         "files_count": null,
         "mime_type": "text/plain",
         "file_type": "ASCII text, with CRLF line terminators",
@@ -193,8 +194,8 @@
             "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
             "spdx_license_key": "MIT",
             "spdx_url": "https://spdx.org/licenses/MIT",
-            "start_line": 90,
-            "end_line": 92,
+            "start_line": 89,
+            "end_line": 91,
             "matched_rule": {
               "identifier": "mit_34.RULE",
               "license_choice": false,

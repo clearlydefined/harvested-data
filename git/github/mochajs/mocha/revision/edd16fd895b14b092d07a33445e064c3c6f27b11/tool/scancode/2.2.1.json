@@ -1,0 +1,1295 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/mochajs/mocha/edd16fd895b14b092d07a33445e064c3c6f27b11",
+    "fetchedAt": "2018-02-17T20:26:00.049Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:mochajs:mocha:revision:edd16fd895b14b092d07a33445e064c3c6f27b11:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:mochajs:mocha:revision:edd16fd895b14b092d07a33445e064c3c6f27b11",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-02-07T23:18:41-08:00\n",
+    "processedAt": "2018-02-17T20:26:41.831Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 15,
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "type": "file",
+        "name": "CHANGELOG.md",
+        "base_name": "CHANGELOG",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 76568,
+        "sha1": "3e1d436ae971250f6df3bb42f33c42940f031772",
+        "md5": "da42e986f9babed4b7a502133a32e2e9",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 458,
+            "end_line": 458,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1627,
+            "end_line": 1627,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-02-17",
+        "size": 1143,
+        "sha1": "fdfa3a6608ef0efd8e8007899efdccf63ba23e8c",
+        "md5": "d2c1dfb3d3d7a901fcf4ddcdb427c9fd",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 22,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2011-2018 JS Foundation and contributors, https://js.foundation"
+            ],
+            "holders": [
+              "2011-2018 JS Foundation and contributors, https://js.foundation"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-17",
+        "size": 20350,
+        "sha1": "04122ab398d383559e8d830398d6a8e1596fa1e0",
+        "md5": "7a0a7951670e849b2cdc6379851e22ad",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 291,
+            "end_line": 291,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Jeff Schilling <jeff@manicwave.com>"
+            ],
+            "start_line": 129,
+            "end_line": 132
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Jordan Sexton <jordan@jordansexton.com>",
+              "Joshua Appelman <joshua@jbna.nl>"
+            ],
+            "start_line": 146,
+            "end_line": 149
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Panu Horsmalahti <panu.horsmalahti@iki.fi>",
+              "Parker Moore <email@byparker.com>",
+              "Paul Miller <paul+gh@paulmillr.com>"
+            ],
+            "start_line": 208,
+            "end_line": 211
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Tobias Bieniek <tobias.bieniek@gmail.com>",
+              "Toby Ho <airportyh@gmail.com>"
+            ],
+            "start_line": 269,
+            "end_line": 272
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yanis Wang <yanis.wang@gmail.com>",
+              "Zhiye Li <github@zhiye.li>",
+              "Zhouxuan Yang <fool2fish@gmail.com>"
+            ],
+            "start_line": 285,
+            "end_line": 288
+          }
+        ]
+      },
+      {
+        "path": "README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 11793,
+        "sha1": "4003e2b7a9551371717cc5c510b9a293ca0b21b6",
+        "md5": "5d252d34cc0f58f8f6a917357c9de828",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text, with very long lines, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 116,
+            "end_line": 118,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "assets/mocha-banner.svg",
+        "type": "file",
+        "name": "mocha-banner.svg",
+        "base_name": "mocha-banner",
+        "extension": ".svg",
+        "date": "2018-02-17",
+        "size": 11526,
+        "sha1": "37bdf4356481a5d51c606c1fa78f6d6c70415882",
+        "md5": "a5f82a0131ed70383b532e6e41bf84fb",
+        "files_count": null,
+        "mime_type": "image/svg+xml",
+        "file_type": "SVG Scalable Vector Graphics image",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": true,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "cc-by-sa-3.0",
+            "score": 40,
+            "short_name": "CC-BY-SA-3.0",
+            "category": "Copyleft Limited",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "text_url": "http://creativecommons.org/licenses/by-sa/3.0/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-sa-3.0",
+            "spdx_license_key": "CC-BY-SA-3.0",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-SA-3.0",
+            "start_line": 30,
+            "end_line": 30,
+            "matched_rule": {
+              "identifier": "cc-by-sa-3.0_1.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-sa-3.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 8,
+              "matched_length": 8,
+              "match_coverage": 100,
+              "rule_relevance": 40
+            }
+          },
+          {
+            "key": "cc-by-sa-3.0",
+            "score": 40,
+            "short_name": "CC-BY-SA-3.0",
+            "category": "Copyleft Limited",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "text_url": "http://creativecommons.org/licenses/by-sa/3.0/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-sa-3.0",
+            "spdx_license_key": "CC-BY-SA-3.0",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-SA-3.0",
+            "start_line": 31,
+            "end_line": 31,
+            "matched_rule": {
+              "identifier": "cc-by-sa-3.0_1.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-sa-3.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 8,
+              "matched_length": 8,
+              "match_coverage": 100,
+              "rule_relevance": 40
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "assets/mocha-logo.svg",
+        "type": "file",
+        "name": "mocha-logo.svg",
+        "base_name": "mocha-logo",
+        "extension": ".svg",
+        "date": "2018-02-17",
+        "size": 9469,
+        "sha1": "80016524b9af1d988bf938f1c1b423240c9e8435",
+        "md5": "57d820d4c192aea7010166dc3639e72d",
+        "files_count": null,
+        "mime_type": "image/svg+xml",
+        "file_type": "SVG Scalable Vector Graphics image",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": true,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "cc-by-sa-3.0",
+            "score": 40,
+            "short_name": "CC-BY-SA-3.0",
+            "category": "Copyleft Limited",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "text_url": "http://creativecommons.org/licenses/by-sa/3.0/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-sa-3.0",
+            "spdx_license_key": "CC-BY-SA-3.0",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-SA-3.0",
+            "start_line": 30,
+            "end_line": 30,
+            "matched_rule": {
+              "identifier": "cc-by-sa-3.0_1.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-sa-3.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 8,
+              "matched_length": 8,
+              "match_coverage": 100,
+              "rule_relevance": 40
+            }
+          },
+          {
+            "key": "cc-by-sa-3.0",
+            "score": 40,
+            "short_name": "CC-BY-SA-3.0",
+            "category": "Copyleft Limited",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "text_url": "http://creativecommons.org/licenses/by-sa/3.0/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-sa-3.0",
+            "spdx_license_key": "CC-BY-SA-3.0",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-SA-3.0",
+            "start_line": 31,
+            "end_line": 31,
+            "matched_rule": {
+              "identifier": "cc-by-sa-3.0_1.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-sa-3.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 8,
+              "matched_length": 8,
+              "match_coverage": 100,
+              "rule_relevance": 40
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "docs/LICENSE-CC-BY-4.0",
+        "type": "file",
+        "name": "LICENSE-CC-BY-4.0",
+        "base_name": "LICENSE-CC-BY-4",
+        "extension": ".0",
+        "date": "2018-02-17",
+        "size": 19045,
+        "sha1": "fbdfad50eb93a0e0fa4126d31f24c5844723f153",
+        "md5": "daf5dc54f3672cda8f71a642d2030688",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "cc-by-4.0",
+            "score": 99.24,
+            "short_name": "CC-BY-4.0",
+            "category": "Permissive",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by/4.0/",
+            "text_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-4.0",
+            "spdx_license_key": "CC-BY-4.0",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-4.0",
+            "start_line": 1,
+            "end_line": 395,
+            "matched_rule": {
+              "identifier": "cc-by-4.0.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-4.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 2597,
+              "matched_length": 2597,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "public-domain",
+            "score": 10,
+            "short_name": "Public Domain",
+            "category": "Public Domain",
+            "owner": "Unspecified",
+            "homepage_url": "http://www.linfo.org/publicdomain.html",
+            "text_url": "",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:public-domain",
+            "spdx_license_key": "",
+            "spdx_url": "",
+            "start_line": 382,
+            "end_line": 382,
+            "matched_rule": {
+              "identifier": "public-domain.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "public-domain"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "public-domain",
+            "score": 10,
+            "short_name": "Public Domain",
+            "category": "Public Domain",
+            "owner": "Unspecified",
+            "homepage_url": "http://www.linfo.org/publicdomain.html",
+            "text_url": "",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:public-domain",
+            "spdx_license_key": "",
+            "spdx_url": "",
+            "start_line": 382,
+            "end_line": 383,
+            "matched_rule": {
+              "identifier": "public-domain.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "public-domain"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "docs/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 1329,
+        "sha1": "d7ca9f50ef139c8335f7baafecc46ccafe5762b9",
+        "md5": "bef89bfddd2f657552a16ebfb4bc7902",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 33,
+            "end_line": 33,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 33,
+            "end_line": 33,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "copyright 2016-2017 JS Foundation"
+            ],
+            "holders": [
+              "JS Foundation"
+            ],
+            "authors": [],
+            "start_line": 29,
+            "end_line": 29
+          }
+        ]
+      },
+      {
+        "path": "docs/css/normalize.css",
+        "type": "file",
+        "name": "normalize.css",
+        "base_name": "normalize",
+        "extension": ".css",
+        "date": "2018-02-17",
+        "size": 7787,
+        "sha1": "b70f4d1d87be6641ab76744b4716ce697221a940",
+        "md5": "37b9447b3391510692d36d0a385bd876",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "CSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "docs/example/chai.js",
+        "type": "file",
+        "name": "chai.js",
+        "base_name": "chai",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 86763,
+        "sha1": "6c2074e2ea7085b39bbd79e08f098b0bebc3669c",
+        "md5": "89d9dd98c4f0ae0419befddff2044397",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2011-2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 56,
+            "end_line": 58
+          },
+          {
+            "statements": [
+              "Copyright (c) 2011-2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 1171,
+            "end_line": 1173
+          },
+          {
+            "statements": [
+              "Copyright (c) 2011-2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 1203,
+            "end_line": 1205
+          },
+          {
+            "statements": [
+              "Copyright (c) 2011-2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 1279,
+            "end_line": 1281
+          },
+          {
+            "statements": [
+              "Copyright (c) 2011-2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2246,
+            "end_line": 2248
+          },
+          {
+            "statements": [
+              "Copyright (c) 2011-2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2262,
+            "end_line": 2264
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2328,
+            "end_line": 2330
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2402,
+            "end_line": 2404
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2443,
+            "end_line": 2445
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2590,
+            "end_line": 2592
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2626,
+            "end_line": 2628
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2649,
+            "end_line": 2651
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2699,
+            "end_line": 2701
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2723,
+            "end_line": 2726
+          },
+          {
+            "statements": [
+              "Copyright (c) 2011 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 2830,
+            "end_line": 2832
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 3212,
+            "end_line": 3214
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 3267,
+            "end_line": 3269
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 3325,
+            "end_line": 3327
+          },
+          {
+            "statements": [
+              "Copyright (c) 2012 Jake Luer <jake@alogicalparadox.com>"
+            ],
+            "holders": [
+              "Jake Luer"
+            ],
+            "authors": [],
+            "start_line": 3355,
+            "end_line": 3357
+          }
+        ]
+      },
+      {
+        "path": "docs/images/mocha-logo.svg",
+        "type": "file",
+        "name": "mocha-logo.svg",
+        "base_name": "mocha-logo",
+        "extension": ".svg",
+        "date": "2018-02-17",
+        "size": 9471,
+        "sha1": "f202e409befd8fee2dd1e009424c847533e4c583",
+        "md5": "e7be7b3d41c407215ac670b0461d6117",
+        "files_count": null,
+        "mime_type": "image/svg+xml",
+        "file_type": "SVG Scalable Vector Graphics image",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": true,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "cc-by-sa-3.0",
+            "score": 40,
+            "short_name": "CC-BY-SA-3.0",
+            "category": "Copyleft Limited",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "text_url": "http://creativecommons.org/licenses/by-sa/3.0/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-sa-3.0",
+            "spdx_license_key": "CC-BY-SA-3.0",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-SA-3.0",
+            "start_line": 30,
+            "end_line": 30,
+            "matched_rule": {
+              "identifier": "cc-by-sa-3.0_1.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-sa-3.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 8,
+              "matched_length": 8,
+              "match_coverage": 100,
+              "rule_relevance": 40
+            }
+          },
+          {
+            "key": "cc-by-sa-3.0",
+            "score": 40,
+            "short_name": "CC-BY-SA-3.0",
+            "category": "Copyleft Limited",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "text_url": "http://creativecommons.org/licenses/by-sa/3.0/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-sa-3.0",
+            "spdx_license_key": "CC-BY-SA-3.0",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-SA-3.0",
+            "start_line": 31,
+            "end_line": 31,
+            "matched_rule": {
+              "identifier": "cc-by-sa-3.0_1.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-sa-3.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 8,
+              "matched_length": 8,
+              "match_coverage": 100,
+              "rule_relevance": 40
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "docs/js/anchor.js",
+        "type": "file",
+        "name": "anchor.js",
+        "base_name": "anchor",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 15807,
+        "sha1": "40392cb77130c10dc3142e1d0e4545258ac41617",
+        "md5": "035080078d16aaef3205d08631f740cc",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2016 Bryan Braun"
+            ],
+            "holders": [
+              "Bryan Braun"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "docs/js/html5shiv.min.js",
+        "type": "file",
+        "name": "html5shiv.min.js",
+        "base_name": "html5shiv.min",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 2639,
+        "sha1": "c6a4cb6f94c76f9d053ef330247358ebdb2d3149",
+        "md5": "bc0679a1f805567fd478cbc0c845c075",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text, with very long lines, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "gpl_or_mit_4.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-2.0",
+            "score": 15,
+            "short_name": "GPL 2.0",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/gpl-2.0.html",
+            "text_url": "http://www.gnu.org/licenses/gpl-2.0.txt",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0",
+            "spdx_license_key": "GPL-2.0",
+            "spdx_url": "https://spdx.org/licenses/GPL-2.0",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "gpl_or_mit_4.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "docs/_includes/footer.html",
+        "type": "file",
+        "name": "footer.html",
+        "base_name": "footer",
+        "extension": ".html",
+        "date": "2018-02-17",
+        "size": 481,
+        "sha1": "18cc4781d76281fd3d14bbb5beea81b3292326c7",
+        "md5": "470458c388def573efa46289de2cab4c",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text, with CRLF line terminators",
+        "programming_language": "HTML",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "cc-by-2.5",
+            "score": 72.22,
+            "short_name": "CC-BY-2.5",
+            "category": "Permissive",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by/2.5/",
+            "text_url": "http://creativecommons.org/licenses/by/2.5/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-2.5",
+            "spdx_license_key": "CC-BY-2.5",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-2.5",
+            "start_line": 3,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "cc-by-2.5_2.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-2.5"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 35,
+              "matched_length": 13,
+              "match_coverage": 37.14,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "lib/mocha.js",
+        "type": "file",
+        "name": "mocha.js",
+        "base_name": "mocha",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 14046,
+        "sha1": "95cbef947c4bb29a903d6a01154478ff46534b24",
+        "md5": "3ff042f7e474532f180be147fecaa891",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>"
+            ],
+            "holders": [
+              "TJ Holowaychuk"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 6
+          }
+        ]
+      }
+    ]
+  }
+}

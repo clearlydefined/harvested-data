@@ -1,0 +1,151 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/@angular/platform-browser/5.2.5",
+    "fetchedAt": "2018-02-17T19:33:53.330Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:@angular:platform-browser:revision:5.2.5:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:@angular:platform-browser:revision:5.2.5",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:@angular:platform-browser:revision:5.2.5:tool:scancode",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:angular:angular:revision:106b4352979adfda61e0c6af8eb0cdb99929709b",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-17T19:33:53.857Z"
+  },
+  "package.json": {
+    "name": "@angular/platform-browser",
+    "version": "5.2.5",
+    "description": "Angular - library for using Angular in a web browser",
+    "main": "./bundles/platform-browser.umd.js",
+    "module": "./esm5/platform-browser.js",
+    "es2015": "./esm2015/platform-browser.js",
+    "typings": "./platform-browser.d.ts",
+    "author": "angular",
+    "license": "MIT",
+    "dependencies": {
+      "tslib": "^1.7.1"
+    },
+    "peerDependencies": {
+      "@angular/core": "5.2.5",
+      "@angular/common": "5.2.5"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/angular/angular.git"
+    }
+  },
+  "registryData": {
+    "_id": "@angular/platform-browser",
+    "_rev": "176-9bef390790e760ddcec1e7916571202d",
+    "name": "@angular/platform-browser",
+    "dist-tags": {
+      "latest": "5.2.5",
+      "next": "6.0.0-beta.4"
+    },
+    "readme": "",
+    "maintainers": [
+      {
+        "email": "devops+npm@angular.io",
+        "name": "angular"
+      }
+    ],
+    "author": {
+      "name": "angular"
+    },
+    "license": "MIT",
+    "readmeFilename": "",
+    "homepage": "https://github.com/angular/angular#readme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angular/angular.git"
+    },
+    "bugs": {
+      "url": "https://github.com/angular/angular/issues"
+    },
+    "users": {
+      "jeandrebosch": true,
+      "jiggy1com": true,
+      "ognjen.jevremovic": true,
+      "db6edr": true,
+      "yangzw": true,
+      "stephanlv": true,
+      "renishskills": true
+    },
+    "description": "Angular - library for using Angular in a web browser",
+    "_attachments": {},
+    "manifest": {
+      "name": "@angular/platform-browser",
+      "version": "5.2.5",
+      "description": "Angular - library for using Angular in a web browser",
+      "main": "./bundles/platform-browser.umd.js",
+      "module": "./esm5/platform-browser.js",
+      "es2015": "./esm2015/platform-browser.js",
+      "typings": "./platform-browser.d.ts",
+      "author": {
+        "name": "angular"
+      },
+      "license": "MIT",
+      "dependencies": {
+        "tslib": "^1.7.1"
+      },
+      "peerDependencies": {
+        "@angular/core": "5.2.5",
+        "@angular/common": "5.2.5"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/angular/angular.git"
+      },
+      "bugs": {
+        "url": "https://github.com/angular/angular/issues"
+      },
+      "homepage": "https://github.com/angular/angular#readme",
+      "_id": "@angular/platform-browser@5.2.5",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.2",
+      "_npmUser": {
+        "name": "angular",
+        "email": "devops+npm@angular.io"
+      },
+      "dist": {
+        "integrity": "sha512-iPAuoG/c3pD3hnk1g0VgJu/pzNITvLQyT0W71MDMSuxLxs291kq+U2jklm40pStISd1mPbCNKmvz/7M+WbdLhg==",
+        "shasum": "eae4af2b742fb901d84d6367cd99f9e88102151f",
+        "tarball": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-5.2.5.tgz",
+        "fileCount": 83,
+        "unpackedSize": 2103105
+      },
+      "maintainers": [
+        {
+          "email": "devops+npm@angular.io",
+          "name": "angular"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/platform-browser_5.2.5_1518585882676_0.9907989923003602"
+      },
+      "_hasShrinkwrap": false
+    },
+    "releaseDate": "2018-02-14T05:24:42.734Z"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/angular/angular",
+    "revision": "106b4352979adfda61e0c6af8eb0cdb99929709b",
+    "path": null
+  }
+}

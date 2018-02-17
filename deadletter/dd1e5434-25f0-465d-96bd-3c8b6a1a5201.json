@@ -1,0 +1,43 @@
+{
+  "type": "scancode",
+  "url": "cd:/npm/npmjs/@angular/compiler/5.2.5",
+  "context": {
+    "history": [
+      "package@cd:/npm/npmjs/@angular/compiler",
+      "npm@cd:/npm/npmjs/@angular/compiler",
+      "scancode@cd:/npm/npmjs/@angular/compiler/5.2.5"
+    ],
+    "qualifier": "urn:"
+  },
+  "policy": {
+    "fetch": "mutables",
+    "freshness": "match",
+    "map": {
+      "name": "package",
+      "path": "/npm/scancode"
+    }
+  },
+  "_metadata": {
+    "version": 1,
+    "meta": {
+      "loopName": "0",
+      "cid": "9g",
+      "root": "package@cd:/npm/npmjs/@angular/compiler"
+    },
+    "type": "deadletter",
+    "url": "cd:/npm/npmjs/@angular/compiler/5.2.5",
+    "processedAt": "2018-02-17T19:44:21.690Z",
+    "fetchedAt": "2018-02-17T19:44:21.690Z",
+    "links": {
+      "self": {
+        "href": "urn:deadletter:dd1e5434-25f0-465d-96bd-3c8b6a1a5201",
+        "type": "resource"
+      }
+    },
+    "extra": {
+      "type": "scancode",
+      "url": "cd:/npm/npmjs/@angular/compiler/5.2.5",
+      "reason": "Command failed: cd c:\\installs\\scancode-toolkit-2.2.1 && .\\scancode --copyright --license --info --diag --only-findings  --strip-root --quiet --timeout 300 -n 3 -f json-pp c:/temp/cd-vtVc22 c:/temp/cd-BPlEO2\n"
+    }
+  }
+}

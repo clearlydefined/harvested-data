@@ -1,0 +1,604 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/mongoose/5.0.6",
+    "fetchedAt": "2018-02-17T06:50:43.391Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:mongoose:revision:5.0.6:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:mongoose:revision:5.0.6",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-02-15T23:52:38.863Z",
+    "processedAt": "2018-02-17T06:51:05.331Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 11,
+    "files": [
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-15",
+        "size": 2916,
+        "sha1": "60410022b0f6b087e895633c665481990eb16f6e",
+        "md5": "8c8215248e4a9060ec9c7fbf68e7c376",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 20,
+            "end_line": 20,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Guillermo Rauch <guillermo@learnboost.com>"
+            ],
+            "start_line": 4,
+            "end_line": 7
+          }
+        ]
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-01-28",
+        "size": 11152,
+        "sha1": "751dc7814fee2b6d16210bdf00dbcec425658dd5",
+        "md5": "83946ae8af1bfde062205b9662bd9e87",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 308,
+            "end_line": 325,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2010 LearnBoost &lt dev@learnboost.com&gt"
+            ],
+            "holders": [
+              "LearnBoost &lt dev@learnboost.com&gt"
+            ],
+            "authors": [],
+            "start_line": 306,
+            "end_line": 306
+          }
+        ]
+      },
+      {
+        "path": "package/examples/aggregate/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-06",
+        "size": 320,
+        "sha1": "5888baad77590e3bdac806a509fe983724e8e943",
+        "md5": "1a1ec0c2f8f6bac7a596474563186a2c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/examples/express/connection-sharing/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-06",
+        "size": 326,
+        "sha1": "41c31f0607917ceaf3571fd2ab0d8abd5330471b",
+        "md5": "385566a36f779ee04adb61d93f1bbc3c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/examples/geospatial/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-06",
+        "size": 323,
+        "sha1": "5ad215634fcceec5ad7709dab8510d319f40b446",
+        "md5": "f3a4f20c8b8b2c67f3e68885c871a98a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/examples/lean/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-06",
+        "size": 305,
+        "sha1": "8b2720df61918ad0a5a76cb4af5730a72ed0a64f",
+        "md5": "ad47d3fdb88f3d6cd1b61b83a71f2d89",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/examples/mapreduce/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-06",
+        "size": 322,
+        "sha1": "cc09681e4ddfaa1ff22cee4831bb3611d1f038fe",
+        "md5": "2ac7c3cee323fe2704acf4e286827b6c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/examples/promises/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-06",
+        "size": 314,
+        "sha1": "4b040d83fa48ed593c5161018709a5055db32a87",
+        "md5": "d0f02b12aae4a1cf30f2b544e5e9cfe6",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/examples/querybuilder/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-06",
+        "size": 331,
+        "sha1": "7470d6f0397e7579e3bdf36f2853851794720cc2",
+        "md5": "2cf3623e199b276ccc139f1daef33b2e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/examples/replicasets/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-06",
+        "size": 327,
+        "sha1": "ca5f346673e40c90c9d80b2a457884b841d9e646",
+        "md5": "e0462252dcde4821d391f5fea852ef71",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/lib/schema/string.js",
+        "type": "file",
+        "name": "string.js",
+        "base_name": "string",
+        "extension": ".js",
+        "date": "2018-02-12",
+        "size": 14505,
+        "sha1": "8451161672d8cfbf5a18f3efcbc791cbe075953d",
+        "md5": "9d7e0cab065c2f83ba95fcaae9926032",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "someemail@example.com"
+            ],
+            "start_line": 126,
+            "end_line": 127
+          }
+        ]
+      }
+    ]
+  }
+}

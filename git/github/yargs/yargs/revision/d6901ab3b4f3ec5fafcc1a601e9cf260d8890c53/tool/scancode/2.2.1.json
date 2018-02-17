@@ -1,0 +1,303 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/yargs/yargs/d6901ab3b4f3ec5fafcc1a601e9cf260d8890c53",
+    "fetchedAt": "2018-02-17T20:14:38.251Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:yargs:yargs:revision:d6901ab3b4f3ec5fafcc1a601e9cf260d8890c53:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:yargs:yargs:revision:d6901ab3b4f3ec5fafcc1a601e9cf260d8890c53",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-01-21T21:48:19-08:00\n",
+    "processedAt": "2018-02-17T20:14:56.850Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 5,
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "type": "file",
+        "name": "CHANGELOG.md",
+        "base_name": "CHANGELOG",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 78749,
+        "sha1": "51d4905889e51a006791506dac243a499f371ffa",
+        "md5": "a7234a40bd6f5a649eb86e49c12dcd17",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1124,
+            "end_line": 1124,
+            "matched_rule": {
+              "identifier": "mit_38.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-02-17",
+        "size": 1221,
+        "sha1": "2c5c0e5651ba1b4fd042b2d6eba189ae33720195",
+        "md5": "a517815a81a772c1db51729aca6ce5c3",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 22,
+            "matched_rule": {
+              "identifier": "mit_2.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 177,
+              "matched_length": 166,
+              "match_coverage": 93.79,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2010 James Halliday (mail@substack.net)",
+              "Copyright 2014"
+            ],
+            "holders": [
+              "James Halliday"
+            ],
+            "authors": [
+              "(ben@npmjs.com)"
+            ],
+            "start_line": 1,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-17",
+        "size": 1701,
+        "sha1": "d968eeb643ea4fe3043b8eb3ea39bf02d27f0546",
+        "md5": "e9008280818205ef711b3623ea1d85f3",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 69,
+            "end_line": 69,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "docs/examples.md",
+        "type": "file",
+        "name": "examples.md",
+        "base_name": "examples",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 6877,
+        "sha1": "1401b4672ed58815e9a2f83fec7e77990906457c",
+        "md5": "1a0a97b996ed0c0b48fc62375f7e2d8a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "copyright 2015"
+            ],
+            "holders": [],
+            "authors": [],
+            "start_line": 318,
+            "end_line": 318
+          }
+        ]
+      },
+      {
+        "path": "lib/levenshtein.js",
+        "type": "file",
+        "name": "levenshtein.js",
+        "base_name": "levenshtein",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 2219,
+        "sha1": "99c4b244ab3cec7ca4d890274cad779adca752ba",
+        "md5": "7f21a8fe853a3e955947ec5c02e182bf",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 8,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2011 Andrei Mackenzie"
+            ],
+            "holders": [
+              "Andrei Mackenzie"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      }
+    ]
+  }
+}

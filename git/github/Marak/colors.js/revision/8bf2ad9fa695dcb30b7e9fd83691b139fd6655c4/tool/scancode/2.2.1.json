@@ -1,21 +1,22 @@
 {
   "_metadata": {
-    "type": "git",
-    "url": "cd:/git/github/Marak/colors.js/8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4/tool/scancode",
-    "fetchedAt": "2017-12-31T01:05:55.932Z",
+    "type": "scancode",
+    "url": "cd:/git/github/marak/colors.js/8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4",
+    "fetchedAt": "2018-02-17T20:11:37.110Z",
     "links": {
       "self": {
-        "href": "urn:git:github:Marak:colors.js:revision:8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4:tool:scancode:2.2.1",
+        "href": "urn:git:github:marak:colors.js:revision:8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4:tool:scancode:2.2.1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:git:github:Marak:colors.js:revision:8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4:tool:scancode",
+        "href": "urn:git:github:marak:colors.js:revision:8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4",
         "type": "collection"
       }
     },
-    "version": 1,
+    "version": "2.2.1",
     "contentType": "application/json",
-    "processedAt": "2017-12-31T01:06:05.177Z"
+    "releaseDate": "2015-06-17T15:01:51+02:00\n",
+    "processedAt": "2018-02-17T20:11:51.055Z"
   },
   "content": {
     "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
@@ -38,7 +39,7 @@
         "name": "LICENSE",
         "base_name": "LICENSE",
         "extension": "",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1195,
         "sha1": "07dc9f06261da8cbcd204d921c27074e504f9263",
         "md5": "33ee7950aeb2ee28bb69014a1e778172",
@@ -113,7 +114,7 @@
         "name": "package.json",
         "base_name": "package",
         "extension": ".json",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 727,
         "sha1": "7c0ceeeec07b2eb4214680ab2fcd842aceef50a4",
         "md5": "70f7ebc9ae6b87886d833c0078a52ddb",
@@ -164,7 +165,7 @@
         "name": "colors.js",
         "base_name": "colors",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 5011,
         "sha1": "c2c6fb0f8d33ad4cbc19b608ad28c92db2950b6b",
         "md5": "5d7778811a20517fba2eb38dcb5289e9",
@@ -265,7 +266,7 @@
         "name": "styles.js",
         "base_name": "styles",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 2175,
         "sha1": "797e76baa68f43be518faf0e0c1d43defb499f8f",
         "md5": "d29611bb95248f8ecdac497720c9313a",
@@ -355,7 +356,7 @@
         "name": "supports-colors.js",
         "base_name": "supports-colors",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1879,
         "sha1": "4de90ccea4018fdf89c3242787c73b4b418a8449",
         "md5": "6e20ed160c67197d18c3e3f693dc6374",

@@ -1,0 +1,2252 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/eslint-plugin-react/7.6.1",
+    "fetchedAt": "2018-02-17T07:19:09.963Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:eslint-plugin-react:revision:7.6.1:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:eslint-plugin-react:revision:7.6.1",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-01-29T07:20:39.452Z",
+    "processedAt": "2018-02-17T07:19:27.825Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 59,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-12-23",
+        "size": 1085,
+        "sha1": "8031d68bbe141886075403272c8d373208c9f82f",
+        "md5": "1dbc7fedfc1975d32106f930116d0082",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 21,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014 Yannick Croissant"
+            ],
+            "holders": [
+              "Yannick Croissant"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-29",
+        "size": 1311,
+        "sha1": "1e7739aa0d8e90bc2f9ab1060247863fa8634825",
+        "md5": "479dcb68d18b447e00ffe23594d22637",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 51,
+            "end_line": 51,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-01-27",
+        "size": 15494,
+        "sha1": "17947b32c16c087bdc312ebee1fbe8d9712b6b53",
+        "md5": "36049ea16d3e997af8785e63650dd9c8",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 55,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 230,
+            "end_line": 230,
+            "matched_rule": {
+              "identifier": "mit_46.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 11,
+              "matched_length": 11,
+              "match_coverage": 100,
+              "rule_relevance": 55
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/lib/rules/boolean-prop-naming.js",
+        "type": "file",
+        "name": "boolean-prop-naming.js",
+        "base_name": "boolean-prop-naming",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 7761,
+        "sha1": "9dbfc5be4d84ec59ab4dc99c1ada0de78be43bc3",
+        "md5": "4ceec03d8a7307b41d52655a5f17c2c1",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Ev Haus"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/button-has-type.js",
+        "type": "file",
+        "name": "button-has-type.js",
+        "base_name": "button-has-type",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 3217,
+        "sha1": "9b2d3373ee62903c25ae7e51c05b5d422264a7e5",
+        "md5": "afe9e7085cd1df168bb257476e407789",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Filipp Riabchun"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/default-props-match-prop-types.js",
+        "type": "file",
+        "name": "default-props-match-prop-types.js",
+        "base_name": "default-props-match-prop-types",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 19337,
+        "sha1": "b6b18c1ea8ffd9c45565bae6476be22b67a08bbc",
+        "md5": "93c7bdb03eb73ba21ec9f75478c3eb88",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Vitor Balocco author Roy Sutton"
+            ],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/display-name.js",
+        "type": "file",
+        "name": "display-name.js",
+        "base_name": "display-name",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 6548,
+        "sha1": "e0dc2e242eda3dbe3263af111b09cdf276d495fe",
+        "md5": "6b3e9196b4af68cd36a9e7b8b4c24151",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/forbid-component-props.js",
+        "type": "file",
+        "name": "forbid-component-props.js",
+        "base_name": "forbid-component-props",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 1684,
+        "sha1": "764486b666326de36996733ed822e0f1a60f5e60",
+        "md5": "6c46808f01eba585155ba495177fb73c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Joe Lencioni"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/forbid-elements.js",
+        "type": "file",
+        "name": "forbid-elements.js",
+        "base_name": "forbid-elements",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 3052,
+        "sha1": "be05f3badef24fcd4892ecdf9df6c59277d76748",
+        "md5": "de4eeea02cac8f09207dcfb4cf690db5",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Kenneth Chung"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/forbid-foreign-prop-types.js",
+        "type": "file",
+        "name": "forbid-foreign-prop-types.js",
+        "base_name": "forbid-foreign-prop-types",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2014,
+        "sha1": "6f9ede5d5f51a22e2a47230895237c7ac8608e31",
+        "md5": "8a5d49a134674e1ca0687b655b1a6e61",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Ian Christian Myers"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-curly-spacing.js",
+        "type": "file",
+        "name": "jsx-curly-spacing.js",
+        "base_name": "jsx-curly-spacing",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 12389,
+        "sha1": "ad5568b726a4c5738cf2771f115c2c9f97d7cba7",
+        "md5": "89cbfc6a72e6ab7fea8c25f11d0b2d30",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Jamund Ferguson author Brandyn Bennett author Michael Ficarra author Vignesh Anand author Jamund Ferguson author Yannick Croissant author Erik Wendel"
+            ],
+            "start_line": 2,
+            "end_line": 9
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-indent-props.js",
+        "type": "file",
+        "name": "jsx-indent-props.js",
+        "base_name": "jsx-indent-props",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 5415,
+        "sha1": "7e81f6f457cefa491d954bfe6cc6d4fb10e7146e",
+        "md5": "f622218c0b864ea66f4843711a7153e6",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 12,
+            "end_line": 28,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "copyright 2015 Vitaly Puzrin."
+            ],
+            "holders": [
+              "Vitaly Puzrin."
+            ],
+            "authors": [
+              "Vitaly Puzrin author Gyandeep Singh"
+            ],
+            "start_line": 5,
+            "end_line": 8
+          },
+          {
+            "statements": [
+              "copyright 2015 Gyandeep Singh."
+            ],
+            "holders": [
+              "Gyandeep Singh."
+            ],
+            "authors": [],
+            "start_line": 9,
+            "end_line": 9
+          },
+          {
+            "statements": [
+              "Copyright (c) 2014 by Vitaly Puzrin"
+            ],
+            "holders": [
+              "Vitaly Puzrin"
+            ],
+            "authors": [],
+            "start_line": 10,
+            "end_line": 10
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-indent.js",
+        "type": "file",
+        "name": "jsx-indent.js",
+        "base_name": "jsx-indent",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 8695,
+        "sha1": "d434d1e77f49b1f3e9074897bd5088c66cc42114",
+        "md5": "385714cb400c008273eee663eb36f953",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 12,
+            "end_line": 28,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          },
+          {
+            "statements": [
+              "copyright 2015 Vitaly Puzrin."
+            ],
+            "holders": [
+              "Vitaly Puzrin."
+            ],
+            "authors": [
+              "Vitaly Puzrin author Gyandeep Singh"
+            ],
+            "start_line": 5,
+            "end_line": 8
+          },
+          {
+            "statements": [
+              "copyright 2015 Gyandeep Singh."
+            ],
+            "holders": [
+              "Gyandeep Singh."
+            ],
+            "authors": [],
+            "start_line": 9,
+            "end_line": 9
+          },
+          {
+            "statements": [
+              "Copyright (c) 2014 by Vitaly Puzrin"
+            ],
+            "holders": [
+              "Vitaly Puzrin"
+            ],
+            "authors": [],
+            "start_line": 10,
+            "end_line": 10
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-key.js",
+        "type": "file",
+        "name": "jsx-key.js",
+        "base_name": "jsx-key",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2302,
+        "sha1": "75008180bebc2bae5b4a2944e8f029137bf603e5",
+        "md5": "fc35ef6a1997521df1e05d109e5b79ab",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Ben Mosher"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-no-bind.js",
+        "type": "file",
+        "name": "jsx-no-bind.js",
+        "base_name": "jsx-no-bind",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 4997,
+        "sha1": "1405ef156af698a8c9652a9348184d81668b9a33",
+        "md5": "8174252b9af53bed4f260362d80a2861",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Daniel Lo Nigro author Jacky Ho"
+            ],
+            "start_line": 3,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-no-comment-textnodes.js",
+        "type": "file",
+        "name": "jsx-no-comment-textnodes.js",
+        "base_name": "jsx-no-comment-textnodes",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 1659,
+        "sha1": "037dfd9f4933f73e436b547646ef7f52510995fc",
+        "md5": "1afd310fb2e62be15fa56600ed30040d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Ben Vinegar"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-no-duplicate-props.js",
+        "type": "file",
+        "name": "jsx-no-duplicate-props.js",
+        "base_name": "jsx-no-duplicate-props",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 1523,
+        "sha1": "cb24bd4c5db660abf57ada7e8aceda2a1317abbf",
+        "md5": "058c3286f9db3563a0fd6f8cd040be7b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Markus Anostam"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-no-literals.js",
+        "type": "file",
+        "name": "jsx-no-literals.js",
+        "base_name": "jsx-no-literals",
+        "extension": ".js",
+        "date": "2018-01-27",
+        "size": 2361,
+        "sha1": "d967e72d14f4a4f306ed2a7ba04cf4ee49e996d3",
+        "md5": "e2de6168c875eba47b8bac62919dae39",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Caleb Morris author David Buchan-Swanson"
+            ],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-no-target-blank.js",
+        "type": "file",
+        "name": "jsx-no-target-blank.js",
+        "base_name": "jsx-no-target-blank",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 1833,
+        "sha1": "25ba3cf7fce6dd3e5659e868c21da34ff79fdb61",
+        "md5": "99be284a240d7542794b42bf9391eb47",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Kevin Miller"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-pascal-case.js",
+        "type": "file",
+        "name": "jsx-pascal-case.js",
+        "base_name": "jsx-pascal-case",
+        "extension": ".js",
+        "date": "2018-01-27",
+        "size": 2268,
+        "sha1": "5dbd7d9bb8d3b434e7bf040daf83cf1b3b7dc318",
+        "md5": "967a00c38323c10ba3319c6072fa9918",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Jake Marsh"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-sort-default-props.js",
+        "type": "file",
+        "name": "jsx-sort-default-props.js",
+        "base_name": "jsx-sort-default-props",
+        "extension": ".js",
+        "date": "2018-01-27",
+        "size": 4951,
+        "sha1": "de6bb6b9aad6391b9378392d68ef4d1b515ab605",
+        "md5": "df9fcc2cf782c79688881a83842dd22a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Vladimir Kattsov"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-sort-props.js",
+        "type": "file",
+        "name": "jsx-sort-props.js",
+        "base_name": "jsx-sort-props",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 10871,
+        "sha1": "a49782ed19c987d77dbf895443b295b16e5b12e2",
+        "md5": "d773ffa5bf9f7d258401869576bc4f6e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Ilya Volodin, Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-tag-spacing.js",
+        "type": "file",
+        "name": "jsx-tag-spacing.js",
+        "base_name": "jsx-tag-spacing",
+        "extension": ".js",
+        "date": "2018-01-27",
+        "size": 9091,
+        "sha1": "3db8d8f51a838a91d98171aa01a650b139d1df34",
+        "md5": "88e7f88ad445c87674ea2a90b8cff463",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Diogo Franco"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-uses-react.js",
+        "type": "file",
+        "name": "jsx-uses-react.js",
+        "base_name": "jsx-uses-react",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 983,
+        "sha1": "bba5a27eb97dc7ff85c5c6fcb9bd3cf186b9e5db",
+        "md5": "433877c25c12b0ab72d1baa6324870f2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Glen Mailer"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/jsx-uses-vars.js",
+        "type": "file",
+        "name": "jsx-uses-vars.js",
+        "base_name": "jsx-uses-vars",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 1239,
+        "sha1": "2d1d1e7f04474a566e42d7941b8e083600df9106",
+        "md5": "7e08b9165301b49ee9dfe559b2f1b171",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-access-state-in-setstate.js",
+        "type": "file",
+        "name": "no-access-state-in-setstate.js",
+        "base_name": "no-access-state-in-setstate",
+        "extension": ".js",
+        "date": "2018-01-27",
+        "size": 5135,
+        "sha1": "5b46175a217e427804831b94f3609cda777305eb",
+        "md5": "99c4bc63e08ca414a32b51480e37559b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Rolf Erik Lekang, Jrgen Aaberg"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-array-index-key.js",
+        "type": "file",
+        "name": "no-array-index-key.js",
+        "base_name": "no-array-index-key",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 5001,
+        "sha1": "3bd1c380b69923124b96e5d967c047abd6213e82",
+        "md5": "a56aba20ae022c78b583e444985e7f00",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Joe Lencioni"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-children-prop.js",
+        "type": "file",
+        "name": "no-children-prop.js",
+        "base_name": "no-children-prop",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2064,
+        "sha1": "7d41fd87f51b8d7d22a030d354eae99210fbf8bb",
+        "md5": "af9191885580628a53a591921cd7999e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Benjamin Stepp"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-danger-with-children.js",
+        "type": "file",
+        "name": "no-danger-with-children.js",
+        "base_name": "no-danger-with-children",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 4478,
+        "sha1": "763202d9207f677d8fbf1ff40dc07c2475c4cfd5",
+        "md5": "bdf2a4103337bdf7ad1a17e0ba804f12",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "David Petersen"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-danger.js",
+        "type": "file",
+        "name": "no-danger.js",
+        "base_name": "no-danger",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2093,
+        "sha1": "dfeec7dfa32cf726638a2ea6204ce438edd34238",
+        "md5": "61298e74cecd38ddc738fc8ba173d4db",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Scott Andrews"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-deprecated.js",
+        "type": "file",
+        "name": "no-deprecated.js",
+        "base_name": "no-deprecated",
+        "extension": ".js",
+        "date": "2018-01-27",
+        "size": 6040,
+        "sha1": "b90d22dbbd6f4c5462be88625cd8ac8cbb59ab59",
+        "md5": "6e24093df77ceb2caf2e3e781aa3bb09",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant author Scott Feeney"
+            ],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-did-mount-set-state.js",
+        "type": "file",
+        "name": "no-did-mount-set-state.js",
+        "base_name": "no-did-mount-set-state",
+        "extension": ".js",
+        "date": "2017-12-23",
+        "size": 259,
+        "sha1": "77e1a54df91c8bcf0b9e172ec4180ac279e231f5",
+        "md5": "400c13b89e9d44e16a621600a1f0deb5",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-did-update-set-state.js",
+        "type": "file",
+        "name": "no-did-update-set-state.js",
+        "base_name": "no-did-update-set-state",
+        "extension": ".js",
+        "date": "2017-12-23",
+        "size": 261,
+        "sha1": "b179983044636fb70d4844771e4472fb604ae8c9",
+        "md5": "605de5fc757161bb8d3af060dbff3658",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-direct-mutation-state.js",
+        "type": "file",
+        "name": "no-direct-mutation-state.js",
+        "base_name": "no-direct-mutation-state",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 4614,
+        "sha1": "653f0570a9c0f1cd1319399c1f57cd8b7be2cb24",
+        "md5": "4789987046d2a227d6049a86ab5a02dd",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "David Petersen author Nicolas Fernandez"
+            ],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-find-dom-node.js",
+        "type": "file",
+        "name": "no-find-dom-node.js",
+        "base_name": "no-find-dom-node",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 1186,
+        "sha1": "b48d12e0385dff65b6d6de69ef7430c56d3083b7",
+        "md5": "16b4db805d599e3c9ea4ed93bb46e640",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-is-mounted.js",
+        "type": "file",
+        "name": "no-is-mounted.js",
+        "base_name": "no-is-mounted",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 1424,
+        "sha1": "e6c26cefe6abe6ff6b966b31579bfa57eb36a58d",
+        "md5": "b4c689fb0240c0e9351faa36822df627",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Joe Lencioni"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-multi-comp.js",
+        "type": "file",
+        "name": "no-multi-comp.js",
+        "base_name": "no-multi-comp",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2067,
+        "sha1": "2c98aad88d129ff75ad59970f911d6bfc5527a40",
+        "md5": "c3c9d9c972bfeb2f0f34f5dcebd25eca",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-render-return-value.js",
+        "type": "file",
+        "name": "no-render-return-value.js",
+        "base_name": "no-render-return-value",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2045,
+        "sha1": "747a32bb38ac52e9fe634a20def59242df881ee7",
+        "md5": "f2d580ec184abd8e11151620d61dc797",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Dustan Kasten"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-set-state.js",
+        "type": "file",
+        "name": "no-set-state.js",
+        "base_name": "no-set-state",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2485,
+        "sha1": "3d2bb3ed9cee5c1530cfa14eedffbbf785a504c2",
+        "md5": "1cf8aafde9dceec510e3e68d2d491e88",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Mark Dalgleish"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-string-refs.js",
+        "type": "file",
+        "name": "no-string-refs.js",
+        "base_name": "no-string-refs",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 3087,
+        "sha1": "17039d48a7924ca690cc78385858df1326b70a67",
+        "md5": "042cc4c33a2538a9fe1f08ee2f327ea8",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Tom Hastjarjanto"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-unescaped-entities.js",
+        "type": "file",
+        "name": "no-unescaped-entities.js",
+        "base_name": "no-unescaped-entities",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2383,
+        "sha1": "123afee9844dbf46ab8ec0b4bcacf6074eeeab2b",
+        "md5": "17f6627e225c30a7094b0b5e2608b497",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Patrick Hayes"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-unknown-property.js",
+        "type": "file",
+        "name": "no-unknown-property.js",
+        "base_name": "no-unknown-property",
+        "extension": ".js",
+        "date": "2018-01-27",
+        "size": 8753,
+        "sha1": "fe9d25f3acb76f5eceec1fd1dacf4a9814873694",
+        "md5": "1fcedfb4ff7135c19a088f0eddad76b2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-unused-prop-types.js",
+        "type": "file",
+        "name": "no-unused-prop-types.js",
+        "base_name": "no-unused-prop-types",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 38269,
+        "sha1": "eb804c0438ff96cac1e50d2a49d17ad883db32c4",
+        "md5": "a92ab28cff68d2a072c8af4cbbc86d2b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Evgueni Naverniouk"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/no-will-update-set-state.js",
+        "type": "file",
+        "name": "no-will-update-set-state.js",
+        "base_name": "no-will-update-set-state",
+        "extension": ".js",
+        "date": "2017-12-23",
+        "size": 263,
+        "sha1": "1c8b8e21d125e2f4f6114fd3c41055f05cab1801",
+        "md5": "3d0fd42f72ec32693798cb44db968010",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/prefer-stateless-function.js",
+        "type": "file",
+        "name": "prefer-stateless-function.js",
+        "base_name": "prefer-stateless-function",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 12688,
+        "sha1": "5ed1ac2a5c7f59974ac0937968e119499f8df36a",
+        "md5": "d514fbd1e1959af76f8782f4e40b1e1e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "copyright 2015 Alberto Rodriguez."
+            ],
+            "holders": [
+              "Alberto Rodriguez."
+            ],
+            "authors": [
+              "Yannick Croissant author Alberto Rodriguez"
+            ],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/prop-types.js",
+        "type": "file",
+        "name": "prop-types.js",
+        "base_name": "prop-types",
+        "extension": ".js",
+        "date": "2018-01-27",
+        "size": 38486,
+        "sha1": "ed2e699676a0420bf5f148ae72d6de3329239a2d",
+        "md5": "c76b0294b6c40c93c6420b01baf15cf4",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/require-default-props.js",
+        "type": "file",
+        "name": "require-default-props.js",
+        "base_name": "require-default-props",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 18247,
+        "sha1": "fd7e11427ffb69a63f88d5d49935ff8067a79b87",
+        "md5": "acaa08983d0fe82354de5f72d06620b2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Vitor Balocco"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/require-optimization.js",
+        "type": "file",
+        "name": "require-optimization.js",
+        "base_name": "require-optimization",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 6954,
+        "sha1": "fdbe2297c8aa44de59eb4a60e4cf0a54b282f909",
+        "md5": "322291ff93dc6efc34cbb365b6a782b0",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Evgueni Naverniouk"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/require-render-return.js",
+        "type": "file",
+        "name": "require-render-return.js",
+        "base_name": "require-render-return",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 3056,
+        "sha1": "01828b3f70f4de0399b585f9efbc51aa65e39368",
+        "md5": "9b0632103820be4f7d204c5473853507",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Mark Orel"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/self-closing-comp.js",
+        "type": "file",
+        "name": "self-closing-comp.js",
+        "base_name": "self-closing-comp",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2752,
+        "sha1": "8615132d1e9f233feaa342f794e9d68d0b1ec2f5",
+        "md5": "fc8724a405d011094d7dac88b679b9af",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/sort-comp.js",
+        "type": "file",
+        "name": "sort-comp.js",
+        "base_name": "sort-comp",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 12404,
+        "sha1": "93fd8cad30ae012b5d73b23bd22921463a792e89",
+        "md5": "43d4d77ab7a76e1cb148350e332a7889",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/style-prop-object.js",
+        "type": "file",
+        "name": "style-prop-object.js",
+        "base_name": "style-prop-object",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2500,
+        "sha1": "ddd1648726d4888e11ea4f26729e231511e5ddb1",
+        "md5": "bf7a0993d2241916ce8cc18c44d8c0c9",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "David Petersen"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/rules/void-dom-elements-no-children.js",
+        "type": "file",
+        "name": "void-dom-elements-no-children.js",
+        "base_name": "void-dom-elements-no-children",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 3733,
+        "sha1": "b3ae883a3f7d91bda7053cebdfad998084af14e4",
+        "md5": "915d71610d279345001e4e7fe8bbd044",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Joe Lencioni"
+            ],
+            "start_line": 3,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/lib/util/annotations.js",
+        "type": "file",
+        "name": "annotations.js",
+        "base_name": "annotations",
+        "extension": ".js",
+        "date": "2017-12-23",
+        "size": 951,
+        "sha1": "6b1096a4314e1546402d6ff8c43b52869e4cad79",
+        "md5": "5ca1df3354f83e50c9dcbe6cc66db712",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant author Vitor Balocco"
+            ],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/lib/util/Components.js",
+        "type": "file",
+        "name": "Components.js",
+        "base_name": "Components",
+        "extension": ".js",
+        "date": "2018-01-03",
+        "size": 21643,
+        "sha1": "e66418396bd6add18a69667030470df385ad249d",
+        "md5": "243e096256f4e672f9798beeb1f40be3",
+        "files_count": null,
+        "mime_type": "text/x-c++",
+        "file_type": "C++ source, ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/util/makeNoMethodSetStateRule.js",
+        "type": "file",
+        "name": "makeNoMethodSetStateRule.js",
+        "base_name": "makeNoMethodSetStateRule",
+        "extension": ".js",
+        "date": "2018-01-13",
+        "size": 2043,
+        "sha1": "2138b086f7f4f41b2005b2ecce3d5d607903b8b1",
+        "md5": "30dd5f28ed3525045497970d2886368a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/util/pragma.js",
+        "type": "file",
+        "name": "pragma.js",
+        "base_name": "pragma",
+        "extension": ".js",
+        "date": "2017-12-23",
+        "size": 1556,
+        "sha1": "65afd70044f86c68c45a4f7158d038f4f8dbb48d",
+        "md5": "d1018fb6cb5389422c0c96c6f7815c01",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/util/variable.js",
+        "type": "file",
+        "name": "variable.js",
+        "base_name": "variable",
+        "extension": ".js",
+        "date": "2018-01-03",
+        "size": 2297,
+        "sha1": "ad2b80d3025ab630fa38bfc39e700179c6e558ac",
+        "md5": "5bd830d0ae92df7cce4953eaddcc610b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/util/version.js",
+        "type": "file",
+        "name": "version.js",
+        "base_name": "version",
+        "extension": ".js",
+        "date": "2017-12-23",
+        "size": 1780,
+        "sha1": "fb7209192464009a2deea92222775c90b49e5f0c",
+        "md5": "ba5f68a3fbf35356f9fbbc943479c8bd",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Yannick Croissant"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      }
+    ]
+  }
+}

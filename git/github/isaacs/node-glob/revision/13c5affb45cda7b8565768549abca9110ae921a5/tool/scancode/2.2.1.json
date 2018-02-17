@@ -1,21 +1,22 @@
 {
   "_metadata": {
-    "type": "git",
-    "url": "cd:/git/github/isaacs/node-glob/13c5affb45cda7b8565768549abca9110ae921a5/tool/scancode",
-    "fetchedAt": "2017-12-31T01:12:14.626Z",
+    "type": "scancode",
+    "url": "cd:/git/github/isaacs/node-glob/13c5affb45cda7b8565768549abca9110ae921a5",
+    "fetchedAt": "2018-02-17T20:12:08.743Z",
     "links": {
       "self": {
         "href": "urn:git:github:isaacs:node-glob:revision:13c5affb45cda7b8565768549abca9110ae921a5:tool:scancode:2.2.1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:git:github:isaacs:node-glob:revision:13c5affb45cda7b8565768549abca9110ae921a5:tool:scancode",
+        "href": "urn:git:github:isaacs:node-glob:revision:13c5affb45cda7b8565768549abca9110ae921a5",
         "type": "collection"
       }
     },
-    "version": 1,
+    "version": "2.2.1",
     "contentType": "application/json",
-    "processedAt": "2017-12-31T01:12:25.592Z"
+    "releaseDate": "2017-05-19T13:15:20-07:00\n",
+    "processedAt": "2018-02-17T20:12:26.441Z"
   },
   "content": {
     "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
@@ -38,7 +39,7 @@
         "name": "LICENSE",
         "base_name": "LICENSE",
         "extension": "",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 780,
         "sha1": "20b35e641e3a5ea25f012e13d69fab37e3d68d6b",
         "md5": "b020de8f88eacc104c21d6e6cacc636d",
@@ -101,7 +102,7 @@
         "name": "package.json",
         "base_name": "package",
         "extension": ".json",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1056,
         "sha1": "e04d382b4782d096bd3d62bbfe20a7e48d8c6d70",
         "md5": "89d0726081419dc08ca8f1b19e58d85b",

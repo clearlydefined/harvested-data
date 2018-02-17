@@ -1,0 +1,4243 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/@angular/router/5.2.5",
+    "fetchedAt": "2018-02-17T07:09:17.522Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:@angular:router:revision:5.2.5:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:@angular:router:revision:5.2.5",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-02-14T05:24:54.209Z",
+    "processedAt": "2018-02-17T07:10:24.769Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 58,
+    "files": [
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-14",
+        "size": 781,
+        "sha1": "ef5cb0a0a9c506f81b2dde0a17354bacad41ee47",
+        "md5": "fa03dafcbf744a8721a555fe8998c7ee",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 18,
+            "end_line": 18,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/public_api.d.ts",
+        "type": "file",
+        "name": "public_api.d.ts",
+        "base_name": "public_api.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 319,
+        "sha1": "eae3780500dcafb06b827a476320c682180152c7",
+        "md5": "676152265285a69814db19c67dd28c43",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-02-14",
+        "size": 184,
+        "sha1": "6bd2c4a6a5c108343bc8e9f3d598b209d2c06582",
+        "md5": "ead51dd5358083a106a09279a446dc32",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 6,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/testing.d.ts",
+        "type": "file",
+        "name": "testing.d.ts",
+        "base_name": "testing.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 137,
+        "sha1": "8745b251f59c04a80b5ef93e99062a446c1792dc",
+        "md5": "1d716c02199e6d50d64aceb9b6af8939",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/upgrade.d.ts",
+        "type": "file",
+        "name": "upgrade.d.ts",
+        "base_name": "upgrade.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 137,
+        "sha1": "14b547b9e4bba74263b8b3f5a491ee8d17385e27",
+        "md5": "f51dd0feb06f0c6e0779dcc1574840a8",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router-testing.umd.js",
+        "type": "file",
+        "name": "router-testing.umd.js",
+        "base_name": "router-testing.umd",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 7821,
+        "sha1": "2870a46ff4fdaa9c52342d04beaf00f2f2bdc3d9",
+        "md5": "2e696a2118e1ccb86f74d15dc2bb39be",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 15,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 13,
+            "end_line": 15
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 22,
+            "end_line": 23
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router-testing.umd.js.map",
+        "type": "file",
+        "name": "router-testing.umd.js.map",
+        "base_name": "router-testing.umd.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 11499,
+        "sha1": "10b8958d8c4f98dfe54b80b988343a74fd127dd6",
+        "md5": "35ca65f9a52e1cbb4180c49165882fbb",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "Python",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router-testing.umd.min.js",
+        "type": "file",
+        "name": "router-testing.umd.min.js",
+        "base_name": "router-testing.umd.min",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 3988,
+        "sha1": "721ff3f84f9d3d7d375610434de7b49236a9f6b0",
+        "md5": "2625c7c0825026b70aee18ae91e49015",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 9,
+            "end_line": 9,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 7,
+            "end_line": 9
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 12,
+            "end_line": 13
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router-testing.umd.min.js.map",
+        "type": "file",
+        "name": "router-testing.umd.min.js.map",
+        "base_name": "router-testing.umd.min.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 11472,
+        "sha1": "72087fc862021aa6b9bbc314e55e78e526eaf13b",
+        "md5": "accb561fa01e27e2406164e3c78442d8",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io/",
+              "(c) 2010-2018 Google, Inc. https://angular.io/",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io/",
+              "Google, Inc.",
+              "https://angular.io/",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router-upgrade.umd.js",
+        "type": "file",
+        "name": "router-upgrade.umd.js",
+        "base_name": "router-upgrade.umd",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 3133,
+        "sha1": "0408bcd5906b5ff74ce50b0b8ec9a4eeebc3e29d",
+        "md5": "80b668e754f284c5dd72f876136fdd63",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 15,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 13,
+            "end_line": 15
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 22,
+            "end_line": 23
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router-upgrade.umd.js.map",
+        "type": "file",
+        "name": "router-upgrade.umd.js.map",
+        "base_name": "router-upgrade.umd.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 3267,
+        "sha1": "5241fe4c470f40219a70334f9f6a20e675f18135",
+        "md5": "ae2a60b432a82d78da1cc22c27776ff0",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": "Python",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router-upgrade.umd.min.js",
+        "type": "file",
+        "name": "router-upgrade.umd.min.js",
+        "base_name": "router-upgrade.umd.min",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 2069,
+        "sha1": "1d5b78340705b70ebb878fa4827fcff57f2fdddd",
+        "md5": "95476aa1373ce370880200ee13c33ff2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 9,
+            "end_line": 9,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 6,
+            "end_line": 9
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 12,
+            "end_line": 13
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router-upgrade.umd.min.js.map",
+        "type": "file",
+        "name": "router-upgrade.umd.min.js.map",
+        "base_name": "router-upgrade.umd.min.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 4772,
+        "sha1": "23ce0f00693be174ee4e3258e0283a7d9a4146b9",
+        "md5": "d830267a1d87b9f6e8de66f50fd48335",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io/",
+              "(c) 2010-2018 Google, Inc. https://angular.io/",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io/",
+              "Google, Inc.",
+              "https://angular.io/",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router.umd.js",
+        "type": "file",
+        "name": "router.umd.js",
+        "base_name": "router.umd",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 261199,
+        "sha1": "bbb2232c136a7c2557b5eec06c56570c96bee852",
+        "md5": "d78f3e0d48d1db3c6455d1c6dc865a5f",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with CRLF, LF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 68.09,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 14,
+            "end_line": 24,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 86,
+              "matched_length": 64,
+              "match_coverage": 74.42,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 49,
+            "end_line": 49,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright (c) Microsoft Corporation."
+            ],
+            "holders": [
+              "Microsoft Corporation."
+            ],
+            "authors": [],
+            "start_line": 13,
+            "end_line": 13
+          },
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 47,
+            "end_line": 49
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 56,
+            "end_line": 57
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 475,
+            "end_line": 476
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 620,
+            "end_line": 621
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 731,
+            "end_line": 732
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 867,
+            "end_line": 868
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1612,
+            "end_line": 1613
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2366,
+            "end_line": 2367
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2539,
+            "end_line": 2540
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3031,
+            "end_line": 3032
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3120,
+            "end_line": 3121
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3497,
+            "end_line": 3498
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4020,
+            "end_line": 4021
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4430,
+            "end_line": 4431
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4512,
+            "end_line": 4513
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4586,
+            "end_line": 4587
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4646,
+            "end_line": 4647
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 5873,
+            "end_line": 5874
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6212,
+            "end_line": 6213
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6412,
+            "end_line": 6413
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6546,
+            "end_line": 6547
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6796,
+            "end_line": 6797
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6988,
+            "end_line": 6989
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 7453,
+            "end_line": 7454
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router.umd.js.map",
+        "type": "file",
+        "name": "router.umd.js.map",
+        "base_name": "router.umd.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 484545,
+        "sha1": "b3fb6b28ab1610a40713061beea5a730808a43d0",
+        "md5": "a554778191afea5a1d5420ec4ad53297",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 68.09,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 86,
+              "matched_length": 64,
+              "match_coverage": 74.42,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Microsoft Corporation.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Microsoft Corporation.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router.umd.min.js",
+        "type": "file",
+        "name": "router.umd.min.js",
+        "base_name": "router.umd.min",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 117772,
+        "sha1": "befd98b2e96189dc610e39e8e82c750bbfb5187a",
+        "md5": "6eac66bfc4336a3308509a80df0cd498",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 7,
+            "end_line": 8
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 14,
+            "end_line": 15
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 20,
+            "end_line": 22
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 27,
+            "end_line": 29
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 35,
+            "end_line": 36
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/router.umd.min.js.map",
+        "type": "file",
+        "name": "router.umd.min.js.map",
+        "base_name": "router.umd.min.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 368632,
+        "sha1": "51f57795acbf7423488e6be2686320dcbf357b93",
+        "md5": "c690276136bdcc9bba7aaa55091bf82a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 68.09,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 86,
+              "matched_length": 64,
+              "match_coverage": 74.42,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io/",
+              "Copyright (c) Microsoft Corporation.",
+              "(c) 2010-2018 Google, Inc. https://angular.io/",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io/",
+              "Microsoft Corporation.",
+              "Google, Inc.",
+              "https://angular.io/",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/esm2015/router.js",
+        "type": "file",
+        "name": "router.js",
+        "base_name": "router",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 209662,
+        "sha1": "401435bc41da7c2fb74aa05b0c90fc302fc9e8b3",
+        "md5": "80a2873bf4169e62ccf7ee2baf61c28a",
+        "files_count": null,
+        "mime_type": "text/x-c++",
+        "file_type": "C++ source, UTF-8 Unicode text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 33,
+            "end_line": 34
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 429,
+            "end_line": 430
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 558,
+            "end_line": 559
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 681,
+            "end_line": 682
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 817,
+            "end_line": 818
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1480,
+            "end_line": 1481
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2075,
+            "end_line": 2076
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2202,
+            "end_line": 2203
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2633,
+            "end_line": 2634
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2721,
+            "end_line": 2722
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3102,
+            "end_line": 3103
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3509,
+            "end_line": 3510
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3878,
+            "end_line": 3879
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3932,
+            "end_line": 3933
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4000,
+            "end_line": 4001
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4041,
+            "end_line": 4042
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4898,
+            "end_line": 4899
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 5202,
+            "end_line": 5203
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 5377,
+            "end_line": 5378
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 5469,
+            "end_line": 5470
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 5678,
+            "end_line": 5679
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 5832,
+            "end_line": 5833
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6243,
+            "end_line": 6244
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6259,
+            "end_line": 6260
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6271,
+            "end_line": 6272
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6283,
+            "end_line": 6284
+          }
+        ]
+      },
+      {
+        "path": "package/esm2015/router.js.map",
+        "type": "file",
+        "name": "router.js.map",
+        "base_name": "router.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 393767,
+        "sha1": "ed979a69a3183c9904f21c8aafdcfae055cd9fe3",
+        "md5": "2a6912717d953255c642cc114ad94753",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "Genshi",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/esm2015/testing.js",
+        "type": "file",
+        "name": "testing.js",
+        "base_name": "testing",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 6964,
+        "sha1": "c70036a1ae0a56685510641f2c6b61dd81c316b2",
+        "md5": "d8fcc93d68629496d193c27d917a8534",
+        "files_count": null,
+        "mime_type": "text/x-c++",
+        "file_type": "C++ source, UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 16,
+            "end_line": 17
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 206,
+            "end_line": 207
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 223,
+            "end_line": 224
+          }
+        ]
+      },
+      {
+        "path": "package/esm2015/testing.js.map",
+        "type": "file",
+        "name": "testing.js.map",
+        "base_name": "testing.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 11425,
+        "sha1": "06271aab9b57bc6bf321d06df7092e4e4808df85",
+        "md5": "65d7ef91fbb67913c5eba351f19f9a29",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "Python",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/esm2015/upgrade.js",
+        "type": "file",
+        "name": "upgrade.js",
+        "base_name": "upgrade",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 2890,
+        "sha1": "ced0417dc93c726feec59c29f9682a69aaa12fdd",
+        "md5": "f458f2b709fcd94330d309887212077d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 15,
+            "end_line": 16
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 89,
+            "end_line": 90
+          }
+        ]
+      },
+      {
+        "path": "package/esm2015/upgrade.js.map",
+        "type": "file",
+        "name": "upgrade.js.map",
+        "base_name": "upgrade.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 4259,
+        "sha1": "285ccfe0c5b18bcb66cc0f838534958e94bf4a59",
+        "md5": "69de707710ca3c95edb4ab383145a358",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": "Python",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc.",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc.",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/esm5/router.js",
+        "type": "file",
+        "name": "router.js",
+        "base_name": "router",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 254595,
+        "sha1": "8daeb84f317bf8b3372857c73d61bf946ad83216",
+        "md5": "b7a4db91d6ad45c46653b9bf91a845a9",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 34,
+            "end_line": 35
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 453,
+            "end_line": 454
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 598,
+            "end_line": 599
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 709,
+            "end_line": 710
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 845,
+            "end_line": 846
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1590,
+            "end_line": 1591
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2344,
+            "end_line": 2345
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2517,
+            "end_line": 2518
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3009,
+            "end_line": 3010
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3098,
+            "end_line": 3099
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3475,
+            "end_line": 3476
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 3998,
+            "end_line": 3999
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4408,
+            "end_line": 4409
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4490,
+            "end_line": 4491
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4564,
+            "end_line": 4565
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4624,
+            "end_line": 4625
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 5851,
+            "end_line": 5852
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6190,
+            "end_line": 6191
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6390,
+            "end_line": 6391
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6524,
+            "end_line": 6525
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6774,
+            "end_line": 6775
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 6966,
+            "end_line": 6967
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 7431,
+            "end_line": 7432
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 7447,
+            "end_line": 7448
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 7459,
+            "end_line": 7460
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 7471,
+            "end_line": 7472
+          }
+        ]
+      },
+      {
+        "path": "package/esm5/router.js.map",
+        "type": "file",
+        "name": "router.js.map",
+        "base_name": "router.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 480080,
+        "sha1": "d319bddf4ed02208a4f2c1d6c350aac2db2c3df8",
+        "md5": "39b90176bc68a024e47aad2fff75f1e4",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/esm5/testing.js",
+        "type": "file",
+        "name": "testing.js",
+        "base_name": "testing",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 7827,
+        "sha1": "6231c8df29f7c8bd840ab1140fcfd5237537ea85",
+        "md5": "c6df7d3a332963f6a5fd6c609d9356cf",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 16,
+            "end_line": 17
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 227,
+            "end_line": 228
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 244,
+            "end_line": 245
+          }
+        ]
+      },
+      {
+        "path": "package/esm5/testing.js.map",
+        "type": "file",
+        "name": "testing.js.map",
+        "base_name": "testing.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 12811,
+        "sha1": "af950271c1c7d579edf69f89ef67b52870a43894",
+        "md5": "b614194578b5c402c719a4ee26b6f349",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "Python",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc.",
+              "Copyright Google Inc.",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc.",
+              "Google Inc.",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/esm5/upgrade.js",
+        "type": "file",
+        "name": "upgrade.js",
+        "base_name": "upgrade",
+        "extension": ".js",
+        "date": "2018-02-14",
+        "size": 2899,
+        "sha1": "7607200327b92e443c31794dd4e5ef304f79388f",
+        "md5": "1414284e16289b7b5b578119d2f22218",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010-2018 Google, Inc. https://angular.io"
+            ],
+            "holders": [
+              "Google, Inc.",
+              "https://angular.io"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 15,
+            "end_line": 16
+          },
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 86,
+            "end_line": 87
+          }
+        ]
+      },
+      {
+        "path": "package/esm5/upgrade.js.map",
+        "type": "file",
+        "name": "upgrade.js.map",
+        "base_name": "upgrade.js",
+        "extension": ".map",
+        "date": "2018-02-14",
+        "size": 4275,
+        "sha1": "44b6c3df77ec6233507d8b98be8cb9c638f89f7b",
+        "md5": "6bfca90f45a5e3dccc527c2709f2f983",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": "Python",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc.",
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc.",
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/src/apply_redirects.d.ts",
+        "type": "file",
+        "name": "apply_redirects.d.ts",
+        "base_name": "apply_redirects.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 733,
+        "sha1": "b52fcb8967e2df9acd356f5be7701cc271fb2cf2",
+        "md5": "76c6b7ebddafc72af036045aa06aa590",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/config.d.ts",
+        "type": "file",
+        "name": "config.d.ts",
+        "base_name": "config.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 10745,
+        "sha1": "fd1921e5b4630c96fd42372962ee092d64d5d187",
+        "md5": "defe442ddca4726e98e32edc10d1269c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/create_url_tree.d.ts",
+        "type": "file",
+        "name": "create_url_tree.d.ts",
+        "base_name": "create_url_tree.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 470,
+        "sha1": "1d5da2023af71b573d15e6a7b7cd062c01fbe2d8",
+        "md5": "feb1e7a59e140d33bc1ee1b66022188c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/events.d.ts",
+        "type": "file",
+        "name": "events.d.ts",
+        "base_name": "events.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 8830,
+        "sha1": "004c6db323ff67d0d3b5dd54b5cd9e88358242c8",
+        "md5": "39a93a68318d36a681d302e0fe3a4d3e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/index.d.ts",
+        "type": "file",
+        "name": "index.d.ts",
+        "base_name": "index.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 1872,
+        "sha1": "86e72d866f75d00e0d97e58be9b3fa8e13f73c18",
+        "md5": "c707489e553b35be8c1ec468502de5a6",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/interfaces.d.ts",
+        "type": "file",
+        "name": "interfaces.d.ts",
+        "base_name": "interfaces.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 8801,
+        "sha1": "dca48785c4fc9d847b33d8b6b653b50e7d551674",
+        "md5": "1a3c5dd166b1b80c23bb9f5dce451b72",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/pre_activation.d.ts",
+        "type": "file",
+        "name": "pre_activation.d.ts",
+        "base_name": "pre_activation.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 2970,
+        "sha1": "eee1e3a19e631257821d7b31170d97e4d7badefa",
+        "md5": "e36df952a148a9383f96ce714259cc0d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/private_export.d.ts",
+        "type": "file",
+        "name": "private_export.d.ts",
+        "base_name": "private_export.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 336,
+        "sha1": "766c83bfe9544086743acf71f92bcd9bb5f825a3",
+        "md5": "2f88dfd398cbed084328e5551ffa8376",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/recognize.d.ts",
+        "type": "file",
+        "name": "recognize.d.ts",
+        "base_name": "recognize.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 648,
+        "sha1": "241cdacf7965a89e03e8377e72e8101ab54f2e6f",
+        "md5": "e92baae441bf9535ea497b9e31c3419d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/router.d.ts",
+        "type": "file",
+        "name": "router.d.ts",
+        "base_name": "router.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 11149,
+        "sha1": "b6ecda381b13dade069ffd4b5c839f8e0b2b7f15",
+        "md5": "a1f35e112aa06c951dbbe73ba86eaf56",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/router_config_loader.d.ts",
+        "type": "file",
+        "name": "router_config_loader.d.ts",
+        "base_name": "router_config_loader.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 950,
+        "sha1": "60410156c5084044a26af30bfe9750137d750a8a",
+        "md5": "6c007f6de5c24c6c697da6d353839344",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/router_module.d.ts",
+        "type": "file",
+        "name": "router_module.d.ts",
+        "base_name": "router_module.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 9597,
+        "sha1": "e7b9793570d12b8df6f7e903dc4bee4636a6c7b4",
+        "md5": "0579b10277b4af9cb8f75c6b7d1e2a9d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/router_outlet_context.d.ts",
+        "type": "file",
+        "name": "router_outlet_context.d.ts",
+        "base_name": "router_outlet_context.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 1671,
+        "sha1": "146964f752096843791c974cbdc00b5b4dbac561",
+        "md5": "b9adcb87a35b71fe8df2f3777e735966",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/router_preloader.d.ts",
+        "type": "file",
+        "name": "router_preloader.d.ts",
+        "base_name": "router_preloader.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 2267,
+        "sha1": "b204208eec9baadbf1c21a40ee3b93cf1d86e315",
+        "md5": "fef63fc70078988a6a7d951bae7f4972",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/router_state.d.ts",
+        "type": "file",
+        "name": "router_state.d.ts",
+        "base_name": "router_state.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 6968,
+        "sha1": "49f8488b7ef80ec47d9c94f69c93fded3819de31",
+        "md5": "db98df1a02a5edbfcad3d2907e1c668b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/shared.d.ts",
+        "type": "file",
+        "name": "shared.d.ts",
+        "base_name": "shared.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 1998,
+        "sha1": "ed16dc1003ca386010df48a35a73a978ded2d070",
+        "md5": "e645589ffb0d9d4ab5fa7cfba573a317",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/url_handling_strategy.d.ts",
+        "type": "file",
+        "name": "url_handling_strategy.d.ts",
+        "base_name": "url_handling_strategy.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 1342,
+        "sha1": "5f5315d8cddeb2a0ae50f5d579645173b9b24559",
+        "md5": "4d60ad9f93a7af9f7205f53dc2f3867d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/url_tree.d.ts",
+        "type": "file",
+        "name": "url_tree.d.ts",
+        "base_name": "url_tree.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 6147,
+        "sha1": "27ffef7b95996c3f71db1de598c770d350d7b9da",
+        "md5": "3c94db190c9636ce2b0421cdcc196cb2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/version.d.ts",
+        "type": "file",
+        "name": "version.d.ts",
+        "base_name": "version.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 395,
+        "sha1": "f81dd191129b9e2354b870b8c96bc34b1c70253b",
+        "md5": "1a30ebdf0a8a53417699023c0635909a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/directives/router_link.d.ts",
+        "type": "file",
+        "name": "router_link.d.ts",
+        "base_name": "router_link.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 4962,
+        "sha1": "d80999ee7e23aa6c76343d8ce3b8a2a07ef596de",
+        "md5": "b1c42d70af82a2266019602946be6312",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/directives/router_link_active.d.ts",
+        "type": "file",
+        "name": "router_link_active.d.ts",
+        "base_name": "router_link_active.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 2967,
+        "sha1": "74cdf4883e8cf7c35f0e24fb4426bd5890534146",
+        "md5": "d11204278fe388a9d3c89d0ce8cb7f08",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/directives/router_outlet.d.ts",
+        "type": "file",
+        "name": "router_outlet.d.ts",
+        "base_name": "router_outlet.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 2213,
+        "sha1": "ed030d252abdbcca4471a74da1aa5948c86d87d3",
+        "md5": "30dbab3114b16421f62ef805795fe4e0",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/utils/collection.d.ts",
+        "type": "file",
+        "name": "collection.d.ts",
+        "base_name": "collection.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 1416,
+        "sha1": "87ea059844e7ec04b881a4e843ef7a4806fe60e8",
+        "md5": "47240e32ae78e99239ec6d3f3d0a1a79",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/src/utils/tree.d.ts",
+        "type": "file",
+        "name": "tree.d.ts",
+        "base_name": "tree.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 594,
+        "sha1": "258a61668a6886f29964c8a09724036a40c53515",
+        "md5": "818383df6c064adb562118ebd89f8785",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/testing/public_api.d.ts",
+        "type": "file",
+        "name": "public_api.d.ts",
+        "base_name": "public_api.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 321,
+        "sha1": "41321ace417f3e8afb9ac1e6347eae80b759f8b2",
+        "md5": "76ad2824d4822222277e5ff0f75ee72d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/testing/src/router_testing_module.d.ts",
+        "type": "file",
+        "name": "router_testing_module.d.ts",
+        "base_name": "router_testing_module.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 3024,
+        "sha1": "e13a31cc473152d638a9329a410626cdcf56a626",
+        "md5": "3e6ffc305c3f2c5d83e272e93e7a5109",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/testing/src/testing.d.ts",
+        "type": "file",
+        "name": "testing.d.ts",
+        "base_name": "testing.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 345,
+        "sha1": "f0757daa7c1813d6c930686be57dd9c489863fe3",
+        "md5": "6c295342b47b98defa25a95db4e2e0f2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/upgrade/public_api.d.ts",
+        "type": "file",
+        "name": "public_api.d.ts",
+        "base_name": "public_api.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 321,
+        "sha1": "cd1614e2155c50d222968e8931a1e2dcec97c094",
+        "md5": "4a91e8876064c800b4e7698ccde20e43",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/upgrade/src/upgrade.d.ts",
+        "type": "file",
+        "name": "upgrade.d.ts",
+        "base_name": "upgrade.d",
+        "extension": ".ts",
+        "date": "2018-02-14",
+        "size": 1258,
+        "sha1": "913780d452329172c4fad4122d09805fcd86f9cd",
+        "md5": "09d101ed9875cd59ed0e9bb53c7bc2d2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      }
+    ]
+  }
+}

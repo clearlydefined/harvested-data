@@ -1,0 +1,182 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/@angular/router/5.2.5",
+    "fetchedAt": "2018-02-17T19:34:12.468Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:@angular:router:revision:5.2.5:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:@angular:router:revision:5.2.5",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:@angular:router:revision:5.2.5:tool:scancode",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:angular:angular:revision:106b4352979adfda61e0c6af8eb0cdb99929709b",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-17T19:34:13.120Z"
+  },
+  "package.json": {
+    "name": "@angular/router",
+    "version": "5.2.5",
+    "description": "Angular - the routing library",
+    "main": "./bundles/router.umd.js",
+    "module": "./esm5/router.js",
+    "es2015": "./esm2015/router.js",
+    "typings": "./router.d.ts",
+    "keywords": [
+      "angular",
+      "router"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angular/angular.git"
+    },
+    "author": "angular",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/angular/angular/issues"
+    },
+    "homepage": "https://github.com/angular/angular/tree/master/packages/router",
+    "dependencies": {
+      "tslib": "^1.7.1"
+    },
+    "peerDependencies": {
+      "@angular/core": "5.2.5",
+      "@angular/common": "5.2.5",
+      "@angular/platform-browser": "5.2.5",
+      "rxjs": "^5.5.0"
+    }
+  },
+  "registryData": {
+    "_id": "@angular/router",
+    "_rev": "206-30d4d2d594cb320fbea3d50258a3b05a",
+    "name": "@angular/router",
+    "dist-tags": {
+      "pre-release": "0.1.0",
+      "latest": "5.2.5",
+      "next": "6.0.0-beta.4"
+    },
+    "readme": "",
+    "maintainers": [
+      {
+        "email": "devops+npm@angular.io",
+        "name": "angular"
+      }
+    ],
+    "readmeFilename": "",
+    "users": {
+      "alexandr2110pro": true,
+      "jeandrebosch": true,
+      "bensgroi": true,
+      "justin.doherty": true,
+      "ivanov-vitaly": true,
+      "jiggy1com": true,
+      "theophilos": true,
+      "ognjen.jevremovic": true,
+      "db6edr": true,
+      "ravirajhalli": true,
+      "josecage": true,
+      "albertico88": true,
+      "johanlindberg": true,
+      "yangzw": true,
+      "stephanlv": true,
+      "renishskills": true,
+      "udaygowda": true
+    },
+    "author": {
+      "name": "angular"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/angular/angular/tree/master/packages/router",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angular/angular.git"
+    },
+    "bugs": {
+      "url": "https://github.com/angular/angular/issues"
+    },
+    "keywords": [
+      "angular",
+      "router"
+    ],
+    "description": "Angular - the routing library",
+    "_attachments": {},
+    "manifest": {
+      "name": "@angular/router",
+      "version": "5.2.5",
+      "description": "Angular - the routing library",
+      "main": "./bundles/router.umd.js",
+      "module": "./esm5/router.js",
+      "es2015": "./esm2015/router.js",
+      "typings": "./router.d.ts",
+      "keywords": [
+        "angular",
+        "router"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/angular/angular.git"
+      },
+      "author": {
+        "name": "angular"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/angular/angular/issues"
+      },
+      "homepage": "https://github.com/angular/angular/tree/master/packages/router",
+      "dependencies": {
+        "tslib": "^1.7.1"
+      },
+      "peerDependencies": {
+        "@angular/core": "5.2.5",
+        "@angular/common": "5.2.5",
+        "@angular/platform-browser": "5.2.5",
+        "rxjs": "^5.5.0"
+      },
+      "_id": "@angular/router@5.2.5",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.2",
+      "_npmUser": {
+        "name": "angular",
+        "email": "devops+npm@angular.io"
+      },
+      "dist": {
+        "integrity": "sha512-I8U0iy59lz0dAxU4zxRQHagfUPWF+MikLNMirRL1lrA49PG+5K1tiuIQ6p+8fZFAJ5UXwNHyXqYuWqsKRiVBHQ==",
+        "shasum": "f8f220d5fb85fc10d60fe606b0f2a64732265142",
+        "tarball": "https://registry.npmjs.org/@angular/router/-/router-5.2.5.tgz",
+        "fileCount": 70,
+        "unpackedSize": 2813228
+      },
+      "maintainers": [
+        {
+          "email": "devops+npm@angular.io",
+          "name": "angular"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/router_5.2.5_1518585894043_0.13271757343502655"
+      },
+      "_hasShrinkwrap": false
+    },
+    "releaseDate": "2018-02-14T05:24:54.209Z"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/angular/angular",
+    "revision": "106b4352979adfda61e0c6af8eb0cdb99929709b",
+    "path": null
+  }
+}

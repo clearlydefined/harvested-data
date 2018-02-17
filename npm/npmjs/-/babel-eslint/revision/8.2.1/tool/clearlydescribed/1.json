@@ -1,0 +1,358 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/babel-eslint/8.2.1",
+    "fetchedAt": "2018-02-17T19:34:09.746Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:babel-eslint:revision:8.2.1:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:babel-eslint:revision:8.2.1",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:-:babel-eslint:revision:8.2.1:tool:scancode",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:babel:babel-eslint:revision:f54d5b87d02cf3e8a4b2676be62e0b04fcab141d",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-17T19:34:10.065Z"
+  },
+  "package.json": {
+    "name": "babel-eslint",
+    "version": "8.2.1",
+    "description": "Custom parser for ESLint",
+    "main": "lib/index.js",
+    "files": [
+      "lib"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel-eslint.git"
+    },
+    "dependencies": {
+      "@babel/code-frame": "7.0.0-beta.36",
+      "@babel/traverse": "7.0.0-beta.36",
+      "@babel/types": "7.0.0-beta.36",
+      "babylon": "7.0.0-beta.36",
+      "eslint-scope": "~3.7.1",
+      "eslint-visitor-keys": "^1.0.0"
+    },
+    "scripts": {
+      "test": "npm run lint && npm run test-only",
+      "test-only": "mocha && mocha --require test/fixtures/preprocess-to-patch.js && mocha --require test/fixtures/use-eslint-old.js",
+      "lint": "eslint index.js babylon-to-espree test",
+      "fix": "eslint index.js babylon-to-espree test --fix",
+      "precommit": "lint-staged",
+      "preversion": "npm test",
+      "changelog": "git log `git describe --tags --abbrev=0`..HEAD --pretty=format:' * %s (%an)' | grep -v 'Merge pull request'"
+    },
+    "author": "Sebastian McKenzie <sebmck@gmail.com>",
+    "license": "MIT",
+    "engines": {
+      "node": ">=4"
+    },
+    "bugs": {
+      "url": "https://github.com/babel/babel-eslint/issues"
+    },
+    "homepage": "https://github.com/babel/babel-eslint",
+    "devDependencies": {
+      "babel-eslint": "^8.0.0",
+      "dedent": "^0.7.0",
+      "eslint": "^4.14.0",
+      "eslint-config-babel": "^7.0.1",
+      "eslint-old": "npm:eslint@4.13.1",
+      "eslint-plugin-flowtype": "^2.30.3",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-prettier": "^2.1.2",
+      "espree": "^3.5.2",
+      "husky": "^0.14.0",
+      "lint-staged": "^4.0.0",
+      "mocha": "^4.0.0",
+      "prettier": "^1.4.4"
+    },
+    "lint-staged": {
+      "*.js": [
+        "eslint --format=codeframe --fix",
+        "git add"
+      ]
+    }
+  },
+  "registryData": {
+    "_id": "babel-eslint",
+    "_rev": "226-5172d0cc0f79babc57bed1aa8b32eda5",
+    "name": "babel-eslint",
+    "dist-tags": {
+      "latest": "8.2.1",
+      "next": "8.0.0-alpha.17",
+      "prev": "5.0.4"
+    },
+    "readme": "# babel-eslint [![npm](https://img.shields.io/npm/v/babel-eslint.svg)](https://www.npmjs.com/package/babel-eslint) [![travis](https://img.shields.io/travis/babel/babel-eslint/master.svg)](https://travis-ci.org/babel/babel-eslint) [![npm-downloads](https://img.shields.io/npm/dm/babel-eslint.svg)](https://www.npmjs.com/package/babel-eslint)\n\n**babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic\n[ESLint](https://github.com/eslint/eslint).\n\n### Why Use babel-eslint\n\nYou only need to use babel-eslint if you are using types (Flow) or experimental features not supported in ESLint itself yet. Otherwise try the default parser (you don't have to use it just because you are using Babel).\n\n---\n\n> If there is an issue, first check if it can be reproduced with the regular parser or with the latest versions of `eslint` and `babel-eslint`!\n\nFor questions and support please visit the [`#discussion`](https://babeljs.slack.com/messages/discussion/) babel slack channel (sign up [here](https://github.com/babel/notes/issues/38)) or eslint [gitter](https://gitter.im/eslint/eslint)!\n\n> Note that the `ecmaFeatures` config property may still be required for ESLint to work properly with features not in ECMAScript 5 by default. Examples are `globalReturn` and `modules`).\n\n## Known Issues\n\nFlow:\n> Check out [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype): An `eslint` plugin that makes flow type annotations global variables and marks declarations as used. Solves the problem of false positives with `no-undef` and `no-unused-vars`.\n- `no-undef` for global flow types: `ReactElement`, `ReactClass` [#130](https://github.com/babel/babel-eslint/issues/130#issuecomment-111215076)\n  - Workaround: define types as globals in `.eslintrc` or define types and import them `import type ReactElement from './types'`\n- `no-unused-vars/no-undef` with Flow declarations (`declare module A {}`) [#132](https://github.com/babel/babel-eslint/issues/132#issuecomment-112815926)\n\nModules/strict mode\n- `no-unused-vars: [2, {vars: local}]` [#136](https://github.com/babel/babel-eslint/issues/136)\n\nPlease check out [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) for React/JSX issues\n- `no-unused-vars` with jsx\n\nPlease check out [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel) for other issues\n\n## How does it work?\n\nESLint allows custom parsers. This is great but some of the syntax nodes that Babel supports\naren't supported by ESLint. When using this plugin, ESLint is monkeypatched and your code is\ntransformed into code that ESLint can understand. All location info such as line numbers,\ncolumns is also retained so you can track down errors with ease.\n\nBasically `babel-eslint` exports an [`index.js`](/index.js) that a linter can use.\nIt just needs to export a `parse` method that takes in a string of code and outputs an AST.\n\n## Usage\n\n### Supported ESLint versions\n\nESLint | babel-eslint\n------------ | -------------\n3.x | >= 6.x\n2.x | >= 6.x\n1.x | >= 5.x\n\n### Install\n\nEnsure that you have substituted the correct version lock for `eslint` and `babel-eslint` into this command:\n\n```sh\n$ npm install eslint@3.x babel-eslint@7 --save-dev\n# or\n$ yarn add eslint@3.x babel-eslint@7 -D\n```\n\n### Setup\n\n**.eslintrc**\n\n```json\n{\n  \"parser\": \"babel-eslint\",\n  \"rules\": {\n    \"strict\": 0\n  }\n}\n```\n\nCheck out the [ESLint docs](http://eslint.org/docs/rules/) for all possible rules.\n\n### Configuration\n\n`sourceType` can be set to `'module'`(default) or `'script'` if your code isn't using ECMAScript modules.\n`allowImportExportEverywhere` can be set to true to allow import and export declarations to appear anywhere a statement is allowed if your build environment supports that. By default, import and export declarations can only appear at a program's top level.\n`codeFrame` can be set to false to disable the code frame in the reporter. This is useful since some eslint formatters don't play well with it.\n\n**.eslintrc**\n\n```json\n{\n  \"parser\": \"babel-eslint\",\n  \"parserOptions\": {\n    \"sourceType\": \"module\",\n    \"allowImportExportEverywhere\": false,\n    \"codeFrame\": false\n  }\n}\n```\n\n### Run\n\n```sh\n$ eslint your-files-here\n```\n",
+    "maintainers": [
+      {
+        "email": "zertosh@gmail.com",
+        "name": "zertosh"
+      },
+      {
+        "email": "kaicataldo@gmail.com",
+        "name": "kaicataldo"
+      },
+      {
+        "email": "james@henry.sc",
+        "name": "jameshenry"
+      },
+      {
+        "email": "star.ctor@gmail.com",
+        "name": "mysticatea"
+      },
+      {
+        "email": "teddy.katz@gmail.com",
+        "name": "not-an-aardvark"
+      },
+      {
+        "email": "monastic.panic@gmail.com",
+        "name": "monastic.panic"
+      },
+      {
+        "email": "sebmck@gmail.com",
+        "name": "sebmck"
+      },
+      {
+        "email": "loganfsmyth@gmail.com",
+        "name": "loganfsmyth"
+      },
+      {
+        "email": "daniel@tschinder.de",
+        "name": "danez"
+      },
+      {
+        "email": "hi@henryzoo.com",
+        "name": "hzoo"
+      }
+    ],
+    "homepage": "https://github.com/babel/babel-eslint",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/babel/babel-eslint.git"
+    },
+    "author": {
+      "name": "Sebastian McKenzie",
+      "email": "sebmck@gmail.com"
+    },
+    "bugs": {
+      "url": "https://github.com/babel/babel-eslint/issues"
+    },
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "description": "Custom parser for ESLint",
+    "users": {
+      "alexkval": true,
+      "koulmomo": true,
+      "daviddraughn": true,
+      "itonyyo": true,
+      "jalcine": true,
+      "draganhr": true,
+      "crazyjingling": true,
+      "nelix": true,
+      "junjiansyu": true,
+      "corintho": true,
+      "runningtalus": true,
+      "flynntsc": true,
+      "evan2x": true,
+      "ridermansb": true,
+      "monkeymonk": true,
+      "dexteryy": true,
+      "porreh": true,
+      "apehead": true,
+      "dkannan": true,
+      "sandeepgy11": true,
+      "vutran": true,
+      "ezeikel": true,
+      "kctang": true,
+      "dhampik": true,
+      "zhiquan_yu": true,
+      "princetoad": true,
+      "micromax720": true,
+      "preco21": true,
+      "dbuggerx": true,
+      "wkaifang": true,
+      "wangnan0610": true,
+      "kogakure": true,
+      "qddegtya": true,
+      "tonyljl526": true,
+      "djviolin": true,
+      "iori20091101": true,
+      "knoja4": true,
+      "langri-sha": true,
+      "xueboren": true,
+      "sunny_anna": true,
+      "christopher.urquidi": true,
+      "isenricho": true,
+      "abuelwafa": true,
+      "lababygirl": true,
+      "nickeltobias": true,
+      "joris-van-der-wel": true,
+      "mrzmmr": true,
+      "soulchainer": true,
+      "jimjin": true,
+      "rbultitude": true,
+      "vinnyfonseca": true,
+      "leonardorb": true,
+      "n0f3": true,
+      "pddivine": true,
+      "aixieluo": true,
+      "hr.": true,
+      "alexxnica": true,
+      "edwardxyt": true,
+      "mtdalpizzol": true,
+      "sethbergman": true,
+      "serge-nikitin": true,
+      "rochejul": true,
+      "jream": true,
+      "yeming": true,
+      "fakefarm": true,
+      "gurunate": true,
+      "ungurys": true,
+      "tianzssj": true,
+      "arcticicestudio": true
+    },
+    "_attachments": {},
+    "manifest": {
+      "name": "babel-eslint",
+      "version": "8.2.1",
+      "description": "Custom parser for ESLint",
+      "main": "lib/index.js",
+      "files": [
+        "lib"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel-eslint.git"
+      },
+      "dependencies": {
+        "@babel/code-frame": "7.0.0-beta.36",
+        "@babel/traverse": "7.0.0-beta.36",
+        "@babel/types": "7.0.0-beta.36",
+        "babylon": "7.0.0-beta.36",
+        "eslint-scope": "~3.7.1",
+        "eslint-visitor-keys": "^1.0.0"
+      },
+      "scripts": {
+        "test": "npm run lint && npm run test-only",
+        "test-only": "mocha && mocha --require test/fixtures/preprocess-to-patch.js && mocha --require test/fixtures/use-eslint-old.js",
+        "lint": "eslint index.js babylon-to-espree test",
+        "fix": "eslint index.js babylon-to-espree test --fix",
+        "precommit": "lint-staged",
+        "preversion": "npm test",
+        "changelog": "git log `git describe --tags --abbrev=0`..HEAD --pretty=format:' * %s (%an)' | grep -v 'Merge pull request'"
+      },
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "license": "MIT",
+      "engines": {
+        "node": ">=4"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel-eslint/issues"
+      },
+      "homepage": "https://github.com/babel/babel-eslint",
+      "devDependencies": {
+        "babel-eslint": "^8.0.0",
+        "dedent": "^0.7.0",
+        "eslint": "^4.14.0",
+        "eslint-config-babel": "^7.0.1",
+        "eslint-old": "npm:eslint@4.13.1",
+        "eslint-plugin-flowtype": "^2.30.3",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-prettier": "^2.1.2",
+        "espree": "^3.5.2",
+        "husky": "^0.14.0",
+        "lint-staged": "^4.0.0",
+        "mocha": "^4.0.0",
+        "prettier": "^1.4.4"
+      },
+      "lint-staged": {
+        "*.js": [
+          "eslint --format=codeframe --fix",
+          "git add"
+        ]
+      },
+      "gitHead": "bf27f6021e3a3661589bfa1e314f45876edeb20b",
+      "_id": "babel-eslint@8.2.1",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-RzdVOyWKQRUnLXhwLk+eKb4oyW+BykZSkpYwFhM4tnfzAG5OWfvG0w/uyzMp5XKEU0jN82+JefHr39bG2+KhRQ==",
+        "shasum": "136888f3c109edc65376c23ebf494f36a3e03951",
+        "tarball": "https://registry.npmjs.org/babel-eslint/-/babel-eslint-8.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "zertosh@gmail.com",
+          "name": "zertosh"
+        },
+        {
+          "email": "kaicataldo@gmail.com",
+          "name": "kaicataldo"
+        },
+        {
+          "email": "james@henry.sc",
+          "name": "jameshenry"
+        },
+        {
+          "email": "star.ctor@gmail.com",
+          "name": "mysticatea"
+        },
+        {
+          "email": "teddy.katz@gmail.com",
+          "name": "not-an-aardvark"
+        },
+        {
+          "email": "monastic.panic@gmail.com",
+          "name": "monastic.panic"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-eslint-8.2.1.tgz_1515456943908_0.9363292441703379"
+      },
+      "directories": {}
+    },
+    "releaseDate": "2018-01-09T00:15:44.848Z"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/babel/babel-eslint",
+    "revision": "f54d5b87d02cf3e8a4b2676be62e0b04fcab141d",
+    "path": null
+  }
+}

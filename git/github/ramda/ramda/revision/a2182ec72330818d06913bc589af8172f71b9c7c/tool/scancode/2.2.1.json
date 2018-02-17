@@ -1,0 +1,428 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/ramda/ramda/a2182ec72330818d06913bc589af8172f71b9c7c",
+    "fetchedAt": "2018-02-17T20:40:19.416Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:ramda:ramda:revision:a2182ec72330818d06913bc589af8172f71b9c7c:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:ramda:ramda:revision:a2182ec72330818d06913bc589af8172f71b9c7c",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-10-09T10:19:20-07:00\n",
+    "processedAt": "2018-02-17T20:40:57.570Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 6,
+    "files": [
+      {
+        "path": "bower.json",
+        "type": "file",
+        "name": "bower.json",
+        "base_name": "bower",
+        "extension": ".json",
+        "date": "2018-02-17",
+        "size": 627,
+        "sha1": "d23f9306e90da204ab167d25fbc2fded09a4e07c",
+        "md5": "ff3199d51bf84c48f8fa904aaf23467d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 19,
+            "end_line": 19,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "LICENSE.txt",
+        "type": "file",
+        "name": "LICENSE.txt",
+        "base_name": "LICENSE",
+        "extension": ".txt",
+        "date": "2018-02-17",
+        "size": 1124,
+        "sha1": "b06d46db04b93e617386729ad365a3499954b0f8",
+        "md5": "370b0537dc2e2278cc1b1083c5adf537",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 21,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2013-2016 Scott Sauyet and Michael Hurley"
+            ],
+            "holders": [
+              "Scott Sauyet and Michael Hurley"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-17",
+        "size": 2899,
+        "sha1": "1169ff5f4283a7fd64a78406bca92dde01c6914a",
+        "md5": "d943af2f76c92a9170dc80639f31ddfc",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 30,
+            "end_line": 30,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Scott Sauyet <scott@sauyet.com>"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 7293,
+        "sha1": "9c9cea05a77433468b5254307ebff29c7844c0ed",
+        "md5": "e21d32d2ab2d66b45298e01043872381",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, UTF-8 Unicode text, with very long lines, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "cc-by-nc-sa-3.0",
+            "score": 45,
+            "short_name": "CC-BY-NC-SA-3.0",
+            "category": "Free Restricted",
+            "owner": "Creative Commons",
+            "homepage_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "text_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:cc-by-nc-sa-3.0",
+            "spdx_license_key": "CC-BY-NC-SA-3.0",
+            "spdx_url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0",
+            "start_line": 215,
+            "end_line": 215,
+            "matched_rule": {
+              "identifier": "cc-by-nc-sa-3.0_1.RULE",
+              "license_choice": false,
+              "licenses": [
+                "cc-by-nc-sa-3.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 9,
+              "matched_length": 9,
+              "match_coverage": 100,
+              "rule_relevance": 45
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2014 J. C. Phillipps."
+            ],
+            "holders": [
+              "J. C. Phillipps."
+            ],
+            "authors": [],
+            "start_line": 213,
+            "end_line": 215
+          }
+        ]
+      },
+      {
+        "path": "rollup.config.js",
+        "type": "file",
+        "name": "rollup.config.js",
+        "base_name": "rollup.config",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 767,
+        "sha1": "5cdf95337b02a188a9b7365952d1195a5c4ff789",
+        "md5": "18788487911e9f912d40a6bf991cff2a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 7,
+            "end_line": 7,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2013- + new Date().getFullYear() + Scott Sauyet, Michael Hurley, and David Chambers"
+            ],
+            "holders": [
+              "Scott Sauyet, Michael Hurley, and David Chambers"
+            ],
+            "authors": [],
+            "start_line": 5,
+            "end_line": 7
+          }
+        ]
+      },
+      {
+        "path": "dist/ramda.js",
+        "type": "file",
+        "name": "ramda.js",
+        "base_name": "ramda",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 274404,
+        "sha1": "81c6abd1f72e46111ba0d9a0512ad64a0b2ff75f",
+        "md5": "20458650d314da20148aeb2994b54b7b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2013-2017 Scott Sauyet, Michael Hurley, and David Chambers Ramda"
+            ],
+            "holders": [
+              "Scott Sauyet, Michael Hurley, and David Chambers Ramda"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      }
+    ]
+  }
+}

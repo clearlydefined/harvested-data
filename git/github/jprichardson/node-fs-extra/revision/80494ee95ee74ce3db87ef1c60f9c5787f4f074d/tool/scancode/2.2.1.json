@@ -1,21 +1,22 @@
 {
   "_metadata": {
-    "type": "git",
-    "url": "cd:/git/github/jprichardson/node-fs-extra/80494ee95ee74ce3db87ef1c60f9c5787f4f074d/tool/scancode",
-    "fetchedAt": "2017-12-31T01:05:38.561Z",
+    "type": "scancode",
+    "url": "cd:/git/github/jprichardson/node-fs-extra/80494ee95ee74ce3db87ef1c60f9c5787f4f074d",
+    "fetchedAt": "2018-02-17T20:09:56.213Z",
     "links": {
       "self": {
         "href": "urn:git:github:jprichardson:node-fs-extra:revision:80494ee95ee74ce3db87ef1c60f9c5787f4f074d:tool:scancode:2.2.1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:git:github:jprichardson:node-fs-extra:revision:80494ee95ee74ce3db87ef1c60f9c5787f4f074d:tool:scancode",
+        "href": "urn:git:github:jprichardson:node-fs-extra:revision:80494ee95ee74ce3db87ef1c60f9c5787f4f074d",
         "type": "collection"
       }
     },
-    "version": 1,
+    "version": "2.2.1",
     "contentType": "application/json",
-    "processedAt": "2017-12-31T01:05:55.260Z"
+    "releaseDate": "2017-12-11T11:38:36-05:00\n",
+    "processedAt": "2018-02-17T20:10:19.302Z"
   },
   "content": {
     "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
@@ -38,7 +39,7 @@
         "name": "LICENSE",
         "base_name": "LICENSE",
         "extension": "",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1099,
         "sha1": "090fdb6a14b876b65605e6b984d7539ad4a5f6c4",
         "md5": "8ccb9a37c6209fa68011992136fc8e85",
@@ -127,7 +128,7 @@
         "name": "package.json",
         "base_name": "package",
         "extension": ".json",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1646,
         "sha1": "2bacf7898099195e43e6d188d3f900db999a5a05",
         "md5": "250ed5f1368688a256ef3b3bbb8e8c6d",
@@ -178,7 +179,7 @@
         "name": "README.md",
         "base_name": "README",
         "extension": ".md",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 9057,
         "sha1": "ca79ca4c297c2fbb95d93c6d8de54f18184fb5aa",
         "md5": "fac7f75e03f7676931ddfc546b88dee9",
@@ -214,7 +215,7 @@
         "name": "symlink-paths.js",
         "base_name": "symlink-paths",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 3509,
         "sha1": "bc353bf53663050bca0ef9a3f23b64ffb52bea76",
         "md5": "be55b70bcaeba82ab35d00caa990026c",
@@ -248,7 +249,7 @@
         "name": "index.js",
         "base_name": "index",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 2887,
         "sha1": "8c7dd3e04de979bb5b80848b12f9b9dc2032072e",
         "md5": "59348daa28d3177802bc1dc32a9e067e",
@@ -284,7 +285,7 @@
         "name": "mz.test.js",
         "base_name": "mz.test",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1262,
         "sha1": "a3c07b36846a933460d584960335f4109f6bcc0c",
         "md5": "474445f6f2361dbf7698f8e7ebc4d797",
@@ -320,7 +321,7 @@
         "name": "index.js",
         "base_name": "index",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 4713,
         "sha1": "2e1edf1ea097dcf22801b44cab828b509a02c86e",
         "md5": "26a46a6b39e0830be1b34d3eccae7aef",

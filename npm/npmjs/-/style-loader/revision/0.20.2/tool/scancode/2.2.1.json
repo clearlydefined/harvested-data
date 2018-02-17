@@ -1,0 +1,457 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/style-loader/0.20.2",
+    "fetchedAt": "2018-02-17T06:55:33.544Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:style-loader:revision:0.20.2:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:style-loader:revision:0.20.2",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-02-15T20:44:18.605Z",
+    "processedAt": "2018-02-17T06:55:46.124Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 7,
+    "files": [
+      {
+        "path": "package/index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2018-01-26",
+        "size": 2970,
+        "sha1": "618c1085f7fb54f42fcd040af51b4902a5a0ef8f",
+        "md5": "2cc0be334640ee845f78a373dfac2ce3",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 45,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "mit_23.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 9,
+              "matched_length": 9,
+              "match_coverage": 100,
+              "rule_relevance": 45
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Tobias Koppers"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-06-09",
+        "size": 1071,
+        "sha1": "3bebb9ba92e45dd02a0512e144f6a46b14a9b8ab",
+        "md5": "95a881ed5cb29fc8a0fa0356525f30ac",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 3,
+            "end_line": 20,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright JS Foundation"
+            ],
+            "holders": [
+              "JS Foundation"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-15",
+        "size": 961,
+        "sha1": "d9312385c6288c3600af006416794de1f49520cf",
+        "md5": "a0d1ded74a34d8bb7192bbbe22cb4069",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 39,
+            "end_line": 39,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/url.js",
+        "type": "file",
+        "name": "url.js",
+        "base_name": "url",
+        "extension": ".js",
+        "date": "2018-01-26",
+        "size": 1245,
+        "sha1": "72e08bdb32a17290e0e893f982ce4f9a470d3e37",
+        "md5": "9d154b531ed1b79829560cc850940be5",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 45,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "mit_23.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 9,
+              "matched_length": 9,
+              "match_coverage": 100,
+              "rule_relevance": 45
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Tobias Koppers"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/useable.js",
+        "type": "file",
+        "name": "useable.js",
+        "base_name": "useable",
+        "extension": ".js",
+        "date": "2018-01-26",
+        "size": 1818,
+        "sha1": "6aa89c0f90556291de2f2212669633ba8e0ea157",
+        "md5": "000c32e15d9031a419b7c59fd8757eed",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 45,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "mit_23.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 9,
+              "matched_length": 9,
+              "match_coverage": 100,
+              "rule_relevance": 45
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Tobias Koppers"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/addStyles.js",
+        "type": "file",
+        "name": "addStyles.js",
+        "base_name": "addStyles",
+        "extension": ".js",
+        "date": "2018-01-26",
+        "size": 9918,
+        "sha1": "f0aa3f917c3eab8156fa19bc59fc0a79f49689db",
+        "md5": "96ec3eddf39eee9a16fb8ce78a050913",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 45,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "mit_23.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 9,
+              "matched_length": 9,
+              "match_coverage": 100,
+              "rule_relevance": 45
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Tobias Koppers"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/lib/addStyleUrl.js",
+        "type": "file",
+        "name": "addStyleUrl.js",
+        "base_name": "addStyleUrl",
+        "extension": ".js",
+        "date": "2018-01-26",
+        "size": 1025,
+        "sha1": "dca1648b476afe87fe74ce368b9b957b8a2a4dd8",
+        "md5": "1135125b26f148506eedf2b088ae7134",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 45,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "mit_23.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 9,
+              "matched_length": 9,
+              "match_coverage": 100,
+              "rule_relevance": 45
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Tobias Koppers"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      }
+    ]
+  }
+}

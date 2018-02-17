@@ -1,0 +1,421 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/mde/ejs/2247fb3aefa9b99a0b58d101b79f4a5063250b65",
+    "fetchedAt": "2018-02-17T20:45:31.023Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:mde:ejs:revision:2247fb3aefa9b99a0b58d101b79f4a5063250b65:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:mde:ejs:revision:2247fb3aefa9b99a0b58d101b79f4a5063250b65",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-07-29T20:29:55-07:00\n",
+    "processedAt": "2018-02-17T20:45:46.162Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 6,
+    "files": [
+      {
+        "path": "LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-02-17",
+        "size": 11560,
+        "sha1": "47b573e3824cd5e02a1a3ae99e2735b49e0256e4",
+        "md5": "d273d63619c9aeaf15cdaf76422c4f87",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 2,
+            "end_line": 202,
+            "matched_rule": {
+              "identifier": "apache-2.0_easyeclipse.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "1-hash",
+              "rule_length": 1608,
+              "matched_length": 1608,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-17",
+        "size": 1128,
+        "sha1": "5c18eaa53385fed7020e81f7b4e4ed549b7a55d3",
+        "md5": "04d591e00cd9f64cb3e0a5907bbef52e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Matthew Eernisse <mde@fleegix.org>",
+              "Timothy Gu <timothygu99@gmail.com>"
+            ],
+            "start_line": 9,
+            "end_line": 12
+          }
+        ]
+      },
+      {
+        "path": "README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 9167,
+        "sha1": "991997a545579c624119896938b369d8b295848e",
+        "md5": "0b7aae2119b2c7b7285aad1c2b886632",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 80,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 252,
+            "end_line": 253,
+            "matched_rule": {
+              "identifier": "apache-2.0_57.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 16,
+              "matched_length": 16,
+              "match_coverage": 100,
+              "rule_relevance": 80
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "docs/syntax.md",
+        "type": "file",
+        "name": "syntax.md",
+        "base_name": "syntax",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 13237,
+        "sha1": "d003a882b345e75e5026c580d364749091f297ac",
+        "md5": "738ffab2c6f08130f933cbd299330a7b",
+        "files_count": null,
+        "mime_type": "text/x-c++",
+        "file_type": "C++ source, UTF-8 Unicode text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 595,
+            "end_line": 605,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 86,
+              "matched_length": 86,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2015 Tiancheng Timothy Gu"
+            ],
+            "holders": [
+              "Tiancheng Timothy Gu"
+            ],
+            "authors": [],
+            "start_line": 593,
+            "end_line": 593
+          }
+        ]
+      },
+      {
+        "path": "lib/ejs.js",
+        "type": "file",
+        "name": "ejs.js",
+        "base_name": "ejs",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 25014,
+        "sha1": "53f54e45d4e77126e480d97695dab8baa9c96d57",
+        "md5": "88ac92246be3ea823a57b015280bdb4a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 5,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 86,
+              "matched_length": 86,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 40,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 26,
+            "end_line": 26,
+            "matched_rule": {
+              "identifier": "apache-2.0_25.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 8,
+              "matched_length": 8,
+              "match_coverage": 100,
+              "rule_relevance": 40
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 25,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 26,
+            "end_line": 26,
+            "matched_rule": {
+              "identifier": "apache-2.0_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Matthew Eernisse (mde@fleegix.org)"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Matthew Eernisse <mde@fleegix.org> author Tiancheng Timothy Gu <timothygu99@gmail.com> project"
+            ],
+            "start_line": 22,
+            "end_line": 26
+          }
+        ]
+      },
+      {
+        "path": "lib/utils.js",
+        "type": "file",
+        "name": "utils.js",
+        "base_name": "utils",
+        "extension": ".js",
+        "date": "2018-02-17",
+        "size": 3970,
+        "sha1": "121a44cd5b4df707b73d7a724b243da44086fbbe",
+        "md5": "cd02ab4c72e1f8e5a4d94d0f42d4dccf",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 5,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 86,
+              "matched_length": 86,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Matthew Eernisse (mde@fleegix.org)"
+            ],
+            "start_line": 2,
+            "end_line": 3
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/request-promise/4.2.2",
+    "fetchedAt": "2018-02-17T06:55:20.250Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:request-promise:revision:4.2.2:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:request-promise:revision:4.2.2",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-09-22T16:35:47.641Z",
+    "processedAt": "2018-02-17T06:55:32.934Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 2,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-05-08",
+        "size": 776,
+        "sha1": "0694609174c951e41307640c65a4a80d84040ff3",
+        "md5": "32a3b07b9d0b18b3e0c8f7b7952420ad",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "isc",
+            "score": 100,
+            "short_name": "ISC License",
+            "category": "Permissive",
+            "owner": "ISC - Internet Systems Consortium",
+            "homepage_url": "https://www.isc.org/software/license",
+            "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+            "spdx_license_key": "ISC",
+            "spdx_url": "https://spdx.org/licenses/ISC",
+            "start_line": 5,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "isc.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "isc"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 112,
+              "matched_length": 112,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2017, Nicolai Kamenzky, Ty Abonil"
+            ],
+            "holders": [
+              "Nicolai Kamenzky, Ty Abonil"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2017-09-22",
+        "size": 31096,
+        "sha1": "89494343ec9fb599a0d531a5c9ec39f86f6270a4",
+        "md5": "3891d5084cb71d0b91571d58d2e637b2",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, UTF-8 Unicode text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 714,
+            "end_line": 714,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": []
+      }
+    ]
+  }
+}

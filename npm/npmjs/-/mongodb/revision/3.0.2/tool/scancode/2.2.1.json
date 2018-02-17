@@ -1,0 +1,212 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/mongodb/3.0.2",
+    "fetchedAt": "2018-02-17T06:51:06.285Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:mongodb:revision:3.0.2:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:mongodb:revision:3.0.2",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-01-29T21:28:45.028Z",
+    "processedAt": "2018-02-17T06:51:24.890Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 3,
+    "files": [
+      {
+        "path": "package/HISTORY.md",
+        "type": "file",
+        "name": "HISTORY.md",
+        "base_name": "HISTORY",
+        "extension": ".md",
+        "date": "2018-01-29",
+        "size": 106791,
+        "sha1": "fe8965ea7217e95a4c6eae67056c88d9d1aa303a",
+        "md5": "3bcf5a473ef16eca2a5375b50e560844",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "GridFS fix TypeError doc.data.length"
+            ],
+            "start_line": 73,
+            "end_line": 76
+          }
+        ]
+      },
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-11-20",
+        "size": 11323,
+        "sha1": "3d9ca858ae047e05c8c031e24b41aea21417fc2a",
+        "md5": "6c4db32a2fa8717faffa1d4f10136f47",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 201,
+            "matched_rule": {
+              "identifier": "apache-2.0_easyeclipse.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "1-hash",
+              "rule_length": 1608,
+              "matched_length": 1608,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/THIRD-PARTY-NOTICES",
+        "type": "file",
+        "name": "THIRD-PARTY-NOTICES",
+        "base_name": "THIRD-PARTY-NOTICES",
+        "extension": "",
+        "date": "2017-11-20",
+        "size": 1777,
+        "sha1": "4a95c5e3efa50889f91db1c904476f5524d73db8",
+        "md5": "2bfe9fad972c9c544f159cecb585660e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 17,
+            "end_line": 17,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 25,
+            "end_line": 41,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2016 NAN contributors"
+            ],
+            "holders": [
+              "NAN contributors"
+            ],
+            "authors": [],
+            "start_line": 20,
+            "end_line": 20
+          }
+        ]
+      }
+    ]
+  }
+}

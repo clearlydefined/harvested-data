@@ -1,0 +1,416 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/node-uuid/1.4.8",
+    "fetchedAt": "2018-02-17T19:33:54.087Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:node-uuid:revision:1.4.8:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:node-uuid:revision:1.4.8",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:-:node-uuid:revision:1.4.8:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-17T19:33:54.305Z"
+  },
+  "package.json": {
+    "author": {
+      "email": "robert@broofa.com",
+      "name": "Robert Kieffer"
+    },
+    "bin": {
+      "uuid": "./bin/uuid"
+    },
+    "bugs": {
+      "url": "https://github.com/broofa/node-uuid/issues"
+    },
+    "contributors": [
+      {
+        "name": "AJ ONeal",
+        "email": "coolaj86@gmail.com"
+      },
+      {
+        "name": "Christoph Tavan",
+        "email": "dev@tavan.de"
+      }
+    ],
+    "dependencies": {},
+    "description": "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+    "devDependencies": {
+      "nyc": "^2.2.0"
+    },
+    "directories": {},
+    "homepage": "https://github.com/broofa/node-uuid",
+    "installable": true,
+    "keywords": [
+      "guid",
+      "rfc4122",
+      "uuid"
+    ],
+    "lib": ".",
+    "licenses": [
+      {
+        "type": "MIT",
+        "url": "https://raw.github.com/broofa/node-uuid/master/LICENSE.md"
+      }
+    ],
+    "main": "./uuid.js",
+    "maintainers": [
+      {
+        "name": "broofa",
+        "email": "robert@broofa.com"
+      }
+    ],
+    "name": "node-uuid",
+    "optionalDependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/broofa/node-uuid.git"
+    },
+    "scripts": {
+      "coverage": "nyc npm test && nyc report",
+      "test": "node test/test.js"
+    },
+    "url": "http://github.com/broofa/node-uuid",
+    "version": "1.4.8"
+  },
+  "registryData": {
+    "_id": "node-uuid",
+    "_rev": "284-9087fd7479bb2ebda75f124b28eab795",
+    "name": "node-uuid",
+    "description": "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+    "dist-tags": {
+      "latest": "1.4.8"
+    },
+    "readme": "# node-uuid\n\nDEPRECATED: Use the `uuid` package instead.  See\n\n* On NPM: https://www.npmjs.com/package/uuid\n* On Github: https://github.com/kelektiv/node-uuid\n\n(Yes, the github project is still called \"node-uuid\". We merged the two projects. Sorry for the confusion.)\n",
+    "maintainers": [
+      {
+        "name": "broofa",
+        "email": "robert@broofa.com"
+      },
+      {
+        "name": "defunctzombie",
+        "email": "shtylman@gmail.com"
+      }
+    ],
+    "author": {
+      "name": "Robert Kieffer",
+      "email": "robert@broofa.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/broofa/node-uuid.git"
+    },
+    "users": {
+      "fgribreau": true,
+      "chilts": true,
+      "hij1nx": true,
+      "bryanburgers": true,
+      "booyaa": true,
+      "dannydulai": true,
+      "tigefa": true,
+      "spekkionu": true,
+      "pragmadash": true,
+      "oliversalzburg": true,
+      "davidrlee": true,
+      "hortinstein": true,
+      "jorgemsrs": true,
+      "apache2046": true,
+      "jokeyrhyme": true,
+      "infrasp": true,
+      "anticom": true,
+      "gabeio": true,
+      "serdar2nc": true,
+      "toogle": true,
+      "brentonhouse": true,
+      "shen-weizhong": true,
+      "v6": true,
+      "tchey": true,
+      "josephdavisco": true,
+      "shobhitsinghal624": true,
+      "japh": true,
+      "sitnin": true,
+      "boustanihani": true,
+      "alnafie": true,
+      "morrelinko": true,
+      "carlton": true,
+      "inderdeep": true,
+      "noopkat": true,
+      "arthas": true,
+      "drittich": true,
+      "genediazjr": true,
+      "abeldu": true,
+      "mesin": true,
+      "mjzac": true,
+      "pingjiang": true,
+      "codeq": true,
+      "stoneren": true,
+      "pensierinmusica": true,
+      "ivangaravito": true,
+      "shahzaib": true,
+      "gazilla": true,
+      "alxe.master": true,
+      "thomask33": true,
+      "kabomi": true,
+      "gdbtek": true,
+      "kikar": true,
+      "kenlimmj": true,
+      "itonyyo": true,
+      "zerodi": true,
+      "j3kz": true,
+      "marco.jahn": true,
+      "roryrjb": true,
+      "robermac": true,
+      "sahilsk": true,
+      "igorkirey": true,
+      "vboctor": true,
+      "jamescostian": true,
+      "skarface": true,
+      "mp2526": true,
+      "markthethomas": true,
+      "lujcon": true,
+      "flyslow": true,
+      "mikend": true,
+      "tonydieu": true,
+      "justintormey": true,
+      "moimikey": true,
+      "jcottam": true,
+      "richarddavenport": true,
+      "sanketss84": true,
+      "program247365": true,
+      "junjiansyu": true,
+      "smd4": true,
+      "etsit": true,
+      "leodutra": true,
+      "alekseyleshko": true,
+      "tanmaypatel": true,
+      "leoyzy": true,
+      "karthickt": true,
+      "devmoreno": true,
+      "karlbateman": true,
+      "mjurincic": true,
+      "xucl": true,
+      "decoda": true,
+      "daniilbabanin": true,
+      "arashmilani": true,
+      "stephn_r": true,
+      "paulj": true,
+      "nanook": true,
+      "kparkov": true,
+      "kungkk": true,
+      "yianl": true,
+      "reecegoddard": true,
+      "brad-christie": true,
+      "crazyjingling": true,
+      "ftornik": true,
+      "eviratec": true,
+      "nalindak": true,
+      "josejaguirre": true,
+      "antixrist": true,
+      "bracketdash": true,
+      "stretchgz": true,
+      "superpaintman": true,
+      "bojand": true,
+      "hust007": true,
+      "starfox64": true,
+      "rbartoli": true,
+      "tstringer": true,
+      "pstoev": true,
+      "seanr": true,
+      "sirrah": true,
+      "algonzo": true,
+      "andersonsantos": true,
+      "evanyeung": true,
+      "onufrienko": true,
+      "crusaderltd": true,
+      "yrocq": true,
+      "coolhanddev": true,
+      "grantcarthew": true,
+      "tobiasnickel": true,
+      "dlv_201": true,
+      "traveltechymatt": true,
+      "ristostevcev": true,
+      "brend": true,
+      "nickeltobias": true,
+      "roman-io": true,
+      "xufz": true,
+      "fistynuts": true,
+      "gregl83": true,
+      "vinchik": true,
+      "spanser": true,
+      "nigel0913": true,
+      "hckhanh": true,
+      "leonardorb": true,
+      "tonytonyzhi": true,
+      "rigelerique": true,
+      "jfernandezgersol": true,
+      "lcdss": true,
+      "arcrammer": true,
+      "boto": true,
+      "johanliebert": true,
+      "writech": true,
+      "narklord": true,
+      "vitorazevedo": true,
+      "crowelch": true,
+      "csbun": true,
+      "abuddington": true,
+      "pragmader": true,
+      "mauriciolauffer": true,
+      "itsakt": true,
+      "muhammadghazali": true,
+      "backnight": true,
+      "kjarisk": true,
+      "vutran": true,
+      "nilz3ro": true,
+      "gildasdubois": true,
+      "largepuma": true,
+      "codebyren": true,
+      "bogdanvlviv": true,
+      "sopov": true,
+      "ramzesucr": true,
+      "goatandsheep": true,
+      "scottfreecode": true,
+      "jakedetels": true,
+      "ahmed-dinar": true,
+      "tmurngon": true,
+      "figroc": true,
+      "ab.moon": true,
+      "yangtze": true,
+      "mojaray2k": true,
+      "sundaycrafts": true,
+      "davequick": true,
+      "egantz": true,
+      "alexdudar": true,
+      "rylan_yan": true,
+      "wenhsiaoyi": true,
+      "markpitman": true,
+      "edwingeng": true,
+      "ensarakin": true,
+      "dmitryscaletta": true,
+      "seangenabe": true,
+      "razr9": true,
+      "cblumer": true,
+      "cr8tiv": true,
+      "isenricho": true,
+      "satoru": true,
+      "nickeljew": true,
+      "quafoo": true,
+      "zeus_lv": true,
+      "akshay.vs9543": true,
+      "guioconnor": true
+    },
+    "homepage": "https://github.com/broofa/node-uuid",
+    "keywords": [
+      "guid",
+      "rfc4122",
+      "uuid"
+    ],
+    "contributors": [
+      {
+        "name": "AJ ONeal",
+        "email": "coolaj86@gmail.com"
+      },
+      {
+        "name": "Christoph Tavan",
+        "email": "dev@tavan.de"
+      }
+    ],
+    "bugs": {
+      "url": "https://github.com/broofa/node-uuid/issues"
+    },
+    "readmeFilename": "README.md",
+    "_attachments": {},
+    "manifest": {
+      "author": {
+        "name": "Robert Kieffer",
+        "email": "robert@broofa.com"
+      },
+      "bin": {
+        "uuid": "./bin/uuid"
+      },
+      "bugs": {
+        "url": "https://github.com/broofa/node-uuid/issues"
+      },
+      "contributors": [
+        {
+          "name": "AJ ONeal",
+          "email": "coolaj86@gmail.com"
+        },
+        {
+          "name": "Christoph Tavan",
+          "email": "dev@tavan.de"
+        }
+      ],
+      "dependencies": {},
+      "description": "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+      "devDependencies": {
+        "nyc": "^2.2.0"
+      },
+      "directories": {},
+      "homepage": "https://github.com/broofa/node-uuid",
+      "installable": true,
+      "keywords": [
+        "guid",
+        "rfc4122",
+        "uuid"
+      ],
+      "lib": ".",
+      "licenses": [
+        {
+          "type": "MIT",
+          "url": "https://raw.github.com/broofa/node-uuid/master/LICENSE.md"
+        }
+      ],
+      "main": "./uuid.js",
+      "maintainers": [
+        {
+          "name": "broofa",
+          "email": "robert@broofa.com"
+        },
+        {
+          "name": "defunctzombie",
+          "email": "shtylman@gmail.com"
+        }
+      ],
+      "name": "node-uuid",
+      "optionalDependencies": {},
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/broofa/node-uuid.git"
+      },
+      "scripts": {
+        "coverage": "nyc npm test && nyc report",
+        "test": "node test/test.js"
+      },
+      "url": "http://github.com/broofa/node-uuid",
+      "version": "1.4.8",
+      "gitHead": "6f0f31b997cd6bec7919223e8897454350ed820f",
+      "_id": "node-uuid@1.4.8",
+      "_shasum": "b040eb0923968afabf8d32fb1f17f1167fdab907",
+      "_from": ".",
+      "_npmVersion": "4.3.0",
+      "_nodeVersion": "6.9.2",
+      "_npmUser": {
+        "name": "broofa",
+        "email": "robert@broofa.com"
+      },
+      "dist": {
+        "shasum": "b040eb0923968afabf8d32fb1f17f1167fdab907",
+        "tarball": "https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.8.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/node-uuid-1.4.8.tgz_1490142638297_0.6400028455536813"
+      },
+      "deprecated": "Use uuid module instead"
+    },
+    "releaseDate": "2017-03-22T00:30:38.543Z"
+  }
+}

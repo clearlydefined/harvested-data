@@ -1,0 +1,137 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/npm/node-semver/c2bfc4b398da947038627491c5d1ab33770cb9b0",
+    "fetchedAt": "2018-02-17T20:19:35.791Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:npm:node-semver:revision:c2bfc4b398da947038627491c5d1ab33770cb9b0:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:npm:node-semver:revision:c2bfc4b398da947038627491c5d1ab33770cb9b0",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-01-16T11:27:17-08:00\n",
+    "processedAt": "2018-02-17T20:19:53.645Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 2,
+    "files": [
+      {
+        "path": "LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-02-17",
+        "size": 780,
+        "sha1": "20b35e641e3a5ea25f012e13d69fab37e3d68d6b",
+        "md5": "b020de8f88eacc104c21d6e6cacc636d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "isc",
+            "score": 100,
+            "short_name": "ISC License",
+            "category": "Permissive",
+            "owner": "ISC - Internet Systems Consortium",
+            "homepage_url": "https://www.isc.org/software/license",
+            "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+            "spdx_license_key": "ISC",
+            "spdx_url": "https://spdx.org/licenses/ISC",
+            "start_line": 5,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "isc.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "isc"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 112,
+              "matched_length": 112,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Isaac Z. Schlueter"
+            ],
+            "holders": [
+              "Isaac Z. Schlueter"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-02-17",
+        "size": 15043,
+        "sha1": "9ed59fd96126ee3577f0751367eee2d041522768",
+        "md5": "08c7d97533cfaab987f26e4aa15bafad",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Isaac Z. Schlueter"
+            ],
+            "holders": [
+              "Isaac Z. Schlueter"
+            ],
+            "authors": [],
+            "start_line": 34,
+            "end_line": 35
+          }
+        ]
+      }
+    ]
+  }
+}

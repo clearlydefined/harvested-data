@@ -1,0 +1,719 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/express/4.16.2",
+    "fetchedAt": "2018-02-17T06:14:36.744Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:express:revision:4.16.2:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:express:revision:4.16.2",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-10-10T03:13:46.364Z",
+    "processedAt": "2018-02-17T06:14:53.028Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 15,
+    "files": [
+      {
+        "path": "package/index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2017-01-15",
+        "size": 224,
+        "sha1": "3f41478fdab31acabab8fa1d26126483a141ffb6",
+        "md5": "866e37a4d9fb8799d5415d32ac413465",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-01-15",
+        "size": 1249,
+        "sha1": "056d455b1bd8de050d92a35b6d20b6803725f29b",
+        "md5": "5513c00a5c36cd361da863dd9aa8875d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 7,
+            "end_line": 24,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>",
+              "Copyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com>",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-10-10",
+        "size": 2834,
+        "sha1": "2edf42ae04982346534128036d58654b8537d4c2",
+        "md5": "2b485c51480c6c10e5f6b0939c6e61db",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 15,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Aaron Heckmann <aaron.heckmann+github@gmail.com>"
+            ],
+            "start_line": 4,
+            "end_line": 7
+          }
+        ]
+      },
+      {
+        "path": "package/Readme.md",
+        "type": "file",
+        "name": "Readme.md",
+        "base_name": "Readme",
+        "extension": ".md",
+        "date": "2017-09-28",
+        "size": 4923,
+        "sha1": "4620206d4867f8478a53d5821be091c447b8327e",
+        "md5": "3f123398e59edfb3d0e7ae4908875f58",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 136,
+            "end_line": 138,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/lib/application.js",
+        "type": "file",
+        "name": "application.js",
+        "base_name": "application",
+        "extension": ".js",
+        "date": "2017-09-28",
+        "size": 14270,
+        "sha1": "703484657233bbf15dd574023a53e131b3f61801",
+        "md5": "569b549e619807c5cd58ab89d7e81109",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/lib/express.js",
+        "type": "file",
+        "name": "express.js",
+        "base_name": "express",
+        "extension": ".js",
+        "date": "2017-09-28",
+        "size": 2306,
+        "sha1": "fc09bfa92c02cf8c5a92f72551a7dcb20d572162",
+        "md5": "689b0391720c1dc7a72116dd1d79e42d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/lib/request.js",
+        "type": "file",
+        "name": "request.js",
+        "base_name": "request",
+        "extension": ".js",
+        "date": "2017-10-10",
+        "size": 12298,
+        "sha1": "199f925df365043439e5f5108859ce3afc3e714f",
+        "md5": "a18141ab024bc63315f4c340a6d9a365",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/lib/response.js",
+        "type": "file",
+        "name": "response.js",
+        "base_name": "response",
+        "extension": ".js",
+        "date": "2017-10-10",
+        "size": 26962,
+        "sha1": "42e15a3c251368bbaf0b03cd1331db4e351557cb",
+        "md5": "4f48e0a55afac200b06186dff1fad8c2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/utils.js",
+        "type": "file",
+        "name": "utils.js",
+        "base_name": "utils",
+        "extension": ".js",
+        "date": "2017-09-28",
+        "size": 5972,
+        "sha1": "c6911132147c6a96712fb2371105a9ba6512bb93",
+        "md5": "23899065325f9a3b0501bccc5231be8d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/view.js",
+        "type": "file",
+        "name": "view.js",
+        "base_name": "view",
+        "extension": ".js",
+        "date": "2017-09-28",
+        "size": 3326,
+        "sha1": "b105feb7b7dd65b69397bf5dc5c62e808aa2e840",
+        "md5": "91c7455190f39cc30d0c5d4627d701fd",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/lib/middleware/init.js",
+        "type": "file",
+        "name": "init.js",
+        "base_name": "init",
+        "extension": ".js",
+        "date": "2017-09-25",
+        "size": 853,
+        "sha1": "4b8b9456b57267d5892b097d4ff316838e41dfdd",
+        "md5": "3711ae7ea348d39a41c5139a63e89c12",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/lib/middleware/query.js",
+        "type": "file",
+        "name": "query.js",
+        "base_name": "query",
+        "extension": ".js",
+        "date": "2017-09-25",
+        "size": 885,
+        "sha1": "a66aa642ad6c666470803022cc7c5c46732bd5bc",
+        "md5": "a6e9a6c92c5bfdd9d7b08b267a3b1d44",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/lib/router/index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2017-09-28",
+        "size": 14881,
+        "sha1": "a5f6c8f43cf982bc42d93f5a56d3ab39f807f6bc",
+        "md5": "c84604d48aadabbe6580ad0215c2c37a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/lib/router/layer.js",
+        "type": "file",
+        "name": "layer.js",
+        "base_name": "layer",
+        "extension": ".js",
+        "date": "2017-09-25",
+        "size": 3296,
+        "sha1": "302244d96afc6d6fcaaa3afae016fbe8168f192c",
+        "md5": "c6e16965ef05cc02cfee78022496abab",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/lib/router/route.js",
+        "type": "file",
+        "name": "route.js",
+        "base_name": "route",
+        "extension": ".js",
+        "date": "2017-09-28",
+        "size": 4149,
+        "sha1": "f762261bee4e52ce1ccf13bf2e42a23d507e39f1",
+        "md5": "be5fcf9a22c2524e813c9a79effb4610",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2013 TJ Holowaychuk",
+              "Copyright (c) 2013 Roman Shtylman",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "TJ Holowaychuk",
+              "Roman Shtylman",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      }
+    ]
+  }
+}

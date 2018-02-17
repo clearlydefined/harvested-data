@@ -1,0 +1,45 @@
+{
+  "type": "scancode",
+  "url": "cd:/git/github/socketio/socket.io/1c108a35e499579f978908bac3fb47122ed77ee4",
+  "context": {
+    "history": [
+      "package@cd:/npm/npmjs/-/socket.io",
+      "npm@cd:/npm/npmjs/-/socket.io",
+      "source@cd:/git/github/socketio/socket.io/1c108a35e499579f978908bac3fb47122ed77ee4",
+      "scancode@cd:/git/github/socketio/socket.io/1c108a35e499579f978908bac3fb47122ed77ee4"
+    ],
+    "qualifier": "urn:"
+  },
+  "policy": {
+    "fetch": "mutables",
+    "freshness": "match",
+    "map": {
+      "name": "package",
+      "path": "/npm/source/scancode"
+    }
+  },
+  "_metadata": {
+    "version": 1,
+    "meta": {
+      "loopName": "0",
+      "cid": "cl",
+      "root": "package@cd:/npm/npmjs/-/socket.io",
+      "gitSize": 12508
+    },
+    "type": "deadletter",
+    "url": "cd:/git/github/socketio/socket.io/1c108a35e499579f978908bac3fb47122ed77ee4",
+    "processedAt": "2018-02-17T20:39:00.279Z",
+    "fetchedAt": "2018-02-17T20:39:00.279Z",
+    "links": {
+      "self": {
+        "href": "urn:deadletter:5c523345-8aab-43a6-a68c-8fb0a34f6132",
+        "type": "resource"
+      }
+    },
+    "extra": {
+      "type": "scancode",
+      "url": "cd:/git/github/socketio/socket.io/1c108a35e499579f978908bac3fb47122ed77ee4",
+      "reason": "Command failed: cd c:\\installs\\scancode-toolkit-2.2.1 && .\\scancode --copyright --license --info --diag --only-findings  --strip-root --quiet --timeout 300 -n 3 -f json-pp c:/temp/cd-2iEy1r/socket.io c:/temp/cd-rZ40X4\n"
+    }
+  }
+}

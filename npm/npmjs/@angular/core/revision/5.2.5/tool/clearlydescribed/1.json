@@ -1,0 +1,190 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/@angular/core/5.2.5",
+    "fetchedAt": "2018-02-17T19:33:23.752Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:@angular:core:revision:5.2.5:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:@angular:core:revision:5.2.5",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:@angular:core:revision:5.2.5:tool:scancode",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:angular:angular:revision:106b4352979adfda61e0c6af8eb0cdb99929709b",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-17T19:33:24.296Z"
+  },
+  "package.json": {
+    "name": "@angular/core",
+    "version": "5.2.5",
+    "description": "Angular - the core framework",
+    "main": "./bundles/core.umd.js",
+    "module": "./esm5/core.js",
+    "es2015": "./esm2015/core.js",
+    "typings": "./core.d.ts",
+    "author": "angular",
+    "license": "MIT",
+    "dependencies": {
+      "tslib": "^1.7.1"
+    },
+    "peerDependencies": {
+      "rxjs": "^5.5.0",
+      "zone.js": "^0.8.4"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/angular/angular.git"
+    }
+  },
+  "registryData": {
+    "_id": "@angular/core",
+    "_rev": "220-d9186b8c3e04905a357a304f6fecfadb",
+    "name": "@angular/core",
+    "dist-tags": {
+      "latest": "5.2.5",
+      "next": "6.0.0-beta.4"
+    },
+    "readme": "",
+    "maintainers": [
+      {
+        "email": "devops+npm@angular.io",
+        "name": "angular"
+      }
+    ],
+    "author": {
+      "name": "angular"
+    },
+    "license": "MIT",
+    "readmeFilename": "",
+    "users": {
+      "d4nc3r": true,
+      "langley": true,
+      "daniborgs": true,
+      "uditrugman": true,
+      "jordanilchev": true,
+      "jeandrebosch": true,
+      "bensgroi": true,
+      "justin.doherty": true,
+      "mercadis": true,
+      "hongbo-miao": true,
+      "baschte": true,
+      "tef.andre.jaehrling": true,
+      "ajsb85": true,
+      "cedx": true,
+      "aquafadas": true,
+      "jiggy1com": true,
+      "walmoo": true,
+      "jota": true,
+      "ognjen.jevremovic": true,
+      "sishuai": true,
+      "szamocza": true,
+      "db6edr": true,
+      "j717273419": true,
+      "eolandezhang": true,
+      "alessandro.perrone": true,
+      "stefaans": true,
+      "jlouros-io": true,
+      "sibawite": true,
+      "maycon_ribeiro": true,
+      "jamesbedont": true,
+      "jorgeasolano": true,
+      "manojkhannakm": true,
+      "kremr": true,
+      "drmnick": true,
+      "alshamiri2": true,
+      "flaviomarcioti": true,
+      "yangzw": true,
+      "stephanlv": true,
+      "advpat": true,
+      "omaraljabli": true,
+      "koslun": true,
+      "renishskills": true,
+      "sujeet555": true,
+      "ephigenia": true,
+      "nisimjoseph": true,
+      "d4geiger": true
+    },
+    "homepage": "https://github.com/angular/angular#readme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angular/angular.git"
+    },
+    "bugs": {
+      "url": "https://github.com/angular/angular/issues"
+    },
+    "description": "Angular - the core framework",
+    "_attachments": {},
+    "manifest": {
+      "name": "@angular/core",
+      "version": "5.2.5",
+      "description": "Angular - the core framework",
+      "main": "./bundles/core.umd.js",
+      "module": "./esm5/core.js",
+      "es2015": "./esm2015/core.js",
+      "typings": "./core.d.ts",
+      "author": {
+        "name": "angular"
+      },
+      "license": "MIT",
+      "dependencies": {
+        "tslib": "^1.7.1"
+      },
+      "peerDependencies": {
+        "rxjs": "^5.5.0",
+        "zone.js": "^0.8.4"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/angular/angular.git"
+      },
+      "bugs": {
+        "url": "https://github.com/angular/angular/issues"
+      },
+      "homepage": "https://github.com/angular/angular#readme",
+      "_id": "@angular/core@5.2.5",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.2",
+      "_npmUser": {
+        "name": "angular",
+        "email": "devops+npm@angular.io"
+      },
+      "dist": {
+        "integrity": "sha512-Uo7R3LrsvA24JkRbwXWUZWp7NSEpwdTUxT1NScyjrBK+t8ybSL5/42Jo21md5M4pjeCsIgUXlGoCm1QtT5aYnQ==",
+        "shasum": "24f9cd75c5b2728f2ddd1869777590ea7177bca9",
+        "tarball": "https://registry.npmjs.org/@angular/core/-/core-5.2.5.tgz",
+        "fileCount": 144,
+        "unpackedSize": 7222099
+      },
+      "maintainers": [
+        {
+          "email": "devops+npm@angular.io",
+          "name": "angular"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/core_5.2.5_1518585870802_0.6592063239470007"
+      },
+      "_hasShrinkwrap": false
+    },
+    "releaseDate": "2018-02-14T05:24:30.912Z"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/angular/angular",
+    "revision": "106b4352979adfda61e0c6af8eb0cdb99929709b",
+    "path": null
+  }
+}

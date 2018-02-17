@@ -1,0 +1,2403 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/aws-sdk/2.197.0",
+    "fetchedAt": "2018-02-17T06:28:52.962Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:aws-sdk:revision:2.197.0:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:aws-sdk:revision:2.197.0",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-02-16T20:54:18.758Z",
+    "processedAt": "2018-02-17T06:37:09.005Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 15,
+    "files": [
+      {
+        "path": "package/LICENSE.txt",
+        "type": "file",
+        "name": "LICENSE.txt",
+        "base_name": "LICENSE",
+        "extension": ".txt",
+        "date": "2018-02-16",
+        "size": 11392,
+        "sha1": "818d3323bca1411c82fe29b0576383dfd7dc2a13",
+        "md5": "f61a84c01ebfcf60fe02940783737e4f",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 99.32,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 2,
+            "end_line": 202,
+            "matched_rule": {
+              "identifier": "apache-2.0_easyeclipse.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 1608,
+              "matched_length": 1603,
+              "match_coverage": 99.69,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2012-2017 Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 190,
+            "end_line": 190
+          }
+        ]
+      },
+      {
+        "path": "package/NOTICE.txt",
+        "type": "file",
+        "name": "NOTICE.txt",
+        "base_name": "NOTICE",
+        "extension": ".txt",
+        "date": "2018-02-16",
+        "size": 197,
+        "sha1": "85871ffd035c12624824b9eecf711a9428cd992d",
+        "md5": "0642caa1251b2f6e73304a364b933d8b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "JavaScript Copyright 2012-2017 Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-02-16",
+        "size": 6839,
+        "sha1": "dd9e2d9c968bcaf4733febe91c8759b15bc61faa",
+        "md5": "6fc502998b89c56139e372bf5617f010",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, UTF-8 Unicode text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 25,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 171,
+            "end_line": 171,
+            "matched_rule": {
+              "identifier": "apache-2.0_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 40,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 171,
+            "end_line": 171,
+            "matched_rule": {
+              "identifier": "apache-2.0_25.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 8,
+              "matched_length": 8,
+              "match_coverage": 100,
+              "rule_relevance": 40
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/SERVICES.md",
+        "type": "file",
+        "name": "SERVICES.md",
+        "base_name": "SERVICES",
+        "extension": ".md",
+        "date": "2018-02-16",
+        "size": 6639,
+        "sha1": "46c11bc7a69d417eeb222ee30852c47096447993",
+        "md5": "2cf69008f8c6b0d29d12e7d9ef1f7630",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "2016-08-10 AWS Budgets AWS.Budgets",
+              "2016-05-10 AWS CloudFormation",
+              "2013-01-01 AWS CloudTrail",
+              "2016-10-06 AWS CodeCommit",
+              "2015-04-16 AWS Application Discovery Service AWS.Discovery",
+              "2015-11-01 AWS Database Migration Service",
+              "2012-06-01 AWS Health APIs and Notifications AWS.Health",
+              "2016-08-04 AWS Identity and Access Management",
+              "2015-08-14 AWS Key Management Service",
+              "2016-11-01 AWS Organizations AWS.Organizations",
+              "2009-04-15 AWS Server Migration Service"
+            ],
+            "start_line": 13,
+            "end_line": 112
+          }
+        ]
+      },
+      {
+        "path": "package/apis/organizations-2016-11-28.examples.json",
+        "type": "file",
+        "name": "organizations-2016-11-28.examples.json",
+        "base_name": "organizations-2016-11-28.examples",
+        "extension": ".json",
+        "date": "2018-02-16",
+        "size": 50009,
+        "sha1": "f34dedcb348b7e66353039449294b4af36c8ec9d",
+        "md5": "ab37c9abc79ab73d429b0b3751f0de5d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "bill@example.com",
+              "juan@example.com"
+            ],
+            "start_line": 740,
+            "end_line": 742
+          }
+        ]
+      },
+      {
+        "path": "package/clients/apigateway.d.ts",
+        "type": "file",
+        "name": "apigateway.d.ts",
+        "base_name": "apigateway.d",
+        "extension": ".ts",
+        "date": "2018-02-16",
+        "size": 192841,
+        "sha1": "d24636fb6500b6093b5e4572a8bb7efc67883e08",
+        "md5": "4e2816f3103b7f49be76a07f2323c063",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Content-Type application/json Host apigateway.us-east-1.amazonaws.com"
+            ],
+            "start_line": 2714,
+            "end_line": 2714
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Content-Type application/json Host apigateway.us-east-1.amazonaws.com"
+            ],
+            "start_line": 2814,
+            "end_line": 2814
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Content-Type application/json Host apigateway.us-east-1.amazonaws.com"
+            ],
+            "start_line": 2818,
+            "end_line": 2818
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Content-Type application/json Host apigateway.us-east-1.amazonaws.com"
+            ],
+            "start_line": 3219,
+            "end_line": 3219
+          }
+        ]
+      },
+      {
+        "path": "package/clients/rds.d.ts",
+        "type": "file",
+        "name": "rds.d.ts",
+        "base_name": "rds.d",
+        "extension": ".ts",
+        "date": "2018-02-16",
+        "size": 369171,
+        "sha1": "349cbe9192d1802c1bf8ac171f45c4bb2e09cad3",
+        "md5": "2c648bead4448bbf2c5435c7499a049c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "gpl-1.0-plus",
+            "score": 20,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 1270,
+            "end_line": 1270,
+            "matched_rule": {
+              "identifier": "gpl_172.RULE",
+              "license_choice": false,
+              "licenses": [
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 4,
+              "matched_length": 4,
+              "match_coverage": 100,
+              "rule_relevance": 20
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 20,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 3687,
+            "end_line": 3687,
+            "matched_rule": {
+              "identifier": "gpl_172.RULE",
+              "license_choice": false,
+              "licenses": [
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 4,
+              "matched_length": 4,
+              "match_coverage": 100,
+              "rule_relevance": 20
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 20,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 4372,
+            "end_line": 4372,
+            "matched_rule": {
+              "identifier": "gpl_172.RULE",
+              "license_choice": false,
+              "licenses": [
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 4,
+              "matched_length": 4,
+              "match_coverage": 100,
+              "rule_relevance": 20
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 20,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 4927,
+            "end_line": 4927,
+            "matched_rule": {
+              "identifier": "gpl_172.RULE",
+              "license_choice": false,
+              "licenses": [
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 4,
+              "matched_length": 4,
+              "match_coverage": 100,
+              "rule_relevance": 20
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 20,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 5190,
+            "end_line": 5190,
+            "matched_rule": {
+              "identifier": "gpl_172.RULE",
+              "license_choice": false,
+              "licenses": [
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 4,
+              "matched_length": 4,
+              "match_coverage": 100,
+              "rule_relevance": 20
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/dist/aws-sdk-core-react-native.js",
+        "type": "file",
+        "name": "aws-sdk-core-react-native.js",
+        "base_name": "aws-sdk-core-react-native",
+        "extension": ".js",
+        "date": "2018-02-16",
+        "size": 521185,
+        "sha1": "d4e14bc50da1b4cea197112dbe505fbc4a3d3be5",
+        "md5": "d02b2100532803249b9fb3b1f2b7ab54",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with CRLF, LF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 12246,
+            "end_line": 12263,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 15620,
+            "end_line": 15629,
+            "matched_rule": {
+              "identifier": "apache-2.0_24.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 78,
+              "matched_length": 78,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 12244,
+            "end_line": 12244
+          },
+          {
+            "statements": [
+              "Copyright 2012-2013 Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 15618,
+            "end_line": 15618
+          }
+        ]
+      },
+      {
+        "path": "package/dist/aws-sdk-react-native.js",
+        "type": "file",
+        "name": "aws-sdk-react-native.js",
+        "base_name": "aws-sdk-react-native",
+        "extension": ".js",
+        "date": "2018-02-16",
+        "size": 3607056,
+        "sha1": "a969d5ca7b5306faade9c3686f3f413d9178915d",
+        "md5": "b4a5db8f3fa84aaa49872a36e42d2add",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with CRLF, LF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 12548,
+            "end_line": 12565,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 15922,
+            "end_line": 15931,
+            "matched_rule": {
+              "identifier": "apache-2.0_24.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 78,
+              "matched_length": 78,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 17401,
+            "end_line": 17401,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 20014,
+            "end_line": 20031,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 21288,
+            "end_line": 21305,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 21374,
+            "end_line": 21391,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 25065,
+            "end_line": 25065,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 27082,
+            "end_line": 27099,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 27215,
+            "end_line": 27232,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 27565,
+            "end_line": 27582,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 28902,
+            "end_line": 28919,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 29191,
+            "end_line": 29208,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 29320,
+            "end_line": 29337,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 30614,
+            "end_line": 30631,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 30833,
+            "end_line": 30850,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 30913,
+            "end_line": 30930,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 37657,
+            "end_line": 37674,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 12546,
+            "end_line": 12546
+          },
+          {
+            "statements": [
+              "Copyright 2012-2013 Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 15920,
+            "end_line": 15920
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Feross Aboukhadijeh <feross@feross.org>"
+            ],
+            "start_line": 17400,
+            "end_line": 17401
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 20012,
+            "end_line": 20012
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 21286,
+            "end_line": 21286
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 21372,
+            "end_line": 21372
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Feross Aboukhadijeh <feross@feross.org>"
+            ],
+            "start_line": 25064,
+            "end_line": 25065
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 27080,
+            "end_line": 27080
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 27213,
+            "end_line": 27213
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 27563,
+            "end_line": 27563
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 28900,
+            "end_line": 28900
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 29189,
+            "end_line": 29189
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 29318,
+            "end_line": 29318
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 30612,
+            "end_line": 30612
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 30831,
+            "end_line": 30831
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 30911,
+            "end_line": 30911
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 37655,
+            "end_line": 37655
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "apiVersion':'2010-05-08','endpointPrefix':'iam','globalEndpoint':'iam.amazonaws.com','protocol':'query','serviceAbbreviation':'IAM','serviceFullName':'AWS Identity and Access"
+            ],
+            "start_line": 41995,
+            "end_line": 41995
+          }
+        ]
+      },
+      {
+        "path": "package/dist/aws-sdk.js",
+        "type": "file",
+        "name": "aws-sdk.js",
+        "base_name": "aws-sdk",
+        "extension": ".js",
+        "date": "2018-02-16",
+        "size": 3619661,
+        "sha1": "5f94b480baf34f362e3ebd5e5657b337b7e8379e",
+        "md5": "c991ad411753e0370236cf29e5c671f7",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 128107,
+            "end_line": 128116,
+            "matched_rule": {
+              "identifier": "apache-2.0_24.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 78,
+              "matched_length": 78,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 133926,
+            "end_line": 133926,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 135716,
+            "end_line": 135733,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 142554,
+            "end_line": 142571,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 142640,
+            "end_line": 142657,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 142733,
+            "end_line": 142750,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 142815,
+            "end_line": 142832,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 142883,
+            "end_line": 142900,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 143625,
+            "end_line": 143642,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 2
+          },
+          {
+            "statements": [
+              "Copyright 2012-2013 Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 128105,
+            "end_line": 128105
+          },
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Feross Aboukhadijeh <feross@feross.org>"
+            ],
+            "start_line": 133925,
+            "end_line": 133926
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 135713,
+            "end_line": 135714
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 142551,
+            "end_line": 142552
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 142637,
+            "end_line": 142638
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 142730,
+            "end_line": 142731
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 142812,
+            "end_line": 142813
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 142880,
+            "end_line": 142881
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 143622,
+            "end_line": 143623
+          },
+          {
+            "statements": [
+              "Copyright Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 146033,
+            "end_line": 146034
+          }
+        ]
+      },
+      {
+        "path": "package/dist/aws-sdk.min.js",
+        "type": "file",
+        "name": "aws-sdk.min.js",
+        "base_name": "aws-sdk.min",
+        "extension": ".js",
+        "date": "2018-02-16",
+        "size": 1626099,
+        "sha1": "442d4f643dd6275f7dc2e9e36df005557848a78c",
+        "md5": "66c5c4b84bdc990ec123be8a3221d3d5",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/dist/BUNDLE_LICENSE.txt",
+        "type": "file",
+        "name": "BUNDLE_LICENSE.txt",
+        "base_name": "BUNDLE_LICENSE",
+        "extension": ".txt",
+        "date": "2018-02-16",
+        "size": 4707,
+        "sha1": "2c4ea55a92eb11ceec6e0b630bb785830023328c",
+        "md5": "d6a20041d6a9714b06c03a3cb411c52d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 25,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "apache-2.0_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 6,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "apache-2.0_24.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 78,
+              "matched_length": 78,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 22,
+            "end_line": 39,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 42,
+            "end_line": 42,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 46,
+            "end_line": 65,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "khronos",
+            "score": 28.92,
+            "short_name": "Khronos License",
+            "category": "Permissive",
+            "owner": "Khronos Group",
+            "homepage_url": "",
+            "text_url": "",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:khronos",
+            "spdx_license_key": "",
+            "spdx_url": "",
+            "start_line": 87,
+            "end_line": 95,
+            "matched_rule": {
+              "identifier": "khronos.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "khronos"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 164,
+              "matched_length": 24,
+              "match_coverage": 14.63,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2012-2017 Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 20,
+            "end_line": 20
+          },
+          {
+            "statements": [
+              "Copyright (c) 2013 Dominic Tarr"
+            ],
+            "holders": [
+              "Dominic Tarr"
+            ],
+            "authors": [],
+            "start_line": 44,
+            "end_line": 44
+          },
+          {
+            "statements": [
+              "Copyright (c) 1998 - 2009, Paul Johnston"
+            ],
+            "holders": [
+              "Paul Johnston"
+            ],
+            "authors": [],
+            "start_line": 70,
+            "end_line": 71
+          }
+        ]
+      },
+      {
+        "path": "package/dist/xml2js.js",
+        "type": "file",
+        "name": "xml2js.js",
+        "base_name": "xml2js",
+        "extension": ".js",
+        "date": "2018-02-16",
+        "size": 416889,
+        "sha1": "f87e0a47fdc12b6481c9a58223395ca442807d94",
+        "md5": "c2ac28772a51ba3be0e4148be45cec0c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2191,
+            "end_line": 2191,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4208,
+            "end_line": 4225,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4341,
+            "end_line": 4358,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4691,
+            "end_line": 4708,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6028,
+            "end_line": 6045,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6317,
+            "end_line": 6334,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6446,
+            "end_line": 6463,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 7740,
+            "end_line": 7757,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 7959,
+            "end_line": 7976,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 8039,
+            "end_line": 8056,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Feross Aboukhadijeh <feross@feross.org>"
+            ],
+            "start_line": 2190,
+            "end_line": 2191
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 4206,
+            "end_line": 4206
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 4339,
+            "end_line": 4339
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 4689,
+            "end_line": 4689
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 6026,
+            "end_line": 6026
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 6315,
+            "end_line": 6315
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 6444,
+            "end_line": 6444
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 7738,
+            "end_line": 7738
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 7957,
+            "end_line": 7957
+          },
+          {
+            "statements": [
+              "Copyright Joyent, Inc. and other Node contributors."
+            ],
+            "holders": [
+              "Joyent, Inc. and other Node contributors."
+            ],
+            "authors": [],
+            "start_line": 8037,
+            "end_line": 8037
+          }
+        ]
+      },
+      {
+        "path": "package/dist-tools/browser-builder.js",
+        "type": "file",
+        "name": "browser-builder.js",
+        "base_name": "browser-builder",
+        "extension": ".js",
+        "date": "2018-02-16",
+        "size": 1464,
+        "sha1": "ad1940c3d5285610b2c016824cd6d6e08204c2b7",
+        "md5": "06b39c2eeec43bdc56fedaf5e050710d",
+        "files_count": null,
+        "mime_type": "application/javascript",
+        "file_type": "Node.js script, ASCII text executable",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": true,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 8,
+            "end_line": 9
+          }
+        ]
+      },
+      {
+        "path": "package/lib/resource_waiter.js",
+        "type": "file",
+        "name": "resource_waiter.js",
+        "base_name": "resource_waiter",
+        "extension": ".js",
+        "date": "2018-02-16",
+        "size": 5691,
+        "sha1": "6bd4df35abf7e71c9e279378ff6834da278d5642",
+        "md5": "007fb9e384fdd48460590cc30f37892e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 4,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "apache-2.0_24.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 78,
+              "matched_length": 78,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2012-2013 Amazon.com, Inc."
+            ],
+            "holders": [
+              "Amazon.com, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 2
+          }
+        ]
+      }
+    ]
+  }
+}

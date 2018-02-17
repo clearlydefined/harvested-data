@@ -1,0 +1,1604 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/bootstrap/4.0.0",
+    "fetchedAt": "2018-02-17T07:17:51.745Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:bootstrap:revision:4.0.0:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:bootstrap:revision:4.0.0",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-01-18T18:34:21.564Z",
+    "processedAt": "2018-02-17T07:19:07.738Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 27,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-01-18",
+        "size": 1131,
+        "sha1": "5f8c8583c0c90acdd146ec1bb32874e5de7a37c5",
+        "md5": "568d01e0545c0c51b17c0631047593bf",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 22,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2011-2018 Twitter, Inc.",
+              "Copyright (c) 2011-2018 The Bootstrap Authors"
+            ],
+            "holders": [
+              "Twitter, Inc.",
+              "Bootstrap Authors"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-18",
+        "size": 9152,
+        "sha1": "a4932259e10ccdf263b69430413034b0d0ca9a79",
+        "md5": "fed3601035740af5ac94255c10a00980",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 81,
+            "end_line": 81,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-01-18",
+        "size": 9138,
+        "sha1": "c406d3fdb9a949aae7a79480355fae73a9d73597",
+        "md5": "de89714b3559cb651527eda37750542b",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, UTF-8 Unicode text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 167,
+            "end_line": 167,
+            "matched_rule": {
+              "identifier": "mit_16.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "maintained by Mark Otto"
+            ],
+            "start_line": 128,
+            "end_line": 128
+          },
+          {
+            "statements": [
+              "copyright 2011-2018 the Bootstrap Authors"
+            ],
+            "holders": [
+              "Bootstrap Authors"
+            ],
+            "authors": [],
+            "start_line": 167,
+            "end_line": 167
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap-grid.css",
+        "type": "file",
+        "name": "bootstrap-grid.css",
+        "base_name": "bootstrap-grid",
+        "extension": ".css",
+        "date": "2018-01-18",
+        "size": 43852,
+        "sha1": "6a45c6634c1392ee2adfb8b747cb3ad2a55c3934",
+        "md5": "29a16726680195da6a8c78f234880607",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "CSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap-grid.css.map",
+        "type": "file",
+        "name": "bootstrap-grid.css.map",
+        "base_name": "bootstrap-grid.css",
+        "extension": ".map",
+        "date": "2018-01-18",
+        "size": 95910,
+        "sha1": "007df4dfe65fa81566216181e70f4f6e7243c59c",
+        "md5": "252fc8f161d23326e1566ea62e33dc9e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc.",
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap-grid.min.css",
+        "type": "file",
+        "name": "bootstrap-grid.min.css",
+        "base_name": "bootstrap-grid.min",
+        "extension": ".css",
+        "date": "2018-01-18",
+        "size": 34243,
+        "sha1": "6065007fb5568cd62cfe0bfe180695fc0b37724e",
+        "md5": "6ba2de34dbaa851bb52c96c7bd33352e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "CSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 7
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap-grid.min.css.map",
+        "type": "file",
+        "name": "bootstrap-grid.min.css.map",
+        "base_name": "bootstrap-grid.min.css",
+        "extension": ".map",
+        "date": "2018-01-18",
+        "size": 76209,
+        "sha1": "c8d975baf9eed5810a6c73c605112640b791c73b",
+        "md5": "88911562570a2e8cb4ce34b789867a00",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc.",
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap-reboot.css",
+        "type": "file",
+        "name": "bootstrap-reboot.css",
+        "base_name": "bootstrap-reboot",
+        "extension": ".css",
+        "date": "2018-01-18",
+        "size": 4798,
+        "sha1": "b29eefc5a719de840fd9aadc355668e2afcaa515",
+        "md5": "7dc6d49bddb587f471ed62358e743727",
+        "files_count": null,
+        "mime_type": "text/x-c++",
+        "file_type": "C++ source, ASCII text",
+        "programming_language": "CSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 6,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap-reboot.css.map",
+        "type": "file",
+        "name": "bootstrap-reboot.css.map",
+        "base_name": "bootstrap-reboot.css",
+        "extension": ".map",
+        "date": "2018-01-18",
+        "size": 57721,
+        "sha1": "258dae98aeb1653785120f973f3fc7eddb53f885",
+        "md5": "6898152aff34417258bb5668dba0dad4",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc.",
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap-reboot.min.css",
+        "type": "file",
+        "name": "bootstrap-reboot.min.css",
+        "base_name": "bootstrap-reboot.min",
+        "extension": ".css",
+        "date": "2018-01-18",
+        "size": 3936,
+        "sha1": "f0fa672fcbcb1bef03c79afc5ac26de394ac2b29",
+        "md5": "4e559333725069a33a9d0f3387652ea5",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "CSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 6,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 8
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap-reboot.min.css.map",
+        "type": "file",
+        "name": "bootstrap-reboot.min.css.map",
+        "base_name": "bootstrap-reboot.min.css",
+        "extension": ".map",
+        "date": "2018-01-18",
+        "size": 25881,
+        "sha1": "edeaf93141e5713e73a828dd2b957b0459924098",
+        "md5": "0d44c2c533fce5db24e69e81fbb9bbe9",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "Nix",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc.",
+              "Bootstrap Authors",
+              "Twitter, Inc.",
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap.css",
+        "type": "file",
+        "name": "bootstrap.css",
+        "base_name": "bootstrap",
+        "extension": ".css",
+        "date": "2018-01-18",
+        "size": 178152,
+        "sha1": "2ce613073db4961ad118ac063421eb62cefc426e",
+        "md5": "d59729439a203fc474f5677b8d18d8bb",
+        "files_count": null,
+        "mime_type": "text/x-c++",
+        "file_type": "C++ source, ASCII text",
+        "programming_language": "CSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap.css.map",
+        "type": "file",
+        "name": "bootstrap.css.map",
+        "base_name": "bootstrap.css",
+        "extension": ".map",
+        "date": "2018-01-18",
+        "size": 411645,
+        "sha1": "22c1c4414db7d067cc6a7662d073a35741f2d3d7",
+        "md5": "baebc743a8e92e5bd637ba3b72a773da",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "copyright 2014 Waybury."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc.",
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [
+              "Hugo Giraudel"
+            ],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap.min.css",
+        "type": "file",
+        "name": "bootstrap.min.css",
+        "base_name": "bootstrap.min",
+        "extension": ".css",
+        "date": "2018-01-18",
+        "size": 144877,
+        "sha1": "895125a4522a3b10ee7ada06ee6503587cbf95c5",
+        "md5": "450fc463b8b1a349df717056fbb3e078",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "CSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 7
+          }
+        ]
+      },
+      {
+        "path": "package/dist/css/bootstrap.min.css.map",
+        "type": "file",
+        "name": "bootstrap.min.css.map",
+        "base_name": "bootstrap.min.css",
+        "extension": ".map",
+        "date": "2018-01-18",
+        "size": 551641,
+        "sha1": "532544e15fae48a57094133795337b74f60e1818",
+        "md5": "d35c9e55233cb71e6f83ffc19680ad13",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc.",
+              "copyright 2014 Waybury."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc.",
+              "Bootstrap Authors",
+              "Twitter, Inc.",
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/dist/js/bootstrap.bundle.js",
+        "type": "file",
+        "name": "bootstrap.bundle.js",
+        "base_name": "bootstrap.bundle",
+        "extension": ".js",
+        "date": "2018-01-18",
+        "size": 195855,
+        "sha1": "06e9e2dc3e74a5ba8e8f502113b5250ce1e005bc",
+        "md5": "6866f102282d95443edf73ca112b117b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1403,
+            "end_line": 1419,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors"
+            ],
+            "holders": [
+              "Bootstrap Authors"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          },
+          {
+            "statements": [
+              "Copyright (c) 2016 Federico Zivolo"
+            ],
+            "holders": [
+              "Federico Zivolo"
+            ],
+            "authors": [],
+            "start_line": 1400,
+            "end_line": 1401
+          }
+        ]
+      },
+      {
+        "path": "package/dist/js/bootstrap.bundle.js.map",
+        "type": "file",
+        "name": "bootstrap.bundle.js.map",
+        "base_name": "bootstrap.bundle.js",
+        "extension": ".map",
+        "date": "2018-01-18",
+        "size": 326634,
+        "sha1": "5816693cfab8c27b5f1dcb638022b0c1184d39bb",
+        "md5": "61b82bbc09dd548f0aca2d715b5c8b77",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2016 Federico Zivolo"
+            ],
+            "holders": [
+              "Federico Zivolo"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/dist/js/bootstrap.bundle.min.js",
+        "type": "file",
+        "name": "bootstrap.bundle.min.js",
+        "base_name": "bootstrap.bundle.min",
+        "extension": ".js",
+        "date": "2018-01-18",
+        "size": 67742,
+        "sha1": "a0f7a287003f6d0c8a2543e6183fdc14417b6793",
+        "md5": "98d2c1da1c0a495f8fc8ad144ea1d3d2",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors"
+            ],
+            "holders": [
+              "Bootstrap Authors"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/dist/js/bootstrap.bundle.min.js.map",
+        "type": "file",
+        "name": "bootstrap.bundle.min.js.map",
+        "base_name": "bootstrap.bundle.min.js",
+        "extension": ".map",
+        "date": "2018-01-18",
+        "size": 273872,
+        "sha1": "a542542d8ebf58ed88377a885df17c2dad122d11",
+        "md5": "91b4eb2e34d30ccbb2af1d817da4a055",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2016 Federico Zivolo"
+            ],
+            "holders": [
+              "Federico Zivolo"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/dist/js/bootstrap.js",
+        "type": "file",
+        "name": "bootstrap.js",
+        "base_name": "bootstrap",
+        "extension": ".js",
+        "date": "2018-01-18",
+        "size": 115048,
+        "sha1": "07da27bb41cf623acc959d70b9611d09c01fa5a5",
+        "md5": "d810a38ca2781735a27cba0625a027db",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors"
+            ],
+            "holders": [
+              "Bootstrap Authors"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/dist/js/bootstrap.min.js",
+        "type": "file",
+        "name": "bootstrap.min.js",
+        "base_name": "bootstrap.min",
+        "extension": ".js",
+        "date": "2018-01-18",
+        "size": 48944,
+        "sha1": "a9545831803b1359cfeed47e3b4d6bae68e40e99",
+        "md5": "14d449eb8876fa55e1ef3c2cc52b0c17",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors"
+            ],
+            "holders": [
+              "Bootstrap Authors"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ]
+      },
+      {
+        "path": "package/scss/bootstrap-grid.scss",
+        "type": "file",
+        "name": "bootstrap-grid.scss",
+        "base_name": "bootstrap-grid",
+        "extension": ".scss",
+        "date": "2018-01-18",
+        "size": 648,
+        "sha1": "cdb91cd13566b4f07d79bb7e38ace037df36980f",
+        "md5": "f0d629753640ecc58a9eeb4ba9a2df44",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "SCSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/scss/bootstrap-reboot.scss",
+        "type": "file",
+        "name": "bootstrap-reboot.scss",
+        "base_name": "bootstrap-reboot",
+        "extension": ".scss",
+        "date": "2018-01-18",
+        "size": 410,
+        "sha1": "d3fe1eb48bf4dc976bcf4a42445e716918ccd7c4",
+        "md5": "8a0a93db2c6011544d7319276a6daa5c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "SCSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 6,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ]
+      },
+      {
+        "path": "package/scss/bootstrap.scss",
+        "type": "file",
+        "name": "bootstrap.scss",
+        "base_name": "bootstrap",
+        "extension": ".scss",
+        "date": "2018-01-18",
+        "size": 881,
+        "sha1": "5086cab1837f527a0df2884b2ab9e6fe33e621ef",
+        "md5": "61a8fbb8e67c1f1075fca26852f309bf",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "SCSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2011-2018 The Bootstrap Authors",
+              "Copyright 2011-2018 Twitter, Inc."
+            ],
+            "holders": [
+              "Bootstrap Authors",
+              "Twitter, Inc."
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/scss/_custom-forms.scss",
+        "type": "file",
+        "name": "_custom-forms.scss",
+        "base_name": "_custom-forms",
+        "extension": ".scss",
+        "date": "2018-01-18",
+        "size": 7797,
+        "sha1": "f3de2380f4639d55b966f4cc843e88887280028a",
+        "md5": "72f155cfbaf0ffc43e4d8b3f8c7fe6b3",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "SCSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "copyright 2014 Waybury."
+            ],
+            "holders": [],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 3
+          }
+        ]
+      },
+      {
+        "path": "package/scss/_functions.scss",
+        "type": "file",
+        "name": "_functions.scss",
+        "base_name": "_functions",
+        "extension": ".scss",
+        "date": "2018-01-18",
+        "size": 2657,
+        "sha1": "a53c970ca5ede0c69cbc3947efa3021a3137cd7f",
+        "md5": "51dbb86c95a0719bb1172be0bcae0a76",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "SCSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Hugo Giraudel"
+            ],
+            "start_line": 36,
+            "end_line": 38
+          }
+        ]
+      },
+      {
+        "path": "package/scss/_reboot.scss",
+        "type": "file",
+        "name": "_reboot.scss",
+        "base_name": "_reboot",
+        "extension": ".scss",
+        "date": "2018-01-18",
+        "size": 11591,
+        "sha1": "c5eada9e89b3848e7514b43f33199126863d8e78",
+        "md5": "254a7b261cd105f6c682dbf5e505e85c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "SCSS",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 8,
+            "end_line": 8,
+            "matched_rule": {
+              "identifier": "mit_48.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      }
+    ]
+  }
+}

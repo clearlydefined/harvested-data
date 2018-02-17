@@ -1,21 +1,22 @@
 {
   "_metadata": {
-    "type": "git",
-    "url": "cd:/git/github/caolan/async/82f9f46d3866069d69f199c07401c1393f5e5926/tool/scancode",
-    "fetchedAt": "2017-12-31T00:54:39.152Z",
+    "type": "scancode",
+    "url": "cd:/git/github/caolan/async/82f9f46d3866069d69f199c07401c1393f5e5926",
+    "fetchedAt": "2018-02-17T19:56:44.742Z",
     "links": {
       "self": {
         "href": "urn:git:github:caolan:async:revision:82f9f46d3866069d69f199c07401c1393f5e5926:tool:scancode:2.2.1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:git:github:caolan:async:revision:82f9f46d3866069d69f199c07401c1393f5e5926:tool:scancode",
+        "href": "urn:git:github:caolan:async:revision:82f9f46d3866069d69f199c07401c1393f5e5926",
         "type": "collection"
       }
     },
-    "version": 1,
+    "version": "2.2.1",
     "contentType": "application/json",
-    "processedAt": "2017-12-31T00:55:25.182Z"
+    "releaseDate": "2017-11-06T18:45:41-08:00\n",
+    "processedAt": "2018-02-17T19:57:48.556Z"
   },
   "content": {
     "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
@@ -38,7 +39,7 @@
         "name": "LICENSE",
         "base_name": "LICENSE",
         "extension": "",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1082,
         "sha1": "094a2713eeee5683ab198b88e8b853aa73d6700f",
         "md5": "d83023cb9358d35d3e82d287274ea1cf",
@@ -101,7 +102,7 @@
         "name": "package.json",
         "base_name": "package",
         "extension": ".json",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 2622,
         "sha1": "e4f591b56311e0364f1be644f79456a3e3768f41",
         "md5": "d255f4cbf10d707ef7b4cf1a1a0560cf",
@@ -152,7 +153,7 @@
         "name": "async-logo_readme.jpg",
         "base_name": "async-logo_readme",
         "extension": ".jpg",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 74404,
         "sha1": "b2c28dd4613b9bccfb683848e28a27fe0bab3c67",
         "md5": "6daa3cc44ac73f0f425e96ffe0ebabf6",
@@ -188,7 +189,7 @@
         "name": "module_template.md",
         "base_name": "module_template",
         "extension": ".md",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 896,
         "sha1": "a75591a794bcd4c29154e0427cfe89282ac20d98",
         "md5": "2a0a44f413395bb2ebd9c4cf6520bf70",
@@ -239,7 +240,7 @@
         "name": "LICENSE",
         "base_name": "LICENSE",
         "extension": "",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 2590,
         "sha1": "58b5f758758b39505a70ce3b59aede2a53a9a6bc",
         "md5": "8a706276cd3611bf262c965d547abf03",
@@ -339,7 +340,7 @@
         "name": "OpenSans-Semibold-webfont.ttf",
         "base_name": "OpenSans-Semibold-webfont",
         "extension": ".ttf",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 39476,
         "sha1": "0b72db51c3db686963fdc5e8c05b92645d0161b5",
         "md5": "b32acea6fd3c228b5059042c7ad21c55",
@@ -400,7 +401,7 @@
         "name": "OpenSans-SemiboldItalic-webfont.ttf",
         "base_name": "OpenSans-SemiboldItalic-webfont",
         "extension": ".ttf",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 40252,
         "sha1": "7cff8ad38d267e260d08c179b7051032a27ef6e8",
         "md5": "64f886b232962979e2eaf29d93108286",
@@ -461,7 +462,7 @@
         "name": "Apache-License-2.0.txt",
         "base_name": "Apache-License-2.0",
         "extension": ".txt",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 11560,
         "sha1": "47b573e3824cd5e02a1a3ae99e2735b49e0256e4",
         "md5": "d273d63619c9aeaf15cdaf76422c4f87",

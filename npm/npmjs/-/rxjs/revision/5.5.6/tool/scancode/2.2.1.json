@@ -1,0 +1,897 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/rxjs/5.5.6",
+    "fetchedAt": "2018-02-17T06:22:09.794Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:rxjs:revision:5.5.6:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:rxjs:revision:5.5.6",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-12-21T21:48:57.218Z",
+    "processedAt": "2018-02-17T06:27:14.179Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 14,
+    "files": [
+      {
+        "path": "package/LICENSE.txt",
+        "type": "file",
+        "name": "LICENSE.txt",
+        "base_name": "LICENSE",
+        "extension": ".txt",
+        "date": "2017-12-21",
+        "size": 11064,
+        "sha1": "2a33fc012fc8d9e0516f6bbdab88a3dcf8fb8a8c",
+        "md5": "24ac97910ce6cde928c44aa2dc0ccf2e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 99.38,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 201,
+            "matched_rule": {
+              "identifier": "apache-2.0_easyeclipse.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 1608,
+              "matched_length": 1603,
+              "match_coverage": 99.69,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2015-2017 Google, Inc., Netflix, Inc., Microsoft Corp."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "Netflix, Inc.",
+              "Microsoft Corp."
+            ],
+            "authors": [],
+            "start_line": 189,
+            "end_line": 189
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-12-21",
+        "size": 5280,
+        "sha1": "d09b3ab985d941064a2bbae440659b116d646c0f",
+        "md5": "166bc229e013f4b5ff464aa6a851dfea",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Ben Lesh <ben@benlesh.com>"
+            ],
+            "start_line": 73,
+            "end_line": 74
+          }
+        ]
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2017-12-21",
+        "size": 7320,
+        "sha1": "63e15c9099f01d766ccdeccea2d10df3a777e17a",
+        "md5": "721d0110d0cd43e4f2eff44b7629bb3a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Code of Conduct"
+            ],
+            "start_line": 30,
+            "end_line": 30
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/Rx.js",
+        "type": "file",
+        "name": "Rx.js",
+        "base_name": "Rx",
+        "extension": ".js",
+        "date": "2017-12-21",
+        "size": 788434,
+        "sha1": "29a77bceea3cf81ce84b25cafdb5fcf2f72f2244",
+        "md5": "7c2eca01e993b8bed3663d583ec32a2c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF, LF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 94.05,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 3,
+            "end_line": 203,
+            "matched_rule": {
+              "identifier": "apache-2.0_opticon.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 1517,
+              "matched_length": 1517,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 94.05,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 209,
+            "end_line": 409,
+            "matched_rule": {
+              "identifier": "apache-2.0_opticon.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 1517,
+              "matched_length": 1517,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 68.09,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 421,
+            "end_line": 431,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 86,
+              "matched_length": 64,
+              "match_coverage": 74.42,
+              "rule_relevance": 100
+            }
+          },
+          {
+            "key": "warranty-disclaimer",
+            "score": 63.64,
+            "short_name": "Generic, Bare Warranty Disclaimer",
+            "category": "Unknown License",
+            "owner": "Unspecified",
+            "homepage_url": "",
+            "text_url": "",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:warranty-disclaimer",
+            "spdx_license_key": "",
+            "spdx_url": "",
+            "start_line": 426,
+            "end_line": 427,
+            "matched_rule": {
+              "identifier": "warranty-disclaimer.RULE",
+              "license_choice": false,
+              "licenses": [
+                "warranty-disclaimer"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 34,
+              "matched_length": 7,
+              "match_coverage": 20.59,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2015-2017 Google, Inc., Netflix, Inc., Microsoft Corp."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "Netflix, Inc.",
+              "Microsoft Corp."
+            ],
+            "authors": [],
+            "start_line": 191,
+            "end_line": 191
+          },
+          {
+            "statements": [
+              "Copyright (c) 2015-2017 Google, Inc., Netflix, Inc., Microsoft Corp."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "Netflix, Inc.",
+              "Microsoft Corp."
+            ],
+            "authors": [],
+            "start_line": 397,
+            "end_line": 397
+          },
+          {
+            "statements": [
+              "Copyright (c) Microsoft Corporation."
+            ],
+            "holders": [
+              "Microsoft Corporation."
+            ],
+            "authors": [],
+            "start_line": 420,
+            "end_line": 420
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/Rx.js.map",
+        "type": "file",
+        "name": "Rx.js.map",
+        "base_name": "Rx.js",
+        "extension": ".map",
+        "date": "2017-12-21",
+        "size": 1270918,
+        "sha1": "e8c0591742b20eb52f71cc122191f1a778f0429e",
+        "md5": "f5f4904a76fe07bea4cfbaca2099349b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 68.09,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 86,
+              "matched_length": 64,
+              "match_coverage": 74.42,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Microsoft Corporation."
+            ],
+            "holders": [
+              "Microsoft Corporation."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/bundles/Rx.min.js",
+        "type": "file",
+        "name": "Rx.min.js",
+        "base_name": "Rx.min",
+        "extension": ".js",
+        "date": "2017-12-21",
+        "size": 149417,
+        "sha1": "a362517a81df81a71c2a13b87146be2c47b5d9e0",
+        "md5": "ca3da7763c82a30ae5ef1a1a051d6be4",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 25,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 2,
+            "end_line": 3,
+            "matched_rule": {
+              "identifier": "apache-2.0_10.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 25,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 6,
+            "end_line": 7,
+            "matched_rule": {
+              "identifier": "apache-2.0_10.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "apache-2.0",
+            "score": 68.09,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 12,
+            "end_line": 22,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 86,
+              "matched_length": 64,
+              "match_coverage": 74.42,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Microsoft Corporation."
+            ],
+            "holders": [
+              "Microsoft Corporation."
+            ],
+            "authors": [],
+            "start_line": 11,
+            "end_line": 11
+          },
+          {
+            "statements": [
+              "(c) this.destination.next",
+              "(c) this.destination.error",
+              "(c) this.destination.complete()",
+              "(c) c.notification.observe(c.destination)"
+            ],
+            "holders": [],
+            "authors": [],
+            "start_line": 30,
+            "end_line": 134
+          }
+        ]
+      },
+      {
+        "path": "package/src/LICENSE.txt",
+        "type": "file",
+        "name": "LICENSE.txt",
+        "base_name": "LICENSE",
+        "extension": ".txt",
+        "date": "2017-12-21",
+        "size": 11064,
+        "sha1": "2a33fc012fc8d9e0516f6bbdab88a3dcf8fb8a8c",
+        "md5": "24ac97910ce6cde928c44aa2dc0ccf2e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 99.38,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 201,
+            "matched_rule": {
+              "identifier": "apache-2.0_easyeclipse.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 1608,
+              "matched_length": 1603,
+              "match_coverage": 99.69,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2015-2017 Google, Inc., Netflix, Inc., Microsoft Corp."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "Netflix, Inc.",
+              "Microsoft Corp."
+            ],
+            "authors": [],
+            "start_line": 189,
+            "end_line": 189
+          }
+        ]
+      },
+      {
+        "path": "package/src/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2017-12-21",
+        "size": 7320,
+        "sha1": "63e15c9099f01d766ccdeccea2d10df3a777e17a",
+        "md5": "721d0110d0cd43e4f2eff44b7629bb3a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Code of Conduct"
+            ],
+            "start_line": 30,
+            "end_line": 30
+          }
+        ]
+      },
+      {
+        "path": "package/src/util/root.ts",
+        "type": "file",
+        "name": "root.ts",
+        "base_name": "root",
+        "extension": ".ts",
+        "date": "2017-12-21",
+        "size": 1116,
+        "sha1": "b3af3ee8ef4e251763ae83442934055e38f17cf2",
+        "md5": "f3f2640394e34adbf53cda00d7289aba",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "TypeScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/util/root.js.map",
+        "type": "file",
+        "name": "root.js.map",
+        "base_name": "root.js",
+        "extension": ".map",
+        "date": "2017-12-21",
+        "size": 1775,
+        "sha1": "ad2c1bfd1e5175aac47f4a499f6f0591819a6659",
+        "md5": "75ae73c3e3552497b86395a8b8a5a0cb",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with no line terminators",
+        "programming_language": "JavaScript+Lasso",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright Google Inc."
+            ],
+            "holders": [
+              "Google Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/_esm2015/LICENSE.txt",
+        "type": "file",
+        "name": "LICENSE.txt",
+        "base_name": "LICENSE",
+        "extension": ".txt",
+        "date": "2017-12-21",
+        "size": 11064,
+        "sha1": "2a33fc012fc8d9e0516f6bbdab88a3dcf8fb8a8c",
+        "md5": "24ac97910ce6cde928c44aa2dc0ccf2e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 99.38,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 201,
+            "matched_rule": {
+              "identifier": "apache-2.0_easyeclipse.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 1608,
+              "matched_length": 1603,
+              "match_coverage": 99.69,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2015-2017 Google, Inc., Netflix, Inc., Microsoft Corp."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "Netflix, Inc.",
+              "Microsoft Corp."
+            ],
+            "authors": [],
+            "start_line": 189,
+            "end_line": 189
+          }
+        ]
+      },
+      {
+        "path": "package/_esm2015/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2017-12-21",
+        "size": 7320,
+        "sha1": "63e15c9099f01d766ccdeccea2d10df3a777e17a",
+        "md5": "721d0110d0cd43e4f2eff44b7629bb3a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Code of Conduct"
+            ],
+            "start_line": 30,
+            "end_line": 30
+          }
+        ]
+      },
+      {
+        "path": "package/_esm5/LICENSE.txt",
+        "type": "file",
+        "name": "LICENSE.txt",
+        "base_name": "LICENSE",
+        "extension": ".txt",
+        "date": "2017-12-21",
+        "size": 11064,
+        "sha1": "2a33fc012fc8d9e0516f6bbdab88a3dcf8fb8a8c",
+        "md5": "24ac97910ce6cde928c44aa2dc0ccf2e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 99.38,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 201,
+            "matched_rule": {
+              "identifier": "apache-2.0_easyeclipse.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "3-seq",
+              "rule_length": 1608,
+              "matched_length": 1603,
+              "match_coverage": 99.69,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2015-2017 Google, Inc., Netflix, Inc., Microsoft Corp."
+            ],
+            "holders": [
+              "Google, Inc.",
+              "Netflix, Inc.",
+              "Microsoft Corp."
+            ],
+            "authors": [],
+            "start_line": 189,
+            "end_line": 189
+          }
+        ]
+      },
+      {
+        "path": "package/_esm5/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2017-12-21",
+        "size": 7320,
+        "sha1": "63e15c9099f01d766ccdeccea2d10df3a777e17a",
+        "md5": "721d0110d0cd43e4f2eff44b7629bb3a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Code of Conduct"
+            ],
+            "start_line": 30,
+            "end_line": 30
+          }
+        ]
+      }
+    ]
+  }
+}

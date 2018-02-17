@@ -1,0 +1,1221 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/winston/2.4.0",
+    "fetchedAt": "2018-02-17T06:28:12.883Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:winston:revision:2.4.0:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:winston:revision:2.4.0",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-10-02T04:59:14.456Z",
+    "processedAt": "2018-02-17T06:28:29.085Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 25,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2015-11-04",
+        "size": 1058,
+        "sha1": "446f0f02b2fb7a70a11d86f6ee3913560019ba52",
+        "md5": "124783bb03d1b801c23d11f07b62be0a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 3,
+            "end_line": 19,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-10-02",
+        "size": 905,
+        "sha1": "4541adf51ef852cdff9af5d241426355ade90273",
+        "md5": "a8a74273c32d84594726c1c9d9e5cc7d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 41,
+            "end_line": 41,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Charlie Robbins <charlie.robbins@gmail.com>",
+              "Jarrett Cruger <jcrugzz@gmail.com>"
+            ],
+            "start_line": 4,
+            "end_line": 7
+          }
+        ]
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2017-10-02",
+        "size": 27132,
+        "sha1": "0bec16b8242e88acee9b0e68375c18a6beb25f2d",
+        "md5": "d724ec8a3e28625a22f00f58c7273335",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Charlie Robbins",
+              "Matthew Bergman"
+            ],
+            "start_line": 840,
+            "end_line": 841
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston.js",
+        "type": "file",
+        "name": "winston.js",
+        "base_name": "winston",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 4220,
+        "sha1": "c478754177c687f687f1c021520e48c995d97d0a",
+        "md5": "fc767edabe7f33ed4d7cd172f2142928",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/common.js",
+        "type": "file",
+        "name": "common.js",
+        "base_name": "common",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 13500,
+        "sha1": "cf6be7e9b0fd545a4896204ee8b1631edd437d9a",
+        "md5": "6aa4326bb44b194a81cec790bc991031",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/config.js",
+        "type": "file",
+        "name": "config.js",
+        "base_name": "config",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 1598,
+        "sha1": "5a5d03e415520ae2ab8d58073cd254952382062e",
+        "md5": "96c57d7a7b564198dae78caed44ae8cf",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/container.js",
+        "type": "file",
+        "name": "container.js",
+        "base_name": "container",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 3453,
+        "sha1": "a8b91ed9acada1a845167dd38a6d91d92b8cadc6",
+        "md5": "eb07cd4691dd8de90c9a6b7368d65ae6",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/exception.js",
+        "type": "file",
+        "name": "exception.js",
+        "base_name": "exception",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 1369,
+        "sha1": "301dc6a835b4f9e63f231d05db5bf7bfc8375bb2",
+        "md5": "c3676e697133e8119711c003ba377da6",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/logger.js",
+        "type": "file",
+        "name": "logger.js",
+        "base_name": "logger",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 20006,
+        "sha1": "55f630655a43044be1940c39381f99729e17e0de",
+        "md5": "2c2f35e75d9352208df686105833d6ff",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/transports.js",
+        "type": "file",
+        "name": "transports.js",
+        "base_name": "transports",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 764,
+        "sha1": "2f912271ba6db32a03e85f7ef852aa372b277169",
+        "md5": "5ddd474709a4cfc1e5037e5ce2d56209",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/config/cli-config.js",
+        "type": "file",
+        "name": "cli-config.js",
+        "base_name": "cli-config",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 499,
+        "sha1": "39913f60804957405ef73227f20d51ba175b9398",
+        "md5": "5571b799fa931ce13cab1503d2c15132",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/config/npm-config.js",
+        "type": "file",
+        "name": "npm-config.js",
+        "base_name": "npm-config",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 370,
+        "sha1": "8f277d06ddacdfc3551c121ed2c89de65a2dc014",
+        "md5": "d11756e5b431a2ccac593aae8a2a5870",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/config/syslog-config.js",
+        "type": "file",
+        "name": "syslog-config.js",
+        "base_name": "syslog-config",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 441,
+        "sha1": "775d201fd2a1b888abfd41d28df445e017c38c2f",
+        "md5": "d527797caff61de5ac42c75e65e87967",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/transports/console.js",
+        "type": "file",
+        "name": "console.js",
+        "base_name": "console",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 4006,
+        "sha1": "ad20b709aec2ff0d2afac18471f869076689355f",
+        "md5": "ca8bd639d730bda70d9f62786583741c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/transports/file.js",
+        "type": "file",
+        "name": "file.js",
+        "base_name": "file",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 18249,
+        "sha1": "677eb8065bcb6442161c16a9b6271f894d4a4a8e",
+        "md5": "7513a5c4cf67eb1c7d15b09715b355b4",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/lib/winston/transports/transport.js",
+        "type": "file",
+        "name": "transport.js",
+        "base_name": "transport",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 3729,
+        "sha1": "b42fb94d73b7653230adf70381ff956db903c58c",
+        "md5": "962849d3e6dc8baa0528f523a3c29805",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/test/helpers.js",
+        "type": "file",
+        "name": "helpers.js",
+        "base_name": "helpers",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 7139,
+        "sha1": "5234740e58051041644770b5f419c372a6c15eec",
+        "md5": "a8ed199ce760aecd054a006674d8b9d0",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/test/transports/console-test.js",
+        "type": "file",
+        "name": "console-test.js",
+        "base_name": "console-test",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 7006,
+        "sha1": "225ec2bcf93d61565081c294817d916335e79b51",
+        "md5": "77ec2a67e91d7f75bd3a8731e359f87f",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/test/transports/file-archive-test.js",
+        "type": "file",
+        "name": "file-archive-test.js",
+        "base_name": "file-archive-test",
+        "extension": ".js",
+        "date": "2015-11-04",
+        "size": 2306,
+        "sha1": "79dc27b4466c256fc02029b3e80fabf4bf3a2c37",
+        "md5": "177a369193ccc1d8c371d85a2595c649",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2015 Nimrod Becker"
+            ],
+            "holders": [
+              "Nimrod Becker"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/test/transports/file-maxfiles-test.js",
+        "type": "file",
+        "name": "file-maxfiles-test.js",
+        "base_name": "file-maxfiles-test",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 3409,
+        "sha1": "e84f9cd21198da4bce4fd927f0a6e1f43bcd3ca5",
+        "md5": "047ec3634fc16d0b7f25e6b4cd764a7f",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 7,
+            "end_line": 7,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2011 Daniel Aristizabal"
+            ],
+            "holders": [
+              "Daniel Aristizabal"
+            ],
+            "authors": [],
+            "start_line": 6,
+            "end_line": 7
+          }
+        ]
+      },
+      {
+        "path": "package/test/transports/file-maxsize-test.js",
+        "type": "file",
+        "name": "file-maxsize-test.js",
+        "base_name": "file-maxsize-test",
+        "extension": ".js",
+        "date": "2015-11-04",
+        "size": 2394,
+        "sha1": "2d3f0c101adfbe89cc5d3225bf5a61ee4e290f44",
+        "md5": "1ccca66894b94045654e573787468c36",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/test/transports/file-open-test.js",
+        "type": "file",
+        "name": "file-open-test.js",
+        "base_name": "file-open-test",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 1694,
+        "sha1": "84b4582222ed4bbefc4fa847c60e190bbd489211",
+        "md5": "deaf118c992ecf30b10bba3a5591d502",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2014 William Wong"
+            ],
+            "holders": [
+              "William Wong"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/test/transports/file-stress-test.js",
+        "type": "file",
+        "name": "file-stress-test.js",
+        "base_name": "file-stress-test",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 2111,
+        "sha1": "5763669760bdce825b586dfbbb99a0dd2c0d2dfe",
+        "md5": "b46997f31be597e0dd642623e9ab833b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2014 William Wong"
+            ],
+            "holders": [
+              "William Wong"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/test/transports/file-test.js",
+        "type": "file",
+        "name": "file-test.js",
+        "base_name": "file-test",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 4532,
+        "sha1": "87e1b081e087fdc527ac77305d0d44bd392af311",
+        "md5": "a0f2a0154254d9ea7c3764dd1d24ed2e",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2010 Charlie Robbins"
+            ],
+            "holders": [
+              "Charlie Robbins"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ]
+      },
+      {
+        "path": "package/test/transports/http-test.js",
+        "type": "file",
+        "name": "http-test.js",
+        "base_name": "http-test",
+        "extension": ".js",
+        "date": "2017-10-02",
+        "size": 1787,
+        "sha1": "4c06631b30ed0293325e58fc5d99752e16b28c4e",
+        "md5": "737d2f567ece00264a37e301f0b1c340",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      }
+    ]
+  }
+}

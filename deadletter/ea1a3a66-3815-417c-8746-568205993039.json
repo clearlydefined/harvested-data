@@ -1,0 +1,42 @@
+{
+  "type": "npm",
+  "url": "cd:/npm/npmjs/-/prop-types/15.6.0",
+  "context": {
+    "history": [
+      "package@cd:/npm/npmjs/-/prop-types",
+      "npm@cd:/npm/npmjs/-/prop-types"
+    ],
+    "qualifier": "urn:"
+  },
+  "policy": {
+    "fetch": "mutables",
+    "freshness": "match",
+    "map": {
+      "name": "package",
+      "path": "/npm"
+    }
+  },
+  "_metadata": {
+    "version": 1,
+    "meta": {
+      "loopName": "0",
+      "cid": "3b",
+      "root": "package@cd:/npm/npmjs/-/prop-types"
+    },
+    "type": "deadletter",
+    "url": "cd:/npm/npmjs/-/prop-types/15.6.0",
+    "processedAt": "2018-02-17T05:51:55.870Z",
+    "fetchedAt": "2018-02-17T05:51:55.870Z",
+    "links": {
+      "self": {
+        "href": "urn:deadletter:ea1a3a66-3815-417c-8746-568205993039",
+        "type": "resource"
+      }
+    },
+    "extra": {
+      "type": "npm",
+      "url": "cd:/npm/npmjs/-/prop-types/15.6.0",
+      "reason": "url is not defined"
+    }
+  }
+}

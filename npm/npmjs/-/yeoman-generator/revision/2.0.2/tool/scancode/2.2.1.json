@@ -1,0 +1,237 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/yeoman-generator/2.0.2",
+    "fetchedAt": "2018-02-17T06:21:20.971Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:yeoman-generator:revision:2.0.2:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:yeoman-generator:revision:2.0.2",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-12-26T17:59:02.368Z",
+    "processedAt": "2018-02-17T06:21:36.359Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 3,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2016-08-17",
+        "size": 1292,
+        "sha1": "92bacbc9b7523b57c5ea0f9ea53abbf5d71c8388",
+        "md5": "ef57ae86fa75f3345397a1b2ce9cc547",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-simplified",
+            "score": 100,
+            "short_name": "BSD-Simplified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+            "text_url": "http://opensource.org/licenses/bsd-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+            "spdx_license_key": "BSD-2-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+            "start_line": 4,
+            "end_line": 22,
+            "matched_rule": {
+              "identifier": "bsd-simplified_24.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-simplified"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 186,
+              "matched_length": 186,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2015, Google"
+            ],
+            "holders": [],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 2
+          }
+        ]
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-12-26",
+        "size": 2050,
+        "sha1": "df18ca4cdadb4f4adf79761bab2f8352186f2502",
+        "md5": "ceea661985990510f7027bf7c6237d13",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
+      {
+        "path": "package/readme.md",
+        "type": "file",
+        "name": "readme.md",
+        "base_name": "readme",
+        "extension": ".md",
+        "date": "2017-03-05",
+        "size": 6602,
+        "sha1": "e00bebae53da3239d3e3e5a81e1949e6b2cca0a2",
+        "md5": "94d58e08fcbabf85d5564c0785e2f61a",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 10,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 123,
+            "end_line": 125,
+            "matched_rule": {
+              "identifier": "bsd-new_89.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "bsd-new",
+            "score": 35,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 125,
+            "end_line": 125,
+            "matched_rule": {
+              "identifier": "bsd-new_84.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 7,
+              "matched_length": 7,
+              "match_coverage": 100,
+              "rule_relevance": 35
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Google"
+            ],
+            "holders": [],
+            "authors": [],
+            "start_line": 125,
+            "end_line": 126
+          }
+        ]
+      }
+    ]
+  }
+}

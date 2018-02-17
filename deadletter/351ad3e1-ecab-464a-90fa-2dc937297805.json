@@ -1,0 +1,42 @@
+{
+  "type": "npm",
+  "url": "cd:/npm/npmjs/@types/node/9.4.6",
+  "context": {
+    "history": [
+      "package@cd:/npm/npmjs/@types/node",
+      "npm@cd:/npm/npmjs/@types/node"
+    ],
+    "qualifier": "urn:"
+  },
+  "policy": {
+    "fetch": "mutables",
+    "freshness": "match",
+    "map": {
+      "name": "package",
+      "path": "/npm"
+    }
+  },
+  "_metadata": {
+    "version": 1,
+    "meta": {
+      "loopName": "0",
+      "cid": "5f",
+      "root": "package@cd:/npm/npmjs/@types/node"
+    },
+    "type": "deadletter",
+    "url": "cd:/npm/npmjs/@types/node/9.4.6",
+    "processedAt": "2018-02-17T05:53:25.935Z",
+    "fetchedAt": "2018-02-17T05:53:25.935Z",
+    "links": {
+      "self": {
+        "href": "urn:deadletter:351ad3e1-ecab-464a-90fa-2dc937297805",
+        "type": "resource"
+      }
+    },
+    "extra": {
+      "type": "npm",
+      "url": "cd:/npm/npmjs/@types/node/9.4.6",
+      "reason": "url is not defined"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "scancode",
+  "url": "cd:/npm/npmjs/-/typescript/2.7.2",
+  "context": {
+    "history": [
+      "package@cd:/npm/npmjs/-/typescript",
+      "npm@cd:/npm/npmjs/-/typescript",
+      "scancode@cd:/npm/npmjs/-/typescript/2.7.2"
+    ],
+    "qualifier": "urn:"
+  },
+  "policy": {
+    "fetch": "mutables",
+    "freshness": "match",
+    "map": {
+      "name": "package",
+      "path": "/npm/scancode"
+    }
+  },
+  "_metadata": {
+    "version": 1,
+    "meta": {
+      "loopName": "0",
+      "cid": "ak",
+      "root": "package@cd:/npm/npmjs/-/typescript"
+    },
+    "type": "deadletter",
+    "url": "cd:/npm/npmjs/-/typescript/2.7.2",
+    "processedAt": "2018-02-17T19:52:06.683Z",
+    "fetchedAt": "2018-02-17T19:52:06.683Z",
+    "links": {
+      "self": {
+        "href": "urn:deadletter:58315126-3678-4086-a601-20d69576021d",
+        "type": "resource"
+      }
+    },
+    "extra": {
+      "type": "scancode",
+      "url": "cd:/npm/npmjs/-/typescript/2.7.2",
+      "reason": "Command failed: cd c:\\installs\\scancode-toolkit-2.2.1 && .\\scancode --copyright --license --info --diag --only-findings  --strip-root --quiet --timeout 300 -n 3 -f json-pp c:/temp/cd-LP87A8 c:/temp/cd-dwVqL8\n"
+    }
+  }
+}

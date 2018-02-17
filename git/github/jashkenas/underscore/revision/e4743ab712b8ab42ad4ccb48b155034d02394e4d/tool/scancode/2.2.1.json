@@ -1,21 +1,22 @@
 {
   "_metadata": {
-    "type": "git",
-    "url": "cd:/git/github/jashkenas/underscore/e4743ab712b8ab42ad4ccb48b155034d02394e4d/tool/scancode",
-    "fetchedAt": "2017-12-31T01:05:11.479Z",
+    "type": "scancode",
+    "url": "cd:/git/github/jashkenas/underscore/e4743ab712b8ab42ad4ccb48b155034d02394e4d",
+    "fetchedAt": "2018-02-17T20:09:36.069Z",
     "links": {
       "self": {
         "href": "urn:git:github:jashkenas:underscore:revision:e4743ab712b8ab42ad4ccb48b155034d02394e4d:tool:scancode:2.2.1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:git:github:jashkenas:underscore:revision:e4743ab712b8ab42ad4ccb48b155034d02394e4d:tool:scancode",
+        "href": "urn:git:github:jashkenas:underscore:revision:e4743ab712b8ab42ad4ccb48b155034d02394e4d",
         "type": "collection"
       }
     },
-    "version": 1,
+    "version": "2.2.1",
     "contentType": "application/json",
-    "processedAt": "2017-12-31T01:05:27.895Z"
+    "releaseDate": "2015-04-02T11:32:01-04:00\n",
+    "processedAt": "2018-02-17T20:09:54.989Z"
   },
   "content": {
     "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
@@ -30,18 +31,69 @@
       "--diag": true,
       "--only-findings": true
     },
-    "files_count": 11,
+    "files_count": 12,
     "files": [
+      {
+        "path": "component.json",
+        "type": "file",
+        "name": "component.json",
+        "base_name": "component",
+        "extension": ".json",
+        "date": "2018-02-17",
+        "size": 373,
+        "sha1": "07824d6ba1fb9d24c6a4d6aac5c177df9ef89d3e",
+        "md5": "dc30777875106026d0430eef995c9ccd",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 9,
+            "end_line": 9,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": []
+      },
       {
         "path": "LICENSE",
         "type": "file",
         "name": "LICENSE",
         "base_name": "LICENSE",
         "extension": "",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 1140,
-        "sha1": "78b540007f9ccd7a9fc6215722fa571200187c32",
-        "md5": "699f2dffff87d83fc5495b16a9217175",
+        "sha1": "74cadc28f2385f56f9fb04cb0eb9bf6574ad7553",
+        "md5": "62e71dd8efdf728e1fa643cb8940d8c1",
         "files_count": null,
         "mime_type": "text/plain",
         "file_type": "ASCII text, with CRLF line terminators",
@@ -84,7 +136,7 @@
         "copyrights": [
           {
             "statements": [
-              "Copyright (c) 2009-2017 Jeremy Ashkenas, DocumentCloud and Investigative Reporters"
+              "Copyright (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters"
             ],
             "holders": [
               "Jeremy Ashkenas, DocumentCloud and Investigative Reporters"
@@ -101,10 +153,10 @@
         "name": "package.json",
         "base_name": "package",
         "extension": ".json",
-        "date": "2017-12-31",
-        "size": 1571,
-        "sha1": "def91aa55fdf0833ec171f70ebf60673b02b5cea",
-        "md5": "20937ba657397d791ccaac447f2d80b8",
+        "date": "2018-02-17",
+        "size": 1201,
+        "sha1": "f7b0f4493265b4544cde9a96269bb5b3d478cda5",
+        "md5": "4d370a737f1a9283f2ff32a0a3a6b636",
         "files_count": null,
         "mime_type": "text/plain",
         "file_type": "ASCII text, with CRLF line terminators",
@@ -128,8 +180,8 @@
             "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
             "spdx_license_key": "MIT",
             "spdx_url": "https://spdx.org/licenses/MIT",
-            "start_line": 44,
-            "end_line": 44,
+            "start_line": 35,
+            "end_line": 35,
             "matched_rule": {
               "identifier": "mit_34.RULE",
               "license_choice": false,
@@ -162,7 +214,7 @@
         "name": "underscore-min.js",
         "base_name": "underscore-min",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 16454,
         "sha1": "afff4c1369f6ca34ec60823d853942eac9729eba",
         "md5": "a80d6d78cd069d89df3ab704727d3fea",
@@ -225,10 +277,10 @@
         "name": "underscore.js",
         "base_name": "underscore",
         "extension": ".js",
-        "date": "2017-12-31",
-        "size": 59541,
-        "sha1": "5b931e2ee3a50fd0b42a73144be9e1e4f355e046",
-        "md5": "61332ec2d2083e004e0f81949f57dad3",
+        "date": "2018-02-17",
+        "size": 54467,
+        "sha1": "01444521956c8fb06a372273c01de0b593812e5b",
+        "md5": "2095486d787479760d2e766f3386ccd4",
         "files_count": null,
         "mime_type": "text/plain",
         "file_type": "UTF-8 Unicode text, with CRLF line terminators",
@@ -271,7 +323,7 @@
         "copyrights": [
           {
             "statements": [
-              "(c) 2009-2017 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors Underscore"
+              "(c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors Underscore"
             ],
             "holders": [
               "Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors Underscore"
@@ -288,7 +340,7 @@
         "name": "docco.css",
         "base_name": "docco",
         "extension": ".css",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 10439,
         "sha1": "c3a217a5999a2ff82a72eb0219d9b741437872bf",
         "md5": "f74d8cc6b146cac8a8ece3a3e435605e",
@@ -324,10 +376,10 @@
         "name": "underscore.html",
         "base_name": "underscore",
         "extension": ".html",
-        "date": "2017-12-31",
-        "size": 181287,
-        "sha1": "fbcc1fbf0499e51f47969a98b35e8e0ee0427902",
-        "md5": "c0754d089fbcb9191c7ba27d1eb8d4ef",
+        "date": "2018-02-17",
+        "size": 181294,
+        "sha1": "b2745d1792cd17fca1408842f9834ed09013b900",
+        "md5": "f092d5520db84a79d336857be7ebd546",
         "files_count": null,
         "mime_type": "text/html",
         "file_type": "HTML document, UTF-8 Unicode text, with very long lines, with CRLF line terminators",
@@ -375,7 +427,7 @@
         "name": "roboto-black.ttf",
         "base_name": "roboto-black",
         "extension": ".ttf",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 44828,
         "sha1": "f9f7d2f49d6bbaf5ed836a20d9f5a319669bd2c1",
         "md5": "7f96f4da498ebf3a70ee730e5e74ca4e",
@@ -409,7 +461,7 @@
         "name": "normalize.css",
         "base_name": "normalize",
         "extension": ".css",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 7248,
         "sha1": "9f031b454d914774a434e9e634c41be3fe223ae4",
         "md5": "f073f37de78f9a872c180813c3938303",
@@ -460,7 +512,7 @@
         "name": "qunit-extras.js",
         "base_name": "qunit-extras",
         "extension": ".js",
-        "date": "2017-12-31",
+        "date": "2018-02-17",
         "size": 25415,
         "sha1": "da4902a2e69317f8cf1ac6e581ed9a0843e8fc4c",
         "md5": "db9f400fdc84bdb767611d5154727aba",
@@ -523,10 +575,10 @@
         "name": "qunit.css",
         "base_name": "qunit",
         "extension": ".css",
-        "date": "2017-12-31",
-        "size": 5437,
-        "sha1": "fb26de3d78873bac2eea356ce69a0dd831fc7c67",
-        "md5": "36795082c5243e0e6cd5dcbacb000155",
+        "date": "2018-02-17",
+        "size": 5269,
+        "sha1": "cfc07d2a31e9efd58f8a6636b556eb45d6933308",
+        "md5": "6055ec079461b6a62503a7820b50a134",
         "files_count": null,
         "mime_type": "text/plain",
         "file_type": "ASCII text, with CRLF line terminators",
@@ -640,10 +692,10 @@
         "name": "qunit.js",
         "base_name": "qunit",
         "extension": ".js",
-        "date": "2017-12-31",
-        "size": 119586,
-        "sha1": "705cd5249c61a3695369d3e235dc48a99e53b9f6",
-        "md5": "1f569ccb5132e7d67183c5436fcbb67a",
+        "date": "2018-02-17",
+        "size": 74604,
+        "sha1": "4b0f35108716fd6f55a43f5c56008efea81a000f",
+        "md5": "dc317b57fcd612952e95dfcfcedea8e0",
         "files_count": null,
         "mime_type": "text/plain",
         "file_type": "UTF-8 Unicode text, with CRLF line terminators",
@@ -737,29 +789,29 @@
             }
           },
           {
-            "key": "apache-2.0",
-            "score": 71.67,
-            "short_name": "Apache 2.0",
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
             "category": "Permissive",
-            "owner": "Apache Software Foundation",
-            "homepage_url": "http://www.apache.org/licenses/",
-            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
-            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
-            "spdx_license_key": "Apache-2.0",
-            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
-            "start_line": 1976,
-            "end_line": 1993,
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1996,
+            "end_line": 1996,
             "matched_rule": {
-              "identifier": "apache-2.0_maven.RULE",
+              "identifier": "mit_16.RULE",
               "license_choice": false,
               "licenses": [
-                "apache-2.0"
+                "mit"
               ],
-              "matcher": "3-seq",
-              "rule_length": 143,
-              "matched_length": 86,
-              "match_coverage": 60.14,
-              "rule_relevance": 100
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
             }
           }
         ],
@@ -776,24 +828,24 @@
             "end_line": 7
           },
           {
+            "statements": [
+              "(c) <prathe@gmail.com>"
+            ],
+            "holders": [],
+            "authors": [
+              "Philippe RathA"
+            ],
+            "start_line": 1437,
+            "end_line": 1439
+          },
+          {
             "statements": [],
             "holders": [],
             "authors": [
-              "Philippe Rathe <prathe@gmail.com>"
+              "modified by Chu Alan"
             ],
-            "start_line": 1411,
-            "end_line": 1413
-          },
-          {
-            "statements": [
-              "Copyright 2006 Google Inc."
-            ],
-            "holders": [
-              "Google Inc."
-            ],
-            "authors": [],
-            "start_line": 1980,
-            "end_line": 1981
+            "start_line": 1992,
+            "end_line": 1994
           }
         ]
       }

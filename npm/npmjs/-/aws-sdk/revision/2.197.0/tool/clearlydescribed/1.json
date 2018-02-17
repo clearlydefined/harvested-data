@@ -1,0 +1,715 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/aws-sdk/2.197.0",
+    "fetchedAt": "2018-02-17T19:33:17.525Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:aws-sdk:revision:2.197.0:tool:clearlydescribed:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:aws-sdk:revision:2.197.0",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:-:aws-sdk:revision:2.197.0:tool:scancode",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:aws:aws-sdk-js:revision:9f42cb4f5910cb47ef29181fdebea7437eb26913",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-17T19:33:17.956Z"
+  },
+  "package.json": {
+    "name": "aws-sdk",
+    "description": "AWS SDK for JavaScript",
+    "version": "2.197.0",
+    "author": {
+      "name": "Amazon Web Services",
+      "email": "",
+      "url": "https://aws.amazon.com/"
+    },
+    "homepage": "https://github.com/aws/aws-sdk-js",
+    "contributors": [
+      "Loren Segal <lsegal@amazon.com>",
+      "Trevor Rowe <trevrowe@amazon.com>"
+    ],
+    "devDependencies": {
+      "@types/node": "^6.0.46",
+      "browserify": "13.1.0",
+      "chai": "^3.0",
+      "codecov": "^1.0.1",
+      "coffee-script": "1.6.3",
+      "coffeeify": "*",
+      "cucumber": "0.5.x",
+      "eslint": "1.x",
+      "hash-test-vectors": "^1.3.2",
+      "insert-module-globals": "^7.0.0",
+      "istanbul": "*",
+      "jasmine": "^2.5.3",
+      "jasmine-core": "^2.5.2",
+      "json-loader": "^0.5.4",
+      "karma": "^1.4.1",
+      "karma-jasmine": "^1.1.0",
+      "karma-phantomjs-launcher": "1.0.2",
+      "mocha": "^3.0.0",
+      "phantomjs-prebuilt": "2.1.15",
+      "repl.history": "*",
+      "semver": "*",
+      "typescript": "2.0.8",
+      "uglify-js": "2.x",
+      "webpack": "^1.15.0"
+    },
+    "dependencies": {
+      "buffer": "4.9.1",
+      "events": "^1.1.1",
+      "jmespath": "0.15.0",
+      "querystring": "0.2.0",
+      "sax": "1.2.1",
+      "url": "0.10.3",
+      "uuid": "3.1.0",
+      "xml2js": "0.4.17",
+      "xmlbuilder": "4.2.1"
+    },
+    "main": "lib/aws.js",
+    "browser": {
+      "lib/aws.js": "./lib/browser.js",
+      "fs": false,
+      "./global.js": "./browser.js",
+      "./lib/node_loader.js": "./lib/browser_loader.js"
+    },
+    "browserify": {
+      "transform": "./dist-tools/transform.js"
+    },
+    "react-native": {
+      "fs": "./lib/empty.js",
+      "./lib/node_loader.js": "./lib/react-native-loader.js",
+      "./lib/browser_loader.js": "./lib/react-native-loader.js",
+      "./lib/core.js": "./dist/aws-sdk-core-react-native.js",
+      "xml2js": "./dist/xml2js.js"
+    },
+    "directories": {
+      "lib": "lib"
+    },
+    "types": "index.d.ts",
+    "typings": "index.d.ts",
+    "engines": {
+      "node": ">= 0.8.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/aws/aws-sdk-js"
+    },
+    "bugs": {
+      "url": "https://github.com/aws/aws-sdk-js/issues",
+      "mail": ""
+    },
+    "license": "Apache-2.0",
+    "keywords": [
+      "api",
+      "amazon",
+      "aws",
+      "ec2",
+      "simpledb",
+      "s3",
+      "sqs",
+      "ses",
+      "sns",
+      "route53",
+      "rds",
+      "elasticache",
+      "cloudfront",
+      "fps",
+      "cloudformation",
+      "cloudwatch",
+      "dynamodb",
+      "iam",
+      "swf",
+      "autoscaling",
+      "cloudsearch",
+      "elb",
+      "loadbalancing",
+      "emr",
+      "mapreduce",
+      "importexport",
+      "storagegateway",
+      "workflow",
+      "ebs",
+      "vpc",
+      "beanstalk",
+      "glacier",
+      "kinesis",
+      "cloudtrail",
+      "waf"
+    ],
+    "scripts": {
+      "test": "npm -s run-script lint && npm -s run-script unit && npm -s run-script buildertest && npm -s run-script browsertest && npm -s run-script react-native-test && ([ -f configuration ] && npm -s run-script integration || true)",
+      "unit": "mocha -- test test/json test/model test/protocol test/query test/services test/signers test/xml test/s3 test/cloudfront test/dynamodb test/polly test/rds",
+      "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter=lcovonly -- test test/json test/model test/protocol test/query test/services test/signers test/xml test/s3 test/cloudfront test/dynamodb test/polly test/rds",
+      "browsertest": "rake browser:test && karma start",
+      "buildertest": "mocha --compilers coffee:coffee-script -s 1000 -t 10000 dist-tools/test",
+      "integration": "cucumber.js",
+      "lint": "eslint lib dist-tools/*.js",
+      "console": "./scripts/console",
+      "testfiles": "istanbul `[ $COVERAGE ] && echo 'cover _mocha' || echo 'test mocha'`",
+      "tstest": "tsc -p ./ts",
+      "add-change": "node ./scripts/changelog/add-change.js",
+      "build-react-native-deps": "webpack --config dist-tools/webpack.config.rn-dep.js",
+      "build-react-native-core": "webpack --config dist-tools/webpack.config.rn-core.js",
+      "build-react-native-dist": "webpack --config dist-tools/webpack.config.rn.js",
+      "build-react-native": "npm -s run-script build-react-native-deps && npm -s run-script build-react-native-core && npm -s run-script build-react-native-dist",
+      "react-native-test": "npm -s run-script build-react-native && rake reactnative:test && karma start",
+      "region-check": "node ./scripts/region-checker/index.js"
+    }
+  },
+  "registryData": {
+    "_id": "aws-sdk",
+    "_rev": "824-d876ce4099faae1f3b4b9bef14353f29",
+    "name": "aws-sdk",
+    "description": "AWS SDK for JavaScript",
+    "dist-tags": {
+      "latest": "2.197.0"
+    },
+    "readme": "# AWS SDK for JavaScript\n\n[![NPM](https://nodei.co/npm/aws-sdk.svg?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/aws-sdk/)\n\n[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/aws/aws-sdk-js)\n\n[![Version](https://badge.fury.io/js/aws-sdk.svg)](http://badge.fury.io/js/aws-sdk) [![Build Status](https://travis-ci.org/aws/aws-sdk-js.svg?branch=master)](https://travis-ci.org/aws/aws-sdk-js) [![Coverage Status](https://coveralls.io/repos/aws/aws-sdk-js/badge.svg?branch=master)](https://coveralls.io/r/aws/aws-sdk-js?branch=master)\n\nThe official AWS SDK for JavaScript, available for browsers and mobile devices,\nor Node.js backends\n\nFor release notes, see the [CHANGELOG](https://github.com/aws/aws-sdk-js/blob/master/CHANGELOG.md). Prior to v2.4.8, release notes can be found at https://aws.amazon.com/releasenotes/?tag=releasenotes%23keywords%23javascript\n\n<p class=\"note\">\nIf you are upgrading from 1.x to 2.0 of the SDK, please see the\n[upgrading](https://github.com/aws/aws-sdk-js/blob/master/UPGRADING.md) notes\nfor information on how to migrate existing code to work with the new major\nversion.\n</p>\n\n## Installing\n\n### In the Browser\n\nTo use the SDK in the browser, simply add the following script tag to your\nHTML pages:\n\n    <script src=\"https://sdk.amazonaws.com/js/aws-sdk-2.197.0.min.js\"></script>\n\nYou can also build a custom browser SDK with your specified set of AWS services.\nThis can allow you to reduce the SDK's size, specify different API versions of\nservices, or use AWS services that don't currently support CORS if you are\nworking in an environment that does not enforce CORS. To get started:\n\nhttp://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/building-sdk-for-browsers.html\n\nThe AWS SDK is also compatible with [browserify](http://browserify.org).\n\n### In Node.js\n\nThe preferred way to install the AWS SDK for Node.js is to use the\n[npm](http://npmjs.org) package manager for Node.js. Simply type the following\ninto a terminal window:\n\n```sh\nnpm install aws-sdk\n```\n\n### In React Native\nTo use the SDK in a react native project, first install the SDK using npm:\n\n```sh\nnpm install aws-sdk\n```\n\nThen within your application, you can reference the react native compatible version of the SDK with the following:\n\n```javascript\nvar AWS = require('aws-sdk/dist/aws-sdk-react-native');\n```\n\n### Using Bower\n\nYou can also use [Bower](http://bower.io) to install the SDK by typing the\nfollowing into a terminal window:\n\n```sh\nbower install aws-sdk-js\n```\n\n## Usage and Getting Started\n\nYou can find a getting started guide at:\n\nhttp://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide\n\n## Usage with TypeScript\nThe AWS SDK for JavaScript bundles TypeScript definition files for use in TypeScript projects and to support tools that can read `.d.ts` files.\nOur goal is to keep these TypeScript definition files updated with each release for any public api.\n\n### Pre-requisites\nBefore you can begin using these TypeScript definitions with your project, you need to make sure your project meets a few of these requirements:\n\n * Use TypeScript v2.x\n * Includes the TypeScript definitions for node. You can use npm to install this by typing the following into a terminal window:\n\n    ```sh\n    npm install --save-dev @types/node\n    ```\n\n * Your `tsconfig.json` or `jsconfig.json` includes `'dom'` and `'es2015.promise'` under `compilerOptions.lib`.\n See [tsconfig.json](https://github.com/aws/aws-sdk-js/blob/master/ts/tsconfig.json) for an example.\n\n### In the Browser\nTo use the TypeScript definition files with the global `AWS` object in a front-end project, add the following line to the top of your JavaScript file:\n\n```javascript\n/// <reference types=\"aws-sdk\" />\n```\n\nThis will provide support for the global `AWS` object.\n\n### In Node.js\nTo use the TypeScript definition files within a Node.js project, simply import `aws-sdk` as you normally would.\n\nIn a TypeScript file:\n\n```javascript\n// import entire SDK\nimport AWS = require('aws-sdk');\n// import AWS object without services\nimport AWS = require('aws-sdk/global');\n// import individual service\nimport S3 = require('aws-sdk/clients/s3');\n```\n\nIn a JavaScript file:\n\n```javascript\n// import entire SDK\nvar AWS = require('aws-sdk');\n// import AWS object without services\nvar AWS = require('aws-sdk/global');\n// import individual service\nvar S3 = require('aws-sdk/clients/s3');\n```\n\n### With Angular\nDue to the SDK's reliance on node.js typings, you may encounter compilation \n[issues](https://github.com/aws/aws-sdk-js/issues/1271) when using the\ntypings provided by the SDK in an Angular project created using the Angular CLI.\n\nTo resolve these issues, either add `\"types\": [\"node\"]` to the project's `tsconfig.app.json`\nfile, or remove the `\"types\"` field entirely.\n\n### Known Limitations\nThere are a few known limitations with the bundled TypeScript definitions at this time:\n\n * Service client typings reflect the latest `apiVersion`, regardless of which `apiVersion` is specified when creating a client.\n * Service-bound parameters use the `any` type.\n\n## Getting Help\nPlease use these community resources for getting help. We use the GitHub issues for tracking bugs and feature requests and have limited bandwidth to address them.\n\n * Ask a question on [StackOverflow](https://stackoverflow.com/) and tag it with `aws-sdk-js`\n * Come join the AWS JavaScript community on [gitter](https://gitter.im/aws/aws-sdk-js?source=orgpage)\n * Open a support ticket with [AWS Support](https://console.aws.amazon.com/support/home#/)\n * If it turns out that you may have found a bug, please [open an issue](https://github.com/aws/aws-sdk-js/issues/new)\n\n## Opening Issues\nIf you encounter a bug with the AWS SDK for JavaScript we would like to hear\nabout it. Search the [existing issues](https://github.com/aws/aws-sdk-js/issues)\nand try to make sure your problem doesn’t already exist before opening a new\nissue. It’s helpful if you include the version of the SDK, Node.js or browser\nenvironment and OS you’re using. Please include a stack trace and reduced repro\ncase when appropriate, too.\n\nThe GitHub issues are intended for bug reports and feature requests. For help\nand questions with using the AWS SDK for JavaScript please make use of the\nresources listed in the [Getting Help](https://github.com/aws/aws-sdk-js#getting-help)\nsection. There are limited resources available for handling issues and by\nkeeping the list of open issues lean we can respond in a timely manner.\n\n## Supported Services\n\nPlease see [SERVICES.md](https://github.com/aws/aws-sdk-js/blob/master/SERVICES.md) for a list of supported services.\n\n## License\n\nThis SDK is distributed under the\n[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0),\nsee LICENSE.txt and NOTICE.txt for more information.\n",
+    "maintainers": [
+      {
+        "name": "amzn-oss",
+        "email": "osa-3p@amazon.com"
+      },
+      {
+        "name": "aws-iot-sdk",
+        "email": "fengsong@amazon.com"
+      },
+      {
+        "name": "aws-sdk-bot",
+        "email": "aws-sdk-js@amazon.com"
+      },
+      {
+        "name": "aws-sdk-team",
+        "email": "aws-sdk-js@amazon.com"
+      },
+      {
+        "name": "awssandra",
+        "email": "mcmuls@amazon.com"
+      },
+      {
+        "name": "awsxray",
+        "email": "aws-xray-sdk-node@amazon.com"
+      },
+      {
+        "name": "cjradek",
+        "email": "cjradek@gmail.com"
+      },
+      {
+        "name": "gkwicker.amazon",
+        "email": "gkwicker@amazon.com"
+      },
+      {
+        "name": "haotianw465",
+        "email": "wht465@gmail.com"
+      },
+      {
+        "name": "jpeddicord",
+        "email": "jacob@peddicord.net"
+      },
+      {
+        "name": "jsq",
+        "email": "jonathan@jeskew.net"
+      },
+      {
+        "name": "yogiraj07",
+        "email": "awati@amazon.com"
+      }
+    ],
+    "author": {
+      "name": "Amazon Web Services",
+      "url": "https://aws.amazon.com/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/aws/aws-sdk-js.git"
+    },
+    "users": {
+      "vincentmac": true,
+      "ehershey": true,
+      "nak2k": true,
+      "dbrockman": true,
+      "gammasoft": true,
+      "igorissen": true,
+      "darryl.west": true,
+      "roryrjb": true,
+      "haagendazs": true,
+      "nikunjchapadia": true,
+      "matteospampani": true,
+      "ubergoober": true,
+      "nathanjsweet": true,
+      "ryanthejuggler": true,
+      "7layersdesign": true,
+      "patmoore": true,
+      "stonecypher": true,
+      "tovali": true,
+      "tarcio": true,
+      "knownasilya": true,
+      "genediazjr": true,
+      "esessoms": true,
+      "shmatt": true,
+      "yeahoffline": true,
+      "zacbarton": true,
+      "grampajoe": true,
+      "adamk": true,
+      "haeck": true,
+      "chrisann": true,
+      "mimmo1": true,
+      "markthethomas": true,
+      "labithiotis": true,
+      "vboctor": true,
+      "alexey_detr": true,
+      "yashprit": true,
+      "nackjicholson": true,
+      "leonardorb": true,
+      "frostme": true,
+      "zckrs": true,
+      "luuhoangnam": true,
+      "brandonb927": true,
+      "andriecool": true,
+      "rmp": true,
+      "neats29": true,
+      "klyngbaek": true,
+      "klipsil": true,
+      "jakub.knejzlik": true,
+      "dnedev": true,
+      "tiagobraga": true,
+      "rhyslbw": true,
+      "softwind": true,
+      "jessaustin": true,
+      "saravananr": true,
+      "galenandrew": true,
+      "vwal": true,
+      "karlbright": true,
+      "adamkdean": true,
+      "esundahl": true,
+      "gollojs": true,
+      "mjurincic": true,
+      "jerkovicl": true,
+      "cilindrox": true,
+      "eserozvataf": true,
+      "stdarg": true,
+      "eviratec": true,
+      "japh": true,
+      "piyushmakhija": true,
+      "bigmountainideas": true,
+      "monkeymonk": true,
+      "diegoperini": true,
+      "codan84": true,
+      "fpmweb": true,
+      "egantz": true,
+      "tjeastmond": true,
+      "integrity": true,
+      "hellercommaa": true,
+      "smilyborg": true,
+      "lorthirk": true,
+      "fibo": true,
+      "traveltechymatt": true,
+      "moosecouture": true,
+      "carlosvillademor": true,
+      "deubaka": true,
+      "brend": true,
+      "narayanmp": true,
+      "tscole": true,
+      "ajk": true,
+      "shan": true,
+      "tribou": true,
+      "ceogavin": true,
+      "jaubain": true,
+      "amdsouza92": true,
+      "kobleistvan": true,
+      "jlmorgan": true,
+      "glebec": true,
+      "zhaosiyang": true,
+      "fnouama": true,
+      "javascriptismagic": true,
+      "shelling": true,
+      "kkjf02": true,
+      "surfdude": true,
+      "hongbo-miao": true,
+      "goatandsheep": true,
+      "nicohe": true,
+      "jlagunas": true,
+      "ssljivic": true,
+      "amaynut": true,
+      "koslun": true,
+      "jonathas": true,
+      "kevbaker": true,
+      "tfentonz": true,
+      "jstlns": true,
+      "joaquin.briceno": true,
+      "crellison": true,
+      "finnhvman": true,
+      "itonyyo": true,
+      "hugojosefson": true,
+      "ahyanarizky": true,
+      "mattbodman": true,
+      "m0nkmaster": true,
+      "joypeterson": true,
+      "kodekracker": true,
+      "aaronbruckner": true,
+      "padurets": true,
+      "chimit": true,
+      "outofcoffee": true,
+      "james3299": true,
+      "zuizuihao": true,
+      "shanewholloway": true,
+      "cppc": true,
+      "atd": true,
+      "suemcnab": true,
+      "danielbankhead": true,
+      "tripleaxis": true,
+      "aws": true,
+      "rlafferty": true,
+      "rocket0191": true,
+      "nickeljew": true,
+      "mucbuc": true,
+      "benignradiance": true,
+      "miadzadfallah": true,
+      "asaupup": true,
+      "coolhanddev": true,
+      "alshamiri2": true,
+      "pmbenjamin": true,
+      "pmcalabrese": true,
+      "morogasper": true,
+      "waleedmkasem": true,
+      "cfleschhut": true,
+      "shuoshubao": true,
+      "josemarjobs": true,
+      "jmkim9": true,
+      "jmsherry": true,
+      "shreyawhiz": true,
+      "kkho595": true,
+      "fabioper": true,
+      "wojbach": true,
+      "logol": true,
+      "swak": true,
+      "swift2728": true,
+      "joshuaestes": true,
+      "wkronmiller": true,
+      "wayn": true,
+      "emircanok": true,
+      "mrxf": true,
+      "suryasaripalli": true,
+      "ishantiw": true,
+      "wbyrne": true,
+      "xch": true,
+      "jream": true,
+      "sebrofjr": true,
+      "nuwaio": true,
+      "ecelis": true,
+      "mikestaub": true,
+      "necanicum": true,
+      "rshaw": true,
+      "doruk": true,
+      "remoteportal": true,
+      "chandrashekhar.io": true,
+      "jsq": true,
+      "nsaboo": true,
+      "zeakd": true,
+      "rochejul": true,
+      "ferchoriverar": true,
+      "vivek.vikhere": true,
+      "asadm2706": true,
+      "tdmalone": true,
+      "vjenks": true,
+      "bholbrook73": true,
+      "mucahitnezir": true,
+      "noncreature0714": true,
+      "minggangw": true,
+      "winglonelion": true,
+      "robertpenner": true,
+      "yasuskobayashi": true,
+      "elussich": true,
+      "vernongrant": true,
+      "gugadev": true
+    },
+    "readmeFilename": "README.md",
+    "homepage": "https://github.com/aws/aws-sdk-js",
+    "keywords": [
+      "api",
+      "amazon",
+      "aws",
+      "ec2",
+      "simpledb",
+      "s3",
+      "sqs",
+      "ses",
+      "sns",
+      "route53",
+      "rds",
+      "elasticache",
+      "cloudfront",
+      "fps",
+      "cloudformation",
+      "cloudwatch",
+      "dynamodb",
+      "iam",
+      "swf",
+      "autoscaling",
+      "cloudsearch",
+      "elb",
+      "loadbalancing",
+      "emr",
+      "mapreduce",
+      "importexport",
+      "storagegateway",
+      "workflow",
+      "ebs",
+      "vpc",
+      "beanstalk",
+      "glacier",
+      "kinesis",
+      "cloudtrail",
+      "waf"
+    ],
+    "contributors": [
+      {
+        "name": "Loren Segal",
+        "email": "lsegal@amazon.com"
+      },
+      {
+        "name": "Trevor Rowe",
+        "email": "trevrowe@amazon.com"
+      }
+    ],
+    "bugs": {
+      "url": "https://github.com/aws/aws-sdk-js/issues"
+    },
+    "license": "Apache-2.0",
+    "_attachments": {},
+    "manifest": {
+      "name": "aws-sdk",
+      "description": "AWS SDK for JavaScript",
+      "version": "2.197.0",
+      "author": {
+        "name": "Amazon Web Services",
+        "url": "https://aws.amazon.com/"
+      },
+      "homepage": "https://github.com/aws/aws-sdk-js",
+      "contributors": [
+        {
+          "name": "Loren Segal",
+          "email": "lsegal@amazon.com"
+        },
+        {
+          "name": "Trevor Rowe",
+          "email": "trevrowe@amazon.com"
+        }
+      ],
+      "devDependencies": {
+        "@types/node": "^6.0.46",
+        "browserify": "13.1.0",
+        "chai": "^3.0",
+        "codecov": "^1.0.1",
+        "coffee-script": "1.6.3",
+        "coffeeify": "*",
+        "cucumber": "0.5.x",
+        "eslint": "1.x",
+        "hash-test-vectors": "^1.3.2",
+        "insert-module-globals": "^7.0.0",
+        "istanbul": "*",
+        "jasmine": "^2.5.3",
+        "jasmine-core": "^2.5.2",
+        "json-loader": "^0.5.4",
+        "karma": "^1.4.1",
+        "karma-jasmine": "^1.1.0",
+        "karma-phantomjs-launcher": "1.0.2",
+        "mocha": "^3.0.0",
+        "phantomjs-prebuilt": "2.1.15",
+        "repl.history": "*",
+        "semver": "*",
+        "typescript": "2.0.8",
+        "uglify-js": "2.x",
+        "webpack": "^1.15.0"
+      },
+      "dependencies": {
+        "buffer": "4.9.1",
+        "events": "^1.1.1",
+        "jmespath": "0.15.0",
+        "querystring": "0.2.0",
+        "sax": "1.2.1",
+        "url": "0.10.3",
+        "uuid": "3.1.0",
+        "xml2js": "0.4.17",
+        "xmlbuilder": "4.2.1"
+      },
+      "main": "lib/aws.js",
+      "browser": {
+        "lib/aws.js": "./lib/browser.js",
+        "fs": false,
+        "./global.js": "./browser.js",
+        "./lib/node_loader.js": "./lib/browser_loader.js"
+      },
+      "browserify": {
+        "transform": "./dist-tools/transform.js"
+      },
+      "react-native": {
+        "fs": "./lib/empty.js",
+        "./lib/node_loader.js": "./lib/react-native-loader.js",
+        "./lib/browser_loader.js": "./lib/react-native-loader.js",
+        "./lib/core.js": "./dist/aws-sdk-core-react-native.js",
+        "xml2js": "./dist/xml2js.js"
+      },
+      "directories": {
+        "lib": "lib"
+      },
+      "types": "index.d.ts",
+      "typings": "index.d.ts",
+      "engines": {
+        "node": ">= 0.8.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/aws/aws-sdk-js.git"
+      },
+      "bugs": {
+        "url": "https://github.com/aws/aws-sdk-js/issues"
+      },
+      "license": "Apache-2.0",
+      "keywords": [
+        "api",
+        "amazon",
+        "aws",
+        "ec2",
+        "simpledb",
+        "s3",
+        "sqs",
+        "ses",
+        "sns",
+        "route53",
+        "rds",
+        "elasticache",
+        "cloudfront",
+        "fps",
+        "cloudformation",
+        "cloudwatch",
+        "dynamodb",
+        "iam",
+        "swf",
+        "autoscaling",
+        "cloudsearch",
+        "elb",
+        "loadbalancing",
+        "emr",
+        "mapreduce",
+        "importexport",
+        "storagegateway",
+        "workflow",
+        "ebs",
+        "vpc",
+        "beanstalk",
+        "glacier",
+        "kinesis",
+        "cloudtrail",
+        "waf"
+      ],
+      "scripts": {
+        "test": "npm -s run-script lint && npm -s run-script unit && npm -s run-script buildertest && npm -s run-script browsertest && npm -s run-script react-native-test && ([ -f configuration ] && npm -s run-script integration || true)",
+        "unit": "mocha -- test test/json test/model test/protocol test/query test/services test/signers test/xml test/s3 test/cloudfront test/dynamodb test/polly test/rds",
+        "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter=lcovonly -- test test/json test/model test/protocol test/query test/services test/signers test/xml test/s3 test/cloudfront test/dynamodb test/polly test/rds",
+        "browsertest": "rake browser:test && karma start",
+        "buildertest": "mocha --compilers coffee:coffee-script -s 1000 -t 10000 dist-tools/test",
+        "integration": "cucumber.js",
+        "lint": "eslint lib dist-tools/*.js",
+        "console": "./scripts/console",
+        "testfiles": "istanbul `[ $COVERAGE ] && echo 'cover _mocha' || echo 'test mocha'`",
+        "tstest": "tsc -p ./ts",
+        "add-change": "node ./scripts/changelog/add-change.js",
+        "build-react-native-deps": "webpack --config dist-tools/webpack.config.rn-dep.js",
+        "build-react-native-core": "webpack --config dist-tools/webpack.config.rn-core.js",
+        "build-react-native-dist": "webpack --config dist-tools/webpack.config.rn.js",
+        "build-react-native": "npm -s run-script build-react-native-deps && npm -s run-script build-react-native-core && npm -s run-script build-react-native-dist",
+        "react-native-test": "npm -s run-script build-react-native && rake reactnative:test && karma start",
+        "region-check": "node ./scripts/region-checker/index.js"
+      },
+      "gitHead": "9f42cb4f5910cb47ef29181fdebea7437eb26913",
+      "_id": "aws-sdk@2.197.0",
+      "_shasum": "986e3749f4d1944c6253d7824aa8035efb1db0e4",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "0.12.15",
+      "_npmUser": {
+        "name": "aws-sdk-bot",
+        "email": "aws-sdk-js@amazon.com"
+      },
+      "maintainers": [
+        {
+          "name": "amzn-oss",
+          "email": "osa-3p@amazon.com"
+        },
+        {
+          "name": "aws-iot-sdk",
+          "email": "fengsong@amazon.com"
+        },
+        {
+          "name": "aws-sdk-bot",
+          "email": "aws-sdk-js@amazon.com"
+        },
+        {
+          "name": "aws-sdk-team",
+          "email": "aws-sdk-js@amazon.com"
+        },
+        {
+          "name": "awssandra",
+          "email": "mcmuls@amazon.com"
+        },
+        {
+          "name": "awsxray",
+          "email": "aws-xray-sdk-node@amazon.com"
+        },
+        {
+          "name": "cjradek",
+          "email": "cjradek@gmail.com"
+        },
+        {
+          "name": "gkwicker.amazon",
+          "email": "gkwicker@amazon.com"
+        },
+        {
+          "name": "haotianw465",
+          "email": "wht465@gmail.com"
+        },
+        {
+          "name": "jpeddicord",
+          "email": "jacob@peddicord.net"
+        },
+        {
+          "name": "jsq",
+          "email": "jonathan@jeskew.net"
+        },
+        {
+          "name": "yogiraj07",
+          "email": "awati@amazon.com"
+        }
+      ],
+      "dist": {
+        "shasum": "986e3749f4d1944c6253d7824aa8035efb1db0e4",
+        "tarball": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.197.0.tgz",
+        "fileCount": 1103,
+        "unpackedSize": 27952201
+      },
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/aws-sdk_2.197.0_1518814458559_0.9801309916373973"
+      }
+    },
+    "releaseDate": "2018-02-16T20:54:18.758Z"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/aws/aws-sdk-js",
+    "revision": "9f42cb4f5910cb47ef29181fdebea7437eb26913",
+    "path": null
+  }
+}
