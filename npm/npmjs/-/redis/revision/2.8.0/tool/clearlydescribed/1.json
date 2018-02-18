@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/redis/2.8.0",
-    "fetchedAt": "2018-02-17T19:33:47.573Z",
+    "fetchedAt": "2018-02-18T06:44:17.367Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:redis:revision:2.8.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:redis:revision:2.8.0",
+        "href": "urn:npm:npmjs:-:redis:revision:2.8.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -18,7 +18,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:47.842Z"
+    "processedAt": "2018-02-18T06:44:17.666Z"
   },
   "package.json": {
     "name": "redis",

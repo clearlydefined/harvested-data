@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/vue/2.5.13",
-    "fetchedAt": "2018-02-17T19:33:58.496Z",
+    "fetchedAt": "2018-02-18T06:44:22.516Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:vue:revision:2.5.13:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:vue:revision:2.5.13",
+        "href": "urn:npm:npmjs:-:vue:revision:2.5.13:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:58.896Z"
+    "processedAt": "2018-02-18T06:44:22.961Z"
   },
   "package.json": {
     "name": "vue",

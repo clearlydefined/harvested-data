@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/mongoose/5.0.6",
-    "fetchedAt": "2018-02-17T19:33:42.597Z",
+    "fetchedAt": "2018-02-18T06:44:15.682Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:mongoose:revision:5.0.6:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:mongoose:revision:5.0.6",
+        "href": "urn:npm:npmjs:-:mongoose:revision:5.0.6:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:43.133Z"
+    "processedAt": "2018-02-18T06:44:16.168Z"
   },
   "package.json": {
     "name": "mongoose",

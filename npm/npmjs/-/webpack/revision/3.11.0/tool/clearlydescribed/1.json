@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/webpack/3.11.0",
-    "fetchedAt": "2018-02-17T19:33:11.962Z",
+    "fetchedAt": "2018-02-18T06:43:49.389Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:webpack:revision:3.11.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:webpack:revision:3.11.0",
+        "href": "urn:npm:npmjs:-:webpack:revision:3.11.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:12.332Z"
+    "processedAt": "2018-02-18T06:43:50.328Z"
   },
   "package.json": {
     "name": "webpack",

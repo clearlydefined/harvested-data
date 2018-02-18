@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/css-loader/0.28.9",
-    "fetchedAt": "2018-02-17T19:33:49.110Z",
+    "fetchedAt": "2018-02-18T06:44:18.273Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:css-loader:revision:0.28.9:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:css-loader:revision:0.28.9",
+        "href": "urn:npm:npmjs:-:css-loader:revision:0.28.9:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:49.375Z"
+    "processedAt": "2018-02-18T06:44:18.656Z"
   },
   "package.json": {
     "name": "css-loader",

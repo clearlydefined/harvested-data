@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/request/2.83.0",
-    "fetchedAt": "2018-02-17T19:32:44.591Z",
+    "fetchedAt": "2018-02-18T06:43:37.857Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:request:revision:2.83.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:request:revision:2.83.0",
+        "href": "urn:npm:npmjs:-:request:revision:2.83.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:44.848Z"
+    "processedAt": "2018-02-18T06:43:38.640Z"
   },
   "package.json": {
     "name": "request",

@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/@types/node/9.4.6",
-    "fetchedAt": "2018-02-17T19:34:17.704Z",
+    "fetchedAt": "2018-02-18T06:44:31.690Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:@types:node:revision:9.4.6:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:@types:node:revision:9.4.6",
+        "href": "urn:npm:npmjs:@types:node:revision:9.4.6:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -18,7 +18,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:18.393Z"
+    "processedAt": "2018-02-18T06:44:32.319Z"
   },
   "package.json": null,
   "registryData": {

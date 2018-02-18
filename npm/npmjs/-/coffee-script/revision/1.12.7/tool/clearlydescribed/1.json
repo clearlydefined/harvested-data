@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/coffee-script/1.12.7",
-    "fetchedAt": "2018-02-17T19:33:24.599Z",
+    "fetchedAt": "2018-02-18T06:44:00.858Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:coffee-script:revision:1.12.7:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:coffee-script:revision:1.12.7",
+        "href": "urn:npm:npmjs:-:coffee-script:revision:1.12.7:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:24.883Z"
+    "processedAt": "2018-02-18T06:44:01.424Z"
   },
   "package.json": {
     "name": "coffee-script",

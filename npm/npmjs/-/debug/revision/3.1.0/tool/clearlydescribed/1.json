@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/debug/3.1.0",
-    "fetchedAt": "2018-02-17T19:32:49.772Z",
+    "fetchedAt": "2018-02-18T06:43:40.667Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:debug:revision:3.1.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:debug:revision:3.1.0",
+        "href": "urn:npm:npmjs:-:debug:revision:3.1.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:49.966Z"
+    "processedAt": "2018-02-18T06:43:40.934Z"
   },
   "package.json": {
     "name": "debug",

@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/lodash/4.17.5",
-    "fetchedAt": "2018-02-17T19:32:43.485Z",
+    "fetchedAt": "2018-02-18T06:43:37.495Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:lodash:revision:4.17.5:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:lodash:revision:4.17.5",
+        "href": "urn:npm:npmjs:-:lodash:revision:4.17.5:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:43.927Z"
+    "processedAt": "2018-02-18T06:43:37.933Z"
   },
   "package.json": {
     "name": "lodash",

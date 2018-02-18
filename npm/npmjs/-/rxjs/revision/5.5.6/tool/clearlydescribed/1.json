@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/rxjs/5.5.6",
-    "fetchedAt": "2018-02-17T19:33:09.392Z",
+    "fetchedAt": "2018-02-18T06:43:53.078Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:rxjs:revision:5.5.6:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:rxjs:revision:5.5.6",
+        "href": "urn:npm:npmjs:-:rxjs:revision:5.5.6:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:09.641Z"
+    "processedAt": "2018-02-18T06:43:53.451Z"
   },
   "package.json": {
     "name": "rxjs",

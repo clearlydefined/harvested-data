@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/ramda/0.25.0",
-    "fetchedAt": "2018-02-17T19:33:51.502Z",
+    "fetchedAt": "2018-02-18T06:44:19.798Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:ramda:revision:0.25.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:ramda:revision:0.25.0",
+        "href": "urn:npm:npmjs:-:ramda:revision:0.25.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:51.780Z"
+    "processedAt": "2018-02-18T06:44:20.069Z"
   },
   "package.json": {
     "author": "Scott Sauyet <scott@sauyet.com> (scott.sauyet.com)",

@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/aws-sdk/2.197.0",
-    "fetchedAt": "2018-02-17T19:33:17.525Z",
+    "fetchedAt": "2018-02-18T06:43:58.356Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:aws-sdk:revision:2.197.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:aws-sdk:revision:2.197.0",
+        "href": "urn:npm:npmjs:-:aws-sdk:revision:2.197.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:17.956Z"
+    "processedAt": "2018-02-18T06:43:58.875Z"
   },
   "package.json": {
     "name": "aws-sdk",

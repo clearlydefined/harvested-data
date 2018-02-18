@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/@angular/router/5.2.5",
-    "fetchedAt": "2018-02-17T19:34:12.468Z",
+    "fetchedAt": "2018-02-18T06:44:29.983Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:@angular:router:revision:5.2.5:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:@angular:router:revision:5.2.5",
+        "href": "urn:npm:npmjs:@angular:router:revision:5.2.5:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:13.120Z"
+    "processedAt": "2018-02-18T06:44:30.460Z"
   },
   "package.json": {
     "name": "@angular/router",

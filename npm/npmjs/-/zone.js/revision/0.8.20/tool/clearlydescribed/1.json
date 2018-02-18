@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/zone.js/0.8.20",
-    "fetchedAt": "2018-02-17T19:33:27.718Z",
+    "fetchedAt": "2018-02-18T06:44:03.660Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:zone.js:revision:0.8.20:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:zone.js:revision:0.8.20",
+        "href": "urn:npm:npmjs:-:zone.js:revision:0.8.20:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:28.006Z"
+    "processedAt": "2018-02-18T06:44:04.195Z"
   },
   "package.json": {
     "name": "zone.js",

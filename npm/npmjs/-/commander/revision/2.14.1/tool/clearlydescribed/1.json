@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/commander/2.14.1",
-    "fetchedAt": "2018-02-17T19:32:49.295Z",
+    "fetchedAt": "2018-02-18T06:43:40.651Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:commander:revision:2.14.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:commander:revision:2.14.1",
+        "href": "urn:npm:npmjs:-:commander:revision:2.14.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:49.495Z"
+    "processedAt": "2018-02-18T06:43:40.945Z"
   },
   "package.json": {
     "name": "commander",

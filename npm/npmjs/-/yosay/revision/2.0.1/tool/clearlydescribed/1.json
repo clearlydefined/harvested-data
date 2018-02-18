@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/yosay/2.0.1",
-    "fetchedAt": "2018-02-17T19:33:37.257Z",
+    "fetchedAt": "2018-02-18T06:44:08.567Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:yosay:revision:2.0.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:yosay:revision:2.0.1",
+        "href": "urn:npm:npmjs:-:yosay:revision:2.0.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:37.487Z"
+    "processedAt": "2018-02-18T06:44:10.746Z"
   },
   "package.json": {
     "name": "yosay",

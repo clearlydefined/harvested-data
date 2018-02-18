@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/through2/2.0.3",
-    "fetchedAt": "2018-02-17T19:33:00.335Z",
+    "fetchedAt": "2018-02-18T06:43:45.544Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:through2:revision:2.0.3:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:through2:revision:2.0.3",
+        "href": "urn:npm:npmjs:-:through2:revision:2.0.3:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:00.730Z"
+    "processedAt": "2018-02-18T06:43:45.783Z"
   },
   "package.json": {
     "name": "through2",

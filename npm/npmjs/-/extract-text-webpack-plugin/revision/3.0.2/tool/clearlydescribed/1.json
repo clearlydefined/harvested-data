@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/extract-text-webpack-plugin/3.0.2",
-    "fetchedAt": "2018-02-17T19:34:21.264Z",
+    "fetchedAt": "2018-02-18T06:44:35.558Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:extract-text-webpack-plugin:revision:3.0.2:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:extract-text-webpack-plugin:revision:3.0.2",
+        "href": "urn:npm:npmjs:-:extract-text-webpack-plugin:revision:3.0.2:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:21.521Z"
+    "processedAt": "2018-02-18T06:44:35.870Z"
   },
   "package.json": {
     "name": "extract-text-webpack-plugin",

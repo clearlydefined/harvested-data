@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/style-loader/0.20.2",
-    "fetchedAt": "2018-02-17T19:33:55.638Z",
+    "fetchedAt": "2018-02-18T06:44:21.240Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:style-loader:revision:0.20.2:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:style-loader:revision:0.20.2",
+        "href": "urn:npm:npmjs:-:style-loader:revision:0.20.2:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:55.857Z"
+    "processedAt": "2018-02-18T06:44:21.492Z"
   },
   "package.json": {
     "name": "style-loader",

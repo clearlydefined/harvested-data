@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/minimist/1.2.0",
-    "fetchedAt": "2018-02-17T19:32:59.856Z",
+    "fetchedAt": "2018-02-18T06:43:45.073Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:minimist:revision:1.2.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:minimist:revision:1.2.0",
+        "href": "urn:npm:npmjs:-:minimist:revision:1.2.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:00.038Z"
+    "processedAt": "2018-02-18T06:43:45.310Z"
   },
   "package.json": {
     "name": "minimist",

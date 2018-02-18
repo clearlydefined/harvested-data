@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/promise/8.0.1",
-    "fetchedAt": "2018-02-17T19:34:13.832Z",
+    "fetchedAt": "2018-02-18T06:44:30.584Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:promise:revision:8.0.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:promise:revision:8.0.1",
+        "href": "urn:npm:npmjs:-:promise:revision:8.0.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:14.068Z"
+    "processedAt": "2018-02-18T06:44:30.799Z"
   },
   "package.json": {
     "name": "promise",

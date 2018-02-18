@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/node-sass/4.7.2",
-    "fetchedAt": "2018-02-17T19:34:25.974Z",
+    "fetchedAt": "2018-02-18T06:44:38.145Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:node-sass:revision:4.7.2:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:node-sass:revision:4.7.2",
+        "href": "urn:npm:npmjs:-:node-sass:revision:4.7.2:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:26.235Z"
+    "processedAt": "2018-02-18T06:44:38.437Z"
   },
   "package.json": {
     "name": "node-sass",

@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/chai/4.1.2",
-    "fetchedAt": "2018-02-17T19:34:00.368Z",
+    "fetchedAt": "2018-02-18T06:44:24.119Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:chai:revision:4.1.2:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:chai:revision:4.1.2",
+        "href": "urn:npm:npmjs:-:chai:revision:4.1.2:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:00.737Z"
+    "processedAt": "2018-02-18T06:44:24.487Z"
   },
   "package.json": {
     "author": "Jake Luer <jake@alogicalparadox.com>",

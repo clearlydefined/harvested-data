@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/babel-preset-react/6.24.1",
-    "fetchedAt": "2018-02-17T19:34:08.835Z",
+    "fetchedAt": "2018-02-18T06:44:28.430Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:babel-preset-react:revision:6.24.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:babel-preset-react:revision:6.24.1",
+        "href": "urn:npm:npmjs:-:babel-preset-react:revision:6.24.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:09.317Z"
+    "processedAt": "2018-02-18T06:44:28.921Z"
   },
   "package.json": {
     "name": "babel-preset-react",

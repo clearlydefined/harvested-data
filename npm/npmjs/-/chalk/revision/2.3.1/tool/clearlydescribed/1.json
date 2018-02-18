@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/chalk/2.3.1",
-    "fetchedAt": "2018-02-17T19:32:45.432Z",
+    "fetchedAt": "2018-02-18T06:43:38.613Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:chalk:revision:2.3.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:chalk:revision:2.3.1",
+        "href": "urn:npm:npmjs:-:chalk:revision:2.3.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:45.622Z"
+    "processedAt": "2018-02-18T06:43:38.838Z"
   },
   "package.json": {
     "name": "chalk",

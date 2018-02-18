@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/cookie-parser/1.4.3",
-    "fetchedAt": "2018-02-17T19:34:10.695Z",
+    "fetchedAt": "2018-02-18T06:44:29.094Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:cookie-parser:revision:1.4.3:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:cookie-parser:revision:1.4.3",
+        "href": "urn:npm:npmjs:-:cookie-parser:revision:1.4.3:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:10.911Z"
+    "processedAt": "2018-02-18T06:44:29.309Z"
   },
   "package.json": {
     "name": "cookie-parser",

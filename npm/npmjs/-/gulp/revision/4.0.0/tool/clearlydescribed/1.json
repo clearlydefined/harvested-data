@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/gulp/4.0.0",
-    "fetchedAt": "2018-02-17T19:33:20.774Z",
+    "fetchedAt": "2018-02-18T06:43:59.502Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:gulp:revision:4.0.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:gulp:revision:4.0.0",
+        "href": "urn:npm:npmjs:-:gulp:revision:4.0.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:21.005Z"
+    "processedAt": "2018-02-18T06:43:59.764Z"
   },
   "package.json": {
     "name": "gulp",

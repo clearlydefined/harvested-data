@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/js-yaml/3.10.0",
-    "fetchedAt": "2018-02-17T19:33:39.875Z",
+    "fetchedAt": "2018-02-18T06:44:13.381Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:js-yaml:revision:3.10.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:js-yaml:revision:3.10.0",
+        "href": "urn:npm:npmjs:-:js-yaml:revision:3.10.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:40.147Z"
+    "processedAt": "2018-02-18T06:44:13.650Z"
   },
   "package.json": {
     "name": "js-yaml",

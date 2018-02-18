@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/eslint/4.18.0",
-    "fetchedAt": "2018-02-17T19:33:45.265Z",
+    "fetchedAt": "2018-02-18T06:44:16.006Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:eslint:revision:4.18.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:eslint:revision:4.18.0",
+        "href": "urn:npm:npmjs:-:eslint:revision:4.18.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:45.678Z"
+    "processedAt": "2018-02-18T06:44:16.434Z"
   },
   "package.json": {
     "name": "eslint",

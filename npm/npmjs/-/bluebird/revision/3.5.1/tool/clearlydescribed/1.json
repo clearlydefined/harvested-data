@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/bluebird/3.5.1",
-    "fetchedAt": "2018-02-17T19:32:47.694Z",
+    "fetchedAt": "2018-02-18T06:43:39.926Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:bluebird:revision:3.5.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:bluebird:revision:3.5.1",
+        "href": "urn:npm:npmjs:-:bluebird:revision:3.5.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:48.002Z"
+    "processedAt": "2018-02-18T06:43:40.324Z"
   },
   "package.json": {
     "name": "bluebird",

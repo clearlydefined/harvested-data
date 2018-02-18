@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/superagent/3.8.2",
-    "fetchedAt": "2018-02-17T19:33:40.796Z",
+    "fetchedAt": "2018-02-18T06:44:13.793Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:superagent:revision:3.8.2:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:superagent:revision:3.8.2",
+        "href": "urn:npm:npmjs:-:superagent:revision:3.8.2:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:41.154Z"
+    "processedAt": "2018-02-18T06:44:14.179Z"
   },
   "package.json": {
     "name": "superagent",

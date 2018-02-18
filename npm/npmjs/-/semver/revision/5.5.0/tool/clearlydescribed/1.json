@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/semver/5.5.0",
-    "fetchedAt": "2018-02-17T19:33:19.191Z",
+    "fetchedAt": "2018-02-18T06:43:56.903Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:semver:revision:5.5.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:semver:revision:5.5.0",
+        "href": "urn:npm:npmjs:-:semver:revision:5.5.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:19.547Z"
+    "processedAt": "2018-02-18T06:43:57.218Z"
   },
   "package.json": {
     "name": "semver",

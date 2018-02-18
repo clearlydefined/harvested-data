@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/optimist/0.6.1",
-    "fetchedAt": "2018-02-17T19:34:04.174Z",
+    "fetchedAt": "2018-02-18T06:44:25.931Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:optimist:revision:0.6.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:optimist:revision:0.6.1",
+        "href": "urn:npm:npmjs:-:optimist:revision:0.6.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:04.387Z"
+    "processedAt": "2018-02-18T06:44:26.180Z"
   },
   "package.json": {
     "name": "optimist",

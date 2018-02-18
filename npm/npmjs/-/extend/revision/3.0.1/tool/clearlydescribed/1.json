@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/extend/3.0.1",
-    "fetchedAt": "2018-02-17T19:34:13.343Z",
+    "fetchedAt": "2018-02-18T06:44:29.995Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:extend:revision:3.0.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:extend:revision:3.0.1",
+        "href": "urn:npm:npmjs:-:extend:revision:3.0.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:34:13.563Z"
+    "processedAt": "2018-02-18T06:44:30.236Z"
   },
   "package.json": {
     "name": "extend",

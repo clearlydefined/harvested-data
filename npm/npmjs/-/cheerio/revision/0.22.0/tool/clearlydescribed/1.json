@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/cheerio/0.22.0",
-    "fetchedAt": "2018-02-17T19:33:12.850Z",
+    "fetchedAt": "2018-02-18T06:43:54.597Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:cheerio:revision:0.22.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:cheerio:revision:0.22.0",
+        "href": "urn:npm:npmjs:-:cheerio:revision:0.22.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:13.053Z"
+    "processedAt": "2018-02-18T06:43:54.882Z"
   },
   "package.json": {
     "name": "cheerio",

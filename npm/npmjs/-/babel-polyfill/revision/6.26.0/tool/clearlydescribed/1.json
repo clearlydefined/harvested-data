@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/babel-polyfill/6.26.0",
-    "fetchedAt": "2018-02-17T19:33:26.581Z",
+    "fetchedAt": "2018-02-18T06:44:02.644Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:babel-polyfill:revision:6.26.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:babel-polyfill:revision:6.26.0",
+        "href": "urn:npm:npmjs:-:babel-polyfill:revision:6.26.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:27.127Z"
+    "processedAt": "2018-02-18T06:44:03.353Z"
   },
   "package.json": {
     "name": "babel-polyfill",

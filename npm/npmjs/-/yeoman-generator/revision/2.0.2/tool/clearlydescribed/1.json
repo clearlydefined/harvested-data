@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/yeoman-generator/2.0.2",
-    "fetchedAt": "2018-02-17T19:33:02.906Z",
+    "fetchedAt": "2018-02-18T06:43:46.829Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:yeoman-generator:revision:2.0.2:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:yeoman-generator:revision:2.0.2",
+        "href": "urn:npm:npmjs:-:yeoman-generator:revision:2.0.2:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:03.150Z"
+    "processedAt": "2018-02-18T06:43:47.042Z"
   },
   "package.json": {
     "name": "yeoman-generator",

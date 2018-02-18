@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/winston/2.4.0",
-    "fetchedAt": "2018-02-17T19:33:13.854Z",
+    "fetchedAt": "2018-02-18T06:43:55.147Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:winston:revision:2.4.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:winston:revision:2.4.0",
+        "href": "urn:npm:npmjs:-:winston:revision:2.4.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:14.069Z"
+    "processedAt": "2018-02-18T06:43:55.446Z"
   },
   "package.json": {
     "name": "winston",

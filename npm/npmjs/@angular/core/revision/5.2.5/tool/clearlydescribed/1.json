@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/@angular/core/5.2.5",
-    "fetchedAt": "2018-02-17T19:33:23.752Z",
+    "fetchedAt": "2018-02-18T06:44:01.437Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:@angular:core:revision:5.2.5:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:@angular:core:revision:5.2.5",
+        "href": "urn:npm:npmjs:@angular:core:revision:5.2.5:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:24.296Z"
+    "processedAt": "2018-02-18T06:44:01.981Z"
   },
   "package.json": {
     "name": "@angular/core",

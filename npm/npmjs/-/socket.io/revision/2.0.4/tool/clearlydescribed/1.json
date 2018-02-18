@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/socket.io/2.0.4",
-    "fetchedAt": "2018-02-17T19:33:46.228Z",
+    "fetchedAt": "2018-02-18T06:44:16.608Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:socket.io:revision:2.0.4:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:socket.io:revision:2.0.4",
+        "href": "urn:npm:npmjs:-:socket.io:revision:2.0.4:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:46.599Z"
+    "processedAt": "2018-02-18T06:44:17.098Z"
   },
   "package.json": {
     "name": "socket.io",

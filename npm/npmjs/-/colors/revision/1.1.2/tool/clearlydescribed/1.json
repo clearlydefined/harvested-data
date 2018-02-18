@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/colors/1.1.2",
-    "fetchedAt": "2018-02-17T19:32:57.534Z",
+    "fetchedAt": "2018-02-18T06:43:44.014Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:colors:revision:1.1.2:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:colors:revision:1.1.2",
+        "href": "urn:npm:npmjs:-:colors:revision:1.1.2:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:57.689Z"
+    "processedAt": "2018-02-18T06:43:44.295Z"
   },
   "package.json": {
     "name": "colors",

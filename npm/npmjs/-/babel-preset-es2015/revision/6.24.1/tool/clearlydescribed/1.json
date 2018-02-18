@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/babel-preset-es2015/6.24.1",
-    "fetchedAt": "2018-02-17T19:33:19.839Z",
+    "fetchedAt": "2018-02-18T06:43:58.382Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:babel-preset-es2015:revision:6.24.1:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:babel-preset-es2015:revision:6.24.1",
+        "href": "urn:npm:npmjs:-:babel-preset-es2015:revision:6.24.1:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:20.334Z"
+    "processedAt": "2018-02-18T06:43:59.224Z"
   },
   "package.json": {
     "name": "babel-preset-es2015",

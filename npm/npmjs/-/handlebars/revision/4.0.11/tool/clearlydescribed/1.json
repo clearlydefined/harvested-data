@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/handlebars/4.0.11",
-    "fetchedAt": "2018-02-17T19:33:50.209Z",
+    "fetchedAt": "2018-02-18T06:44:18.429Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:handlebars:revision:4.0.11:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:handlebars:revision:4.0.11",
+        "href": "urn:npm:npmjs:-:handlebars:revision:4.0.11:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:50.435Z"
+    "processedAt": "2018-02-18T06:44:18.685Z"
   },
   "package.json": {
     "name": "handlebars",

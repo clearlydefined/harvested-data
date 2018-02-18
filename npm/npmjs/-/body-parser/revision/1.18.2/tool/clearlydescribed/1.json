@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/body-parser/1.18.2",
-    "fetchedAt": "2018-02-17T19:32:57.964Z",
+    "fetchedAt": "2018-02-18T06:43:44.542Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:body-parser:revision:1.18.2:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:body-parser:revision:1.18.2",
+        "href": "urn:npm:npmjs:-:body-parser:revision:1.18.2:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -22,7 +22,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:58.144Z"
+    "processedAt": "2018-02-18T06:43:44.824Z"
   },
   "package.json": {
     "name": "body-parser",

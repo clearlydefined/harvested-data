@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/q/2.0.3",
-    "fetchedAt": "2018-02-17T19:33:03.388Z",
+    "fetchedAt": "2018-02-18T06:43:47.384Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:q:revision:2.0.3:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:q:revision:2.0.3",
+        "href": "urn:npm:npmjs:-:q:revision:2.0.3:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -18,7 +18,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:33:03.587Z"
+    "processedAt": "2018-02-18T06:43:47.692Z"
   },
   "package.json": {
     "name": "q",

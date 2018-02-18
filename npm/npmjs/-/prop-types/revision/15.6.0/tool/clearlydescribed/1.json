@@ -2,14 +2,14 @@
   "_metadata": {
     "type": "npm",
     "url": "cd:/npm/npmjs/-/prop-types/15.6.0",
-    "fetchedAt": "2018-02-17T19:32:55.709Z",
+    "fetchedAt": "2018-02-18T06:43:43.256Z",
     "links": {
       "self": {
         "href": "urn:npm:npmjs:-:prop-types:revision:15.6.0:tool:clearlydescribed:1",
         "type": "resource"
       },
       "siblings": {
-        "href": "urn:npm:npmjs:-:prop-types:revision:15.6.0",
+        "href": "urn:npm:npmjs:-:prop-types:revision:15.6.0:tool:clearlydescribed",
         "type": "collection"
       },
       "scancode": {
@@ -18,7 +18,7 @@
       }
     },
     "version": 1,
-    "processedAt": "2018-02-17T19:32:56.046Z"
+    "processedAt": "2018-02-18T06:43:43.763Z"
   },
   "package.json": {
     "name": "prop-types",
