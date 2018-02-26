@@ -1,0 +1,53 @@
+{
+  "described": {
+    "sourceLocation": {
+      "type": "git",
+      "provider": "github",
+      "url": "https://github.com/Microsoft/redie",
+      "revision": "194269b5b7010ad6f8dc4ef608c88128615031ca",
+      "path": null
+    },
+    "projectWebsite": "https://github.com/Microsoft/redie",
+    "issueTracker": {
+      "url": "https://github.com/Microsoft/redie/issues"
+    },
+    "releaseDate": "2016-08-18T16:09:35.655Z",
+    "tools": [
+      "scancode/2.2.1",
+      "clearlydefined/1"
+    ]
+  },
+  "licensed": {
+    "declared": {
+      "expression": "MIT"
+    },
+    "facets": {
+      "core": {
+        "attribution": {
+          "parties": [
+            "Microsoft Corporation",
+            "Microsoft Corporation."
+          ],
+          "unknown": 0
+        },
+        "declared": [
+          "MIT"
+        ],
+        "discovered": {
+          "expressions": [
+            "MIT"
+          ],
+          "unknown": 0
+        },
+        "files": 3
+      }
+    }
+  },
+  "coordinates": {
+    "type": "npm",
+    "provider": "npmjs",
+    "namespace": null,
+    "name": "redie",
+    "revision": "0.3.0"
+  }
+}

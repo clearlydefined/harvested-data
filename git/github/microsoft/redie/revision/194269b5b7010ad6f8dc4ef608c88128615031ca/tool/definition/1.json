@@ -1,0 +1,45 @@
+{
+  "described": {
+    "releaseDate": "2016-08-18T09:08:53-07:00",
+    "tools": [
+      "scancode/2.2.1",
+      "clearlydefined/1"
+    ],
+    "sourceLocation": {
+      "type": "git",
+      "provider": "github",
+      "url": "https://github.com/microsoft/redie",
+      "revision": "194269b5b7010ad6f8dc4ef608c88128615031ca"
+    }
+  },
+  "licensed": {
+    "facets": {
+      "core": {
+        "attribution": {
+          "parties": [
+            "Microsoft Corporation",
+            "Microsoft Corporation."
+          ],
+          "unknown": 0
+        },
+        "declared": [
+          "MIT"
+        ],
+        "discovered": {
+          "expressions": [
+            "MIT"
+          ],
+          "unknown": 0
+        },
+        "files": 3
+      }
+    }
+  },
+  "coordinates": {
+    "type": "git",
+    "provider": "github",
+    "namespace": "microsoft",
+    "name": "redie",
+    "revision": "194269b5b7010ad6f8dc4ef608c88128615031ca"
+  }
+}

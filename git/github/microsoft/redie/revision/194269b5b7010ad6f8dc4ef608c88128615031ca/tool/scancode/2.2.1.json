@@ -1,0 +1,335 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/microsoft/redie/194269b5b7010ad6f8dc4ef608c88128615031ca",
+    "fetchedAt": "2018-02-26T05:10:18.769Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:microsoft:redie:revision:194269b5b7010ad6f8dc4ef608c88128615031ca:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:microsoft:redie:revision:194269b5b7010ad6f8dc4ef608c88128615031ca:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2016-08-18T09:08:53-07:00",
+    "processedAt": "2018-02-26T05:10:38.464Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 3,
+    "files": [
+      {
+        "path": "index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2018-02-26",
+        "size": 5118,
+        "sha1": "db252819f90ccbd783b154f5715fc745f936fbe9",
+        "md5": "9ff57548b6b6871c84351af5b7d4a74b",
+        "files_count": null,
+        "mime_type": "application/javascript",
+        "file_type": "Node.js script, ASCII text executable, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": true,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_12.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Microsoft Corporation."
+            ],
+            "holders": [
+              "Microsoft Corporation."
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-02-26",
+        "size": 1139,
+        "sha1": "6fc2f18113c192bb6d5ead8c99f43822e80b08d7",
+        "md5": "bb000031717ed496be31435a8391e03d",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 9,
+            "end_line": 27,
+            "matched_rule": {
+              "identifier": "mit_41.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 165,
+              "matched_length": 165,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Microsoft Corporation"
+            ],
+            "holders": [
+              "Microsoft Corporation"
+            ],
+            "authors": [],
+            "start_line": 5,
+            "end_line": 5
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-26",
+        "size": 918,
+        "sha1": "3f931b1b750985665f06c62494db1a68bdcb03d2",
+        "md5": "c7f50157372b977ae4ba500589bfb6d8",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 25,
+            "end_line": 25,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "William Bartholomew <willbar@microsoft.com>"
+            ],
+            "start_line": 24,
+            "end_line": 26
+          }
+        ],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "redie",
+            "version": "0.3.0",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "Redis client focused on providing a delightful user experience.",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "William Bartholomew",
+                "email": "willbar@microsoft.com",
+                "url": null
+              }
+            ],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "redis",
+              "repl",
+              "cli",
+              "json"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": "https://github.com/Microsoft/redie",
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/redie/-/redie-0.3.0.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": "https://github.com/Microsoft/redie/issues",
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": "git",
+            "vcs_repository": "https://github.com/Microsoft/redie.git",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "runtime": [
+                {
+                  "name": "argv-split",
+                  "version": null,
+                  "version_constraint": "^1.0.0"
+                },
+                {
+                  "name": "command-line-args",
+                  "version": null,
+                  "version_constraint": "^2.1.6"
+                },
+                {
+                  "name": "is-json",
+                  "version": null,
+                  "version_constraint": "^2.0.0"
+                },
+                {
+                  "name": "json-colorz",
+                  "version": null,
+                  "version_constraint": "^0.2.7"
+                },
+                {
+                  "name": "painless-config",
+                  "version": null,
+                  "version_constraint": "^0.1.0"
+                },
+                {
+                  "name": "redis",
+                  "version": null,
+                  "version_constraint": "^2.6.0-0"
+                },
+                {
+                  "name": "redis-commands",
+                  "version": null,
+                  "version_constraint": "^1.1.0"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      }
+    ]
+  }
+}

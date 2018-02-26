@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "type": "clearlydefined",
+    "url": "cd:/git/github/microsoft/redie/194269b5b7010ad6f8dc4ef608c88128615031ca",
+    "fetchedAt": "2018-02-26T05:10:17.127Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:microsoft:redie:revision:194269b5b7010ad6f8dc4ef608c88128615031ca:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:microsoft:redie:revision:194269b5b7010ad6f8dc4ef608c88128615031ca:tool:clearlydefined",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:10:17.128Z"
+  },
+  "releaseDate": "2016-08-18T09:08:53-07:00"
+}

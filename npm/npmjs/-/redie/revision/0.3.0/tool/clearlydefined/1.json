@@ -1,0 +1,178 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/redie/0.3.0",
+    "fetchedAt": "2018-02-26T05:10:10.700Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:redie:revision:0.3.0:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:redie:revision:0.3.0:tool:clearlydefined",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:-:redie:revision:0.3.0:tool:scancode",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:microsoft:redie:revision:194269b5b7010ad6f8dc4ef608c88128615031ca",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:10:10.919Z"
+  },
+  "package.json": {
+    "name": "redie",
+    "version": "0.3.0",
+    "description": "Redis client focused on providing a delightful user experience.",
+    "main": "index.js",
+    "bin": {
+      "redie": "index.js"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "redis",
+      "repl",
+      "cli",
+      "json"
+    ],
+    "homepage": "https://github.com/Microsoft/redie",
+    "bugs": "https://github.com/Microsoft/redie/issues",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Microsoft/redie.git"
+    },
+    "author": "William Bartholomew <willbar@microsoft.com>",
+    "license": "MIT",
+    "files": [
+      "index.js"
+    ],
+    "dependencies": {
+      "argv-split": "^1.0.0",
+      "command-line-args": "^2.1.6",
+      "is-json": "^2.0.0",
+      "json-colorz": "^0.2.7",
+      "painless-config": "^0.1.0",
+      "redis": "^2.6.0-0",
+      "redis-commands": "^1.1.0"
+    }
+  },
+  "registryData": {
+    "_id": "redie",
+    "_rev": "4-d34a91d4bf2db4ed5c1fdf4e51409708",
+    "name": "redie",
+    "description": "Redis client focused on providing a delightful user experience.",
+    "dist-tags": {
+      "latest": "0.3.0"
+    },
+    "readme": "![Version](https://img.shields.io/npm/v/redie.svg)\n![License](https://img.shields.io/github/license/Microsoft/redie.svg)\n![Downloads](https://img.shields.io/npm/dt/redie.svg)\n\n# Redie\nRedis client focused on providing a delightful user experience.\n\n![Redie Screenshot](screenshot.png)\n\n# Usage\nConnect to your Redis server by passing the following command-line arguments \n(or by using an `env.json` [painless-config](https://www.npmjs.com/package/painless-config) file, or setting their environment variable equivalents):\n```\n  -h      Hostname to connect to (defaults to 127.0.0.1 or REDIS_HOSTNAME environment variable)\n  -p      Port to connect to (defaults to 6379 (non-TLS), 6380 (TLS), or REDIS_PORT environment variable)\n  -a      Password to use to connect (defaults to REDIS_PASSWORD environment variable)\n  --tls   Use TLS to connect (defaults to on if REDIS_TLS environment variable is set)\n```\n\nOnce connected you'll be placed in a \"Redie shell\" where you can execute commands against the Redis server you connected to:\n```\nhostname>\n```\n\n# Commands\nRedie supports the full set of Redis commands with the exception of:\n* `BATCH`, `MULTI`\n* `SUBSCRIBE`, `UNSUBSCRIBE`, `PSUBSCRIBE`, `PUNSUBSCRIBE`\n\nRedie also adds the following commands:\n* `HELP [pattern]` lists the Redis commands matching the specified pattern (wildcards supported)\n* `SAVE filename` saves the output of the last command to the specified filename overwriting it if it already exists\n* `QUIT` exits the Redie shell\n\n# Roadmap\n* Support for subscriptions\n* Support for BATCH and MULTI\n* Formatting for more types (e.g. HTML)\n* Extensible formatting\n* Command-line arguments to run a command (and optionally exit)\n* Run commands from a file (both from the command-line and the shell)\n\n# Contributing\nPull requests will gladly be considered!",
+    "maintainers": [
+      {
+        "name": "microsoft",
+        "email": "npmjs@microsoft.com"
+      }
+    ],
+    "homepage": "https://github.com/Microsoft/redie",
+    "keywords": [
+      "redis",
+      "repl",
+      "cli",
+      "json"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Microsoft/redie.git"
+    },
+    "author": {
+      "name": "William Bartholomew",
+      "email": "willbar@microsoft.com"
+    },
+    "bugs": {
+      "url": "https://github.com/Microsoft/redie/issues"
+    },
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "_attachments": {},
+    "manifest": {
+      "name": "redie",
+      "version": "0.3.0",
+      "description": "Redis client focused on providing a delightful user experience.",
+      "main": "index.js",
+      "bin": {
+        "redie": "index.js"
+      },
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [
+        "redis",
+        "repl",
+        "cli",
+        "json"
+      ],
+      "homepage": "https://github.com/Microsoft/redie",
+      "bugs": {
+        "url": "https://github.com/Microsoft/redie/issues"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Microsoft/redie.git"
+      },
+      "author": {
+        "name": "William Bartholomew",
+        "email": "willbar@microsoft.com"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "dependencies": {
+        "argv-split": "^1.0.0",
+        "command-line-args": "^2.1.6",
+        "is-json": "^2.0.0",
+        "json-colorz": "^0.2.7",
+        "painless-config": "^0.1.0",
+        "redis": "^2.6.0-0",
+        "redis-commands": "^1.1.0"
+      },
+      "gitHead": "194269b5b7010ad6f8dc4ef608c88128615031ca",
+      "_id": "redie@0.3.0",
+      "_shasum": "48581317ac174ac269c398ff946d6c4779145374",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "4.2.2",
+      "_npmUser": {
+        "name": "microsoft",
+        "email": "npmjs@microsoft.com"
+      },
+      "dist": {
+        "shasum": "48581317ac174ac269c398ff946d6c4779145374",
+        "tarball": "https://registry.npmjs.org/redie/-/redie-0.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "microsoft",
+          "email": "npmjs@microsoft.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/redie-0.3.0.tgz_1471536574191_0.780965787358582"
+      },
+      "directories": {}
+    },
+    "releaseDate": "2016-08-18T16:09:35.655Z"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/Microsoft/redie",
+    "revision": "194269b5b7010ad6f8dc4ef608c88128615031ca",
+    "path": null
+  }
+}
