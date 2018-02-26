@@ -1,0 +1,522 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/fs-extra/5.0.0",
+    "fetchedAt": "2018-02-26T05:43:38.556Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:fs-extra:revision:5.0.0:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:fs-extra:revision:5.0.0:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-12-11T17:30:07.555Z",
+    "processedAt": "2018-02-26T05:44:06.008Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 6,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-02-18",
+        "size": 1084,
+        "sha1": "dd164bc611bca7ba8ead40ec4c2851081e5a16b9",
+        "md5": "ea817882455c03503f7d014a8f54f095",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 15,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2011-2017 JP Richardson"
+            ],
+            "holders": [
+              "JP Richardson"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-12-11",
+        "size": 1582,
+        "sha1": "bc3dcee64c261499c623a904ce8f5361eec1c938",
+        "md5": "884bbd7d6cb420f98e35d10909261548",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 34,
+            "end_line": 34,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "fs-extra",
+            "version": "5.0.0",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "JP Richardson",
+                "email": "jprichardson@gmail.com",
+                "url": null
+              }
+            ],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "fs",
+              "file",
+              "file system",
+              "copy",
+              "directory",
+              "extra",
+              "mkdirp",
+              "mkdir",
+              "mkdirs",
+              "recursive",
+              "json",
+              "read",
+              "write",
+              "extra",
+              "delete",
+              "remove",
+              "touch",
+              "create",
+              "text",
+              "output",
+              "move"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": "https://github.com/jprichardson/node-fs-extra",
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/fs-extra/-/fs-extra-5.0.0.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": "git",
+            "vcs_repository": "https://github.com/jprichardson/node-fs-extra",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "coveralls",
+                  "version": null,
+                  "version_constraint": "^2.11.2"
+                },
+                {
+                  "name": "istanbul",
+                  "version": null,
+                  "version_constraint": "^0.4.5"
+                },
+                {
+                  "name": "klaw",
+                  "version": null,
+                  "version_constraint": "^1.0.0"
+                },
+                {
+                  "name": "klaw-sync",
+                  "version": null,
+                  "version_constraint": "^1.1.2"
+                },
+                {
+                  "name": "minimist",
+                  "version": null,
+                  "version_constraint": "^1.1.1"
+                },
+                {
+                  "name": "mocha",
+                  "version": null,
+                  "version_constraint": "^3.1.2"
+                },
+                {
+                  "name": "proxyquire",
+                  "version": null,
+                  "version_constraint": "^1.7.10"
+                },
+                {
+                  "name": "read-dir-files",
+                  "version": null,
+                  "version_constraint": "^0.1.1"
+                },
+                {
+                  "name": "rimraf",
+                  "version": null,
+                  "version_constraint": "^2.2.8"
+                },
+                {
+                  "name": "secure-random",
+                  "version": null,
+                  "version_constraint": "^1.1.1"
+                },
+                {
+                  "name": "semver",
+                  "version": null,
+                  "version_constraint": "^5.3.0"
+                },
+                {
+                  "name": "standard",
+                  "version": null,
+                  "version_constraint": "^10.0.2"
+                },
+                {
+                  "name": "standard-markdown",
+                  "version": null,
+                  "version_constraint": "^4.0.1"
+                }
+              ],
+              "runtime": [
+                {
+                  "name": "graceful-fs",
+                  "version": null,
+                  "version_constraint": "^4.1.2"
+                },
+                {
+                  "name": "jsonfile",
+                  "version": null,
+                  "version_constraint": "^4.0.0"
+                },
+                {
+                  "name": "universalify",
+                  "version": null,
+                  "version_constraint": "^0.1.0"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2017-07-14",
+        "size": 8815,
+        "sha1": "4688efe1f0ce72d12e326729a6bc50daf2665cde",
+        "md5": "d5ab003fa7e1b7ff3b661f7aa6c04cac",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2011-2017 JP Richardson"
+            ],
+            "holders": [
+              "JP Richardson"
+            ],
+            "authors": [],
+            "start_line": 237,
+            "end_line": 237
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/lib/ensure/symlink-paths.js",
+        "type": "file",
+        "name": "symlink-paths.js",
+        "base_name": "symlink-paths",
+        "extension": ".js",
+        "date": "2017-04-27",
+        "size": 3410,
+        "sha1": "3975a7b909c6da1b1945b82b9b1f82ac352d0f6b",
+        "md5": "0d20c2e8eb65eb54d40396b3150632eb",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "path.isAbsolute()'."
+            ],
+            "start_line": 13,
+            "end_line": 16
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/lib/fs/index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2017-12-11",
+        "size": 2780,
+        "sha1": "4b217bb2ae946ed11c23611b847959eae6329d48",
+        "md5": "4e53dff916d30c68f05740bd1a2e7d2f",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-2016 Jonathan Ong me@jongleberry.com"
+            ],
+            "holders": [
+              "Jonathan Ong"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/lib/move/index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2017-12-11",
+        "size": 4543,
+        "sha1": "6c804fc72f74e74ee06283c4ca1437fcbdf80921",
+        "md5": "422e5743548c5ac548d025e898bc8785",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "bsd-new",
+            "score": 15,
+            "short_name": "BSD-Modified",
+            "category": "Permissive",
+            "owner": "Regents of the University of California",
+            "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+            "spdx_license_key": "BSD-3-Clause",
+            "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "bsd-new_145.RULE",
+              "license_choice": false,
+              "licenses": [
+                "bsd-new"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Andrew Kelley"
+            ],
+            "start_line": 3,
+            "end_line": 5
+          }
+        ],
+        "packages": []
+      }
+    ]
+  }
+}

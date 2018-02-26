@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "type": "clearlydefined",
+    "url": "cd:/git/github/babel/babel/cee4cde53e4f452d89229986b9368ecdb41e00da",
+    "fetchedAt": "2018-02-26T05:53:37.197Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:babel:babel:revision:cee4cde53e4f452d89229986b9368ecdb41e00da:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:babel:babel:revision:cee4cde53e4f452d89229986b9368ecdb41e00da:tool:clearlydefined",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:53:37.198Z"
+  },
+  "releaseDate": "2017-08-16T11:54:08-04:00"
+}

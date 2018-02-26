@@ -1,0 +1,493 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/async/2.6.0",
+    "fetchedAt": "2018-02-26T05:41:49.280Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:async:revision:2.6.0:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:async:revision:2.6.0:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-11-07T02:45:53.140Z",
+    "processedAt": "2018-02-26T05:42:18.236Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 3,
+    "files": [
+      {
+        "path": "package/bower.json",
+        "type": "file",
+        "name": "bower.json",
+        "base_name": "bower",
+        "extension": ".json",
+        "date": "2017-11-07",
+        "size": 245,
+        "sha1": "17093def0a5680479e2168cda78ddb8fc7183ccf",
+        "md5": "d16d90ef73b722234a55a792c5413759",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "Bower package",
+            "name": null,
+            "version": null,
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": null,
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [],
+            "keywords_doc_url": null,
+            "metafile_locations": [],
+            "metafile_urls": [],
+            "homepage_url": null,
+            "notes": null,
+            "download_urls": [],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": null,
+            "vcs_repository": null,
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {},
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-11-07",
+        "size": 1063,
+        "sha1": "29b98a663e9b828b0d3394c0c0c430dc5d80937a",
+        "md5": "9ec5487258cc65072647c5488b4d59ad",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 3,
+            "end_line": 19,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2010-2017 Caolan McMahon"
+            ],
+            "holders": [
+              "Caolan McMahon"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-11-07",
+        "size": 2509,
+        "sha1": "40889a1483c0846256b8929b1616f38fa911442d",
+        "md5": "ac650e5a52fc67494b9f7e0a5a407395",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 74,
+            "end_line": 74,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "async",
+            "version": "2.6.0",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "Higher-order functions and common patterns for asynchronous code",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "Caolan McMahon",
+                "email": null,
+                "url": null
+              }
+            ],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "async",
+              "callback",
+              "module",
+              "utility"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": "https://caolan.github.io/async/",
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/async/-/async-2.6.0.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": "https://github.com/caolan/async/issues",
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": "git",
+            "vcs_repository": "https://github.com/caolan/async.git",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "babel-cli",
+                  "version": null,
+                  "version_constraint": "^6.24.0"
+                },
+                {
+                  "name": "babel-core",
+                  "version": null,
+                  "version_constraint": "^6.24.0"
+                },
+                {
+                  "name": "babel-plugin-add-module-exports",
+                  "version": null,
+                  "version_constraint": "^0.2.1"
+                },
+                {
+                  "name": "babel-plugin-istanbul",
+                  "version": null,
+                  "version_constraint": "^2.0.1"
+                },
+                {
+                  "name": "babel-plugin-transform-es2015-modules-commonjs",
+                  "version": null,
+                  "version_constraint": "^6.3.16"
+                },
+                {
+                  "name": "babel-preset-es2015",
+                  "version": null,
+                  "version_constraint": "^6.3.13"
+                },
+                {
+                  "name": "babel-preset-es2017",
+                  "version": null,
+                  "version_constraint": "^6.22.0"
+                },
+                {
+                  "name": "babelify",
+                  "version": null,
+                  "version_constraint": "^7.2.0"
+                },
+                {
+                  "name": "benchmark",
+                  "version": null,
+                  "version_constraint": "^2.1.1"
+                },
+                {
+                  "name": "bluebird",
+                  "version": null,
+                  "version_constraint": "^3.4.6"
+                },
+                {
+                  "name": "chai",
+                  "version": null,
+                  "version_constraint": "^3.1.0"
+                },
+                {
+                  "name": "cheerio",
+                  "version": null,
+                  "version_constraint": "^0.22.0"
+                },
+                {
+                  "name": "coveralls",
+                  "version": null,
+                  "version_constraint": "^2.11.2"
+                },
+                {
+                  "name": "es6-promise",
+                  "version": null,
+                  "version_constraint": "^2.3.0"
+                },
+                {
+                  "name": "eslint",
+                  "version": null,
+                  "version_constraint": "^2.13.1"
+                },
+                {
+                  "name": "fs-extra",
+                  "version": null,
+                  "version_constraint": "^0.26.7"
+                },
+                {
+                  "name": "gh-pages-deploy",
+                  "version": null,
+                  "version_constraint": "^0.4.2"
+                },
+                {
+                  "name": "jsdoc",
+                  "version": null,
+                  "version_constraint": "^3.4.0"
+                },
+                {
+                  "name": "karma",
+                  "version": null,
+                  "version_constraint": "^1.3.0"
+                },
+                {
+                  "name": "karma-browserify",
+                  "version": null,
+                  "version_constraint": "^5.1.0"
+                },
+                {
+                  "name": "karma-firefox-launcher",
+                  "version": null,
+                  "version_constraint": "^1.0.0"
+                },
+                {
+                  "name": "karma-mocha",
+                  "version": null,
+                  "version_constraint": "^1.2.0"
+                },
+                {
+                  "name": "karma-mocha-reporter",
+                  "version": null,
+                  "version_constraint": "^2.2.0"
+                },
+                {
+                  "name": "mocha",
+                  "version": null,
+                  "version_constraint": "^3.1.2"
+                },
+                {
+                  "name": "native-promise-only",
+                  "version": null,
+                  "version_constraint": "^0.8.0-a"
+                },
+                {
+                  "name": "nyc",
+                  "version": null,
+                  "version_constraint": "^7.0.0"
+                },
+                {
+                  "name": "recursive-readdir",
+                  "version": null,
+                  "version_constraint": "^1.3.0"
+                },
+                {
+                  "name": "rimraf",
+                  "version": null,
+                  "version_constraint": "^2.5.0"
+                },
+                {
+                  "name": "rollup",
+                  "version": null,
+                  "version_constraint": "^0.36.3"
+                },
+                {
+                  "name": "rollup-plugin-node-resolve",
+                  "version": null,
+                  "version_constraint": "^2.0.0"
+                },
+                {
+                  "name": "rollup-plugin-npm",
+                  "version": null,
+                  "version_constraint": "^2.0.0"
+                },
+                {
+                  "name": "rsvp",
+                  "version": null,
+                  "version_constraint": "^3.0.18"
+                },
+                {
+                  "name": "semver",
+                  "version": null,
+                  "version_constraint": "^4.3.6"
+                },
+                {
+                  "name": "uglify-js",
+                  "version": null,
+                  "version_constraint": "~2.7.3"
+                },
+                {
+                  "name": "vinyl-buffer",
+                  "version": null,
+                  "version_constraint": "^1.0.0"
+                },
+                {
+                  "name": "vinyl-source-stream",
+                  "version": null,
+                  "version_constraint": "^1.1.0"
+                },
+                {
+                  "name": "watchify",
+                  "version": null,
+                  "version_constraint": "^3.7.0"
+                },
+                {
+                  "name": "yargs",
+                  "version": null,
+                  "version_constraint": "~3.9.1"
+                }
+              ],
+              "runtime": [
+                {
+                  "name": "lodash",
+                  "version": null,
+                  "version_constraint": "^4.14.0"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      }
+    ]
+  }
+}

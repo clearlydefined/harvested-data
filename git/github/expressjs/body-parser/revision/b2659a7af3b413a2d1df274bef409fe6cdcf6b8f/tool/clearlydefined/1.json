@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "type": "clearlydefined",
+    "url": "cd:/git/github/expressjs/body-parser/b2659a7af3b413a2d1df274bef409fe6cdcf6b8f",
+    "fetchedAt": "2018-02-26T05:52:24.470Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:expressjs:body-parser:revision:b2659a7af3b413a2d1df274bef409fe6cdcf6b8f:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:expressjs:body-parser:revision:b2659a7af3b413a2d1df274bef409fe6cdcf6b8f:tool:clearlydefined",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:52:24.471Z"
+  },
+  "releaseDate": "2017-09-22T12:40:54-04:00"
+}

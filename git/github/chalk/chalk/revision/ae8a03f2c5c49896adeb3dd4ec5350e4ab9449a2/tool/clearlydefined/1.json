@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "type": "clearlydefined",
+    "url": "cd:/git/github/chalk/chalk/ae8a03f2c5c49896adeb3dd4ec5350e4ab9449a2",
+    "fetchedAt": "2018-02-26T05:46:35.248Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:chalk:chalk:revision:ae8a03f2c5c49896adeb3dd4ec5350e4ab9449a2:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:chalk:chalk:revision:ae8a03f2c5c49896adeb3dd4ec5350e4ab9449a2:tool:clearlydefined",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:46:35.249Z"
+  },
+  "releaseDate": "2018-02-11T20:18:25+07:00"
+}

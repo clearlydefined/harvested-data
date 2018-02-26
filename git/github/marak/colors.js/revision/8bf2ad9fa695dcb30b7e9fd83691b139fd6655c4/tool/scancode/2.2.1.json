@@ -1,0 +1,518 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/marak/colors.js/8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4",
+    "fetchedAt": "2018-02-26T05:52:01.718Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:marak:colors.js:revision:8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:marak:colors.js:revision:8bf2ad9fa695dcb30b7e9fd83691b139fd6655c4:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2015-06-17T15:01:51+02:00",
+    "processedAt": "2018-02-26T05:52:21.471Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 5,
+    "files": [
+      {
+        "path": "LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-02-26",
+        "size": 1195,
+        "sha1": "07dc9f06261da8cbcd204d921c27074e504f9263",
+        "md5": "33ee7950aeb2ee28bb69014a1e778172",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 7,
+            "end_line": 23,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Marak Squires"
+            ],
+            "holders": [
+              "Marak Squires"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 2
+          },
+          {
+            "statements": [
+              "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)"
+            ],
+            "holders": [
+              "Sindre Sorhus",
+              "(sindresorhus.com)"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 5
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-26",
+        "size": 727,
+        "sha1": "7c0ceeeec07b2eb4214680ab2fcd842aceef50a4",
+        "md5": "70f7ebc9ae6b87886d833c0078a52ddb",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 13,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "colors",
+            "version": "1.1.2",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "get colors in your node.js console",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "Marak Squires",
+                "email": null,
+                "url": null
+              }
+            ],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "ansi",
+              "terminal",
+              "colors"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": "https://github.com/Marak/colors.js",
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/colors/-/colors-1.1.2.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": "https://github.com/Marak/colors.js/issues",
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": "git",
+            "vcs_repository": "http://github.com/Marak/colors.js.git",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {},
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "lib/colors.js",
+        "type": "file",
+        "name": "colors.js",
+        "base_name": "colors",
+        "extension": ".js",
+        "date": "2018-02-26",
+        "size": 5011,
+        "sha1": "c2c6fb0f8d33ad4cbc19b608ad28c92db2950b6b",
+        "md5": "5d7778811a20517fba2eb38dcb5289e9",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 3,
+            "end_line": 3,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 11,
+            "end_line": 27,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Marak Squires"
+            ],
+            "holders": [
+              "Marak Squires"
+            ],
+            "authors": [],
+            "start_line": 5,
+            "end_line": 6
+          },
+          {
+            "statements": [
+              "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)"
+            ],
+            "holders": [
+              "Sindre Sorhus",
+              "(sindresorhus.com)"
+            ],
+            "authors": [],
+            "start_line": 8,
+            "end_line": 9
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "lib/styles.js",
+        "type": "file",
+        "name": "styles.js",
+        "base_name": "styles",
+        "extension": ".js",
+        "date": "2018-02-26",
+        "size": 2175,
+        "sha1": "797e76baa68f43be518faf0e0c1d43defb499f8f",
+        "md5": "d29611bb95248f8ecdac497720c9313a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 22,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)"
+            ],
+            "holders": [
+              "Sindre Sorhus",
+              "(sindresorhus.com)"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "lib/system/supports-colors.js",
+        "type": "file",
+        "name": "supports-colors.js",
+        "base_name": "supports-colors",
+        "extension": ".js",
+        "date": "2018-02-26",
+        "size": 1879,
+        "sha1": "4de90ccea4018fdf89c3242787c73b4b418a8449",
+        "md5": "6e20ed160c67197d18c3e3f693dc6374",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 2,
+            "end_line": 2,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 22,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)"
+            ],
+            "holders": [
+              "Sindre Sorhus",
+              "(sindresorhus.com)"
+            ],
+            "authors": [],
+            "start_line": 4,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      }
+    ]
+  }
+}

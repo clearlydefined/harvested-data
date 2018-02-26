@@ -1,0 +1,548 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/visionmedia/debug/f073e056f33efdd5b311381eb6bca2bc850745bf",
+    "fetchedAt": "2018-02-26T05:49:55.803Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:visionmedia:debug:revision:f073e056f33efdd5b311381eb6bca2bc850745bf:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:visionmedia:debug:revision:f073e056f33efdd5b311381eb6bca2bc850745bf:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-09-26T21:13:38+02:00",
+    "processedAt": "2018-02-26T05:50:13.450Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 4,
+    "files": [
+      {
+        "path": "bower.json",
+        "type": "file",
+        "name": "bower.json",
+        "base_name": "bower",
+        "extension": ".json",
+        "date": "2018-02-26",
+        "size": 596,
+        "sha1": "867865afab068770ca4fd661bd475c8c706a2112",
+        "md5": "3eb0208f6d32c40cb0f179015eb38789",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 21,
+            "end_line": 21,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "Bower package",
+            "name": null,
+            "version": null,
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": null,
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [],
+            "keywords_doc_url": null,
+            "metafile_locations": [],
+            "metafile_urls": [],
+            "homepage_url": null,
+            "notes": null,
+            "download_urls": [],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": null,
+            "vcs_repository": null,
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {},
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-02-26",
+        "size": 1126,
+        "sha1": "7ad8ea837f51a7dac745270dfad6f8a2983b51bd",
+        "md5": "e697f9304989084f44a787107d0b3363",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 18,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>"
+            ],
+            "holders": [
+              "TJ Holowaychuk"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-26",
+        "size": 1064,
+        "sha1": "09cd1bcb9d2d6b1784508865c0e4386c4f840a87",
+        "md5": "3459695cf1b779337ff264db81dac9e7",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 19,
+            "end_line": 19,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Nathan Rajlich <nathan@tootallnate.net>"
+            ],
+            "start_line": 14,
+            "end_line": 16
+          }
+        ],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "debug",
+            "version": "3.1.0",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "small debugging utility",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "TJ Holowaychuk",
+                "email": "tj@vision-media.ca",
+                "url": null
+              }
+            ],
+            "maintainers": [],
+            "contributors": [
+              {
+                "type": "person",
+                "name": "Nathan Rajlich",
+                "email": "nathan@tootallnate.net",
+                "url": "http://n8.io"
+              },
+              {
+                "type": "person",
+                "name": "Andrew Rhyne",
+                "email": "rhyneandrew@gmail.com",
+                "url": null
+              }
+            ],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "debug",
+              "log",
+              "debugger"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": null,
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/debug/-/debug-3.1.0.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": "git",
+            "vcs_repository": "git://github.com/visionmedia/debug.git",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "browserify",
+                  "version": null,
+                  "version_constraint": "14.4.0"
+                },
+                {
+                  "name": "chai",
+                  "version": null,
+                  "version_constraint": "^3.5.0"
+                },
+                {
+                  "name": "concurrently",
+                  "version": null,
+                  "version_constraint": "^3.1.0"
+                },
+                {
+                  "name": "coveralls",
+                  "version": null,
+                  "version_constraint": "^2.11.15"
+                },
+                {
+                  "name": "eslint",
+                  "version": null,
+                  "version_constraint": "^3.12.1"
+                },
+                {
+                  "name": "istanbul",
+                  "version": null,
+                  "version_constraint": "^0.4.5"
+                },
+                {
+                  "name": "karma",
+                  "version": null,
+                  "version_constraint": "^1.3.0"
+                },
+                {
+                  "name": "karma-chai",
+                  "version": null,
+                  "version_constraint": "^0.1.0"
+                },
+                {
+                  "name": "karma-mocha",
+                  "version": null,
+                  "version_constraint": "^1.3.0"
+                },
+                {
+                  "name": "karma-phantomjs-launcher",
+                  "version": null,
+                  "version_constraint": "^1.0.2"
+                },
+                {
+                  "name": "karma-sinon",
+                  "version": null,
+                  "version_constraint": "^1.0.5"
+                },
+                {
+                  "name": "mocha",
+                  "version": null,
+                  "version_constraint": "^3.2.0"
+                },
+                {
+                  "name": "mocha-lcov-reporter",
+                  "version": null,
+                  "version_constraint": "^1.2.0"
+                },
+                {
+                  "name": "rimraf",
+                  "version": null,
+                  "version_constraint": "^2.5.4"
+                },
+                {
+                  "name": "sinon",
+                  "version": null,
+                  "version_constraint": "^1.17.6"
+                },
+                {
+                  "name": "sinon-chai",
+                  "version": null,
+                  "version_constraint": "^2.8.0"
+                }
+              ],
+              "runtime": [
+                {
+                  "name": "ms",
+                  "version": null,
+                  "version_constraint": "2.0.0"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2018-02-26",
+        "size": 20195,
+        "sha1": "0164388bc946af942ad1ffbacdedd771313149e2",
+        "md5": "ce9084892b6c6e746ac8c2d83ab152bd",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with very long lines, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 347,
+            "end_line": 347,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 351,
+            "end_line": 368,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-2017 TJ Holowaychuk &lt tj@vision-media.ca&gt"
+            ],
+            "holders": [
+              "TJ Holowaychuk &lt tj@vision-media.ca&gt"
+            ],
+            "authors": [],
+            "start_line": 349,
+            "end_line": 349
+          }
+        ],
+        "packages": []
+      }
+    ]
+  }
+}

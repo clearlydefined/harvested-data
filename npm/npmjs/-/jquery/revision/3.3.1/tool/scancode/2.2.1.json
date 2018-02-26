@@ -1,0 +1,1394 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/jquery/3.3.1",
+    "fetchedAt": "2018-02-26T05:44:50.711Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:jquery:revision:3.3.1:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:jquery:revision:3.3.1:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-01-20T17:27:11.928Z",
+    "processedAt": "2018-02-26T05:45:44.192Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 10,
+    "files": [
+      {
+        "path": "package/bower.json",
+        "type": "file",
+        "name": "bower.json",
+        "base_name": "bower",
+        "extension": ".json",
+        "date": "2018-01-20",
+        "size": 190,
+        "sha1": "000530ba7ab5ff636b103baf460e5fb7035ee5d0",
+        "md5": "5dc00f10d3c2752e1a1d6f27abbc2062",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "Bower package",
+            "name": null,
+            "version": null,
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": null,
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [],
+            "keywords_doc_url": null,
+            "metafile_locations": [],
+            "metafile_urls": [],
+            "homepage_url": null,
+            "notes": null,
+            "download_urls": [],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": null,
+            "vcs_repository": null,
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {},
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "package/LICENSE.txt",
+        "type": "file",
+        "name": "LICENSE.txt",
+        "base_name": "LICENSE",
+        "extension": ".txt",
+        "date": "2018-01-20",
+        "size": 1605,
+        "sha1": "06aa223caa312d21c3e406cc25a763621c859255",
+        "md5": "875c9ca6ba54b28d2189a196aa60ce6c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 12,
+            "end_line": 29,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright JS Foundation"
+            ],
+            "holders": [
+              "JS Foundation"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-01-20",
+        "size": 2811,
+        "sha1": "39250c508315cd2440a0b5a0375eaadf5ae765e3",
+        "md5": "11a694dc833bbff1faef417a6859eec7",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 25,
+            "end_line": 25,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "jquery",
+            "version": "3.3.1",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "JavaScript library for DOM operations",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "JS Foundation and other contributors",
+                "email": null,
+                "url": "https://github.com/jquery/jquery/blob/3.3.1/AUTHORS.txt"
+              }
+            ],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "jquery",
+              "javascript",
+              "browser",
+              "library"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": "https://jquery.com",
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": "https://github.com/jquery/jquery/issues",
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": "git",
+            "vcs_repository": "https://github.com/jquery/jquery.git",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "babel-core",
+                  "version": null,
+                  "version_constraint": "7.0.0-beta.0"
+                },
+                {
+                  "name": "babel-plugin-transform-es2015-for-of",
+                  "version": null,
+                  "version_constraint": "7.0.0-beta.0"
+                },
+                {
+                  "name": "commitplease",
+                  "version": null,
+                  "version_constraint": "2.7.10"
+                },
+                {
+                  "name": "core-js",
+                  "version": null,
+                  "version_constraint": "2.4.1"
+                },
+                {
+                  "name": "eslint-config-jquery",
+                  "version": null,
+                  "version_constraint": "1.0.1"
+                },
+                {
+                  "name": "grunt",
+                  "version": null,
+                  "version_constraint": "1.0.1"
+                },
+                {
+                  "name": "grunt-babel",
+                  "version": null,
+                  "version_constraint": "7.0.0"
+                },
+                {
+                  "name": "grunt-cli",
+                  "version": null,
+                  "version_constraint": "1.2.0"
+                },
+                {
+                  "name": "grunt-compare-size",
+                  "version": null,
+                  "version_constraint": "0.4.2"
+                },
+                {
+                  "name": "grunt-contrib-uglify",
+                  "version": null,
+                  "version_constraint": "3.0.1"
+                },
+                {
+                  "name": "grunt-contrib-watch",
+                  "version": null,
+                  "version_constraint": "1.0.0"
+                },
+                {
+                  "name": "grunt-eslint",
+                  "version": null,
+                  "version_constraint": "20.0.0"
+                },
+                {
+                  "name": "grunt-git-authors",
+                  "version": null,
+                  "version_constraint": "3.2.0"
+                },
+                {
+                  "name": "grunt-jsonlint",
+                  "version": null,
+                  "version_constraint": "1.1.0"
+                },
+                {
+                  "name": "grunt-karma",
+                  "version": null,
+                  "version_constraint": "2.0.0"
+                },
+                {
+                  "name": "grunt-newer",
+                  "version": null,
+                  "version_constraint": "1.3.0"
+                },
+                {
+                  "name": "grunt-npmcopy",
+                  "version": null,
+                  "version_constraint": "0.1.0"
+                },
+                {
+                  "name": "gzip-js",
+                  "version": null,
+                  "version_constraint": "0.3.2"
+                },
+                {
+                  "name": "husky",
+                  "version": null,
+                  "version_constraint": "0.14.3"
+                },
+                {
+                  "name": "insight",
+                  "version": null,
+                  "version_constraint": "0.8.4"
+                },
+                {
+                  "name": "jsdom",
+                  "version": null,
+                  "version_constraint": "5.6.1"
+                },
+                {
+                  "name": "karma",
+                  "version": null,
+                  "version_constraint": "1.7.0"
+                },
+                {
+                  "name": "karma-browserstack-launcher",
+                  "version": null,
+                  "version_constraint": "1.3.0"
+                },
+                {
+                  "name": "karma-chrome-launcher",
+                  "version": null,
+                  "version_constraint": "2.2.0"
+                },
+                {
+                  "name": "karma-firefox-launcher",
+                  "version": null,
+                  "version_constraint": "1.0.1"
+                },
+                {
+                  "name": "karma-qunit",
+                  "version": null,
+                  "version_constraint": "1.2.1"
+                },
+                {
+                  "name": "load-grunt-tasks",
+                  "version": null,
+                  "version_constraint": "3.5.2"
+                },
+                {
+                  "name": "native-promise-only",
+                  "version": null,
+                  "version_constraint": "0.8.1"
+                },
+                {
+                  "name": "promises-aplus-tests",
+                  "version": null,
+                  "version_constraint": "2.1.2"
+                },
+                {
+                  "name": "q",
+                  "version": null,
+                  "version_constraint": "1.5.0"
+                },
+                {
+                  "name": "qunit-assert-step",
+                  "version": null,
+                  "version_constraint": "1.0.3"
+                },
+                {
+                  "name": "qunitjs",
+                  "version": null,
+                  "version_constraint": "1.23.1"
+                },
+                {
+                  "name": "raw-body",
+                  "version": null,
+                  "version_constraint": "2.2.0"
+                },
+                {
+                  "name": "requirejs",
+                  "version": null,
+                  "version_constraint": "2.3.3"
+                },
+                {
+                  "name": "sinon",
+                  "version": null,
+                  "version_constraint": "2.3.7"
+                },
+                {
+                  "name": "sizzle",
+                  "version": null,
+                  "version_constraint": "2.3.3"
+                },
+                {
+                  "name": "strip-json-comments",
+                  "version": null,
+                  "version_constraint": "2.0.1"
+                },
+                {
+                  "name": "testswarm",
+                  "version": null,
+                  "version_constraint": "1.1.0"
+                },
+                {
+                  "name": "uglify-js",
+                  "version": null,
+                  "version_constraint": "3.3.4"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "package/dist/jquery.js",
+        "type": "file",
+        "name": "jquery.js",
+        "base_name": "jquery",
+        "extension": ".js",
+        "date": "2018-01-20",
+        "size": 271751,
+        "sha1": "46a436eba01c79acdb225757ed80bf54bad6416b",
+        "md5": "6a07da9fae934baf3f749e876bbfdd96",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 9,
+            "end_line": 9,
+            "matched_rule": {
+              "identifier": "mit_16.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 10,
+            "end_line": 10,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 15,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 10,
+            "end_line": 10,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 505,
+            "end_line": 505,
+            "matched_rule": {
+              "identifier": "mit_16.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 506,
+            "end_line": 506,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 15,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 506,
+            "end_line": 506,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright JS Foundation"
+            ],
+            "holders": [
+              "JS Foundation"
+            ],
+            "authors": [],
+            "start_line": 8,
+            "end_line": 10
+          },
+          {
+            "statements": [
+              "Copyright jQuery Foundation"
+            ],
+            "holders": [
+              "jQuery Foundation"
+            ],
+            "authors": [],
+            "start_line": 504,
+            "end_line": 506
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/dist/jquery.min.js",
+        "type": "file",
+        "name": "jquery.min.js",
+        "base_name": "jquery.min",
+        "extension": ".js",
+        "date": "2018-01-20",
+        "size": 86927,
+        "sha1": "0dc32db4aa9c5f03f3b38c47d883dbd4fed13aae",
+        "md5": "a09e13ee94d51c524b7e2a728c7d4039",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 15,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) JS Foundation"
+            ],
+            "holders": [
+              "JS Foundation"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 2
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/dist/jquery.slim.js",
+        "type": "file",
+        "name": "jquery.slim.js",
+        "base_name": "jquery.slim",
+        "extension": ".js",
+        "date": "2018-01-20",
+        "size": 218897,
+        "sha1": "1263f61eb65762f1af35c9b3f392ad18de4b3c33",
+        "md5": "450d478c0491cf0b2d365997faff70dd",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 9,
+            "end_line": 9,
+            "matched_rule": {
+              "identifier": "mit_16.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 10,
+            "end_line": 10,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 15,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 10,
+            "end_line": 10,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 505,
+            "end_line": 505,
+            "matched_rule": {
+              "identifier": "mit_16.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 506,
+            "end_line": 506,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 15,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 506,
+            "end_line": 506,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright JS Foundation"
+            ],
+            "holders": [
+              "JS Foundation"
+            ],
+            "authors": [],
+            "start_line": 8,
+            "end_line": 10
+          },
+          {
+            "statements": [
+              "Copyright jQuery Foundation"
+            ],
+            "holders": [
+              "jQuery Foundation"
+            ],
+            "authors": [],
+            "start_line": 504,
+            "end_line": 506
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/dist/jquery.slim.min.js",
+        "type": "file",
+        "name": "jquery.slim.min.js",
+        "base_name": "jquery.slim.min",
+        "extension": ".js",
+        "date": "2018-01-20",
+        "size": 69917,
+        "sha1": "bc5836992c0b260496ba520fe1336d499bf06eb7",
+        "md5": "99b0a83cf1b0b1e2cb16041520e87641",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 15,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) JS Foundation"
+            ],
+            "holders": [
+              "JS Foundation"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 2
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/external/sizzle/LICENSE.txt",
+        "type": "file",
+        "name": "LICENSE.txt",
+        "base_name": "LICENSE",
+        "extension": ".txt",
+        "date": "2018-01-20",
+        "size": 1606,
+        "sha1": "110c24a955d57b1c1efa2fc3d8ea93319e908b07",
+        "md5": "e0b826447077aed12f699bc38c726a44",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 12,
+            "end_line": 29,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright jQuery Foundation"
+            ],
+            "holders": [
+              "jQuery Foundation"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/external/sizzle/dist/sizzle.js",
+        "type": "file",
+        "name": "sizzle.js",
+        "base_name": "sizzle",
+        "extension": ".js",
+        "date": "2018-01-20",
+        "size": 65363,
+        "sha1": "c7e479983484073d5466abf3b82d29a62e6e75f6",
+        "md5": "88f56d86d94c7e2f4589a9312c360c55",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 25,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 6,
+            "matched_rule": {
+              "identifier": "mit_16.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 5,
+              "matched_length": 5,
+              "match_coverage": 100,
+              "rule_relevance": 25
+            }
+          },
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 7,
+            "end_line": 7,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 15,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 7,
+            "end_line": 7,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright jQuery Foundation"
+            ],
+            "holders": [
+              "jQuery Foundation"
+            ],
+            "authors": [],
+            "start_line": 5,
+            "end_line": 7
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/external/sizzle/dist/sizzle.min.js",
+        "type": "file",
+        "name": "sizzle.min.js",
+        "base_name": "sizzle.min",
+        "extension": ".js",
+        "date": "2018-01-20",
+        "size": 19909,
+        "sha1": "532610fb63d318895cc769c43ff1cf15b313fff3",
+        "md5": "a7da9ea7bd03729fae7b8a8c7a596ed1",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "gpl-1.0-plus",
+            "score": 15,
+            "short_name": "GPL 1.0 or later",
+            "category": "Copyleft",
+            "owner": "Free Software Foundation (FSF)",
+            "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-1.0-plus",
+            "spdx_license_key": "GPL-1.0+",
+            "spdx_url": "https://spdx.org/licenses/GPL-1.0",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_or_gpl_5.RULE",
+              "license_choice": true,
+              "licenses": [
+                "mit",
+                "gpl-1.0-plus"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) jQuery Foundation, Inc."
+            ],
+            "holders": [
+              "jQuery Foundation, Inc."
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 3
+          }
+        ],
+        "packages": []
+      }
+    ]
+  }
+}

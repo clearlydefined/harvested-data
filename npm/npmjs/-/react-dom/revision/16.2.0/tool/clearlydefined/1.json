@@ -1,0 +1,443 @@
+{
+  "_metadata": {
+    "type": "npm",
+    "url": "cd:/npm/npmjs/-/react-dom/16.2.0",
+    "fetchedAt": "2018-02-26T05:40:59.411Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:react-dom:revision:16.2.0:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:react-dom:revision:16.2.0:tool:clearlydefined",
+        "type": "collection"
+      },
+      "scancode": {
+        "href": "urn:npm:npmjs:-:react-dom:revision:16.2.0:tool:scancode",
+        "type": "collection"
+      },
+      "source": {
+        "href": "urn:git:github:facebook:react:revision:edb2b3d3a70bbb6a26670673ac805df34ac23382",
+        "type": "resource"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:40:59.674Z"
+  },
+  "package.json": {
+    "name": "react-dom",
+    "version": "16.2.0",
+    "description": "React package for working with the DOM.",
+    "main": "index.js",
+    "repository": "facebook/react",
+    "keywords": [
+      "react"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/facebook/react/issues"
+    },
+    "homepage": "https://reactjs.org/",
+    "dependencies": {
+      "fbjs": "^0.8.16",
+      "loose-envify": "^1.1.0",
+      "object-assign": "^4.1.1",
+      "prop-types": "^15.6.0"
+    },
+    "peerDependencies": {
+      "react": "^16.0.0"
+    },
+    "files": [
+      "LICENSE",
+      "README.md",
+      "index.js",
+      "server.js",
+      "server.browser.js",
+      "server.node.js",
+      "test-utils.js",
+      "unstable-native-dependencies.js",
+      "cjs/",
+      "umd/"
+    ],
+    "browser": {
+      "./server.js": "./server.browser.js"
+    },
+    "browserify": {
+      "transform": [
+        "loose-envify"
+      ]
+    }
+  },
+  "registryData": {
+    "_id": "react-dom",
+    "_rev": "367-2f327549cf56ee186e475c5e99667bd0",
+    "name": "react-dom",
+    "description": "React package for working with the DOM.",
+    "dist-tags": {
+      "latest": "16.2.0",
+      "next": "16.3.0-alpha.1",
+      "dev": "15.5.0-rc.2",
+      "canary": "16.4.0-alpha.3174632"
+    },
+    "readme": "",
+    "maintainers": [
+      {
+        "email": "acdlite@me.com",
+        "name": "acdlite"
+      },
+      {
+        "email": "briandavidvaughn@gmail.com",
+        "name": "brianvaughn"
+      },
+      {
+        "email": "clement.hoang24@gmail.com",
+        "name": "clemmy"
+      },
+      {
+        "email": "opensource+npm@fb.com",
+        "name": "fb"
+      },
+      {
+        "email": "flarnie.npm@gmail.com",
+        "name": "flarnie"
+      },
+      {
+        "email": "dan.abramov@gmail.com",
+        "name": "gaearon"
+      },
+      {
+        "email": "npm@sophiebits.com",
+        "name": "sophiebits"
+      },
+      {
+        "email": "dg@domgan.com",
+        "name": "trueadm"
+      },
+      {
+        "email": "paul@oshannessy.com",
+        "name": "zpao"
+      }
+    ],
+    "homepage": "https://reactjs.org/",
+    "keywords": [
+      "react"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/facebook/react.git"
+    },
+    "bugs": {
+      "url": "https://github.com/facebook/react/issues"
+    },
+    "license": "MIT",
+    "readmeFilename": "",
+    "users": {
+      "arkanciscan": true,
+      "koulmomo": true,
+      "markthethomas": true,
+      "stefanof": true,
+      "nelix": true,
+      "vbv": true,
+      "davidchubbs": true,
+      "almccann": true,
+      "panlw": true,
+      "urbantumbleweed": true,
+      "wkaifang": true,
+      "wwayne": true,
+      "digitalextremist": true,
+      "samar": true,
+      "philipjc": true,
+      "leonardorb": true,
+      "mathieuancelin": true,
+      "ambdxtrch": true,
+      "arayzou": true,
+      "evan2x": true,
+      "daniele_cammarata": true,
+      "foto": true,
+      "brandonccx": true,
+      "kerwyn": true,
+      "travm": true,
+      "bsnote": true,
+      "jolyon": true,
+      "kay.sackey": true,
+      "sobear": true,
+      "kratyk": true,
+      "ongmin": true,
+      "cfleschhut": true,
+      "brien-crean": true,
+      "highlanderkev": true,
+      "konamgil": true,
+      "ajaegle": true,
+      "qqcome110": true,
+      "modao": true,
+      "kytart": true,
+      "zhouanbo": true,
+      "mikeljames": true,
+      "freebird": true,
+      "princetoad": true,
+      "rokeyzki": true,
+      "alexandesigner": true,
+      "asm2hex": true,
+      "ferchoriverar": true,
+      "dskecse": true,
+      "pmasa": true,
+      "kaapex": true,
+      "gaboesquivel": true,
+      "josejaguirre": true,
+      "alexjsdev": true,
+      "shore12358": true,
+      "saravntbe": true,
+      "fabrianibrahim": true,
+      "septs": true,
+      "fsgdez": true,
+      "digitalblake": true,
+      "leocreatini": true,
+      "scotchulous": true,
+      "razr9": true,
+      "onufrienko": true,
+      "akarem": true,
+      "tedyhy": true,
+      "tonyseek": true,
+      "enzoferey": true,
+      "bogdanvlviv": true,
+      "natforyou": true,
+      "v3rron": true,
+      "pris54": true,
+      "davidjsalazarmoreno": true,
+      "easimonenko": true,
+      "tmurngon": true,
+      "mswanson1524": true,
+      "morogasper": true,
+      "romelperez": true,
+      "coderaiser": true,
+      "langri-sha": true,
+      "federico-garcia": true,
+      "timjk": true,
+      "qddegtya": true,
+      "rylan_yan": true,
+      "wearevilla": true,
+      "atulmy": true,
+      "tcrowe": true,
+      "hyteer": true,
+      "npmlincq": true,
+      "evdokimovm": true,
+      "kevinagin": true,
+      "chinawolf_wyp": true,
+      "nate-river": true,
+      "abpeinado": true,
+      "chrisakakay": true,
+      "oandrelopes": true,
+      "nizar-banna": true,
+      "josokinas": true,
+      "katsos": true,
+      "vinbhatt": true,
+      "rxmth": true,
+      "modood": true,
+      "nisimjoseph": true,
+      "ntucker": true,
+      "cl0udw4lk3r": true,
+      "rethinkflash": true,
+      "dhanya-kr": true,
+      "sibawite": true,
+      "blittle": true,
+      "pddivine": true,
+      "qinyuhang": true,
+      "mattyboy": true,
+      "alexxnica": true,
+      "ungurys": true,
+      "chenchenalex": true,
+      "awayken": true,
+      "alexis-nava": true,
+      "linkchef": true,
+      "agamlarage": true,
+      "borasta": true,
+      "naokie": true,
+      "buzzpsych": true,
+      "shahyar": true,
+      "alek-s": true,
+      "moxiong": true,
+      "phixid": true,
+      "rayng": true,
+      "albertico88": true,
+      "rupertong": true,
+      "manojkhannakm": true,
+      "flubox": true,
+      "weisen": true,
+      "fabioppalumbo": true,
+      "majkel": true,
+      "daniellink": true,
+      "nicolaslevy": true,
+      "paulkolesnyk": true,
+      "andrelamont": true,
+      "ciro-maciel": true,
+      "jakedemonaco": true,
+      "karzanosman984": true,
+      "tiggem1993": true,
+      "dnsnx": true,
+      "kmathmann": true,
+      "akh-rman": true,
+      "sayrilamar": true,
+      "maddas": true,
+      "ksugiura": true,
+      "yangzw": true,
+      "luffy84217": true,
+      "jakedalus": true,
+      "orenschwartz": true,
+      "adamduehansen": true,
+      "alexparish": true,
+      "tonyetro": true,
+      "iceglaive": true,
+      "sternelee": true,
+      "henrybrown0": true,
+      "npmrud5g": true,
+      "gamersdelight": true,
+      "joelbandi": true,
+      "kaybeard": true,
+      "leor": true,
+      "lomocc": true,
+      "fugudesign": true,
+      "fstgeorge": true,
+      "ptitdam2001": true,
+      "tyxla": true,
+      "sshrike": true,
+      "smtnkc": true,
+      "jaredwilli": true,
+      "pilusonoka": true,
+      "derrickbeining": true,
+      "wayn": true,
+      "nguyenvanhoang26041994": true,
+      "daskepon": true,
+      "geofftech": true,
+      "severen": true,
+      "ambassador": true,
+      "pupudu": true,
+      "migkjy": true,
+      "codyschindler": true,
+      "belcour": true,
+      "freelancerumesh": true,
+      "jamal-safwat": true,
+      "ostgals": true,
+      "kainos90": true,
+      "phpjsnerd": true,
+      "sinsaints76": true,
+      "gpmetheny": true,
+      "rapt0p7": true,
+      "alexdevero": true,
+      "henriesteves": true
+    },
+    "_attachments": {},
+    "manifest": {
+      "name": "react-dom",
+      "version": "16.2.0",
+      "description": "React package for working with the DOM.",
+      "main": "index.js",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/facebook/react.git"
+      },
+      "keywords": [
+        "react"
+      ],
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/facebook/react/issues"
+      },
+      "homepage": "https://reactjs.org/",
+      "dependencies": {
+        "fbjs": "^0.8.16",
+        "loose-envify": "^1.1.0",
+        "object-assign": "^4.1.1",
+        "prop-types": "^15.6.0"
+      },
+      "peerDependencies": {
+        "react": "^16.0.0"
+      },
+      "files": [
+        "LICENSE",
+        "README.md",
+        "index.js",
+        "server.js",
+        "server.browser.js",
+        "server.node.js",
+        "test-utils.js",
+        "unstable-native-dependencies.js",
+        "cjs/",
+        "umd/"
+      ],
+      "browser": {
+        "./server.js": "./server.browser.js"
+      },
+      "browserify": {
+        "transform": [
+          "loose-envify"
+        ]
+      },
+      "scripts": {
+        "start": "node server.js"
+      },
+      "_id": "react-dom@16.2.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.4.0",
+      "_npmUser": {
+        "name": "clemmy",
+        "email": "clement.hoang24@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-zpGAdwHVn9K0091d+hr+R0qrjoJ84cIBFL2uU60KvWBPfZ7LPSrfqviTxGHWN0sjPZb2hxWzMexwrvJdKePvjg==",
+        "shasum": "69003178601c0ca19b709b33a83369fe6124c044",
+        "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-16.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "clement.hoang24@gmail.com",
+          "name": "clemmy"
+        },
+        {
+          "email": "acdlite@me.com",
+          "name": "acdlite"
+        },
+        {
+          "email": "npm@sophiebits.com",
+          "name": "sophiebits"
+        },
+        {
+          "email": "flarnie.npm@gmail.com",
+          "name": "flarnie"
+        },
+        {
+          "email": "paul@oshannessy.com",
+          "name": "zpao"
+        },
+        {
+          "email": "dg@domgan.com",
+          "name": "trueadm"
+        },
+        {
+          "email": "dan.abramov@gmail.com",
+          "name": "gaearon"
+        },
+        {
+          "email": "briandavidvaughn@gmail.com",
+          "name": "brianvaughn"
+        },
+        {
+          "email": "opensource+npm@fb.com",
+          "name": "fb"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/react-dom-16.2.0.tgz_1511904748974_0.6541443960741162"
+      },
+      "directories": {}
+    },
+    "releaseDate": "2017-11-28T21:32:29.110Z"
+  },
+  "sourceInfo": {
+    "type": "git",
+    "provider": "github",
+    "url": "https://github.com/facebook/react",
+    "revision": "edb2b3d3a70bbb6a26670673ac805df34ac23382",
+    "path": null
+  }
+}

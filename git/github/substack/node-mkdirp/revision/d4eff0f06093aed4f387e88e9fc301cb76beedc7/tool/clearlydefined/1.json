@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "type": "clearlydefined",
+    "url": "cd:/git/github/substack/node-mkdirp/d4eff0f06093aed4f387e88e9fc301cb76beedc7",
+    "fetchedAt": "2018-02-26T05:51:40.776Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:substack:node-mkdirp:revision:d4eff0f06093aed4f387e88e9fc301cb76beedc7:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:substack:node-mkdirp:revision:d4eff0f06093aed4f387e88e9fc301cb76beedc7:tool:clearlydefined",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:51:40.776Z"
+  },
+  "releaseDate": "2015-05-14T04:31:42+02:00"
+}

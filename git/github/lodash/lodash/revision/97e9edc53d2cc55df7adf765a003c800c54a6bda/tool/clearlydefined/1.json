@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "type": "clearlydefined",
+    "url": "cd:/git/github/lodash/lodash/97e9edc53d2cc55df7adf765a003c800c54a6bda",
+    "fetchedAt": "2018-02-26T05:45:38.790Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:lodash:lodash:revision:97e9edc53d2cc55df7adf765a003c800c54a6bda:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:lodash:lodash:revision:97e9edc53d2cc55df7adf765a003c800c54a6bda:tool:clearlydefined",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:45:38.792Z"
+  },
+  "releaseDate": "2018-02-03T22:35:31-08:00"
+}

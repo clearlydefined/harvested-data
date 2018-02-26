@@ -1,0 +1,545 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/git/github/request/request/dd427d7aa0177a876da69f82801bf0c63a855310",
+    "fetchedAt": "2018-02-26T05:46:00.566Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:request:request:revision:dd427d7aa0177a876da69f82801bf0c63a855310:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:request:request:revision:dd427d7aa0177a876da69f82801bf0c63a855310:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-09-26T20:00:33-07:00",
+    "processedAt": "2018-02-26T05:46:32.614Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 5,
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "type": "file",
+        "name": "CHANGELOG.md",
+        "base_name": "CHANGELOG",
+        "extension": ".md",
+        "date": "2018-02-26",
+        "size": 65653,
+        "sha1": "6b1551b0ac309696339d84cb94fbdcd16a52d775",
+        "md5": "9e21c5ced90bad31f041cfa94b60563a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text, with CR, LF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "(https://github.com/request/request/pull/2009) Support JSON"
+            ],
+            "start_line": 87,
+            "end_line": 90
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2018-02-26",
+        "size": 4129,
+        "sha1": "0859c0574fa905b963ca96446b67ec156a8669d4",
+        "md5": "bd3f10e9f617a3c30cdc56432afb2e4a",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 3,
+            "end_line": 13,
+            "matched_rule": {
+              "identifier": "apache-2.0_7.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 86,
+              "matched_length": 86,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2010-2012 Mikeal Rogers"
+            ],
+            "holders": [
+              "Mikeal Rogers"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 1
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2018-02-26",
+        "size": 9194,
+        "sha1": "2dfab247089b0288ffa87c64b296bf520461cb35",
+        "md5": "781a14a7d5369a78091214c3a50d7de5",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines, with CRLF line terminators",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "apache-2.0",
+            "score": 100,
+            "short_name": "Apache 2.0",
+            "category": "Permissive",
+            "owner": "Apache Software Foundation",
+            "homepage_url": "http://www.apache.org/licenses/",
+            "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+            "spdx_license_key": "Apache-2.0",
+            "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+            "start_line": 1,
+            "end_line": 55,
+            "matched_rule": {
+              "identifier": "apache-2.0_17.RULE",
+              "license_choice": false,
+              "licenses": [
+                "apache-2.0"
+              ],
+              "matcher": "1-hash",
+              "rule_length": 1427,
+              "matched_length": 1427,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": []
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-26",
+        "size": 2225,
+        "sha1": "0e42ac9d52b219763f3b6e9c80278f9d962a7308",
+        "md5": "668c291df2a4dd20cc1c83bf7a8905a3",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with CRLF line terminators",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Mikeal Rogers <mikeal.rogers@gmail.com>"
+            ],
+            "start_line": 10,
+            "end_line": 13
+          }
+        ],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "request",
+            "version": "2.83.0",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "Simplified HTTP request client.",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "Mikeal Rogers",
+                "email": "mikeal.rogers@gmail.com",
+                "url": null
+              }
+            ],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "http",
+              "simple",
+              "util",
+              "utility"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": null,
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/request/-/request-2.83.0.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": "http://github.com/request/request/issues",
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": "git",
+            "vcs_repository": "https://github.com/request/request.git",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "Apache-2.0",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "bluebird",
+                  "version": null,
+                  "version_constraint": "^3.2.1"
+                },
+                {
+                  "name": "browserify",
+                  "version": null,
+                  "version_constraint": "^13.0.1"
+                },
+                {
+                  "name": "browserify-istanbul",
+                  "version": null,
+                  "version_constraint": "^2.0.0"
+                },
+                {
+                  "name": "buffer-equal",
+                  "version": null,
+                  "version_constraint": "^1.0.0"
+                },
+                {
+                  "name": "codecov",
+                  "version": null,
+                  "version_constraint": "^2.0.2"
+                },
+                {
+                  "name": "coveralls",
+                  "version": null,
+                  "version_constraint": "^2.11.4"
+                },
+                {
+                  "name": "function-bind",
+                  "version": null,
+                  "version_constraint": "^1.0.2"
+                },
+                {
+                  "name": "istanbul",
+                  "version": null,
+                  "version_constraint": "^0.4.0"
+                },
+                {
+                  "name": "karma",
+                  "version": null,
+                  "version_constraint": "^1.1.1"
+                },
+                {
+                  "name": "karma-browserify",
+                  "version": null,
+                  "version_constraint": "^5.0.1"
+                },
+                {
+                  "name": "karma-cli",
+                  "version": null,
+                  "version_constraint": "^1.0.0"
+                },
+                {
+                  "name": "karma-coverage",
+                  "version": null,
+                  "version_constraint": "^1.0.0"
+                },
+                {
+                  "name": "karma-phantomjs-launcher",
+                  "version": null,
+                  "version_constraint": "^1.0.0"
+                },
+                {
+                  "name": "karma-tap",
+                  "version": null,
+                  "version_constraint": "^3.0.1"
+                },
+                {
+                  "name": "phantomjs-prebuilt",
+                  "version": null,
+                  "version_constraint": "^2.1.3"
+                },
+                {
+                  "name": "rimraf",
+                  "version": null,
+                  "version_constraint": "^2.2.8"
+                },
+                {
+                  "name": "server-destroy",
+                  "version": null,
+                  "version_constraint": "^1.0.1"
+                },
+                {
+                  "name": "standard",
+                  "version": null,
+                  "version_constraint": "^9.0.0"
+                },
+                {
+                  "name": "tape",
+                  "version": null,
+                  "version_constraint": "^4.6.0"
+                },
+                {
+                  "name": "taper",
+                  "version": null,
+                  "version_constraint": "^0.5.0"
+                }
+              ],
+              "runtime": [
+                {
+                  "name": "aws-sign2",
+                  "version": null,
+                  "version_constraint": "~0.7.0"
+                },
+                {
+                  "name": "aws4",
+                  "version": null,
+                  "version_constraint": "^1.6.0"
+                },
+                {
+                  "name": "caseless",
+                  "version": null,
+                  "version_constraint": "~0.12.0"
+                },
+                {
+                  "name": "combined-stream",
+                  "version": null,
+                  "version_constraint": "~1.0.5"
+                },
+                {
+                  "name": "extend",
+                  "version": null,
+                  "version_constraint": "~3.0.1"
+                },
+                {
+                  "name": "forever-agent",
+                  "version": null,
+                  "version_constraint": "~0.6.1"
+                },
+                {
+                  "name": "form-data",
+                  "version": null,
+                  "version_constraint": "~2.3.1"
+                },
+                {
+                  "name": "har-validator",
+                  "version": null,
+                  "version_constraint": "~5.0.3"
+                },
+                {
+                  "name": "hawk",
+                  "version": null,
+                  "version_constraint": "~6.0.2"
+                },
+                {
+                  "name": "http-signature",
+                  "version": null,
+                  "version_constraint": "~1.2.0"
+                },
+                {
+                  "name": "is-typedarray",
+                  "version": null,
+                  "version_constraint": "~1.0.0"
+                },
+                {
+                  "name": "isstream",
+                  "version": null,
+                  "version_constraint": "~0.1.2"
+                },
+                {
+                  "name": "json-stringify-safe",
+                  "version": null,
+                  "version_constraint": "~5.0.1"
+                },
+                {
+                  "name": "mime-types",
+                  "version": null,
+                  "version_constraint": "~2.1.17"
+                },
+                {
+                  "name": "oauth-sign",
+                  "version": null,
+                  "version_constraint": "~0.8.2"
+                },
+                {
+                  "name": "performance-now",
+                  "version": null,
+                  "version_constraint": "^2.1.0"
+                },
+                {
+                  "name": "qs",
+                  "version": null,
+                  "version_constraint": "~6.5.1"
+                },
+                {
+                  "name": "safe-buffer",
+                  "version": null,
+                  "version_constraint": "^5.1.1"
+                },
+                {
+                  "name": "stringstream",
+                  "version": null,
+                  "version_constraint": "~0.0.5"
+                },
+                {
+                  "name": "tough-cookie",
+                  "version": null,
+                  "version_constraint": "~2.3.3"
+                },
+                {
+                  "name": "tunnel-agent",
+                  "version": null,
+                  "version_constraint": "^0.6.0"
+                },
+                {
+                  "name": "uuid",
+                  "version": null,
+                  "version_constraint": "^3.1.0"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "tests/unicycle.jpg",
+        "type": "file",
+        "name": "unicycle.jpg",
+        "base_name": "unicycle",
+        "extension": ".jpg",
+        "date": "2018-02-26",
+        "size": 19806,
+        "sha1": "4068acf26f43892692fad243a2aea43c614c303c",
+        "md5": "97ccf56a5bc1caa405c23f1abdcdbab7",
+        "files_count": null,
+        "mime_type": "image/jpeg",
+        "file_type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=9, manufacturer=CASIO COMPUTER CO.,LTD , model=QV-R41 , orientation=upper-left, xresolution=154, yresolution=162, resolutionunit=2, software=1.00 , datetime=2005:06:21 01:44:12], baseline, precision 8, 172x240, frames 3",
+        "programming_language": null,
+        "is_binary": true,
+        "is_text": false,
+        "is_archive": false,
+        "is_media": true,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright 2003 Apple Computer Inc."
+            ],
+            "holders": [
+              "Apple Computer Inc."
+            ],
+            "authors": [],
+            "start_line": 59,
+            "end_line": 60
+          }
+        ],
+        "packages": []
+      }
+    ]
+  }
+}

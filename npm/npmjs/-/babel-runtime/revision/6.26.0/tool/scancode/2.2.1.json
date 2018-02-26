@@ -1,0 +1,189 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/babel-runtime/6.26.0",
+    "fetchedAt": "2018-02-26T05:44:41.580Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:babel-runtime:revision:6.26.0:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:babel-runtime:revision:6.26.0:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-08-16T15:54:10.021Z",
+    "processedAt": "2018-02-26T05:45:15.568Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 1,
+    "files": [
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-08-16",
+        "size": 454,
+        "sha1": "5f45b3bd6b7fbda249874a36dcfa66fa2d8a3213",
+        "md5": "20b5bf5faae5a65ed12b5469c48e9831",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Sebastian McKenzie <sebmck@gmail.com>"
+            ],
+            "start_line": 6,
+            "end_line": 9
+          }
+        ],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "babel-runtime",
+            "version": "6.26.0",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "babel selfContained runtime",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "Sebastian McKenzie",
+                "email": "sebmck@gmail.com",
+                "url": null
+              }
+            ],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": null,
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": null,
+            "vcs_repository": "https://github.com/babel/babel/tree/master/packages/babel-runtime",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "babel-helpers",
+                  "version": null,
+                  "version_constraint": "^6.22.0"
+                },
+                {
+                  "name": "babel-plugin-transform-runtime",
+                  "version": null,
+                  "version_constraint": "^6.23.0"
+                }
+              ],
+              "runtime": [
+                {
+                  "name": "core-js",
+                  "version": null,
+                  "version_constraint": "^2.4.0"
+                },
+                {
+                  "name": "regenerator-runtime",
+                  "version": null,
+                  "version_constraint": "^0.11.0"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      }
+    ]
+  }
+}

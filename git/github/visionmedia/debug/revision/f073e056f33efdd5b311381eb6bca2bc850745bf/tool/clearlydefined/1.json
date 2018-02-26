@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "type": "clearlydefined",
+    "url": "cd:/git/github/visionmedia/debug/f073e056f33efdd5b311381eb6bca2bc850745bf",
+    "fetchedAt": "2018-02-26T05:49:53.469Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:visionmedia:debug:revision:f073e056f33efdd5b311381eb6bca2bc850745bf:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:visionmedia:debug:revision:f073e056f33efdd5b311381eb6bca2bc850745bf:tool:clearlydefined",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:49:53.469Z"
+  },
+  "releaseDate": "2017-09-26T21:13:38+02:00"
+}

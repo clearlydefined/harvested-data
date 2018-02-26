@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "type": "clearlydefined",
+    "url": "cd:/git/github/tj/commander.js/6b026a5c88a2c7f67db70831c015e9d11c7babca",
+    "fetchedAt": "2018-02-26T05:49:42.713Z",
+    "links": {
+      "self": {
+        "href": "urn:git:github:tj:commander.js:revision:6b026a5c88a2c7f67db70831c015e9d11c7babca:tool:clearlydefined:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:git:github:tj:commander.js:revision:6b026a5c88a2c7f67db70831c015e9d11c7babca:tool:clearlydefined",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:49:42.714Z"
+  },
+  "releaseDate": "2018-02-07T12:39:12+05:00"
+}

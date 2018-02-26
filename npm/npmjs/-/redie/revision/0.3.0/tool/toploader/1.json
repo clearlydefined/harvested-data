@@ -1,0 +1,21 @@
+{
+  "start": 0,
+  "end": 20,
+  "_metadata": {
+    "type": "top",
+    "url": "cd:/npm/npmjs/-/redie/0.3.0",
+    "fetchedAt": "2018-02-26T05:40:10.946Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:redie:revision:0.3.0:tool:toploader:1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:redie:revision:0.3.0:tool:toploader",
+        "type": "collection"
+      }
+    },
+    "version": 1,
+    "processedAt": "2018-02-26T05:40:46.285Z"
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/underscore/1.8.3",
+    "fetchedAt": "2018-02-26T05:42:29.795Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:underscore:revision:1.8.3:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:underscore:revision:1.8.3:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2015-04-02T15:32:54.520Z",
+    "processedAt": "2018-02-26T05:42:45.545Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 4,
+    "files": [
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2015-02-20",
+        "size": 1117,
+        "sha1": "20f307c7bf33dc320c12f278ca48b0b878fc27c1",
+        "md5": "e5cfca0461b21ca314a0088fd5b2a236",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 23,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters"
+            ],
+            "holders": [
+              "Jeremy Ashkenas, DocumentCloud and Investigative Reporters"
+            ],
+            "authors": [],
+            "start_line": 1,
+            "end_line": 2
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2015-04-02",
+        "size": 1159,
+        "sha1": "34f8377dac5aa5430da638c46b63ce86187a90f9",
+        "md5": "8b78e22541ec7d3d2dfc61464d4e09b0",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 35,
+            "end_line": 35,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [],
+            "holders": [],
+            "authors": [
+              "Jeremy Ashkenas <jeremy@documentcloud.org>"
+            ],
+            "start_line": 12,
+            "end_line": 14
+          }
+        ],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "underscore",
+            "version": "1.8.3",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "JavaScript's functional programming helper library.",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [
+              {
+                "type": "person",
+                "name": "Jeremy Ashkenas",
+                "email": "jeremy@documentcloud.org",
+                "url": null
+              }
+            ],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "util",
+              "functional",
+              "server",
+              "client",
+              "browser"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": "http://underscorejs.org",
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": "git",
+            "vcs_repository": "git://github.com/jashkenas/underscore.git",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "docco",
+                  "version": null,
+                  "version_constraint": "*"
+                },
+                {
+                  "name": "eslint",
+                  "version": null,
+                  "version_constraint": "0.6.x"
+                },
+                {
+                  "name": "karma",
+                  "version": null,
+                  "version_constraint": "~0.12.31"
+                },
+                {
+                  "name": "karma-qunit",
+                  "version": null,
+                  "version_constraint": "~0.1.4"
+                },
+                {
+                  "name": "qunit-cli",
+                  "version": null,
+                  "version_constraint": "~0.2.0"
+                },
+                {
+                  "name": "uglify-js",
+                  "version": null,
+                  "version_constraint": "2.4.x"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "package/underscore-min.js",
+        "type": "file",
+        "name": "underscore-min.js",
+        "base_name": "underscore-min",
+        "extension": ".js",
+        "date": "2015-04-02",
+        "size": 16449,
+        "sha1": "2a515632e0fd8ffdeb8d94cb25e44cf287feb32f",
+        "md5": "543feb1ecaf06ea516f8cec5f9f3f279",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors Underscore"
+            ],
+            "holders": [
+              "Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors Underscore"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 6
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/underscore.js",
+        "type": "file",
+        "name": "underscore.js",
+        "base_name": "underscore",
+        "extension": ".js",
+        "date": "2015-04-02",
+        "size": 52919,
+        "sha1": "8e3a5ace7e47dcadd272642748b7ee8048daddf8",
+        "md5": "f893e294cde60c2462cb19b35aac431b",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "UTF-8 Unicode text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 4,
+            "end_line": 4,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "(c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors Underscore"
+            ],
+            "holders": [
+              "Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors Underscore"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      }
+    ]
+  }
+}

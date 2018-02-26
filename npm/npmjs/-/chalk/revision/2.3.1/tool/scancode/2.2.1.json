@@ -1,0 +1,377 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/chalk/2.3.1",
+    "fetchedAt": "2018-02-26T05:41:10.036Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:chalk:revision:2.3.1:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:chalk:revision:2.3.1:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2018-02-11T13:18:28.596Z",
+    "processedAt": "2018-02-26T05:41:26.782Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 3,
+    "files": [
+      {
+        "path": "package/license",
+        "type": "file",
+        "name": "license",
+        "base_name": "license",
+        "extension": "",
+        "date": "2017-06-01",
+        "size": 1109,
+        "sha1": "5aaf48196ddd4d007a3067aa7f30303ca8e4b29c",
+        "md5": "915042b5df33c31a6db2b37eadaa00e3",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_14.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 9,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)"
+            ],
+            "holders": [
+              "Sindre Sorhus",
+              "(sindresorhus.com)"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 3
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2018-02-11",
+        "size": 1087,
+        "sha1": "b109cdb4f648d2ebe6761ebed97d1fbc9ec1fe2b",
+        "md5": "bb3c3afccfbad7f1a38a88024220cfff",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 5,
+            "end_line": 5,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "chalk",
+            "version": "2.3.1",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "Terminal string styling done right",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [],
+            "maintainers": [],
+            "contributors": [],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [
+              "color",
+              "colour",
+              "colors",
+              "terminal",
+              "console",
+              "cli",
+              "string",
+              "str",
+              "ansi",
+              "style",
+              "styles",
+              "tty",
+              "formatting",
+              "rgb",
+              "256",
+              "shell",
+              "xterm",
+              "log",
+              "logging",
+              "command-line",
+              "text"
+            ],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": null,
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/chalk/-/chalk-2.3.1.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": null,
+            "vcs_repository": "https://github.com/chalk/chalk",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "ava",
+                  "version": null,
+                  "version_constraint": "*"
+                },
+                {
+                  "name": "coveralls",
+                  "version": null,
+                  "version_constraint": "^3.0.0"
+                },
+                {
+                  "name": "execa",
+                  "version": null,
+                  "version_constraint": "^0.9.0"
+                },
+                {
+                  "name": "import-fresh",
+                  "version": null,
+                  "version_constraint": "^2.0.0"
+                },
+                {
+                  "name": "matcha",
+                  "version": null,
+                  "version_constraint": "^0.7.0"
+                },
+                {
+                  "name": "nyc",
+                  "version": null,
+                  "version_constraint": "^11.0.2"
+                },
+                {
+                  "name": "resolve-from",
+                  "version": null,
+                  "version_constraint": "^4.0.0"
+                },
+                {
+                  "name": "typescript",
+                  "version": null,
+                  "version_constraint": "^2.5.3"
+                },
+                {
+                  "name": "xo",
+                  "version": null,
+                  "version_constraint": "*"
+                }
+              ],
+              "runtime": [
+                {
+                  "name": "ansi-styles",
+                  "version": null,
+                  "version_constraint": "^3.2.0"
+                },
+                {
+                  "name": "escape-string-regexp",
+                  "version": null,
+                  "version_constraint": "^1.0.5"
+                },
+                {
+                  "name": "supports-color",
+                  "version": null,
+                  "version_constraint": "^5.2.0"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "package/readme.md",
+        "type": "file",
+        "name": "readme.md",
+        "base_name": "readme",
+        "extension": ".md",
+        "date": "2018-02-11",
+        "size": 10600,
+        "sha1": "ab41c1ffbbe14e99998a3f5165689ef944eac549",
+        "md5": "5e2ac9a40ad4b65a0c93eda66e6e5b26",
+        "files_count": null,
+        "mime_type": "text/html",
+        "file_type": "HTML document, ASCII text, with very long lines",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 307,
+            "end_line": 309,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": []
+      }
+    ]
+  }
+}

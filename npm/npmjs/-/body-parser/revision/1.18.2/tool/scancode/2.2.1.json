@@ -1,0 +1,645 @@
+{
+  "_metadata": {
+    "type": "scancode",
+    "url": "cd:/npm/npmjs/-/body-parser/1.18.2",
+    "fetchedAt": "2018-02-26T05:44:23.270Z",
+    "links": {
+      "self": {
+        "href": "urn:npm:npmjs:-:body-parser:revision:1.18.2:tool:scancode:2.2.1",
+        "type": "resource"
+      },
+      "siblings": {
+        "href": "urn:npm:npmjs:-:body-parser:revision:1.18.2:tool:scancode",
+        "type": "collection"
+      }
+    },
+    "version": "2.2.1",
+    "contentType": "application/json",
+    "releaseDate": "2017-09-22T16:50:10.944Z",
+    "processedAt": "2018-02-26T05:44:40.695Z"
+  },
+  "content": {
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_version": "2.2.1",
+    "scancode_options": {
+      "--copyright": true,
+      "--license": true,
+      "--package": true,
+      "--info": true,
+      "--license-score": 0,
+      "--strip-root": true,
+      "--format": "json-pp",
+      "--diag": true,
+      "--only-findings": true
+    },
+    "files_count": 9,
+    "files": [
+      {
+        "path": "package/index.js",
+        "type": "file",
+        "name": "index.js",
+        "base_name": "index",
+        "extension": ".js",
+        "date": "2017-01-16",
+        "size": 2656,
+        "sha1": "1d17c3e4b7723f0af50892c025eab3fc6ccf11f7",
+        "md5": "7b203b1ba7da7e9e3824e8c0c1708ea8",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/LICENSE",
+        "type": "file",
+        "name": "LICENSE",
+        "base_name": "LICENSE",
+        "extension": "",
+        "date": "2017-01-16",
+        "size": 1172,
+        "sha1": "6a4ed3b5e9cff68af7593dfcb8be3c1cbea837d0",
+        "md5": "0afd201e48c7d095454eed4ac1184e40",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 15,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 1,
+            "end_line": 1,
+            "matched_rule": {
+              "identifier": "mit_27.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 3,
+              "matched_length": 3,
+              "match_coverage": 100,
+              "rule_relevance": 15
+            }
+          },
+          {
+            "key": "mit",
+            "score": 100,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 6,
+            "end_line": 23,
+            "matched_rule": {
+              "identifier": "mit.LICENSE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 163,
+              "matched_length": 163,
+              "match_coverage": 100,
+              "rule_relevance": 100
+            }
+          }
+        ],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>"
+            ],
+            "holders": [
+              "Jonathan Ong",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 3,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/package.json",
+        "type": "file",
+        "name": "package.json",
+        "base_name": "package",
+        "extension": ".json",
+        "date": "2017-09-22",
+        "size": 1563,
+        "sha1": "e731f80606ccf0d033f78d8bfc38ca4927f4e75a",
+        "md5": "230957f6b9622e58d383707674008eeb",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JSON",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 9,
+            "end_line": 9,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": [
+          {
+            "type": "npm",
+            "name": "body-parser",
+            "version": "1.18.2",
+            "primary_language": "JavaScript",
+            "packaging": null,
+            "summary": "Node.js body parsing middleware",
+            "description": null,
+            "payload_type": null,
+            "size": null,
+            "release_date": null,
+            "authors": [],
+            "maintainers": [],
+            "contributors": [
+              {
+                "type": "person",
+                "name": "Douglas Christopher Wilson",
+                "email": "doug@somethingdoug.com",
+                "url": null
+              },
+              {
+                "type": "person",
+                "name": "Jonathan Ong",
+                "email": "me@jongleberry.com",
+                "url": "http://jongleberry.com"
+              }
+            ],
+            "owners": [],
+            "packagers": [],
+            "distributors": [],
+            "vendors": [],
+            "keywords": [],
+            "keywords_doc_url": null,
+            "metafile_locations": [
+              "package"
+            ],
+            "metafile_urls": [],
+            "homepage_url": null,
+            "notes": null,
+            "download_urls": [
+              "https://registry.npmjs.org/body-parser/-/body-parser-1.18.2.tgz"
+            ],
+            "download_sha1": null,
+            "download_sha256": null,
+            "download_md5": null,
+            "bug_tracking_url": null,
+            "support_contacts": [],
+            "code_view_url": null,
+            "vcs_tool": null,
+            "vcs_repository": "https://github.com/expressjs/body-parser",
+            "vcs_revision": null,
+            "copyright_top_level": null,
+            "copyrights": [],
+            "asserted_licenses": [
+              {
+                "license": "MIT",
+                "url": null,
+                "text": null,
+                "notice": null
+              }
+            ],
+            "legal_file_locations": [],
+            "license_expression": null,
+            "license_texts": [],
+            "notice_texts": [],
+            "dependencies": {
+              "development": [
+                {
+                  "name": "eslint",
+                  "version": null,
+                  "version_constraint": "3.19.0"
+                },
+                {
+                  "name": "eslint-config-standard",
+                  "version": null,
+                  "version_constraint": "10.2.1"
+                },
+                {
+                  "name": "eslint-plugin-import",
+                  "version": null,
+                  "version_constraint": "2.7.0"
+                },
+                {
+                  "name": "eslint-plugin-markdown",
+                  "version": null,
+                  "version_constraint": "1.0.0-beta.6"
+                },
+                {
+                  "name": "eslint-plugin-node",
+                  "version": null,
+                  "version_constraint": "5.1.1"
+                },
+                {
+                  "name": "eslint-plugin-promise",
+                  "version": null,
+                  "version_constraint": "3.5.0"
+                },
+                {
+                  "name": "eslint-plugin-standard",
+                  "version": null,
+                  "version_constraint": "3.0.1"
+                },
+                {
+                  "name": "istanbul",
+                  "version": null,
+                  "version_constraint": "0.4.5"
+                },
+                {
+                  "name": "methods",
+                  "version": null,
+                  "version_constraint": "1.1.2"
+                },
+                {
+                  "name": "mocha",
+                  "version": null,
+                  "version_constraint": "2.5.3"
+                },
+                {
+                  "name": "safe-buffer",
+                  "version": null,
+                  "version_constraint": "5.1.1"
+                },
+                {
+                  "name": "supertest",
+                  "version": null,
+                  "version_constraint": "1.1.0"
+                }
+              ],
+              "runtime": [
+                {
+                  "name": "bytes",
+                  "version": null,
+                  "version_constraint": "3.0.0"
+                },
+                {
+                  "name": "content-type",
+                  "version": null,
+                  "version_constraint": "~1.0.4"
+                },
+                {
+                  "name": "debug",
+                  "version": null,
+                  "version_constraint": "2.6.9"
+                },
+                {
+                  "name": "depd",
+                  "version": null,
+                  "version_constraint": "~1.1.1"
+                },
+                {
+                  "name": "http-errors",
+                  "version": null,
+                  "version_constraint": "~1.6.2"
+                },
+                {
+                  "name": "iconv-lite",
+                  "version": null,
+                  "version_constraint": "0.4.19"
+                },
+                {
+                  "name": "on-finished",
+                  "version": null,
+                  "version_constraint": "~2.3.0"
+                },
+                {
+                  "name": "qs",
+                  "version": null,
+                  "version_constraint": "6.5.1"
+                },
+                {
+                  "name": "raw-body",
+                  "version": null,
+                  "version_constraint": "2.3.2"
+                },
+                {
+                  "name": "type-is",
+                  "version": null,
+                  "version_constraint": "~1.6.15"
+                }
+              ]
+            },
+            "related_packages": []
+          }
+        ]
+      },
+      {
+        "path": "package/README.md",
+        "type": "file",
+        "name": "README.md",
+        "base_name": "README",
+        "extension": ".md",
+        "date": "2017-09-09",
+        "size": 16870,
+        "sha1": "6af3547016c712b62022e5fb942db8c5e20ddaa2",
+        "md5": "4e79c69a77b3cd4b1cc76474182ca0d3",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "exported SGML document, ASCII text",
+        "programming_language": null,
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": false,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [
+          {
+            "key": "mit",
+            "score": 10,
+            "short_name": "MIT License",
+            "category": "Permissive",
+            "owner": "MIT",
+            "homepage_url": "http://opensource.org/licenses/mit-license.php",
+            "text_url": "http://opensource.org/licenses/mit-license.php",
+            "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+            "spdx_license_key": "MIT",
+            "spdx_url": "https://spdx.org/licenses/MIT",
+            "start_line": 425,
+            "end_line": 427,
+            "matched_rule": {
+              "identifier": "mit_34.RULE",
+              "license_choice": false,
+              "licenses": [
+                "mit"
+              ],
+              "matcher": "2-aho",
+              "rule_length": 2,
+              "matched_length": 2,
+              "match_coverage": 100,
+              "rule_relevance": 10
+            }
+          }
+        ],
+        "copyrights": [],
+        "packages": []
+      },
+      {
+        "path": "package/lib/read.js",
+        "type": "file",
+        "name": "read.js",
+        "base_name": "read",
+        "extension": ".js",
+        "date": "2017-09-22",
+        "size": 3894,
+        "sha1": "24039fd819e2e4451a7725efa655af639e617d8c",
+        "md5": "046366a27279a7d65e7ae694823e76bc",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/lib/types/json.js",
+        "type": "file",
+        "name": "json.js",
+        "base_name": "json",
+        "extension": ".js",
+        "date": "2017-09-09",
+        "size": 4868,
+        "sha1": "1a277e102dc8df71060fbbad4f1ceedc419b5cd4",
+        "md5": "9180d4553673c83488ff355b45fa2135",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014 Jonathan Ong",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "Jonathan Ong",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/lib/types/raw.js",
+        "type": "file",
+        "name": "raw.js",
+        "base_name": "raw",
+        "extension": ".js",
+        "date": "2017-01-16",
+        "size": 1884,
+        "sha1": "ea7411ff5a71df8d426322d07103e5894630e29b",
+        "md5": "acb38e4fe575afaf8d1a257e47c6e362",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/lib/types/text.js",
+        "type": "file",
+        "name": "text.js",
+        "base_name": "text",
+        "extension": ".js",
+        "date": "2017-08-05",
+        "size": 2285,
+        "sha1": "eda9bc036c9d10f1400cd2e4a8832949671cadc7",
+        "md5": "beb4ada09306f8d6435566d9e88076d3",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 4
+          }
+        ],
+        "packages": []
+      },
+      {
+        "path": "package/lib/types/urlencoded.js",
+        "type": "file",
+        "name": "urlencoded.js",
+        "base_name": "urlencoded",
+        "extension": ".js",
+        "date": "2017-09-09",
+        "size": 5795,
+        "sha1": "7431365b9904c7e891eda6fed1f544bb9e7c2a92",
+        "md5": "29c2b8ed1e4c059daecd002a266e404c",
+        "files_count": null,
+        "mime_type": "text/plain",
+        "file_type": "ASCII text",
+        "programming_language": "JavaScript",
+        "is_binary": false,
+        "is_text": true,
+        "is_archive": false,
+        "is_media": false,
+        "is_source": true,
+        "is_script": false,
+        "scan_errors": [],
+        "licenses": [],
+        "copyrights": [
+          {
+            "statements": [
+              "Copyright (c) 2014 Jonathan Ong",
+              "Copyright (c) 2014-2015 Douglas Christopher Wilson"
+            ],
+            "holders": [
+              "Jonathan Ong",
+              "Douglas Christopher Wilson"
+            ],
+            "authors": [],
+            "start_line": 2,
+            "end_line": 5
+          }
+        ],
+        "packages": []
+      }
+    ]
+  }
+}
